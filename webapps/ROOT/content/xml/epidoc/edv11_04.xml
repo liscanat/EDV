@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Incontro dei vivi  e dei morti</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D’ACHILLE 2012a</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.04</idno>
+                        <date when="2020-04-11"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Poggio Mirteto</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Chiesetta cimiteriale di san Paolo</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width>150</width><depth/><height>197</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1300" notAfter="1330" precision="medium">XIV in.</origDate>
+                                </origin>
+                                <provenance type="observed" when="2013"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11_04a.jpg">
+            <desc/>
+        </graphic>
+               <graphic url="11_04c.jpg">
+            <desc/>
+        </graphic>
+            <graphic url="11_04d.jpg">
+            <desc/>
+        </graphic>
+                   </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+           <ab><lb n="1"/>La vita
+          <lb n="2"/>m'è scura.La
+          <lb n="3"/>morte dura.
+          <lb n="4"/>Perd<m type="desinence" subtype="pastpart">utu</m> <m type="avere" subtype="pres1ps">aio</m> lo ris<m type="desinence" subtype="ms_sing">u</m>.
+          <lb n="5"/>e gioia. <lb n="1"/><seg type="phoneme" subtype="j_initial">i</seg>oc<m type="desinence" subtype="ms_sing">u</m>u. et ale
+          <lb n="6"/>gretia no me &apos;'&apos;(n)vo
+          <lb n="7"/>glia no me con(n)segli
+          <lb n="8"/>ate cosa ke si falace
+          <lb n="9"/>ca Deu me <m type="essere" subtype="pres1ps">so</m> re
+          <lb n="10"/>n<m type="desinence" subtype="pastpart">utu</m> ca li ho petu
+          <lb n="11"/>tu. Male n&lt;on v&gt;og
+          <lb n="12"/>lio fare [...]
+                </ab>
+                    </div>
+        <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+          <lb n="1"/>LA VITA
+          <lb n="2"/>MESCV(R)A.LA
+          <lb n="3"/>MO(R)TEDVRA.
+          <lb n="4"/>P(ER)DVTV.AIORISV.
+          <lb n="5"/>EGIOIA.IOCV.(ET)ALE
+          <lb n="6"/>GRETIA.NOMEVO
+          <lb n="7"/>GLIA.NOMECOSEGLI
+          <lb n="8"/>ATECOSAKESIFALAC&lt;C&gt;
+          <lb n="9"/>ECADEVMESO&lt;RE&gt;
+          <lb n="10"/>NVTVCALIO&lt;PE&gt;TV
+          <lb n="11"/>TV.MALEN[...]OG
+          <lb n="12"/>LIOFARE[..]CUMEVO[...]
+                                 </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>1 me NARDI 1895, MONACI 1896</p>
+                        <p>3 Perduto SETTIS FRUGONI 1967, ROMANO 1985 riso D’ACHILLE 1985</p>
+                        <p>4 et, no me voglia (?) SETTIS FRUGONI 1967, ROMANO 1985</p>
+                        <p>5-6 No m’è cosa gra/te cosa ke si bela. SETTIS FRUGONI 1967, ROMANO 1985</p>
+                        <p>6 sia NARDI 1895, MONACI 1896</p>
+                        <p>7 cu CICCONETTI 1925, D’ACHILLE 1985 remutu NARDI 1895, MONACI 1896</p>
+                        <p>9-10 Male po mol/lio fare a(n)cu me(no) ecc. NARDI 1895, MONACI 1896 …male no voglio fare… SETTIS FRUGONI 1967, ROMANO 1985</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>ke ‘che’ v. 6: &lt;k&gt; occlusiva velare sorda /k/ davanti a vocale palatale, tratto caratteristico degli antichi testi di area mediana
+                            (BALDELLI 1971, pp. 137-140, 275-276). &lt;c&gt; invece di fronte a vocali non palatali (scura v. 1, iocu v. 3, consegliate v. 5, cosa v. 6,
+                            c’a v. 7, eccu  v. 10).'e(n)voglia' (v. 4), 'consegliate' (v. 5), 'voglio' (v. 9): trigramma &lt;gli&gt; per laterale palatale /ʎ/, sintomo di una certa
+                        “modernità grafica” (D’ACHILLE 2012a, p. 40); 'perdutu', 'risu' v. 3, 'iocu' v. 4, 'Deu' v. 7, 're(n)nutu' v. 7, 'petutu' v. 8
+                        con conservazione di -U latina finale, normale in area mediana; mantenimento di /j/ in posizione iniziale in ‘iocu’ (Vedi, in EDV, <ref target="edv11_02">11.02</ref>,
+                            <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_17">12.17</ref>, <ref target="edv12_24">12.24</ref>
+                        (assente invece in gioia v. 3, in cui la presenza della palatale sonora inziale è dovuta certamente ad influssi culturali);
+                        conservazione di /ε/ tonica in iato in Deu; assimilazione progressiva -ND->-nn- in ‘re(n)nutu’ ‘renduto, reso’.'cosegliate’ v. 5 senza anafonesi;
+                        la mancanza della nasale (e forse lo stesso vale per e(n)voglia 4, e re(n)nutu 7) può essere dovuta a
+                            dimenticanza o a deperimento del compendio, ma anche giustificabile foneticamente data la diffusione in area laziale-abruzzese di forme quali
+                            'coseglio' o 'cosegliare'. V. in particolare un’iscrizione cinquecentesca conservata sull’architrave del portale della chiesa di
+                            Santa Maria Assunta di Cortino (TE): «Meglio è pigliate prima el bo coseglio» (SABATINI 1996c, pp. 602-603).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'aio' v. 3: forma tipicamente mediana del presente 1a persona singolare (FORMENTIN 2009, pp. 75, 105); 'm’e(n)voglia' v. 4: 1 ps. sing. di
+                        di 'envogliare', frequente in area marchigiano-abruzzese (ROHLFS 1966-1969, § 532), ma si può escludere l’interpretazione come 'm’è voglia'
+                        nel senso di ‘desidero’, che non postulerebbe dunque una perdita del compendio per la nasale e richiamerebbe anche il 'm’è scura' del v. 1,
+                        con apocope del pronome atono (D’ACHILLE 2012a, p. 39). 'so’ ‘sono’ v. 7: esito diretto da SU(M) > so è forma normale per l'area
+                        (v. <ref target="edv11_06">11.06</ref> e <ref target="edv11_27d">11.27d</ref>), ma è anche comune all’Italia centrale, a Siena e alla Toscana orientale (LINDSSTROM 1907, p. 264; CASTELLANI 1980a, p. 403 e CASTELLANI 2000,
+                        vol. I, p. 360). ‘re(n)nutu’ ‘petutu’ participi passati deboli, normali in area mediana</p>
+                    <p><title>Lessico:</title></p>
+                    <p>Il lessico mostra numerose eco di natura letteraria, in particolare provenzaleggiante. Per ‘gioia’ v. 3, ‘risu’ v. 3, ‘iocu’ v. 4 v.
+                        Giacomo da Lentini, Jacopone, Bonagiunta, Guinizzelli; ‘risu’ è inoltre attestato in <title>Quando eu stava in le tu' cathene</title>:
+                        «çogo, risu sempre passce lui» 19, STUSSI 1997, p. 614; nel <title>Libru di li vitii et de li virtuti</title>: «ma perpetualmente saranu cum Deu
+                        iustu et benignu et più in pachi et in risu» cap. 136 (BRUNI 1973, I, p. 186); infine nei <title>Proverbia Pseudoiacoponici</title>: «ne lu plantu
+                        le lacreme, lu risu ne lu iocu» 62, BIGAZZI 1963, p. 29. V., a proposito di risu, iocu e alegretia, il particolare riscontro in Jacopone
+                        (ROMANO 1985) («perdut’à riso e ioco e onne alegrezza avire» 7.42, AGENO 1953, p. 24). Anche la iunctura al v. 2 morte dura ha quattro riscontri nelle
+                        <title>Laude</title>: «carne de la umana natura, / sustenni passione con una morte dura» 52.4 (AGENO 1953, p. 205); «ch’eo
+                        sto nel morire, / sento la morte dura» 15.16 (AGENO 1953, p. 53); «La morte dura me va consumanno», 68.36 (AGENO 1953, p. 282); «questa vita / e poi, a la
+                        scivirita, / dura morte me sse dìa», 21.58, (CONTINI 1960, p. 137). L’aggettivo scuro, sia nel senso proprio che nel senso di ‘amaro, triste’, ha
+                        diverse attestazioni in Jacopone: «La luna è scura, el sole ottenebrato» 50.4 (AGENO 1953, p. 198); «sì è scuro suo visaio/ che ne me fa sì angostiare!»
+                         21.54 (AGENO 1953, p. 198); «tu vidi stare / l’omo che iace en la fossa scura» 13.6 (CONTINI 1960, p. 108). In particolare, in «vòl’ predecare; e mustreme che
+                         la mea vita è oscura, / la tua non vòl’cercare» 30.29 (AGENO 1958, p. 110) si noti come la parola oscura compare come predicativo riferito a vita
+                         (D’ACHILLE 2012a, pp. 41-42). Il termine, naturalmente è anche dantesco, in rima proprio con ‘duro’ in Inf. III,10 (queste parole di colore oscuro
+                         […] il senso lor m’è duro); XXV, 13 e XXX, 101 e 105 (E l’un di lor, che si recò a noia/ forse d’esser nomato sì oscuro,/ col pugno li percosse l’epa
+                         croia./ Quella sonò come fosse un tamburo/ e mastro Adamo li percosse il volto/ col braccio suo, che non parve men duro).
+                         Se i versi jacoponici sono certo il principale punto di riferimento del testo in questione, si notino ancora riscontri di 'iocu' e 'risu' in
+                         Giacomo da Lentini «o’ si mantien sollazzo, gioco e riso» 27.4, ANTONELLI 1979, p. 316); e nel Fiore: «vernando in quel salvag[g]io loco, /
+                         ch’ pena de·ninferno è riso e gioco» 34.3, CONTINI 1984, p. 70). Ancora in Giacomo da Lentini compare il sintagma m’è dura seguito da scura:
+                         «Sì m’è dura – [e] scura – figura / di quantonqu’eo veo» 17.76 (ANTONELLI 1979, p. 227). Anche l’aggettivo fallace è attestato in Jacopone, nel <title>
+                         Fiore</title> e più spesso in Guittone. In quest’ultimo è attestato il riflessivo rendersi (cfr. qui v. 9-10 rennutu), nel senso di ‘raccomandarsi con
+                        fiducioso abbandono’ a Dio e alla sua misericordia: «noi pria chiamò gaudenti, / ch’ogn’omo a Dio renduto / lo più diritto nome è lui gaudente» 32. 105
+                        (EGIDI 1940, p. 86). Per quanto riguarda petutu numerosi i riscontri, sia mediani che meridionali (BALDELLI 1971, p. 88). I caratteri generali e la
+                        terminologia del testo sono dunque pienamente duecenteschi. Attestazioni più tarde si trovano, solo per il verbo invogliare (cfr. v. 6-7 e(n)voglia),
+                        nella Divina Commedia (Pg. XIV, v 110; Pd. III, v. 84), in Cecco d’Ascoli e in Petrarca (D’ACHILLE 2012a, pp. 42-43).</p>
+                  </div>
+                    <div type="commentary" subtype="note">
+                        <p>Essendo la didascalia ormai praticamente illeggibile la presente edizione critico-interpretativa si basa sull’edizione di
+                            D’ACHILLE 2012a, p. 38 che a sua volta si basa sulla trascrizione effettuata da Enrico Nardi nel 1985, pp. 7-8 e su un’ispezione diretta.</p>
+                        <p>L’iscrizione è dipinta nell’affresco dell’Incontro dei Vivi e dei Morti, nella parte destra della controfacciata della chiesa cimiteriale di
+                            S. Paolo (XIII secolo). Si tratta di dieci versi irregolari in rima baciata (anche se non si esclude che il testo potesse essere di poco più lungo).
+                            L’affresco è diviso verticalmente in due registri: nella parte sinistra, un personaggio coronato su un cavallo bianco – probabilmente un re – si
+                            porta una mano alla bocca; nella parte destra sono rappresentati tre cadaveri in diverso stato di decomposizione: il primo cadavere in alto,
+                            abbigliato e con le braccia incrociate, mostra ancora una certa consistenza corporea; il secondo, quasi del tutto decomposto, ha ancora visibili
+                            i capelli ed i lineamenti del volto; il terzo, infine, è uno scheletro con ossa e orbite oculari molto marcate.</p>
+                         <p>La scritta volgare, di colore bianco e in maiuscola gotica, è dipinta in basso a sinistra, tra le zampe del cavallo.
+                             Le tracce di un’altra scritta, questa volta presumibilmente in latino (SETTIS FRUGONI 1967, p. 201 n. 248.), oggi illegibile, sono visibili al
+                             di sopra dei tre cadaveri. Quest’ultimo testo è disposto su dieci righe sulla sinistra e scende poi a destra, oltre il primo cadavere,
+                             di altre due righe. Sono decifrabili solo parole e lettere isolate. D’ACHILLE 2012a  p. 43, trascrive in nota le parti ancora leggibili:
+                             al r. 2 … TE ALE … AUD …; al r. 4 LIBELI … ALIL …; al r. 5 ARE LO … DET; al r. 7 MULTARI … MISU; al r. 8 … ELETUSU … STU; al r. 10
+                             FUI(S)SE(T) BU … RUTU …; al r. 11 IN MEU(M) RI …; al r. 12 …DUTU e da esse immagina che nella iscrizione il cavaliere parli rivolto ai lettori,
+                             mentre invece a pronunciare il testo latino, logicamente premesso al volgare, sarebbero i tre morti che si rivolgerebbero al cavaliere per
+                             ammonirlo sulla vanità della vita terrena. Se così fosse anche qui, come nell’Iscrizione di San Clemente edv 12.04, l’alternanza fra le due
+                             lingue sarebbe giocata sapientemente per fini espressionistici.</p>
+                          <p>Il dipinto è stato spesso indicato come la più antica rappresentazione del tema dell’Incontro dei Vivi e dei Morti in area italiana
+                              (SETTIS FRUGONI 1967; BOLOGNA 1969 e ROMANO 1985). L’esecuzione non dimostra un elevato livello qualitativo – si notino l’inespressività del re,
+                              la staticità e la sproporzione del cavallo e l’anatomia approssimativa degli scheletri – e la pittura è bidimensionale. Il tema iconografico è
+                              stato oggetto di un’ampia tradizione di studi ed è documentato nel Lazio anche a Montefiascone, Atri e Fossanova, Subiaco
+                              (D’ACHILLE 2012a, p. 31 e n. 79).</p>
+                       <p>D’Achille sottolinea l’interesse iconografico dell’affresco rispetto ai suoi paralleli italiani: qui un solo personaggio, e non tre come negli
+                           altri casi, fronteggia i tre cadaveri e, inoltre, manca la figura dell’eremita. Nell’affresco di Poggio Mirteto, dunque, la funzione ‘didascalica’
+                           che normalmente spetterebbe all’eremita è svolta dalle didascalie stesse che guidano la comprensione delle immagini. Secondo alcuni studiosi questi
+                           elementi permetterebbero di collocare l’affresco all’inizio della tradizione iconografica, secondo altri sarebbero piuttosto segnali di una
+                           semplificazione del tema (BOLOGNA 1969).</p>
+                         <p>Il pessimo stato di conservazione e le continue ridipinture dell’affresco non hanno consentito di ipotizzare se non una generica assegnazione al
+                             secolo XIV. Paolo D’Achille aggiunge però che al di sotto della scena è presente un Compianto su Cristo morto, datato da Ferdinando Bologna ai
+                             primi del Trecento (BOLOGNA 1969, pp. 163-164.), che è certamente posteriore all’affresco dell’Incontro, dal momento che il suo inserimento ne
+                             ha tagliato la parte inferiore. Questa osservazione consente di confermare una datazione primo-trecentesca. A sostegno di questa tesi D’Achille
+                             nota anche come, per raccordare l’Incontro ai dipinti posteriori – tra cui lo stesso Compianto – fu aggiunto un bordo porpora che corre lungo i
+                             perimetri dei due registri dell’affresco e si interrompe all’altezza dei piedi del primo cadavere, forse a causa di un ripensamento volto a non
+                             mutilare ulteriormente la zona destra, considerata in un primo momento, per errore, autonoma dal resto della scena (D’ACHILLE 2012a, pp. 34-35).
+                             Se la datazione dovesse essere confermata assumerebbero un certo rilievo gli echi danteschi del testo.</p>
+                          </div>
+                        <div type="bibliography">
+                        <p xml:id="editions">MONACI 1896, pp. 483-506; CICCONETTI 1925, pp. 218- 227; PALMEGIANI 1932, pp. 550- 551;
+                            SETTIS FRUGONI 1967, p. 201; D’ACHILLE 1985, p. 7; D’ACHILLE 2012a, pp. 28-44; AMMANNATI-GIANCANE 2014, pp. 41-83.</p>
+                        <p xml:id="other">GUARDABASSI 1872, p. 248; BOLOGNA 1969, pp. 41- 47; DEL GUERRA-RIALDI 1970, pp. 45-46; D’ACHILLE-FERRI-IAZEOLLA 1985, p. 221;
+                            ROMANO 1985, p. 405 n. 2; Trionfo 1997; D’ACHILLE-DI BELLO 1999, III, pp. 1011-1022; BATTAGLIA RICCI (20022), pp. 97- 161.</p>
+                        <p xml:id="images">CICCONETTI 1925, pp. 218- 227; SETTIS FRUGONI 1967, p. 201; D’ACHILLE 1985, p. 7; D’ACHILLE-FERRI-IAZEOLLA 1985, p. 221;
+                            FRUGONI 1985, pp. 426- 448; ROMANO 1985, p. 405 n. 2; D’ACHILLE 2012a, figg. 1-3.
+                            La foto che qui si pubblica si deve a Luna Cacchioli. Si ringraziano la dott.ssa Giovanna Grumo, della Soprintendenza per i Beni Storici
+                            Artistici ed Etnoantropologici del Lazio, funzionario responsabile per la tutela del comune di Poggio Mirteto,
+                            e Don Franco Mezzanotte, parroco della chiesa.</p>
+                     </div>
+                </body>
+            </text>
+        </TEI>

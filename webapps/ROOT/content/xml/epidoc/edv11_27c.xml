@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Cona Passatora (nn. 10-13)
+                            - San Gabriele Annunciante (1484), Annunciazione (1494), Vergine fra i santi (1490).</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Michela Sacchetti</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.27a</idno>
+                        <date when="2020-04-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Loc. Ferrazza, Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario dell’Icona Passatora (nn. 10-13) - San Gabriele annunciante (1484), 
+                                    Madonna in trono (1492?), Annunciazione (1494), Vergine fra i santi (1490)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#signature #narrative">Committenza, Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width>?</width><depth/><height>?</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1490" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed">2019-06</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11_27c11.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="11_27c12.jpg">
+                    <desc/>
+                </graphic>
+                 <graphic url="11_27c13.jpg">
+                    <desc/>
+                </graphic>
+               </facsimile>
+            <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                     <div type="textpart" subtype="section" n="10"> 
+                         <ab>
+                  <lb n="1"/>Anno Domini 1484 a dì X  de &lt;iugno&gt; 
+                  <lb n="2"/>la dicta <w>chesia</w> et a te&lt;bu&gt; de a […]
+                         </ab>
+                         </div>
+                        <div type="textpart" subtype="section" n="11">
+                            <ab>Questa <phr type="syntagm" subtype="synt_lat">feura à facta fare</phr> <persName>Martomeo de&lt;lla&gt; &lt;Su&gt;mata</persName> 149[.]
+                          </ab>
+                        </div>
+                           <div type="textpart" subtype="section" n="12"> 
+                         <ab>
+                              <lb n="1"/> + Questa chappella <m type="essere" subtype="pres1ps">et</m> comenzata a npegn&lt;ere&gt;
+                              <lb n="2"/>ad te&lt;m&gt;bo de <persName>Batista de<w type="metaphony">Rusciolu</w></persName> et <persName>Baltasara</persName> […]
+                         </ab>
+                         </div>
+                          <div type="textpart" subtype="section" n="13"> 
+                         <ab>Queste <phr type="syntagm" subtype="synt_lat">feure à facte fare</phr> <persName>Martin<m type="desinence" subtype="ms_sing">u</m> De Ucit<m type="desinence" subtype="ms_sing">u</m> delli <w type="metaphony">Retrusi</w></persName>. 1490</ab>
+                         </div>
+                     </div>
+                          <div type="edition" subtype="diplomatic" xml:space="preserve">
+                         <div type="textpart" subtype="section" n="10">
+                             <ab>L'iscrizione non è visibile a causa delle impalcature</ab>
+                         </div>
+                             <div type="textpart" subtype="section" n="11">
+                            <ab>questa · feura · afacta · fare · martomeo · de [......] mata · 149[.]
+                        </ab>
+                    </div>
+                              <div type="textpart" subtype="section" n="12"> 
+                         <ab><lb n="1"/> ⸭ QVESTA · ChAPPELLA · ET · COMENȤATA · ANPEGNERE · 149[.]
+                             <lb n="2"/>AdTEBO de BATISTA · dERVSCIOLV · ET · BALTASARA […]
+                                                     </ab>
+                              </div>
+                             <div type="textpart" subtype="section" n="13"> 
+                         <ab>queste · feure · afacte · fare · martinu · deuciu · delliretrusj · 1490</ab> 
+                             </div>
+                          </div>
+                       <div type="apparatus">
+                        <p></p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia</title>:</p>
+                        <p>Si notino le forme con metafonesi dei toponimi 'Rusciolu' (Rosciolo dei Marsi?) e 'Retrusi' (Retrosi, fraz. di Amatrice); l'assibilazione dell'affricata dopo nasale in 'comenzata', 
+                     normale per l'area, la perdita della velare sonora in posizione intervocalica in <w>feura</w> e nel plurale feure.</p>
+                        <p>Interessante anche 'et' per la terza persona singolare del verbo essere, probabilmente un ipercorretismo puramente grafico.</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>La locuzione 'à facta fare' molto comune nelle didascalie dei committenti, ricalca la formula latina 'hoc opus fecit fieri'. cfr., per il Lazio,  
+                        <ref target="edv11_12">11.02</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_20">11.20</ref>, 
+                            <ref target="edv11_23">11.23</ref>, <ref target="edv11_27d">11.27d, <ref target="edv11_27e">11.27e</ref></ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>A causa delle impalcature montate per la messa in sicurezza del Santuario 
+                            non è stato possibile fotografare il Gabriele Annunciante (n. 12)</p>                         
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">D’ACHILLE 2004, p. 173; VERANI 1976, p. 267.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">AQUILINI 2002; Andrea Carloni https://www.flickr.com/photos/andrea_carloni/albums/72157639482013326; SACCHETTI 2019.</p>
+                       </div>
+                </body>
+            </text>
+        </TEI>

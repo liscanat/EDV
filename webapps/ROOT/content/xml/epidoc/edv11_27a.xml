@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Cona Passatora - Miracoli (nn. 1-4).</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli, Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.27a</idno>
+                        <date when="2020-04-07"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Loc. Ferrazza, Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario dell’Icona Passatora</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#signature #narrative">Committenza, Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width> (1) 67, (2) 60 (3) 90 (4) 55</width><depth/><height> (1) 54, (2) 30, (3) n.d. (4) n.d. </height></dimensions>
+                                            </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1490" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed">2019-06</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+    <facsimile>
+             <graphic url="11.27a1.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.27a2.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.27a3.jpg">
+            <desc/>
+        </graphic>
+            <graphic url="11.27a4.jpg">
+            <desc/>
+        </graphic>
+    </facsimile>        
+                <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                     <div type="textpart" subtype="section" n="1"> 
+                         <ab>
+                    <lb n="1"/>Antonio de Pasquale de <placeName><w type="metaphony">Ucito</w></placeName> gle se palò la mula per una
+                    <lb n="2"/>costa recomanose a questa Ver<seg type="grapheme" corresp="/dz/">c</seg>ene Maria s[…]
+                            </ab>
+                         </div>
+                        <div type="textpart" subtype="section" n="2">
+                            <ab>
+                    <lb n="1"/>ferre s&lt;e&gt; ·ll<m type="desinence" subtype="ms_sing">u</m> menò la lama della neve
+                    <lb n="2"/>[…]
+                            </ab>
+                        </div>
+                       <div type="textpart" subtype="section" n="3"> 
+                         <ab>
+                             <lb n="1"/>[..] <m type="nella" subtype="prep_artfsing_contr">na</m> rocca d'<placeName>Arquata</placeName> recomanose a questa Madonna
+                    <lb n="2"/>subito <m type="essere" subtype="perf3ps">fo</m> liberato</ab>
+                       </div>
+                         <div type="textpart" subtype="section" n="4"> 
+                         <ab>
+                             <lb n="1"/>De Patrenost<m type="desinence" subtype="ms_sing">u</m> sperse la via de notte a maletemb<m type="desinence" subtype="ms_sing">u</m> 
+                             <m type="nella" subtype="prep_artfsing_contr">na</m> <placeName>Forca de Pena</placeName> recomanose a questa nostra Cona. </ab>
+                       </div>
+                     </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1">
+                        <ab>
+                            <lb n="1"/>Antonio de Pasquale de Ucito glesepalo lamula p(er) una
+                    <lb n="2"/>costa recomanoseaquesta vercene maria s[…]
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="section" n="2">
+                        <ab>
+                            <lb n="1"/>ferre s[.]llumeno la lama della neve
+                    <lb n="2"/>[…]
+                        </ab>                                                    
+                         </div>
+                         <div type="textpart" subtype="section" n="3">
+                        <ab>
+                            <lb n="1"/>[…] na rocca ·darquata · recomanose · aquesta · mado(n)na subito · fo liberato 
+                                 </ab>                                                    
+                         </div>
+                        <div type="textpart" subtype="section" n="4"> 
+                         <ab>
+                             <lb n="1"/>depatrenostu · sperse · lavia · denotte · amaletebu · naforca · depena · recomanose · aquesta nostra cona</ab>
+                       </div>                    
+                    </div>
+                    <div type="apparatus">
+                        <p>1.2 D'ACHILLE 1995 su</p>
+                        <p>2.1 D'ACHILLE s'illumenò, AQUILINI 2002 si lu menò</p>
+                        <p>3.1 DI CARLO 1908 Narocca, recomanese.</p>
+                        <p>4.1 DI CARLO 1908 le notte; na soma; racomanose a questa nostra [...] e fo liberato </p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>v. <ref target="edv11_27b">11.27b</ref></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Correggo la lettura di (2) rispetto all'interpretazione proposta da D'ACHILLE 1995, 
+                            accogliendo in parte la lettura di AQUILINI 2002, e propongo 
+                        di interpretare 'se lo portò via il torrente di neve'. L'interpretazione si giustifica alla luce 
+                        degli usi del termine attestati nei volgari antichi e nella letteratura da Dante a Ariosto dove 'lama' ha il significato di terreno paludoso, 
+                        corrente d'acqua, o di neve sciolta, terreno basso, registrato in GDLI, <title>sub voce</title> con esempi da Dante, Boiardo, Ariosto, Cellini.</p>                          
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI CARLO 1908, p. 71; VERANI 1955, pp. 1-12; VERANI 1955a, pp. 1-23; VERANI 1976; VERANI 1982; 
+                            FABBI 1977, p. 245; VIGNUZZI 1994, p. 348, n. 16; D’ACHILLE 1995; D’ACHILLE 1997, pp. 232-235; BRECCOLA 2003; 
+                            AQUILINI 2002; D’ACHILLE 2004, pp. 167-182; D’ACHILLE 2012, pp. 83-88; SACCHETTI 2019.D’ACHILLE 1995, pp.16-24. </p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">D’ACHILLE 1995; D’ACHILLE 1997, fig. 64; D’ACHILLE 2012, pp. 83-88 p. 86, fig.; Andrea Carloni https://www.flickr.com/photos/andrea_carloni/albums/72157639482013326; 
+                            SACCHETTI 2019.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

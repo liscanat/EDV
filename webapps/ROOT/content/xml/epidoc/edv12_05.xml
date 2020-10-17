@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Liello Voccabella</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.05</idno>
+                        <date when="2020-04-20"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Basilica di san Giovanni in Laterano</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
+                                </summary>
+                                <textLang mainLang="xrom" otherLangs="la">Volgare romanesco, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate when="1365">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                       <lb n="1"/>+In nomine Domini Amen. Anno Domini MCCC
+                       <lb n="2"/>LXV dello {i} mese de <w>otodro</w>. Qu
+                       <lb n="3"/>essta colonna fece fare <persName>Cola
+                       <lb n="4"/>Sancto</persName> per l’anima de <persName><w type="metaphony" subtype="dipht">Liello</w> Voc<seg type="grapheme" corresp="/ka/">cha</seg>
+                       <lb n="5"/>bella</persName> suo patre.
+                            </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                       <lb n="1"/>·+·INNOĪE·DN ̅I·AM ̅·ANNO·DNI·Mº·CCC
+                       <lb n="2"/>LXV·DELLOIMESE·DEOTODRO·QV
+                       <lb n="3"/>ESSTACOLONNA·FECE·FARE·COLA
+                       <lb n="4"/>SC ̅O·PLANIMA·DELIELLO·VOCChA
+                       <lb n="5"/>BELLA·SVO·PATRE [fregio]
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>2 octodro FORCELLA 1869-1884, MALMSTROM 1967</p>
+                          <p>4 Sao ADINOLFI 1857</p>
+                          <p>4-5 Vacchiabella GNOLI 183; sua MALMSTROM 1967</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Si noti la resa con &lt;ss&gt; del suono medioforte del nesso consonantico. 
+                           'otodro' vale ‘ottobre’, con metaplasmo della classe nominale. Come osserva D’Achille, &lt;d&gt; in luogo dell'atteso &lt;v&lt; sarà 
+                           probabilmente errore dello scalpellino, come pure ad errore andrà forse attribuita la 'i' incisa prima di 'mese'. In 'dello mese' si noti la preposizione articolata 
+                           di forma piena (v., anche, sempre a Roma, 'delli Rofini' <ref target="edv12_16">12.16</ref>, ma 'de li Cunti' <ref target="edv12_15">12.15</ref>. 
+                           'Liello' presenta dittongo dovuto a metafonesi, proprio dell’antico romanesco. V., per Roma, 'Oddariello' EDV 
+                            <ref target="edv12_08">12.08</ref>; Rienço e Iordaniello, <ref target="edv12_09">12.09</ref> e <ref target="edv12_10">12.10</ref>; Saviello 
+                            <ref target="edv12_19">12.19</ref>. 'Vocchabella' con &lt;ch&gt; per /k/ davanti a vocale centrale, v. anche 'Bocchaçiola' <ref target="edv12_08">12.08</ref>;
+                            e 'Lucha' <ref target="edv12_25">12.25</ref>. 'Cola' è ipocoristico ben attestato nel documenti medievali di Roma.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Unica iscrizione conservata di un gruppo di quattro epigrafi votive in volgare provenienti dalla basilica di San Giovanni in Laterano. Tutte le 
+                            iscrizioni ricordavano la donazione alla chiesa, da parte di privati, di alcuni pilastri eretti in sostituzione delle colonne distrutte 
+                            dall’incendio del 1361. Le lastre, un tempo murate alla parete sud della navata centrale al di sopra dei rispettivi pilastri, andarono variamente 
+                            disperse durante le operazioni di rifacimento della chiesa nel 1565. Ogni lastra recava, accanto all’iscrizione lo stemma della famiglia 
+                            (D’ACHILLE 1987, p. 75; MALMSTROM 1967, p. 159 nota 8). L’iscrizione è conservata nel Museo del Tesoro della basilica stessa, sulla parete della 
+                            Sacrestia fra due finestre. Oggi purtroppo è coperta da un armadio. Si ringrazia Nicola di Foggia per averci permesso di localizzarla. 
+                            Giovanni Battista Crollalanza così descrive lo stemma dei Boccabella: «D’oro a due leoni addossati di rosso passati in croce di S. Andrea, quello 
+                            di sinistra attraversante quello di destra, accompagnati in capo da un giogo di rosso posto in fascia; colla bordura inchiavata d’oro e di rosso». 
+                            (D’ACHILLE 1987, p. 77 nota 25; CROLLALANZA 1886-1890, I, 139). Nella parte sinistra della lapide è raffigurato il defunto Lello Boccabella 
+                            che fu Riformatore nel 1360 (D’ACHILLE 1987, p. 77, SALIMEI 1935, pp. 129, 212 e GRABMALER 1981, p. 135).
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">RASPONI 1657, p. 38; ADINOLFI 1857, p. 11; FORCELLA 1869-1884, VIII, p. 20 n. 28; ROHAULT DE FLEURY 1877, II, p. 11; 
+                            GNOLI 1881, p. 499; MALMSTROM 1967, p. 160 nota 8; GRABMÄLER 1981, p. 135; D’ACHILLE-GIOVANARDI 1984, n. 24; D’ACHILLE 1987, pp. 76-77, n. 3.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">LAUER 1911, p. 261 fig. 95; D’ACHILLE-GIOVANARDI 1984, n. 24; D’ACHILLE 1987, pp. 76-77, n. 3; foto 12.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

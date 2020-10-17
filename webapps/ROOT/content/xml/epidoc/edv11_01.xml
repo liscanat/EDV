@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telamoni di Civita Castellana</title>
+                <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                <editor role="images"><persName>Luna Cacchioli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">11.01</idno>
+                <date when="2020-03-23"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Civita Castellana</placeName>
+                        <district ref="#VT">VT</district>
+                        <repository>Oratorio della Chiesetta di sant’Antonio</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xvolg">Volgare</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                    <dimensions><width/><depth/><height/></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                            <origDate notBefore="1150" notAfter="1199" precision="low">XII ex.</origDate>
+                        </origin>
+                        <provenance type="observed" when="2013"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="11.01a.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.01b.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.01c.jpg">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <div type="textpart" subtype="section" n="A">
+                    <ab>
+                        <lb n="1"/>Teneas
+                        <lb n="2"/>cati
+                        <lb n="3"/>ve a
+                        <lb n="4"/>iuta
+                        <lb n="5"/>me
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="B">
+                    <ab>
+                        <lb n="1"/>Non
+                        <lb n="2"/>pos
+                        <lb n="3"/>su(m)
+                        <lb n="4"/>q(ui)a
+                        <lb n="5"/>crepo
+                    </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" subtype="section" n="A">
+                    <ab>
+                        <lb n="1"/>TENEAS
+                        <lb n="2"/>CATI
+                        <lb n="3"/>VE A
+                        <lb n="4"/>IVTA
+                        <lb n="5"/>ME
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="B">
+                    <ab>
+                        <lb n="1"/>N ̅         QA
+                        <lb n="2"/>POS         CREPO
+                        <lb n="3"/>S V ̅
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p/>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p><title>Grafia-fonologia:</title></p>
+                <p>&apos;cative&apos; riduzione del nesso consonantico -PT- &gt; /t/; &apos;aiutame&apos; dileguo di /d/ nel nesso -DJ- e passaggio /v/&gt;/t/ in posizione intervocalica</p>
+                <p><title>Morfologia e sintassi:</title></p>
+                <p>&apos;teneas&apos;: congiuntivo iussivo; ma nota &apos;aiutame&apos; imperativo. Un uso analogo si registra nell’apertura di uno dei «Carmina Burana» &apos;Veni, veni, venias&apos;, 174 (CONTINI 1971, p. 15).</p>
+                <p><title>Lessico:</title></p>
+                <p>&apos;cative&apos; nel valore arcaico del latino &apos;captivus&apos; &apos;disgraziato&apos; e &apos;misero, infelice&apos;.
+                    V., al proposito, Iacopone: «Se tu congregasti tanta guadagna, / de darte chevello a noi non ne caglia: / àgite pace, si pace travaglia: / facisti tal fatti, cattivo ne vaie.» 8, 19-26 (CONTINI  1960); Cecco Angiolieri:
+                    «-Doi te gaitivo, u’ di’ che nde vai? / - Entro ’g’Arezzo, a vender queste poma» 125, vv. 5-6 (MARTI 1956) e Dante: «e misimi a leggere quello non
+                    conosciuto da molti libri di Boezio, nel quale, cattivo e discacciato, consolato s’avea.» Conv. II, 12, 2 (BRAMBILLA AGENO 1995).
+               &apos;Non possum&apos; si veda anche il telamone di Ferentino &apos;Non posso più&apos; <ref target="edv11_14">11.03</ref>.</p>
+                <p>La classificazione dal punto di vista della lingua dell'iscrizione è oggetto di discussione da decenni. Le editrici giudicano l'iscrizione e il suo testo
+                    interamente comprensibili in un contesto volgare.</p>
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le due iscrizioni incise costituiscono le vivaci battute di un dialogo tra una cariatide ed un telamone scolpiti a bassorilievo sulle facce anteriori di due basi di
+                    colonne provenienti dalla Chiesa di San Francesco ed oggi pertinenti al portale della chiesetta di Sant’Antonio, in contrada Scasato.
+                    Entrambe le figure sono accompagnate da una propria didascalia, in questo modo le due iscrizioni vanno a costituire le battute di un vero e proprio dialogo.
+                    Quella della donna è collocata sotto il braccio sollevato e occupa cinque righe; l’altra, divisa in due parti dal busto dell’uomo, occupa quattro righe di cui due a
+                    sinistra e due a destra del dorso. La cariatide si trova in uno stato di conservazione migliore tranne che per il volto mentre al telamone mancano gli avambracci
+                    e le gambe; ad entrambi restano i piedi scolpiti sulle cornici inferiori. La donna indossa un vestito dalle maniche lunghe e svasate ai polsi, pieghettato nella parte
+                    inferiore e stretto in vita da una cintura; appoggia la mano destra sul fianco mentre con la sinistra tocca l’estremità della cornice superiore come per equilibrare il
+                    peso, sembra infatti portare una conca o forse una tavola di pani sul capo. L’uomo è nudo e barbuto e, a differenza della cariatide, sembra compiere un grande sforzo:
+                    non solo le dita si aggrappano alla cornice superiore ma, dalle proporzioni della scultura e dalla posizione dei piedi, si può anche supporre che le gambe fossero
+                    piegate per sostenere un grosso peso. Nella seconda metà del Novecento le due didascalie hanno goduto di una autorevole fortuna critica, non solo come oggetto di
+                    studi linguistici dato il loro carattere popolaresco descrittivo, ma anche per il richiamo fatto da Giovanni Fallani per spiegare il Parea dicer: “Più non posso”
+                    di Purg. X, 136-139 (FALLANI 1971, p. 183-187). </p></div>
+            <div type="bibliography">
+                <p xml:id="editions">MUÑOZ 1911, pp. 123-124; MUÑOZ 1921, pp. 149-150; CHINI 1929, p. 34; HERMANIN 1945, p. 132 n. 2;
+                    APOLLONJ GHETTI 1969, p. 78; CAROSELLI 1966, p. 5; CONTINI 1966, p. 14; CIMARRA 1969, pp. 15-16; CONTINI 1971, p. 15;
+                    FALLANI 1971, p. 183-187; PULCINI 1974, nr. 24, p. 212; CIMARRA 1975, pp. 7-20; CIMARRA 1978, pp. 32-33;
+                    D’ACHILLE-GIOVANARDI 1984, p. 84 nr. 189; MENEGHETTI 1997, pp. 216-217; IMAI 2002, pp. 65-67, num. 13; L. PETRUCCI 2010, pp. 156-157.</p>
+                <p xml:id="other">CAMPANA 1984, pp. 370-373.</p>
+                <p xml:id="images">IMAI 2002, pp. 65-67, num. 13. La foto qui riprodotta è di Luna Cacchioli.
+                    Si ringrazia l’avv. Domenico Cancilla per avere gentilmente permesso di fotografare i due manufatti.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

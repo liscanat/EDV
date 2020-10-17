@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Chi iace</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.12</idno>
+                        <date when="2020-04-18"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Chiesa di santo Stefano del Cacco</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
+                                </summary>
+                                <textLang mainLang="xrom">Volgare romanesco</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate notBefore="1350" notAfter="1399" precision="low">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="1"/>Chi <seg type="phoneme" subtype="j_initial">i</seg>iace
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>+ ChI·IACE
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>chi ‘qui’ &lt; *(EC)CU(M) HĪC, con perdita dell’elemento labiale nella labiovelare secondaria /kw/ e &lt;ch&gt; per /k/, secondo un esito 
+                            ben attestato negli antichi documenti di area centro-meridionale, anche se scarseggiano gli esempi nei testi romaneschi antichi 
+                            (D’ACHILLE 1987, p. 87 e nota 90; ROHLFS 1966-1969, § 163). Tuttavia si veda, a Roma, ‘chi giacie’ nell’Iscrizione di Gismunda al Pantheon 
+                            <ref target="edv12_23">12.23</ref> e l’iscrizione, oggi perduta, ma sita un tempo presso la cappella di San Matteo della Chiesa di Santa 
+                            Maria in Aracoeli a Roma: ‘chi iace Pe/(r)na de Iuliano / de Mo(n)te Ge(n)til/e’ (D’ACHILLE 1987, p. 86).
+                           Il più antico esempio di delabializzazione del nesso laiovelare è nei <title>Placiti Cassinesi</title> (CASTELLANI 19762, pp. 71-72); 
+                            per Roma, la <title>Cronica</title> alterna ‘qui’, al frequente ca ‘qua’ (PORTA 1979, p. 664). Sempre in relazione all’esito nel romanesco antico 
+                            della labiovelare nelle Miracole de Roma è ben attestato kello (MACCIOCCA 1982, p. 89).</p>
+                           <p>‘iace’ con conservazione di /j/ in posizione iniziale, comune negli antichi testi romaneschi e nelle iscrizioni di tutta 
+                               l’Italia mediana (D’ACHILLE 1987, p. 83, MERLO 19592, pp. 55-56, ROHLFS 1966-1969 § 158, ERNST 1970, pp. 83-85, PORTA 1979, pp. 562-563, 
+                               MACCIOCCA 1982, p. 82). V., in EDV, <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>, 
+                            <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_17">12.17</ref>, <ref target="edv12_24">12.24</ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Questo è il poco che resta di un’iscrizione che correva sul perimetro di un lastra funeraria degli ultimi decenni del XIV secolo conservata presso la chiesa di 
+                            S. Stefano del Cacco (rione Pigna).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GRABMÄLER 1981, pp. 294-295, n. LXI; D’ACHILLE 1989, p. 5 nota 10.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">GRABMÄLER 1981, pp. 294-295, n. LXI, 4 e foto 93.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Document functions and types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Funzione / Function</head>
+                <item xml:id="AP">
+                    <term xml:lang="it">Avviso pubblico</term>
+                    <gloss xml:lang="en">Public notice</gloss>
+                </item>
+                <item xml:id="D">
+                    <term xml:lang="it">Didascalia</term>
+                    <gloss xml:lang="en">Caption</gloss>
+                </item>
+                <item xml:id="G">
+                    <term xml:lang="it">Graffito</term>
+                    <gloss xml:lang="en">Graffiti</gloss>
+                </item>
+                <item xml:id="O">
+                    <term xml:lang="it">Oggetto d’uso</term>
+                    <gloss xml:lang="en">Object</gloss>
+                </item>
+                <item xml:id="S">
+                    <term xml:lang="it">Sconosciuta</term>
+                    <gloss xml:lang="en">Unknown</gloss>
+                </item>
+            </list>
+            
+            <list>
+                <head>Tipologia / Type</head>
+                <item xml:id="memorial">
+                    <term xml:lang="it">Iscrizione commemorativa</term>
+                    <gloss xml:lang="en">Memorial inscription</gloss>
+                    <ref target="#AP"/>
+                </item>
+                <item xml:id="patronage">
+                    <term xml:lang="it">Committenza</term>
+                    <gloss xml:lang="en">Patronage</gloss>
+                    <ref target="#AP"/>
+                </item>
+                <item xml:id="graffiti"> <!-- aggiunto in seguito -->
+                    <term xml:lang="it">Graffiti</term>
+                    <gloss xml:lang="en">Graffiti</gloss>
+                    <ref target="#G"/>
+                </item>
+                <item xml:id="funerary">
+                    <term xml:lang="it">Iscrizione funeraria</term>
+                    <gloss xml:lang="en">Funerary inscription</gloss>
+                    <ref target="#AP"/>
+                </item>
+                <item xml:id="normative">
+                    <term xml:lang="it">Iscrizione normativa</term>
+                    <gloss xml:lang="en">Normative inscription</gloss>
+                    <ref target="#AP"/>
+                </item>
+                <item xml:id="heraldry">
+                    <term xml:lang="it">Stemma</term>
+                    <gloss xml:lang="en">Heraldry</gloss>
+                    <ref target="#AP"/>
+                </item>
+                <item xml:id="signature">
+                    <term xml:lang="it">Firma d’artista</term>
+                    <gloss xml:lang="en">Artist’s signature</gloss>
+                    <ref target="#D"/>
+                </item>
+                <item xml:id="admonition">
+                    <term xml:lang="it">Monito</term>
+                    <gloss xml:lang="en">Admonition</gloss>
+                    <ref target="#D"/>
+                </item>
+                <item xml:id="narrative">
+                    <term xml:lang="it">Narrativa</term>
+                    <gloss xml:lang="en">Narrative</gloss>
+                    <ref target="#D"/>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="it">Sconosciuto</term>
+                    <gloss xml:lang="en">Unknown</gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

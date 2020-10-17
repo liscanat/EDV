@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Gismunda</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.23</idno>
+                        <date when="2020-04-22"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Pantheon (Chiesa di santa Maria ad Martyres)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
+                                </summary>
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate when="1476">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+          <lb n="1"/>+ Chi gia<seg type="grapheme" corresp="/tʃe/">cie</seg> Gism
+          <lb n="2"/>unda […..] figli deantea foigoglio de g
+          <lb n="3"/>Ginillo MCCCC
+          <lb n="4"/>LXXVI X iunii
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ CHI GIACIE. GISM                            
+                            <lb n="2"/>VNDA […..] FIGLI. DEANTEA. FOIGOLIO. DEG
+                            <lb n="3"/>GINILLO. MCCCC 
+                            <lb n="4"/>LXXVI X iunii
+                               </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>1 in hoc iacie Gism/vunda [……] gli de antea iogolio deg/gīnillo MCCCC/LXXVI ivnii GALLETTI 1760; folgoglio, MCCCCLVI/X EROLI 1895; 
+                            ginnillo BUCHOWIECKI 1967-1974; GALLETTI</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il pessimo stato di conservazione non consente  di restituire il testo in modo attendibile, e di fornirne un’analisi linguistica. Si noti tuttavia 
+                            ‘chi’ ‘qui’, con perdita dell’elemento labiale nella labiovelare secondaria:  si tratta di una forma ben attestata negli antichi documenti di area 
+                            centro-meridionale anche se scarseggiano gli esempi nei testi romaneschi antichi. V. EDV <ref target="edv12_12">12.12</ref>. Ancora in 'giacie', 
+                            si noti &lt;ci&gt; per /ʧ/ davanti a vocale palatale (CASTELLANI 1952, I, p. 18); in 'degginillo' si potrebbe ipotizzare la presenza di 
+                            raddoppiamento fonosintattico di /g/ e del suffisso diminutivo –ĪLLUM (D’ACHILLE 1987, p. 90). Per il raddoppiamento fonosintattico, comune in 
+                            area centromeridionale v. ROHLFS 1966-1969, § 156; Ernst 1970, p. 84; per il suffisso -ĪLLUS, frequente nei nomi meridionali, v. 
+                            ROHLFS 1966-1969, § 1083. Infine, 'figli denatea' potrebbe forse interpretarsi come ‘figlia di Andrea’ (D’ACHILLE 1987, p. 90).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’iscrizione, ormai quasi illeggibile, è incisa su una lastra marmorea del pavimento della terza cappella di sinistra, chiamata di Santo Stefano, all’interno del 
+                            Pantheon; il testo corre intorno ad un bassorilievo che raffigura la defunta con in mano un candeliere.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GALLETTI 1760, III, CCCCXIX n. 70; FORCELLA 1889-1893, I, 293 n. 112; EROLI 1895, pp. 426-427; BUCHOWIECKI 1967-1974, II, 684; 
+                            D’ACHILLE-GIOVANARDI 1984, n. 86; D’ACHILLE 1987, p. 90, n. 19.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">D’ACHILLE 1987, foto 17.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

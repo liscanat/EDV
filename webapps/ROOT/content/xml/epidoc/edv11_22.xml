@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Filetta - Portale e affresco di Paolo da Fermo</title>
+                        <editor role="data_collection"><persName>Michela Sacchetti</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Michela Sacchetti</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.22</idno>
+                        <date when="2020-04-10"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario della Filetta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#patronage #signature">Committenza, Firma</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1470">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed" when="2019-06"></provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+              <graphic url="11_22_01.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11_22_02.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11_22_03.jpg">
+            <desc/>
+        </graphic>
+            <graphic url="11_22_04.jpg">
+            <desc/>
+        </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1"> 
+                         <ab>
+                        <lb n="1"/>ANNO DOMINI MCC
+                        <lb n="2"/>CCLXXI ADI DE MA
+                        <lb n="3"/>CIU XXIIII C[…]EA
+                        </ab>
+                        </div>
+                             <div type="textpart" subtype="section" n="2">
+                          <ab>
+                             <lb n="1"/>cona[...] e <m type="essere" subtype="perf3ps">fo</m> costrutto dall'om&lt;e&gt;ne[?] dell'Amatrice. <m type="essere" subtype="perf3ps">fo</m> penta la &lt;sopra&gt; dicta cappella de manu 
+                             mei &lt;Pier Paulo&gt; da Firmo appetitione de l'omeni dell’Amatrice alli anni MCCCCLXX addì &lt;X&gt;XIIII de lo mese de maio. 
+                        </ab></div>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                           <div type="textpart" subtype="section" n="1">
+                        <ab>
+                        <lb n="1"/>AͶNO DOMIͶI · MCC 
+                        <lb n="2"/>CCLXXI ADI DE MA
+                        <lb n="3"/>CIV XXIIII C[…]EA</ab>
+                    </div>
+                        <div type="textpart" subtype="section" n="2">
+                        <ab>
+                            […]cona[…]ofocostruttodallomn(e)d(e)llamatrice·fopentala[…]dictacappellademanumei[…]dafirmoappeti tio(n)ed(e)lom(e)n(i)
+                            dell’amatrice allianniMCCCCLXX addi&lt;X&gt;XIIII·d(e)lomesed(e)maio[…]
+                        </ab>
+                        </div>
+                    </div>
+                    <div type="apparatus">
+                        <p>L'iscrizione è gravemente danneggiata.</p> 
+                        <p>AQUILINI 2018, trascrive tentativamente: "comenzato [...] fo costrutto dall'omni de la Matrice fo penta la so ditta cappella de manu mei
+                        PIER PAULO da FIRMO appetizione de li omeni de la Matrice alli anni MCC [...] addì XIIII d lo mese de maio [...]"</p>
+                    </div>
+                       <div type="commentary" subtype="linguistic_analysis">
+                        <p>'penta' con sviluppo da PINGO senza anafonesi, regolare per l'area; perfetto di 3 persona singolare 'fo', normale per l'area (v. <ref target="edv11_20">11.20</ref> <ref target="edv11_27">11.27</ref>, <ref target="edv11_30">11.30</ref>).</p>
+                        <p>'fo penta la dicta cappella de manu mei': struttura sintattica con allineamento a destra, con sintagma verbale posto in evidenza.</p> 
+                              </div>
+                    <div type="commentary" subtype="note">
+                        <p>Il santuario della Filetta fu eretto nel 1471, come indica l'iscrizione qui al n. 1. 
+                            Secondo quanto ricostruito da Alia Englen, che diresse l’opera di restauro del Santuario iniziata nel 2008 e terminata nel 2012, nel programma figurativo presente 
+                            sull’abside, sulle pareti laterali e sulla controfacciata è riconoscibile l’opera di almeno tre autori che coprono un arco di circa venti anni a partire dalla costruzione 
+                            del santuario. I cicli decorativi sono, sempre secondo la Englen, variamente correlati ai cicli coevi del territorio reatino, umbro marchigiano e amatriciano, con particolare riferimento alle chiese di S. Emidio, di S. Francesco e di S. Agostino di Amatrice, alla chiesa di S. Antonio Abate a 
+                            Cornillo Nuovo, al santuario della Cona Passatora a Ferrazza, alla chiesa di S. Marino in località S. Martino e alla chiesa di S. Andrea a 
+                            Configno.  (AQUILINI 2018, pp. 10-13).</p>
+                        <p>Nella parete superiore della conca absidale è affrescata la grande scena dell’Ascensione, attribuita a Pier Paolo da Fermo. Tra lo zoccolo e il dipinto superiore troviamo un’iscrizione che all’origine era collocata su tutto il semicerchio. 
+                            Attualmente una buona parte del lato sinistro è scomparsa, la parte centrale è relativamente leggibile, la parte destra è molto rovinata e difficile da decifrare. </p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"/>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

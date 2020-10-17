@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="en">
+  <message key="menu-inscriptions">Inscriptions</message>
+  <message key="menu-catalogue">Catalogue</message>
+  <message key="menu-info">About</message>
+  <message key="menu-resources">Resources</message>
+  <message key="menu-editorial-criteria">Editorial criteria</message>
+  <message key="menu-bibliography">Bibliographic references</message>
+  <message key="menu-publications">EDV publications</message>
+  <message key="menu-indices">Indexes</message>
+  <message key="menu-index-abbreviation">Abbreviations</message>
+  <message key="menu-index-fragment">Fragments</message>
+  <message key="menu-index-word">Lexicon</message>
+  <message key="menu-index-numeral">Numerals</message>
+  <message key="menu-index-person_name">Personal names</message>
+  <message key="menu-index-symbol">Symbols</message>
+  <message key="menu-index-word">Words</message>
+  <message key="menu-index-place">Places</message>
+  <message key="menu-index-person">Persons</message>
+  <message key="menu-index-institution">Institutions</message>
+  <message key="menu-index-phoneme">Phonemes</message>
+  <message key="menu-index-grapheme">Graphemes</message>
+  <message key="menu-index-morpheme">Morphemes</message>
+  <message key="menu-index-syntagm">Syntagms</message>
+  <message key="menu-index-quote">Quotes</message>
+  <message key="menu-index-theme">Themes</message>
+  <message key="menu-search">Search</message>
+  <message key="menu-admin">Admin</message>
+  <message key="menu-language">Language</message>
+  <message key="edv-photo">Photo</message>
+  <message key="edv-region">Region</message>
+  <message key="edv-date">Dating</message>
+  <message key="edv-object">Object</message>
+  <message key="edv-material">Material</message>          
+  <message key="edv-dimension">Dimensions</message>
+  <message key="edv-function">Function</message>
+  <message key="edv-type">Type</message>
+  <message key="edv-script">Script</message>
+  <message key="edv-language">Language</message>
+  <message key="edv-repository">Current location</message>
+  <message key="edv-interpretive-edition">Interpretive edition</message>
+  <message key="edv-diplomatic-edition">Diplomatic edition</message>
+  <message key="edv-apparatus">Critical apparatus</message>
+  <message key="edv-linguistic-analysis">Linguistic analysis</message>
+  <message key="edv-notes">Notes</message>
+  <message key="edv-bibliography">Bibliography</message>
+  <message key="edv-bibliography-editions">Editions</message>
+  <message key="edv-bibliography-other">Other studies</message>
+  <message key="edv-bibliography-images">Reproductions</message> 
+  <message key="edv-authors">Authors</message> 
+  <message key="edv-editor-data-collection">Data collection</message>
+  <message key="edv-editor-edition">Edition</message>
+  <message key="edv-editor-commentary">Commentary</message>
+  <message key="edv-editor-encoding">Digital edition and indexes</message>
+  <message key="edv-editor-images">Images</message>
+  <message key="edv-publication_date">Publication date</message>
+  <message key="edv-autopsy">Last seen</message>
+</catalogue>

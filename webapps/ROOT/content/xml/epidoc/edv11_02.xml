@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione del volto Salvatore</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.02</idno>
+                        <date when="2020-03-05"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Torri In Sabina</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Villa Del Barone Camuccini</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1200" notAfter="1249" precision="low">XIII in.</origDate>
+                                </origin>
+                               </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11.02.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><lb n="1"/><seg type="phoneme" subtype="j_initial">I</seg>oanne figlio de Oddone
+                            <lb n="2"/>conte de Palombara
+                            <lb n="3"/>e Morecone <phr type="syntagm" subtype="synt_lat">à facto fare</phr>
+                            <lb n="4"/> per sua de
+                            <lb n="5"/>votione 
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>JOANNE FIG              LIO DE ODDONE
+                            <lb n="2"/>CONTE DE                PALOMBARA
+                            <lb n="3"/>E MOREC                 ONE A FAC
+                            <lb n="4"/>TO FARE                 PER SVA DE
+                            <lb n="5"/>VOTI                    ONE 
+                            <lb/>[al centro l'immagine del volto di Cristo]
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                       <p>Conservazione di /j/ in posizione iniziale, normale nell’Italia mediana (ROHLFS 1966-1969, § 142, BALDELLI 1971, p. 207 e 35-36, VIGNUZZI 1984, pp. 50-51). Vedi, in EDV, <ref target="edv11_04">11.04</ref>, 
+                            <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_17">12.17</ref>, 
+                           <ref target="edv12_24">12.24</ref>. 
+                           Normale anche la conservazione di –e (BIANCONI 1962, pp. 59-60) e di &apos;e&apos; in protonia (ROHLFS 1966-1969, §130). Latinismi grafici CT, TI per /ts/.</p>
+                        <p>&apos;á facto fare&apos; riprende la tradizionale formula epigrafica latina ‘fecit fieri’ e ‘fieri fecit’. v. <ref target="edv11_15">11.15</ref>, <ref target="edv11_20">11.20</ref>, <ref target="edv11_23">11.23</ref>, <ref target="edv11_25">11.25</ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’iscrizione, originariamente bilingue, proviene dall’antica chiesa parrocchiale di San Salvatore in Rocchette Grandi in Sabina. La parte latina è quasi del tutto perduta. Dopo il restauro del 1701 la lastra venne rimossa e fu in seguito portata dal barone Camuccini nella sua villa a Torri in Sabina (POMPILI 1990, p. 66 nota 71; BERNASCONI 1905, p. 125).</p>
+                        <p>L’iscrizione indica quale committente Giovanni figlio di Oddone III, uno degli ultimi membri della famiglia degli Ottaviani conti di Palombara. Oddone morì intorno al 1200 e Giovanni, suo figlio, governò Palombara, Montorio e Caminata nel 1204.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">POMPILI 1990, p. 58, 66 nota 71.</p>
+                        <p xml:id="other">BERNASCONI 1905, p. 125; D’ACHILLE 1997, p. 224, nota 7.</p>
+                        <p xml:id="images">POMPILI 1990, p. 60.</p>
+                        </div>
+                </body>
+            </text>
+        </TEI>

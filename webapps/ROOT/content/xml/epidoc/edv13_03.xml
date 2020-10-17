@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Storie di san Francesco</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>DE RUBEIS 1991</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">13.03</idno>
+                        <date when="2020-04-12"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Castelvecchio Subequo</placeName>
+                                <district ref="#AQ">AQ</district>
+                                <repository>Chiesa di san Francesco</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
+                                    <origDate when="1378">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="13_03.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>                            
+<lb n="1"/>Q(ua)n(d)o lu papa [...] 
+<lb n="2"/>[<title>La Visione di Cristo</title>]:
+           Q(ua)n(d)o S(ancto) Fra&lt;n&gt;cisc<m type="desinence" subtype="ms_sing">u</m> horava abparveli Chr(ist)u in croce
+<lb n="3"/>[...][An]geli li <m type="essere" subtype="perf6ps">foru</m> rapp(re)se(n)tati
+<lb n="4"/>[...] S(an)c(t)<m type="desinence" subtype="ms_sing">u</m> [...]
+<lb n="5"/>[<title>Il Sogno di Innocenzo III</title>]:
+           Q(ua)n(n)do l<m type="desinence" subtype="ms_sing">u</m> papa avea visione [e . .] ecclesia doio [domino?] [. . . . .] 
+                            Fra(n)cisc<m type="desinence" subtype="ms_sing">u</m> le reparava
+<lb n="6"/>[. . . . .] XXVIIII die d(ecim)o me(nsi)s decenbr(is) III ind(ictionis)
+<lb n="7"/>[<title>La Morte di san Francesco:</title>]
+            Q(ua)n(d)o l<m type="desinence" subtype="ms_sing">u</m> ministr<m type="desinence" subtype="ms_sing">u</m> de ter(r)a de lavore <m type="vedere" subtype="perf3ps">vedeo</m> l’anima de S(ancto) F(ranciscu) gire a cel<m type="desinence" subtype="ms_sing">u</m>
+<lb n="8"/>[<title>Il Miracolo della Levitazione:</title>]
+           [Quando sancto Franciscu] horava fo ved<m type="desinence" subtype="pastpart">utu</m> da li <phr type="syntagm" subtype="synt_inversion">frati soi</phr> sospes<m type="desinence" subtype="ms_sing">u</m> da la terra                         
+<lb n="8"/>[<title>La Benedizione dei frati:</title>]
+           [Quando sancto  Franciscu] era malat<m type="desinence" subtype="ms_sing">u</m> a morte benedise li [frati] soi                       
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                    <p>si noti la sistematica conservazione di –u finale, normale nell'aquilano (GIAMMARCO 1960a, p. 41); la dissimilazione nella grafia delle geminate
+                        -pp- in -bp- in 'abparveli', 2 (ROHLFS 1966-1969, § 329); 'sospesu', 8 con conservazione di –u finale, ma senza metafonesi.</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>lu 1, 5, 7: articolo determinativo maschile in –u davanti a consonante (Cfr. invece la forma neutra 'lo' dell’articolo determinativo, 
+                            nella <title>Lapide delle male lingue</title> <ref target="edv11_07">11.07</ref> come rileva GIAMMARCO 1979, pp. 124-125 e 138-139.</p>
+                        <p>'fo' e 'foru' perfetti forti, comuni in area mediana (cfr. ROHLFS 1966-1969, § 583) e, in EDV <ref target="edv11_13">11.13</ref>, 
+                            <ref target="edv11_20">11.20</ref>, <ref target="edv11_22">11.22</ref>, <ref target="edv11_27">11.27</ref>, <ref target="edv11_30">11.30</ref>.</p>
+                        <p>'vedeo’, 7 perfetto analogico di 3a persona singolare con uscita in –o. V. nella <title>Lamentatio Beate Marie de Filio</title>,
+                            la forma di 3a pers. sing. del perfetto 'benneo', ‘vendette’ (UGOLINI 1959, pp. 31, 42-46); 'vedutu', 8 con normale uscita in –utu 
+                            del participio passato debole (cfr. <ref target="edv11_04">11.04</ref>).
+</p>
+                        <p>'li frati soi', 8 con il possessivo senza dittongamengto e posposto, come normale in area centrale (cfr. anche <ref target="edv11_20">11.20</ref>). </p>
+                       </div>
+                    <div type="commentary" subtype="note">
+                        <p>Data l’impossibilità di una ricognizione diretta, la presente edizione critico-interpretativa segue la trascrizione diplomatica di DE RUBEIS 1991, pp. 351-353. 
+                            Larga parte delle didascalie era già compromessa all'epoca della sua trascrizione a causa di opere murarie quali aperture di monofore o archi d’ingresso. 
+                            Numerosi interventi di scialbatura e ritocco avevano inoltre reso di difficile lettura anche le parti di testo conservate.</p>
+                       
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DE RUBEIS 1991, pp. 339-353.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

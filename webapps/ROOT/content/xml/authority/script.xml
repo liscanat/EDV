@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scripts</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Scrittura / Script</head>
+                <item xml:id="capital">
+                    <term xml:lang="it">Capitale</term>
+                    <gloss xml:lang="en">Capital</gloss>
+                </item>
+                <item xml:id="cursive">
+                    <term xml:lang="it">Corsiva</term>
+                    <gloss xml:lang="en">Cursive</gloss>
+                </item>
+                <item xml:id="minuscule_cursive">
+                    <term xml:lang="it">Corsiva minuscola</term>
+                    <gloss xml:lang="en">Minuscule Cursive</gloss>
+                </item>
+                <item xml:id="elementary">
+                    <term xml:lang="it">Elementare di base</term>
+                    <gloss xml:lang="en">Elementary</gloss>
+                </item>
+                <item xml:id="elementary_humanistic">
+                    <term xml:lang="it">Elementare di base di polo umanistico</term>
+                    <gloss xml:lang="en">Elementary (humanistic type)</gloss>
+                </item>
+                <item xml:id="elementary_gothic">
+                    <term xml:lang="it">Elementare di base gotica</term>
+                    <gloss xml:lang="en">Elementary (gothic type)</gloss>
+                </item>
+                <item xml:id="gothic">
+                    <term xml:lang="it">Gotica</term>
+                    <gloss xml:lang="en">Gothic</gloss>
+                </item>
+                <item xml:id="maiuscule_gothic">
+                    <term xml:lang="it">Gotica maiuscola</term>
+                    <gloss xml:lang="en">Maiuscule Gothic</gloss>
+                </item>
+                <item xml:id="minuscule_gothic">
+                    <term xml:lang="it">Gotica minuscola</term>
+                    <gloss xml:lang="en">Minuscule Gothic</gloss>
+                </item>
+                <item xml:id="minuscule">
+                    <term xml:lang="it">Minuscola</term>
+                    <gloss xml:lang="en">Minuscule</gloss>
+                </item>
+                <item xml:id="greek_minuscule">
+                    <term xml:lang="it">Minuscola greca</term>
+                    <gloss xml:lang="en">Greek minuscule</gloss>
+                </item>
+                <item xml:id="round_minuscule">
+                    <term xml:lang="it">Minuscola rotonda</term>
+                    <gloss xml:lang="en">Round minuscule</gloss>
+                </item>
+                <item xml:id="uncial">
+                    <term xml:lang="it">Onciale</term>
+                    <gloss xml:lang="en">Uncial</gloss>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="it">Sconosciuta</term>
+                    <gloss xml:lang="en">Unknown</gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

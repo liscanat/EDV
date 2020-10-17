@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Custodia di Sant’Egidio</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.24</idno>
+                        <date when="2020-03-28"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Orte</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>Museo Diocesano (già Chiesa di sant’Agostino cappella di sant’Egidio)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#wood">Legno</material>
+                                            <objectType ref="#painting">Dipinto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1485">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed" when="2015-12"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11.24a.jpg">
+                    <desc>1: insieme</desc>
+                </graphic> 
+                <graphic url="11.24b.jpg">
+                    <desc>2: dettaglio</desc>
+                </graphic>
+                <graphic url="11.24c.jpg">
+                    <desc>3: dettaglio</desc>
+                  </graphic>
+            </facsimile>    
+                   <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                        <lb n="1"/>Quando la matre et la balia ch(e) no(n) trovò S(anto) Egidio.
+                        <lb n="2"/>Quando S(anto) Egidio fu portato nella selva.
+                        <lb n="3"/>Quando S(anto) Egidio fu allactato dalla cervia.
+                        <lb n="4"/>Quando S(anto) Egidio donò el mantello p(er)
+                        <lb n="5"/>l’amore de Dio
+                        <lb n="6"/>Quando S(anto) Egidio despensò le robbe.
+                        <lb n="7"/>Quando S(anto) Egidio delibra lo ispi(r)tato.
+                        <lb n="8"/>Quando S(anto) Egidio se fece frate.
+                        <lb n="9"/>Quando <m type="essere" subtype="impf1ps">iero</m> alla <seg type="grapheme" corresp="/k/">cha</seg>cia che trov<m type="desinence" subtype="pf6ps">aro</m> la cervia.
+                        <lb n="10"/>Quando l’<w>arcieri</w> trasse alla cervia d’E
+                        <lb n="11"/>gidio.
+                        <lb n="12"/>Quando S(anto) Egidio disse la messa.
+                        <lb n="13"/>Qua]ndo S(anto) Egidio <w>tramse</w> in cielo.
+                        <lb n="14"/>Questi sonno la compa<seg type="grapheme" corresp="/ɲ/">ng</seg>ia de S(anto) Egidio.
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        <lb n="1"/>quando la matre et labalia∙ ch (no) ̅ trovo∙s ̃∙egidio
+                        <lb n="2"/>quando∙s ̃∙egidio fu portato nella selva
+                        <lb n="3"/>Quando s∙Egidio fu allactato dalla cervia
+                        <lb n="4"/>Quando∙s ̃∙Egidio dono el mantello p 
+                        <lb n="5"/>l amoe de dio
+                        <lb n="6"/>quando∙s ̃∙egidio despenso le robbe
+                        <lb n="7"/>quando∙s ̃∙egidio delibra loispītato
+                        <lb n="8"/>quando∙s ̃∙egidio sefece frate
+                        <lb n="9"/>Quando iero alla chaci che trovaro la cervia ·
+                        <lb n="10"/>quando l’arcieri trasse alla cevia· d’E
+                        <lb n="11"/>gidio
+                        <lb n="12"/>quando∙s ̃∙egidio disse la messa·
+                        <lb n="13"/>[. . .]ndo ∙s ̃∙egidio tramse in cielo
+                        <lb n="14"/>questi sonno la compangia de ∙s ̃∙egidio·
+                         </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>1 madre MORTARI 1994 MADDALO 1998; ch MORTARI 1994</p>
+                        <p>5 dispensò MORTARI 1994</p>
+                         <p>6 ispitato MORTARI 1994 delib(e)ra lo ispir(i)tato MADDALO 1998</p>
+                         <p>9 arcier MORTARI 1994</p>
+                        <p>12 sunno, di MORTARI 1994</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                            <p>Il nesso -nd- non è assimilato, secondo una tendenza caratteristica dell’area viterbese e orvietana, zona di transizione tra il tipo settentrionale 
+                                con -nd- e quello meridionale assimilativo (D’ACHILLE 2012c, p. 94; BIANCONI 1962, pp. 70-71; MATTESINI 1985, pp. 400-401). 
+                                Cfr. invece la forma quanno, in <ref target="edv11_26">11.26</ref> e <ref target="edv11_30">11.30</ref></p>
+                        <p>Si noti la conservazione di /e/ protonica, l’uso del digramma &lt;ch&gt; per /k/, e di &lt;ng&gt; per /ɲ/, 
+                            tratto grafico di carattere arcaico (D’ACHILLE 2012c, p. 95).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>&apos;trovaro&apos; r 8 anche nel testo orvietano delle memorie del camarlingo Agniluzzo di Petro di Loddo (M1 19v 7) accanto a donaro 
+                            R 71r 5, pagaro 1 19v 10, pesaro M1 10v 12 (BIANCONI 1962, p. 111).</p>
+                    <p>&apos;tramse&apos; 11, &apos;trasse&apos; nel senso attivo di &apos;fu assunto, passò&apos; da TRAXIT con epentesi della nasale bilabiale prima di /s/ 
+                        (che potrebbe derivare da analogia con il tipo vénsi ‘venni’ e ténsi ‘tenni’ di area toscana cfr. 
+                        ROHLFS 1966-1969, § 581); ovvero da &apos;TRANSIT&apos;, passò. Si noti anche la costruzione 
+                        &apos;Quando la matre et la balia ch(e) no(n) trovò S(anto) Egidio&apos; con soggetto sospeso e 
+                        con &apos;che&apos; pleonastico o polivalente con valore temporale.
+                    </p>
+                        <p><title>Lessico:</title></p>
+                        <p>&apos;cervia&apos; 4, 8, 9, &apos;arcieri&apos; 9: la -i- di cervia (&lt;CERVĬA) e la terminazione -i nel singolare 
+                        &apos;arcieri&apos; caratterizzano il testo in senso arcaico più che in senso locale; la forma è attestata, tra gli altri, in Guittone 
+                        («e ssì temo non faccia como l’arcieri c’una saietta traggie» 2, <title>Lettere</title>, p. 29) e in Boccaccio («quel fiero arcieri: cioè Amore», 
+                        <title>Teseida</title>, Chiose, L. 3, 20.5, BRANCA 1964, p. 334).</p>
+                      </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">VAN MARLE 1934, XV, p. 588; MORTARI 1994, pp. 23-24; CAVALLARO 1998, pp. 109-136; 
+                        MADDALO 1998, pp. 85-108.</p>
+                        <p xml:id="other">KAFTAL 1965, p. 513, n. 166; FALDI 1970, p. 32, pp. 202-203.</p>
+                        <p xml:id="images">FALDI 1970, fig. 137-14; MADDALO 1998, figg. 1-19.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

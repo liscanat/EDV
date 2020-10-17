@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trionfo della morte</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>DE BLASI 1997, pp. 266-267</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">14.01</idno>
+                        <date when="2020-05-15"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Napoli</placeName>
+                                <district ref="#NA">NA</district>
+                                <repository>Museo di san Martino (già facciata di san Pietro Martire)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmer" otherLangs="Lat">Volgare meridionale, latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#"/>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#campania">Campania</region></origPlace>
+                                    <origDate when="1361">XIV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="0"/>[nel riquadro centrale]
+    <lb n="1"/><m type="personale" subtype="ms_sing">eo</m> <m type="essere" subtype="pres1ps">so</m> la morte, <m type="relativo" subtype="sing">chi</m> <seg type="grapheme" corresp="/ka/">cha</seg>cio
+<lb n="2"/>sopera voi, iente munedana:
+<lb n="3"/>la malata e la sana,
+<lb n="4"/>dì e note la percha<seg type="grapheme" corresp="/tʃ/">ci</seg>o.
+<lb n="5"/>No fugia nesuno ine tana
+<lb n="6"/>per scampare da lo mio la<seg type="grapheme" corresp="/tʃ/">cz</seg>io,
+<lb n="7"/>ché tucto lo mundo abra<seg type="grapheme" corresp="/tʃ/">cz</seg>io
+<lb n="8"/>e tucta la gente umana.
+<lb n="9"/>Per che nessuno se conforta,
+<lb n="10"/>ma prenda spavento,
+<lb n="11"/>ché ò per comandamento
+<lb n="12"/>de prendere a chi ven la sorte.
+<lb n="13"/>Sìave castigamento
+<lb n="14"/>questa fegura de morte
+<lb n="15"/>e pensavie de fare forte
+<lb n="16"/>in via de salvamento.  
+    			</ab>
+                    </div>
+<div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="1"/>Tuto te vo<seg type="grapheme" corresp="/ʎ/">li</seg>o dare
+<lb n="2"/>se me lasi scanpare.
+                        </ab>
+                    </div>
+<div type="textpart" subtype="section" n="C">
+<ab>
+<lb n="1"/>Se tu me potisse dare
+<lb n="2"/>quanto se pote ademandare,
+<lb n="3"/>no te scanparà la morte
+<lb n="4"/>se te vene la sorte.
+                            </ab>
+                    </div>
+                                            <div type="textpart" subtype="section" n="D">
+<ab>
+<lb n="1"/>Mille laude fa<seg type="grapheme" corresp="/tʃ/">cz</seg>io a Dio Patre
+<lb n="2"/>e a la Santa Trinitate
+<lb n="3"/>che due volte me aveno scampato
+<lb n="4"/>e tucti li altri <m type="essere" subtype="perf6ps">foro</m> annegate.
+<lb n="5"/>Francischino fui de Brignale
+<lb n="6"/>feci fare questa memoria a le
+<lb n="7"/>MCCCLXI de lo mese				
+<lb n="8"/>de <m>agusto</m> XIIII indiccionis
+                               </ab>
+                    </div>
+ </div>
+                                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                                     <div type="apparatus">
+                        <p>Nell’impossibilità di una ricognizione diretta e data la scarsa leggibilità della riproduzione fotografica disponibile, forniamo la sola edizione interpretativa 
+                            sulla base di DE BLASI 1997, pp. 266-267 riadattata secondo i nostri criteri. </p>
+                                         <p>A</p>
+                                         <p>1 che, chaccio D’ENGENIO CARACCIOLO 1624; 2 jende DE LA VILLE SUR-YLLON 1892, MONTI 1921; mundana D’ENGENIO CARACCIOLO 1624; 
+                            4 die (univerbato) DE LA VILLE SUR-YLLON 1892, FUSCO 1839; notte, percaccio D’ENGENIO CARACCIOLO 1624;
+5 non trascrive nulla prima di fugia FUSCO 1839; fugga, in tana D’ENGENIO CARACCIOLO 1624, inetana (univerbato) DE LA VILLE SUR-YLLON 1892, FUSCO 1839;
+6 p. DE LA VILLE SUR-YLLON 1892; dal mio D’ENGENIO CARACCIOLO 1624, SCHULZ 1860; lactio FUSCO 1839; 
+7 che DE LA VILLE SUR-YLLON 1892; che tutto, abbraczio D’ENGENIO CARACCIOLO 1624, che tutto il, abbraczio; abractio FUSCO 1839; 
+8 tutta, humana D’ENGENIO CARACCIOLO 1624, SCHULZ 1860; 
+9 perchè D’ENGENIO CARACCIOLO 1624; MONTI 1921; SCHULZ 1860; 
+11 ch’eo D’ENGENIO CARACCIOLO 1624; cheo DE LA VILLE SUR-YLLON 1892, FUSCO 1839; che o SCHULZ 1860; comandamento tana D’ENGENIO CARACCIOLO 1624; FUSCO 1839; SABATINI 1975;  
+12 di prender à chi viene D’ENGENIO CARACCIOLO 1624; 
+13 si ave FUSCO 1839; 
+14 figura D’ENGENIO CARACCIOLO 1624; 
+15 viedi D’ENGENIO CARACCIOLO 1624; 
+16 di D’ENGENIO CARACCIOLO 1624;</p> 
+<p>[B]</p>
+<p>17 tutti D’ENGENIO CARACCIOLO 1624; 18 lasci scampare D’ENGENIO CARACCIOLO 1624; scampare DE LA VILLE SUR-YLLON 1892, MONTI 1921</p>
+    <p>[C]</p>
+<p>19 si me poteti dare quanto si pote dimandare D’ENGENIO CARACCIOLO 1624; mi FUSCO 1839; 21 non te pote scampare la Morte D’ENGENIO CARACCIOLO 1624; note scampare FUSCO 1839; scampara DE LA VILLE SUR-YLLON 1892, MONTI 1921; scampàra SABATINI 1996c
+22 se ti viene la sorte D’ENGENIO CARACCIOLO 1624</p>
+<p>[D]</p>
+<p>23 laudi D’ENGENIO CARACCIOLO 1624; factio FUSCO 1839; 24 alla S. Trinitate D’ENGENIO CARACCIOLO 1624; ala (univerbato) FUSCO 1839; 
+    25 due volte....scampato D’ENGENIO CARACCIOLO 1624; 26 e tucti li altri] tutti li altri D’ENGENIO CARACCIOLO 1624; atri DE LA VILLE SUR-YLLON 1892;
+27 di Prignale D’ENGENIO CARACCIOLO 1624; 28 alli D’ENGENIO CARACCIOLO 1624; ale (univerbato)FUSCO 1839; 
+30 Agost. 14. Indict. D’ENGENIO CARACCIOLO 1624; agusto SABATINI 1996c</p>
+                    </div>                                    
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                       <div type="commentary" subtype="note">
+                        <p>Il bassorilievo raffigura l’incontro tra la Morte ed un uomo che tenta di corromperla offrendole denaro. La lastra è stata fatta scolpire come ex-voto da Franceschino da 
+                            Brignale nel 1361 ed è stata murata fino al 1862 sulla facciata di San Pietro Martire, da dove è stata successivamente spostata, purtroppo rompendola, e collocata presso 
+                            il Museo di San Martino, in una sala non accessibile al pubblico.</p>
+                        <p>Nella parte centrale della lastra la morte, raffigurata come una cacciatrice, si erge su un cumulo di uomini di ogni condizione sociale e reca in 
+                            capo una doppia corona, reggendo nella mano destra un logoro e nella sinistra un falcone – la metafora venatoria e i termini specifici della caccia
+                            sono del resto rintracciabili nel testo nel quale la morte prende la parola in prima persona ed espone la sua ineluttabilità e il suo potere sopra 
+                            ogni uomo (BOLOGNA 1969, pp. 310 e sgg). Tra la morte con doppia corona e l’offerente con il sacco colmo di denaro è racchiusa una tabella entro 
+                            cui si legge un componimento poetico composto da sei strofe di ottonari con schema ABBA BAAB. CDDC DCCD. EEEECC oppure due strofe di otto versi 
+                            più una da sei (DE BLASI 1997, p. 267; SABATINI 1975, pp. 269-270, nota 340; SABATINI 1996c, p. 537). Nella parte superiore del bassorilievo sono 
+                            presenti due cartigli, posti vicino alla bocca dei due personaggi, in cui viene trascritto il dialogo diretto. Per identificare correttamente il 
+                            soggetto di ogni cartiglio la direzionalità del messaggio è riflessa nella disposizione del testo: da sinistra a destra nel cartiglio della morte 
+                            e – al contrario – da destra a sinistra in quello di Franceschino. Il metro ha un ruolo importante anche nel testo che corre intorno alla lastra, 
+                            caratterizzata da «una prosa ritmica e in parte rimata o assonanzata» suddivisibile in otto versi (SABATINI 1996c, p. 537). SABATINI 1975 segnala 
+                            in particolare la vicinanza dal punto di vista metrico di questo testo con il Detto dell’Inferno abruzzese.  Tuttavia il componimento presenta 
+                            notevoli affinità con il Detto campano dei tre morti e dei tre vivi composto in quartine monorime di alessandrini e databile entro la metà del 
+                            Trecento (SABATINI 1996c, p. 539; ROMANO 1985). Infine, sempre secondo SABATINI 1975, probabilmente casuali dovrebbero essere le affinità 
+                            dell’incipit con i versi del Capitolo della Morte di Jacopo Alighieri: «Io son la morte principessa e grande /che la superbia munedana in basso 
+                            pono. / Per tutto el modo el mio poter se spande».</p>
+                          <p>Quanto alla committenza, Franceschino sarebbe un cittadino napoletano, forse proveniente da Brignano, presso Salerno (SABATINI 1975, p. 269).</p>
+                          <p>La lastra presenta una sofisticata organizzazione del testo – ammonitorio, didascalico, commemorativo – che insieme all’apparato iconografico e 
+                              ad espedienti grafici e linguistici peculiari della scrittura esposta, è funzionale nel suo complesso al messaggio rappresentato. Il volgare è 
+                              esteso a tutte le parti incise ed è impiegato entro un «sistema linguistico risultato di un sapiente stemperamento del volgare locale con forme 
+                              di koinè  letteraria» (ivi, p. 142).</p>
+                </div>
+                        <div type="bibliography">
+                            <p xml:id="editions">BOLOGNA 1969, p. 311; SABATINI 1975, pp. 141-142; SABATINI 1996c, p. 538; DE BLASI 1997, pp. 266-267</p>
+                           <p xml:id="other">D’ENGENIO CARACCIOLO 1624, pp. 456-462 (sulla chiesa di S. Pietro Martire); p. 92, tav. VI; FUSCO 1839, pp. 25-26; ALOE 1835; SCHULZ 1860, III, pp. 53-54; 
+                            AMALFI 1883; DE LA VILLE SUR-YLLON 1892; MONTI 1921; BOLOGNA 1969, pp. 310 e sgg.; SABATINI 1975, pp. 141-142; SABATINI 1996c, pp. 537-539; DE BLASI 1997, pp. 265-268.</p>
+                        <p xml:id="images">DE JORIO 1839, p. 92, tav. VI (secondo DE BLASI 1997, p. 266, nota 4 la riproduzione è stata eseguita quando la lastra era ancora integra); 
+                    DE LA VILLE SUR-YLLON 1892, p. 92; SCHULZ 1860, III, p. 53, n. 135; SABATINI 1975, fig. 39; SABATINI 1996c, p. 538.</p>
+                         </div>
+                  </body>
+            </text>
+        </TEI>

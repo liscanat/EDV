@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chi siamo</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EDV</authority>
+                <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>Born digital document.</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <div>
+                    <head>Staff</head>
+                    <p><emph>Nadia Cannata</emph> (D.Phil Oxford 1991) è stata Post-Doctoral Fellow della British Academy, Professore presso il Dipartimento di Studi Italiani dell’Università di Reading (1992-2001). Oggi insegna Linguistica Italiana alla Sapienza, Roma. È stata Fellow dell’Harvard University Center for Italian Renaissance Studies a Villa I Tatti a Firenze (1998) e Fellow del Leverhulme Trust Fund della British Academy (2001). È coordinatrice del curriculum Filologie e Letterature Romanze del Dottorato di Scienze del Testo, Honorary Fellow presso il Dipartimento di Studi Italiani dell’Università di Reading e membro dell’ASLI (Associazione per la Storia della Lingua Italiana).</p>
+                    <p><emph>Luna Cacchioli</emph> (1986) e <emph>Alessandra Tiburzi</emph> (1988) sono le principali responsabili del corpus EDV, sul quale hanno pubblicato numerosi contributi e che hanno presentato in Convegni in Italia e negli Stati Uniti. La ricerca è stata oggetto del loro Dottorato di Ricerca in Scienze del Testo conseguito con lode alla Sapienza di Roma. Laureate in Storia della Lingua Italiana, sono Cultrici della Materia nel corso di Laurea in Lingue della Facoltà di Lettere di Sapienza.</p>
+                
+                <p><emph>Simona Colombo</emph> e <emph>Irene Vagionakis</emph> hanno curato la realizzazione del sito.</p>
+                </div>
+                
+                <div>
+                    <head>Contatti</head>
+                    <p><ref target="mailto:nadia.cannata@uniroma1.it">nadia.cannata@uniroma1.it</ref></p>
+                </div>
+                
+                <!--<div>
+                    <head>Credits</head>
+                    <p>...</p>
+                </div>
+                
+                <div>
+                    <head>Note legali</head>
+                    <p>...</p>
+                </div>-->
+                
+                <div>
+                    <head>Siti amici</head>
+                    <p><ref type="link" target="http://www.eagle-network.eu/">http://www.eagle-network.eu/</ref>
+                EAGLE, The Europeana network of Ancient Greek and Latin Epigraphy un progetto cofinanziato dall’Unione Europea è un portale che raccoglie un database liberamente consultabile di tutte le iscrizioni del mondo antico (più di 1,500,000 di testi, con relative immagini). Il portale oggi ospita anche progetti, come il nostro, relativi ad epoche successive.</p>
+                    
+                    <p><ref type="link" target="http://www.eagle-network.eu/">https://romaninscriptionsofbritain.org/</ref>
+                        Il sito ospita l’edizione digitale interrogabile come database, di <title>Roman Inscriptions of Britain</title>, vol. 1 <title>Inscriptions on Stone</title>, a c. di R.G. Collingwood e R. P. Wright (Oxford, at the Clarendon Press, 1965) contenente 2401 iscrizioni identificate in Gran Bretagna prima del 1955, con Addenda e Corrigenda.</p>
+                    
+                    <p><ref type="link" target="http://cescm.labo.univ-poitiers.fr/publi/corpus-des-inscriptions-de-la-france-medievale/">http://cescm.labo.univ-poitiers.fr/publi/corpus-des-inscriptions-de-la-france-medievale/</ref>
+                        Il CESCM (Centre d’études supérieures de civilisation médiévale) è un’unità di ricerca dell’Université de Poitiers e del CNRS presso la quale si stanno svolgendo ricerche relative all’epigrafia medievale e che dispone di una biblioteca di 25000 iscrizioni medievali.</p>
+                    
+                    <p><ref type="link" target="http://cem.dissgea.unipd.it/indice.html">http://cem.dissgea.unipd.it/indice.html</ref>
+                        Il sito mette a disposizione i risultati del censimento di tutte le scritture esposte di epoca medievale presenti a Padova ed eseguite su supporto rigido (pietra, legno, metallo; 139 epigrafi in città, 87 al Santo e 75 al Museo, oltre ad almeno 3 ‘emigrate’).</p>
+                    
+                    <p><ref type="link" target="http://www.rialfri.eu/rialfriWP/">http://www.rialfri.eu/rialfriWP/</ref>
+                        Repertorio informatizzato dell’antica letteratura franco-italiana</p>
+                    
+                    <p><ref type="link" target="http://onh.giornale.sns.it/">http://onh.giornale.sns.it/</ref>
+                        La rivista ONH (Opera, Nomina, Historiae) fondata nel 2009 da Maria Monica Donato, nata originariamente a margine del corpus-repertorio Opere firmate dell’arte italiana / Medioevo, accoglie i volumi del repertorio come numeri monografici della rivista.</p>
+                    
+                    <p><ref type="link" target="https://web.uniroma1.it/seai/?q=it/home">https://web.uniroma1.it/seai/?q=it/home</ref>
+                        È il sito del Dipartimento di Studi Europei, Americani e Interculturali della Sapienza di Roma nel quale ha sede la ricerca.</p>
+                    
+                    <p><ref type="link" target="http://digilab.uniroma1.it/">http://digilab.uniroma1.it/</ref>
+                    Centro Interdipartimentale di ricerca e servizi dell’Area Umanistica di Sapienza.
+                </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

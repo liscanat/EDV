@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+
+  <kiln:child>
+    <kiln:block name="title">
+      <i18n:text>EDV</i18n:text>
+    </kiln:block>
+
+    <kiln:block name="page-header">
+     <!-- <div class="row">
+        <div class="large-12 columns text-center">
+          <h1 id="site_name"><a href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}"><i18n:text i18n:key="home-title">Epigraphic Database Vernacular</i18n:text></a></h1>
+        </div>
+      </div>-->
+      <div class="row">
+        <div class="large-12 columns text-center" id="logo">
+          <a href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}"><img src="{$kiln:assets-path}/images/logo.png" alt="logo" style="height:90px" /></a>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="large-12 columns text-center" id="banner">
+          <a href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}"><img src="{$kiln:assets-path}/images/1.png" alt="image1" style="width:100%" /></a>
+        </div>
+      </div>
+    </kiln:block>
+    
+    
+
+    <kiln:block name="content-section">
+      <main>
+        <div class="row">
+          <div class="large-12 columns text-center">
+            <p><br/>EDV (<i>Epigraphic Database Vernacular</i>) costituisce la prima raccolta sistematica dell’intero patrimonio delle scritture esposte in volgare prodotte in Italia. Essa include iscrizioni databili nell’intervallo cronologico IX-XV sec. (compresi), intese per qualunque funzione – pubblica o privata – ed eseguite su qualunque superficie (pietra, intonaco, tela, stoffa, vetro, terracotta, metallo, osso etc.).</p>
+            <p>Sono censite tutte le iscrizioni che presentino un testo in una lingua diversa dal latino, o in una scripta che lasci trasparire l’intenzione, da parte dello scrivente, di comporre un testo in volgare.</p>
+            <p>Per ‘scrittura esposta’ si intende “qualsiasi tipo di scrittura concepita per essere usata in spazi aperti, o anche in spazi chiusi, per permettere una lettura plurima (di gruppo, di massa) e a distanza di un testo scritto su di una superficie esposta”. (A. Petrucci, <i>La scrittura. Ideologia e rappresentazione</i>, Torino, Einaudi, 1996, p. xx).</p>
+            <p>Le iscrizioni ad oggi censite sono 560, e sono suddivise in 4 grandi categorie:</p>
+            
+            <p><br/>
+              1. Avvisi Pubblici (editti, avvisi, lapidi commemorative, committenza di grandi opere, iscrizioni funerarie)<br/>
+              2. Didascalie (didascalie narrative dei dipinti, proverbi a moniti, firme d’artista)<br/>
+              3. Iscrizioni su oggetti di uso comune<br/>
+              4. Iscrizioni estemporanee e graffiti.</p>
+            
+            <p><br/>La banca dati è parte del portale EAGLE (Europeana network of Ancient Greek and Latin Epigraphy: <a href="https://www.eagle-network.eu/" target="_blank">www.eagle-network.eu</a>), coordinato da S. Orlandi e finanziato nel 2013 dalla Commissione Europea nell’ambito del programma ICT-PSP. Tale federazione di banche dati permette di usufruire della convenzione con la Direzione Generale del Ministero dei Beni e delle Attività Culturali e del Turismo per il libero uso, a scopi didattici e scientifici, delle immagini digitali inserite nella banca dati.</p>
+            <br/><br/><br/>
+          </div>
+        </div>
+      </main>
+    </kiln:block>
+  </kiln:child>
+</kiln:root>

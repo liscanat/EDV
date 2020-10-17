@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Places</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <head>Regioni / Regions</head>
+                <place xml:id="liguria">
+                    <region xml:lang="it">Liguria</region>
+                    <region xml:lang="en">Liguria</region>
+                    <idno type="section">01</idno>
+                </place>
+                <place xml:id="piemonte">
+                    <region xml:lang="it">Piemonte e Valle d’Aosta</region>
+                    <region xml:lang="en">Piedmont</region>
+                    <idno type="section">02</idno>
+                </place>
+                <place xml:id="valle_aosta">
+                    <region xml:lang="it">Valle d’Aosta</region>
+                    <region xml:lang="en">Valle d’Aosta</region>
+                    <idno type="section">02</idno>
+                </place>
+                <place xml:id="lombardia">
+                    <region xml:lang="it">Lombardia</region>
+                    <region xml:lang="en">Lombardy</region>
+                    <idno type="section">03</idno>
+                </place>
+                <place xml:id="trentino_aa">
+                    <region xml:lang="it">Trentino Alto Adige</region>
+                    <region xml:lang="en">Trentino Alto Adige</region>
+                    <idno type="section">04</idno>
+                </place>
+                <place xml:id="veneto">
+                    <region xml:lang="it">Veneto</region>
+                    <region xml:lang="en">Veneto</region>
+                    <idno type="section">05</idno>
+                </place>
+                <place xml:id="friuli">
+                    <region xml:lang="it">Friuli Venezia Giulia</region>
+                    <region xml:lang="en">Friuli Venezia Giulia</region>
+                    <idno type="section">06</idno>
+                </place>
+                <place xml:id="emilia_romagna">
+                    <region xml:lang="it">Emilia Romagna</region>
+                    <region xml:lang="en">Emilia Romagna</region>
+                    <idno type="section">07</idno>
+                </place>
+                <place xml:id="toscana">
+                    <region xml:lang="it">Toscana</region>
+                    <region xml:lang="en">Tuscany</region>
+                    <idno type="section">08</idno>
+                </place>
+                <place xml:id="umbria">
+                    <region xml:lang="it">Umbria</region>
+                    <region xml:lang="en">Umbria</region>
+                    <idno type="section">09</idno>
+                </place>
+                <place xml:id="marche">
+                    <region xml:lang="it">Marche</region>
+                    <region xml:lang="en">Marche</region>
+                    <idno type="section">10</idno>
+                </place>
+                <place xml:id="lazio">
+                    <region xml:lang="it">Lazio</region>
+                    <region xml:lang="en">Lazio</region>
+                    <idno type="section">11</idno>
+                </place>
+                <place xml:id="roma">
+                    <region xml:lang="it">Roma</region>
+                    <region xml:lang="en">Rome</region>
+                    <idno type="section">12</idno>
+                </place>
+                <place xml:id="abruzzo">
+                    <region xml:lang="it">Abruzzo</region>
+                    <region xml:lang="en">Abruzzo</region>
+                    <idno type="section">13</idno>
+                </place>
+                <place xml:id="campania">
+                    <region xml:lang="it">Campania</region>
+                    <region xml:lang="en">Campania</region>
+                    <idno type="section">14</idno>
+                </place>
+                <place xml:id="basilicata">
+                    <region xml:lang="it">Basilicata</region>
+                    <region xml:lang="en">Basilicata</region>
+                    <idno type="section">15</idno>
+                </place>
+                <place xml:id="puglia">
+                    <region xml:lang="it">Puglia</region>
+                    <region xml:lang="en">Apulia</region>
+                    <idno type="section">16</idno>
+                </place>
+                <place xml:id="sicilia">
+                    <region xml:lang="it">Sicilia</region>
+                    <region xml:lang="en">Sicily</region>
+                    <idno type="section">17</idno>
+                </place>
+                <place xml:id="sardegna">
+                    <region xml:lang="it">Sardegna</region>
+                    <region xml:lang="en">Sardinia</region>
+                    <idno type="section">18</idno>
+                </place>
+            </listPlace>
+            
+            <listPlace>
+                <head>Province / Provinces</head>
+                <place xml:id="AG">
+                    <district xml:lang="it">Agrigento</district>
+                    <district xml:lang="en">Agrigento</district>
+                </place>
+                <place xml:id="AL">
+                    <district xml:lang="it">Alessandria</district>
+                    <district xml:lang="en">Alessandria</district>
+                </place>
+                <place xml:id="AN">
+                    <district xml:lang="it">Ancona</district>
+                    <district xml:lang="en">Ancona</district>
+                </place>
+                <place xml:id="AO">
+                    <district xml:lang="it">Aosta</district>
+                    <district xml:lang="en">Aosta</district>
+                </place>
+                <place xml:id="AP">
+                    <district xml:lang="it">Ascoli-Piceno</district>
+                    <district xml:lang="en">Ascoli-Piceno</district>
+                </place>
+                <place xml:id="AQ">
+                    <district xml:lang="it">L’Aquila</district>
+                    <district xml:lang="en">L’Aquila</district>
+                </place>
+                <place xml:id="AR">
+                    <district xml:lang="it">Arezzo</district>
+                    <district xml:lang="en">Arezzo</district>
+                </place>
+                <place xml:id="BA">
+                    <district xml:lang="it">Bari</district>
+                    <district xml:lang="en">Bari</district>
+                </place>
+                <place xml:id="BAT"><!-- BT? -->
+                    <district xml:lang="it">Barletta-Andria-Trani</district>
+                    <district xml:lang="en">Barletta-Andria-Trani</district>
+                </place>
+                <place xml:id="BG">
+                    <district xml:lang="it">Bergamo</district>
+                    <district xml:lang="en">Bergamo</district>
+                </place>
+                <place xml:id="BL">
+                    <district xml:lang="it">Belluno</district>
+                    <district xml:lang="en">Belluno</district>
+                </place>
+                <place xml:id="BN">
+                    <district xml:lang="it">Benevento</district>
+                    <district xml:lang="en">Benevento</district>
+                </place>
+                <place xml:id="BO">
+                    <district xml:lang="it">Bologna</district>
+                    <district xml:lang="en">Bologna</district>
+                </place>
+                <place xml:id="CdV">
+                    <district xml:lang="it">Città del Vaticano</district> <!-- non è una provincia -->
+                    <district xml:lang="en">Vatican City</district>
+                </place>
+                <place xml:id="CE">
+                    <district xml:lang="it">Caserta</district>
+                    <district xml:lang="en">Caserta</district>
+                </place>
+                <place xml:id="CI">
+                    <district xml:lang="it">Carbonia Iglesias</district>
+                    <district xml:lang="en">Carbonia Iglesias</district>
+                </place>
+                <place xml:id="CN">
+                    <district xml:lang="it">Cuneo</district>
+                    <district xml:lang="en">Cuneo</district>
+                </place>
+                <place xml:id="EN">
+                    <district xml:lang="it">Enna</district>
+                    <district xml:lang="en">Enna</district>
+                </place>
+                <place xml:id="FE">
+                    <district xml:lang="it">Ferrara</district>
+                    <district xml:lang="en">Ferrara</district>
+                </place>
+                <place xml:id="FI">
+                    <district xml:lang="it">Firenze</district>
+                    <district xml:lang="en">Florence</district>
+                </place>
+                <place xml:id="FM">
+                    <district xml:lang="it">Fermo</district>
+                    <district xml:lang="en">Fermo</district>
+                </place>
+                <place xml:id="FR">
+                    <district xml:lang="it">Frosinone</district>
+                    <district xml:lang="en">Frosinone</district>
+                </place>
+                <place xml:id="GE">
+                    <district xml:lang="it">Genova</district>
+                    <district xml:lang="en">Genova</district>
+                </place>
+                <place xml:id="GO">
+                    <district xml:lang="it">Gorizia</district>
+                    <district xml:lang="en">Gorizia</district>
+                </place>
+                <place xml:id="GR">
+                    <district xml:lang="it">Grosseto</district>
+                    <district xml:lang="en">Grosseto</district>
+                </place>
+                <place xml:id="IM">
+                    <district xml:lang="it">Imperia</district>
+                    <district xml:lang="en">Imperia</district>
+                </place>
+                <place xml:id="LE">
+                    <district xml:lang="it">Lecce</district>
+                    <district xml:lang="en">Lecce</district>
+                </place>
+                <place xml:id="LI">
+                    <district xml:lang="it">Livorno</district>
+                    <district xml:lang="en">Livorno</district>
+                </place>
+                <place xml:id="LT">
+                    <district xml:lang="it">Latina</district>
+                    <district xml:lang="en">Latina</district>
+                </place>
+                <place xml:id="LU">
+                    <district xml:lang="it">Lucca</district>
+                    <district xml:lang="en">Lucca</district>
+                </place>
+                <place xml:id="MC">
+                    <district xml:lang="it">Macerata</district>
+                    <district xml:lang="en">Macerata</district>
+                </place>
+                <place xml:id="MN">
+                    <district xml:lang="it">Mantova</district>
+                    <district xml:lang="en">Mantua</district>
+                </place>
+                <place xml:id="MO">
+                    <district xml:lang="it">Modena</district>
+                    <district xml:lang="en">Modena</district>
+                </place>
+                <place xml:id="MS">
+                    <district xml:lang="it">Massa Carrara</district>
+                    <district xml:lang="en">Massa Carrara</district>
+                </place>
+                <place xml:id="NA">
+                    <district xml:lang="it">Napoli</district>
+                    <district xml:lang="en">Naples</district>
+                </place>
+                <place xml:id="OR">
+                    <district xml:lang="it">Oristano</district>
+                    <district xml:lang="en">Oristano</district>
+                </place>
+                <place xml:id="PA">
+                    <district xml:lang="it">Palermo</district>
+                    <district xml:lang="en">Palermo</district>
+                </place>
+                <place xml:id="PC">
+                    <district xml:lang="it">Piacenza</district>
+                    <district xml:lang="en">Piacenza</district>
+                </place>
+                <place xml:id="PD">
+                    <district xml:lang="it">Padova</district>
+                    <district xml:lang="en">Padua</district>
+                </place>
+                <place xml:id="PG">
+                    <district xml:lang="it">Perugia</district>
+                    <district xml:lang="en">Perugia</district>
+                </place>
+                <place xml:id="PI">
+                    <district xml:lang="it">Pisa</district>
+                    <district xml:lang="en">Pisa</district>
+                </place>
+                <place xml:id="PN">
+                    <district xml:lang="it">Pordenone</district>
+                    <district xml:lang="en">Pordenone</district>
+                </place>
+                <place xml:id="PO">
+                    <district xml:lang="it">Prato</district>
+                    <district xml:lang="en">Prato</district>
+                </place>
+                <place xml:id="PR">
+                    <district xml:lang="it">Parma</district>
+                    <district xml:lang="en">Parma</district>
+                </place>
+                <place xml:id="PT">
+                    <district xml:lang="it">Pistoia</district>
+                    <district xml:lang="en">Pistoia</district>
+                </place>
+                <place xml:id="PU">
+                    <district xml:lang="it">Pesaro-Urbino</district>
+                    <district xml:lang="en">Pesaro-Urbino</district>
+                </place>
+                <place xml:id="PZ">
+                    <district xml:lang="it">Potenza</district>
+                    <district xml:lang="en">Potenza</district>
+                </place>
+                <place xml:id="RG">
+                    <district xml:lang="it">Ragusa</district>
+                    <district xml:lang="en">Ragusa</district>
+                </place>
+                <place xml:id="RI">
+                    <district xml:lang="it">Rieti</district>
+                    <district xml:lang="en">Rieti</district>
+                </place>
+                <place xml:id="RM">
+                    <district xml:lang="it">Roma</district>
+                    <district xml:lang="en">Rome</district>
+                </place>
+                <place xml:id="RN">
+                    <district xml:lang="it">Rimini</district>
+                    <district xml:lang="en">Rimini</district>
+                </place>
+                <place xml:id="SI">
+                    <district xml:lang="it">Siena</district>
+                    <district xml:lang="en">Siena</district>
+                </place>
+                <place xml:id="SO">
+                    <district xml:lang="it">Sondrio</district>
+                    <district xml:lang="en">Sondrio</district>
+                </place>
+                <place xml:id="SS">
+                    <district xml:lang="it">Sassari</district>
+                    <district xml:lang="en">Sassari</district>
+                </place>
+                <place xml:id="SV">
+                    <district xml:lang="it">Savona</district>
+                    <district xml:lang="en">Savona</district>
+                </place>
+                <place xml:id="TE">
+                    <district xml:lang="it">Teramo</district>
+                    <district xml:lang="en">Teramo</district>
+                </place>
+                <place xml:id="TN">
+                    <district xml:lang="it">Trento</district>
+                    <district xml:lang="en">Trento</district>
+                </place>
+                <place xml:id="TO">
+                    <district xml:lang="it">Torino</district>
+                    <district xml:lang="en">Turin</district>
+                </place>
+                <place xml:id="TR">
+                    <district xml:lang="it">Terni</district>
+                    <district xml:lang="en">Terni</district>
+                </place>
+                <place xml:id="TV">
+                    <district xml:lang="it">Treviso</district>
+                    <district xml:lang="en">Treviso</district>
+                </place>
+                <place xml:id="UD">
+                    <district xml:lang="it">Udine</district>
+                    <district xml:lang="en">Udine</district>
+                </place>
+                <place xml:id="VC">
+                    <district xml:lang="it">Vercelli</district>
+                    <district xml:lang="en">Vercelli</district>
+                </place>
+                <place xml:id="VE">
+                    <district xml:lang="it">Venezia</district>
+                    <district xml:lang="en">Venice</district>
+                </place>
+                <place xml:id="VI">
+                    <district xml:lang="it">Vicenza</district>
+                    <district xml:lang="en">Vicenza</district>
+                </place>
+                <place xml:id="VR">
+                    <district xml:lang="it">Verona</district>
+                    <district xml:lang="en">Verona</district>
+                </place>
+                <place xml:id="VS">
+                    <district xml:lang="it">Medio Campidano</district>
+                    <district xml:lang="en">Medio Campidano</district>
+                </place>
+                <place xml:id="VT">
+                    <district xml:lang="it">Viterbo</district>
+                    <district xml:lang="en">Viterbo</district>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

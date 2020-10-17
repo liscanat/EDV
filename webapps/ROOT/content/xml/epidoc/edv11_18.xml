@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione di via Campanari</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.18</idno>
+                        <date when="2020-03-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Tuscania</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>via Campanari 35</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width>70</width><depth/><height>45</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1459">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed" when="2016-06" resp="Luna Cacchioli"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ Ci è stato fato
+                            <lb n="2"/>quello ch’<m type="essere" subtype="pres5ps">ede</m> p
+                            <lb n="3"/>otuto ed iio ho f		
+                            <lb n="4"/>atto quello che
+                            <lb n="5"/>ho voluto 1459
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>   
+                            <lb n="1"/>+ CIE · STATO · FATO ·
+                            <lb n="2"/>QVELLO · CHE · DE · P
+                            <lb n="3"/>OTVTO · ED IIO · HO · F
+                            <lb n="4"/>ATTO · QVELLO · CHE
+                            <lb n="5"/>· HO · VOLVTO ·1459
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>r. 2 &apos;ch’ede&apos; &apos;che (av)ete&apos;. La lenizione della dentale sorda /t/  è fenomeno ben attestato nel Lazio.</p>
+                        <p>r. 3 &apos;iio&apos;: forma non comune del pronome personale soggetto io con epentesi di /j/ (CIMARRA 2014, p. 128). La forma &apos;igo&apos;, in cui &lt;g&gt; sta per /j/, 
+                            secondo un’abitudine scrittoria medievale di area mediana, è attestato nell’alto Lazio in una lettera inviata da Andreuzzo di Spirito da Viterbo
+                            al fratello Lorenzo nel 1386. Non sono stati rintracciati altri esempi di epentesi di /j/ in area viterbese mentre diverse attestazioni
+                            esistono in area orvietana (&apos;Matteio&apos;, &apos;rendeio&apos;, &apos;cioiè&apos;). Nel <title>Memoriale orvietano</title>
+                            redatto da Agniluzzo di Pietro sono attestate 9 occorrenze della forma &apos;iio&apos; per &apos;io&apos;. V. anche, 
+                            nell’abruzzese &apos;Pianto delle Marie&apos;, la forma &apos;eio&apos; 218, e quella apocopata &apos;ei&apos; 233 
+                            (CIMARRA 2014, pp. 126-127; BIANCONI 1962, pp. 94-95; UGOLINI 1959, pp. 125-126). 
+                            Il pronome &apos;iho&apos; è attestato in due epigrafi di Carpineto Romano della prima metà del XVI secolo. Potrebbe esprimere una intensa pronuncia iatale di &apos;io&apos;: esso compare due volte nell’iscrizione collocata in 
+                            Via Cavour 63: «Iho so&apos; bove / no(n) me fa&apos; rar/e quano p&lt;i&gt;ove se vo’ che t/e mecta le maisi / bone» e «Iho so’ por/co no(n) me lassare né / bivo né mo/rto»; e ancora una volta nell’epigrafe di Via Castello 63: «[…] quess/ta gra(n) casa co(m)pos/si al mu(n)no iho / sol Paolo Cacciotto» (CIMARRA 2014, p. 128; SABATINI 1996, pp. 198-200). </p>
+                         </div>
+                    <div type="commentary" subtype="note"><p>Il senso del motto sarebbe 'ci avete [ede] fatto quello che avete potuto ed io ho fatto quello che ho voluto'.
+                        Secondo la tradizione locale, il motto dell’iscrizione sarebbe da collegare ad una contesa avvenuta al tempo tra un facoltoso privato cittadino ed il Comune che gli aveva impedito di ampliare il proprio palazzo o di rafforzarlo con un contrafforte, adducendo a motivo del divieto la conseguente riduzione dello spazio stradale. Il cittadino, noncurante del divieto, avrebbe eseguito l’intervento in una sola notte, azione che oltre ad impedire l’abbattimento, lo avrebbe esonerato dal pagamento di sanzioni (CIMARRA 2014, p. 124-125)</p>                                    
+                         </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">CIMARRA 2014, pp. 124-129.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">CIMARRA 2014, fig. 2</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

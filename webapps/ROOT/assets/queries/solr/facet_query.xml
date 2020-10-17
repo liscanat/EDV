@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="origin_date">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(epidoc)</document_type>
+  <facet>true</facet>
+  <facet.field>regione</facet.field> <!-- region -->
+  <facet.field>collocazione_attuale</facet.field> <!-- current_location -->
+  <facet.field>oggetto</facet.field> <!-- object_type -->
+  <facet.field>materiale</facet.field> <!-- material -->
+  <facet.field>funzione</facet.field> <!-- text_function -->
+  <facet.field>tipologia</facet.field> <!-- text_type -->
+  <facet.field>lingua</facet.field> <!-- language -->
+  <facet.field>scrittura</facet.field> <!-- script -->
+  <!--<facet.field>mentioned_people</facet.field>-->
+  <!--<facet.field>mentioned_places</facet.field>-->
+  <!--<facet.field>mentioned_institutions</facet.field>-->
+  <!--<facet.field>topic</facet.field>-->
+  <!--<facet.field>phoneme</facet.field>-->
+  <!--<facet.field>grapheme</facet.field>-->
+  <!--<facet.field>morpheme</facet.field>-->
+  <!--<facet.field>syntagm</facet.field>-->
+  <!--<facet.field>word</facet.field>-->
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">700</rows>
+</query>

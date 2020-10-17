@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Oddariello Bocchaçiola</title>
+                <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                <editor role="images"><persName>Luna Cacchioli</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">12.08</idno>
+                <date when="2020-03-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Roma</placeName>
+                        <district ref="#RM">RM</district>
+                        <repository>Basilica di santa Cecilia in Trastevere (atrio)</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Iscrizione funeraria</term>
+                        </summary> 
+                        <textLang mainLang="xrom">Volgare romanesco</textLang>
+                    </msContents>
+                        <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
+                                    <dimensions><height>83</height> <width>59</width></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#maiuscule_gothic">Gotica maiuscola</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region ref="#roma">Roma</region> 
+                            </origPlace>
+                            <origDate notBefore="1300" notAfter="1399" precision="low">XV</origDate>
+                        </origin>
+                        <provenance type="observed"/>
+                      </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+             <graphic url="12.08.jpg">
+                 <desc/>
+             </graphic>
+     </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Oddariello Boc<seg type="grapheme" corresp="/ka/">cha</seg><seg type="grapheme" corresp="/ts/">ç</seg>iola
+                </ab>
+            </div>
+                <div type="apparatus">
+                <p><app loc="1"><note>Boccragiola GALLETTI 1760; Bocchaziola FORCELLA 1869-1884</note></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p>Il vezzeggiativo di Oddo è formato con il suffisso romanesco -arello, con conservazione di /ar/ protonico e dittongamento metafonetico dittongamento metafonetico di Ĕ > /jε/ (v. sempre per Roma, Rienço, nrr. 12.09-12.10, Liello 4, nr. 12.05, Saviello a-b, nr. 12.19)  e mancato passaggio di /ar/ protonico a /er/, entrambi tratti propri dell’antico romanesco.  V., al proposito, nella Cronica dell’Anonimo Romano, le forme Cafariello cap. 27 (PORTA 1979, p. 248), iuppariello cap. 18 (PORTA 1979, pp. 144), ventariello cap. 18 (PORTA 1979, p. 175). Cfr. anche Morfologia e Sintassi.</p>
+                <p>In Bocchaçiola &lt;ch&gt; per /k/ davanti a vocale centrale (v. anche, a Roma, <ref target="edv12_05">12.02</ref> e <ref target="edv12_25">12.25</ref>);  &lt;ç&gt; dovrebbe rendere l’affricata dentale sorda /ts/;  conservazione di /b/ iniziale ma cfr. sempre per Roma, Vocchabella 4-5 (nr. <ref target="edv12_05">12.05</ref>).</p>
+                <p>Il cognome è probabilmente formato dal suffisso peggiorativo -azza con ulteriore suffisso diminutivo.</p>
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’epigrafe era originariamente collocata sul pavimento della navata destra della chiesa, poco dopo la porta della sacrestia, sotto il sepolcro di Paolo Sfondrato. L'iscrizione è oggi affissa sulla parete sinistra del portico. Sotto al testo è inciso un candeliere orizzontale.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">GALLETTI 1760, III, CCCCXXIII num. 84; FORCELLA 1869-1884, II, p. 21 num. 66; GRABMÄLER 1981, p. 60, num. VII, 10; D’ACHILLE -GIOVANARDI 1984, num. 33; D’ACHILLE 1987, p. 80, num. 5.</p>
+                <p xml:id="images">D’ACHILLE 1987, p. 80, num. 5; foto num. 13.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Storie di s. Caterina</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D’ACHILLE 2012c</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.13</idno>
+                        <date when="2020-03-28"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roccantica</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Chiesa di Santa Caterina</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1430">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Quando b(ea)ta K(a)therina disput<m type="desinence" subtype="perf3ps">ao</m> colli philosofi li quali (con)vert<m type="desinence" subtype="pastpart">uti</m> &lt;foro alla fede&gt; de Cristo. 
+                            <lb n="2"/>Qu(a)n(do) &lt;Cristo&gt; spos<m type="desinence" subtype="perf3ps">ao</m> b(ea)ta K(a)therina in nella ca(r)cera.
+                            <lb n="3"/>Qua(n)do b(ea)ta K(a)therina dalli ca&lt;rcer&gt;aii f&lt;o&gt; frustata.
+                            <lb n="4"/>Qua(n)do ve(n)ne la i(n)p(er)atrice co(n) Porfirio alla carcera (et) alla fede de &lt;Crist&gt;o <m type="essere" subtype="perf6ps">foro</m> convert<m type="desinence" subtype="pastpart">uti</m>.
+                            <lb n="5"/>Qua(n)do li philosofi <m type="essere" subtype="perf6ps">foro</m> <w>missi</w> in nella fo(r)nace li quali l’anime loro a Dio rend<m type="essere" subtype=" perf6ps">ero</m>.                        
+                             </ab>
+                    </div>
+                         <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>Si notino le forme deboli del perfetto di 3a persona singolare in &apos;-ao&apos;, come nelle <title>Didascalie del Buon Governo</title> di Atina, 
+                            <ref target="edv11_07">11.07</ref>, e nelle didascalie degli affreschi delle 
+                            <title>Storie di Francesca Romana</title> nel monastero di Tor de’ Specchi a Roma 12.22.</p>
+                            <p>&apos;rendero&apos; 4, è forma non infrequente nell’italiano antico di area mediana.  V. &apos;battero&apos;, &apos;vendero&apos; 
+                                (ROHLFS 1966-1969, § 574), come pure il participio debole &apos;convertuti&apos; (ROHLFS 1966-1969, § 622); normali per l'area anche <m type="essere" subtype="perf3ps">fo</m> e 'foro'.</p>
+                        <p>&apos;ca(r)cera&apos; 2, femminile singolare con terminazione in –a, probabilmente analogico dal plurale in -e; il GDLI registra infatti anche il plurale &apos;le carcere&apos; 
+                            accanto al singolare &apos;la carcere&apos;.</p>
+                        <p>&apos;in nella foresta&apos;: cfr., ad esempio, nel toscano <title>Libro della distruzione di Troia</title> del XIII: &apos;inn’ella vigna&apos; e &apos;in nel vedere&apos;.
+                        V. anche le forme articolate presenti nel <title>Libro dei Conti del Glossario di Roccantica</title> &apos;i(n) l’ando 98r 7&apos; (VIGNUZZI 1984, p. 61).</p>
+                        <p>&apos;l’anime loro&apos; 4, con posposizione del possessivo, costruzione particolarmente diffusa in area centromeridionale 
+                            (D’ACHILLE 2012c, p. 92; CASTELLANI POLLIDORI 1966, pp. 12-21).  V. il caso delle <title>Storie de Troja e de Roma</title> 
+                            dove massiccia risulta la presenza del possessivo posposto sia in caso di parentela &apos;molge soa&apos; 275. 15, sia in costrutti di altro tipo: 
+                            &apos;le vitia soe&apos; 274. 24, &apos;li cavalieri suoi&apos; 259, 33, &apos;la morte sua&apos; 261, 35, &apos;lo imperio suo&apos; 267, 35 (MONACI 1920).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Data l’impossibilità di una ricognizione diretta e data la scarsa leggibilità delle riproduzioni fotografiche a nostra disposizione 
+                            la presente edizione critico-interpretativa segue la trascrizione interpretativa di D’ACHILLE 2012c, pp. 90-93. </p>
+                        <p>Il ciclo delle storie di Santa Caterina d’Alessandria occupa otto riquadri – da leggere in senso antiorario – disposti sulle pareti laterali e su lato corto contrapposto all’altare (CAVALLARO 1999, p. 313). Delle otto scene che compongono la narrazione quattro sono accompagnate da didascalie in volgare, oggi in cattivo stato di conservazione. La firma del pittore Pietro Coleberti da Piperno (corrispondente all’odierna Priverno, in provincia di Latina) si trova all’interno della terza scena: Petrus Coleberti de Piperno p(inxit). Al di sopra della stessa scena compare anche la data 1430 ed il nome del committente Armello d’Ascoli: Armellus de Bastonis de Esculo D’ACHILLE 2012c, p. 90 e nota 74; FIORANI 1999, pp. 313-327.
+La chiesa è oggi proprietà della famiglia Robbio Tacci di Roccantica (CAVALLARO 1999, p. 325, nota 16).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">BERTINI CALOSSO 1920, pp. 188-189; CAVALLARO 1999, pp. 318-319; D’ACHILLE 1997, pp. 237-239; D’ACHILLE 2012c, pp. 90-93.</p>
+                        <p xml:id="other">VAN MARLE 1923-1938, vol. VIII, pp. 388-390; PALMEGIANI 1932, pp. 572-574; CIAI 1989, pp. 115-133; ROMANO 1992, pp. 387, 393.</p>
+                        <p xml:id="images">BERTINI CALOSSO 1920, tavv. I-II; D’ACHILLE 1997, fig. 65; CAVALLARO 1999, figg. 7-11-14-17; D’ACHILLE 2012c, p. 91, fig. 7.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

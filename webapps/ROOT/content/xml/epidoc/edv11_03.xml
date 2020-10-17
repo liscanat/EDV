@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Telamone di Ferentino</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.03</idno>
+                        <date when="2020-03-05"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Ferentino</placeName>
+                                <district ref="#FR">FR</district>
+                                <repository>Chiesa dei santi Giovanni e Paolo</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>                     
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1220" notAfter="1230">XIII in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11.03.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb/>U(h), pesa
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb/>V
+                            <lb/>P
+                            <lb/>E
+                            <lb/>S
+                            <lb/>A
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’iscrizione compare sul pulvino di un telamone erratico reimpiegato come acquasantiera e conservato presso la chiesa dei Santi Giovanni e Paolo a Ferentino. Il testo rappresenta una esclamazione di ‘lamento’ in volgare. CAMPANA 1977 data il reperto al 1220-30.</p> 
+                        <p>Il testo  conterrebbe una delle più antiche attestazioni sia della interiezione u[h], sia del verbo pesare. DELI, infatti, data il verso av. 1320 e l’interiezione av. 1492.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">Edizioni - D’ACHILLE A. M. 2004, p. 72; D’ACHILLE 2012, p. 112.</p>
+                        <p xml:id="other">CAMPANA 1977</p>
+                        <p xml:id="images">D’ACHILLE A. M. 2004, fig. 32, p. 92.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

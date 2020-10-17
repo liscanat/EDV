@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Cona Passatora - Miracoli (nn. 5-9).</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.27b</idno>
+                        <date when="2020-03-29"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Loc. Ferrazza, Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario dell’Icona Passatora</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#signature #narrative">Committenza, Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                      <dimensions><width> (10) 57, (11) 110, (12) 57, (13) 62, (14) 56</width><depth/><height>?</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1490" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed">2019-06</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+             <graphic url="11.27b5.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.27b6.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.27b7.jpg">
+            <desc/>
+        </graphic>
+            <graphic url="11.27b8.jpg">
+            <desc/>
+        </graphic>
+            <graphic url="11.27b9.jpg">
+            <desc/>
+        </graphic>
+            </facsimile>
+            <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                     <div type="textpart" subtype="section" n="5"> 
+                         <ab>
+                    <lb n="1"/>Questa è una spirdata <m type="essere" subtype="perf3ps">fo</m> &lt;r?&gt;recomanata a questa &lt;Madonna&gt;
+                           </ab>
+                         </div>
+                        <div type="textpart" subtype="section" n="6">
+                            <ab>
+                    <lb n="1"/>Petrimarin<m type="desinence" subtype="ms_sing">u</m> della <placeName>Sumata</placeName> gle se spalò l'asin<m type="desinence" subtype="ms_sing">u</m>
+                                per le vene recomanose a qesta Cona no se fece male
+                           </ab>
+                        </div>
+                       <div type="textpart" subtype="section" n="7"> 
+                         <ab>
+                             <lb n="1"/>una donna no <m type="fare" subtype="impf3ps">ficia</m> fi<seg type="grapheme" corresp="/ʎ/">l</seg>i recom&lt;anose&gt; a questa Cona mo li <m type="fare" subtype="pres3ps">faci</m> 1491?
+                            </ab>
+                       </div>
+                         <div type="textpart" subtype="section" n="8"> 
+                         <ab>
+                             <lb n="1"/>Rotulante de <placeName>Cornill<m type="desinence" subtype="ms_sing">u</m></placeName> se casscò de 
+                             la cere<seg type="grapheme" corresp="/ʃ/">sci</seg>a recomanose a questa cona no se fece male</ab>
+                       </div>
+                         <div type="textpart" subtype="section" n="9"> 
+                         <ab>
+                             Un<m type="desinence" subtype="ms_sing">u</m> spasm<m type="desinence" subtype="ms_sing">u</m> [...] delli denti 
+                             recomanose a questa Cona subito [...]</ab>
+                       </div>
+                     </div>
+                          <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="5"> 
+                            <ab>
+                    <lb n="1"/>Questa è una spirdata fo(r)recomanata a questa &lt;Madonna&gt;
+                           </ab>
+                         </div>
+                              <div type="textpart" subtype="section" n="6"> 
+                            <ab>
+                    <lb n="1"/>Petrimarinu della Sumatagle se spalo lasinu p(er)levenerecomanose a qesta cona no se fece male
+                           </ab>
+                         </div>
+                              <div type="textpart" subtype="section" n="7"> 
+                            <ab>
+                    <lb n="1"/>una do(n)nano ficia fili recom[...] a questa conamolifaci149[.]
+                           </ab>
+                         </div>
+                              <div type="textpart" subtype="section" n="8"> 
+                            <ab>
+                    <lb n="1"/>rotulante cornillu secassco dela cerescia recomanose a questa conanose fece male
+                           </ab>
+                         </div>
+                              <div type="textpart" subtype="section" n="9"> 
+                            <ab>
+                    <lb n="1"/>unu spasmo […] delli denti recomanose a questa Cona subito […]
+                           </ab>
+                         </div>
+                     </div>
+                    <div type="apparatus">
+                        <p>10.1 D'ACHILLE 1995 Questa è una spirdata fo(rte) comanata a questa Madonna; AQUILINI 2002, Questa è una spirdata forte recomannata a questa Madonna.</p>
+                        <p>12.1 D'ACHILLE 1995, faci.</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title> </p>
+                        <p>Fenomeno grafico comune a tutte le iscrizioni dei Miracoli <ref target="edv11_27a">11.27a</ref> e <ref target="edv11_27b">11.27b</ref> riguarda
+                            la rappresentazione con scempie di consonanti certamente pronunciate come geminate: p.es. 'recomanose', o 'recomanata'; 
+                            si notino inoltre la 'c' in 'Vercene' nel miracolo della mula (1), dove ci aspetteremmo 'ç'; la resa della laterale palatale /ʎ/ con semplice 'l' in 'fili';
+                             la sincope dell'intertonica e la sonorizzazione della dentale in 'spirtada' (5.1) 
+                             v. ROHLFS 1966-69 §263; e lo sviluppo di SJ &lt;/ʃ/ reso con il trigramma &lt;sci&gt; v. ROHLFS 1966-69 §287; VIGNUZZI 1975-76,
+                        II, pp. 135-37; VIGNUZZI 1984, p. 47 (13.1).</p>
+                        <p><title>Toponimi:</title></p>
+                        <p>'Ucito' (&lt;BUCETUM, oggi nota come Voceto, frazione di Amatrice), con metafonesi (1); 'Arquata' (3) oggi Arquata del Tronto (AP); 
+                            'Forca de Pena' (4), oggi Forca di Penne (Pescara); 'Sumata' (6) e Cornillu (8) oggi Sommati e Cornillo Nuovo, frazioni di Amatrice; </p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>Comune a tutte le iscrizioni è la -u finale nel maschile, normale nell'area e diffusa variamente in tutte le iscrizioni del Lazio (gli esempi sono troppo frequenti
+                        per essere elencati qui, si faccia riferimento agli indici); 'fo' perfetto forte di 'essere', anch'esso frequente in tutta l'area; ai nn. 3 e 4 <ref target="edv11_27a">11.27a</ref>
+                            si noti 'na' per 'nella', forma contratta della preposizione articolata (v. BALDELLI, 1971, p. 171 e VIGNUZZI, 1975-76).</p>
+                        <p>D'ACHILLE 1995 (p. 19) nota i nominativi pendenti in 'Antonio de Pasquale' e 'Petrimarinu' (nn. 1, 6).</p>
+                        <p>Problematica è la lettura di (5), iscrizione molto rovinata per la quale propongo 
+                            (con molti dubbi) una lettura alternativa a D'ACHILLE 1995. Sicura mi sembra invece la lettura di una data in calce alla didascalia.</p>
+                    </div>
+                    <div type="commentary" subtype="note">                                               
+                    <p>7. Correggo la lettura di D'ACHILLE 1995 e 1997 proponendo di non interpretare il segno sopra la 'f' come un <title>titulus</title>, e di restituire a testo
+                    il consueto 'recomanata'. </p></div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI CARLO 1908, p. 71; VERANI 1955, pp. 1-12; VERANI 1955a, pp. 1-23; VERANI 1976; VERANI 1982; 
+                            FABBI 1977, p. 245; VIGNUZZI 1994, p. 348, n. 16; D’ACHILLE 1995; D’ACHILLE 1997, pp. 232-235; BRECCOLA 2003; 
+                            AQUILINI 2002; D’ACHILLE 2004, pp. 167-182; D’ACHILLE 2012, pp. 83-88; SACCHETTI 2019.</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">D’ACHILLE 1995; D’ACHILLE 1997, fig. 64; D’ACHILLE 2012, pp. 83-88 p. 86, fig.; Andrea Carloni https://www.flickr.com/photos/andrea_carloni/albums/72157639482013326; 
+                            SACCHETTI 2019.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

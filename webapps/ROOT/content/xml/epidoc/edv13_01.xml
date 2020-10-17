@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Archivolto</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>www.paesiteramani.it</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">13.01</idno>
+                        <date when="2020-04-13"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Castelbasso</placeName>
+                                <district ref="#TE">TE</district>
+                                <repository>Chiesa dei santi Pietro e Andrea</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#admonition #patronage">Monito, Committenza</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic" cert="low">Gotica?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
+                                    <origDate when="1338">XIV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="13_01.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+                        <ab>
+                        <lb n="1"/><title>Sulla base del leone di sinistra</title>
+                        <lb n="1"/>I(n) questa ope
+                        <lb n="2"/>ra lass<m type="desinence" subtype="perf3ps">ao</m>
+                        <lb n="3"/><persName>Philipp<m type="desinence" subtype=" ms_sing" corresp="/u/">v</m> de M
+                        <lb n="4"/>asseo</persName> <phr type="syntagm" subtype="synt_inversion">p(er) a(n)i(m)a
+                        <lb n="5"/>sva</phr> once XXX
+                        <lb n="6"/>eplv s(ub) a(nno) d(omi)ni		
+                        </ab>
+                         </div>
+                        <div type="textpart" subtype="section" n="B">
+                            <ab>
+                        <lb n="1"/><title> Sulla base del leone di destra</title>:
+                        <lb n="1"/>&lt;An&gt;no d(omi)ni 
+                        <lb n="2"/>MCCC-
+                        <lb n="3"/>XXXVIII VI i(n)di(ctione)
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="C">
+                            <ab>
+                            <lb n="1"/><title>Sull’archivolto del portale, da sinistra</title>:
+                            <lb n="1"/><seg type="grapheme" corresp="/k/">K</seg>is’u
+                            <lb n="2"/>milia
+                            <lb n="3"/>sì s’es					
+                            <lb n="4"/>salta
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="D">
+                            <ab>
+                            <lb n="1"/>Com{a}ensa
+                            <lb n="2"/>to(sto) e l<m type="desinence" subtype="ms_sing">u</m> se
+                            <lb n="3"/>c<m type="desinence" subtype="pastpart">utu</m> pe(n)sa,
+                            <lb n="4"/>l’op(er)a l<m type="desinence" subtype="ms_sing">u</m> s
+                            <lb n="5"/>ec<m type="desinence" subtype="pastpart">utu</m> de
+                            <lb n="6"/>spensa
+</ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="E">
+                            <ab>
+                            <lb n="1"/>La v(er)etate
+                            <lb n="2"/>se calceia.
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="F">
+                            <ab>
+                            <lb n="1"/><seg type="grapheme" corresp="/k/">Q</seg> in sé spechia
+                            <lb n="2"/>·tta(n)du pecca
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="G">
+                            <ab>
+                            <lb n="1"/><w type="metaphony">Convscite</w>
+                             </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="H">
+                            <ab>
+                            <lb n="1"/>Co(r)te
+                            <lb n="2"/><seg type="grapheme" corresp="/ʃ/">x</seg>ia d
+                            <lb n="3"/>evoc
+                            <lb n="4"/>ca, mvl
+                            <lb n="5"/>t<m type="desinence" subtype=" ms_sing" corresp="/u/">v</m> vale
+                            <lb n="6"/>poc<m type="desinence" subtype=" ms_sing" corresp="/u/">v</m>
+                            <lb n="7"/>cvsta
+                            </ab>
+                        </div>
+                       <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    </div>
+                        <div type="apparatus">
+                        <p>A, vv. 1-2 Questa opera lssao GAVINI 1927-1928, MORETTI 1971</p>
+                        <p>C, vv. 3-4 seb/salta DAT</p>
+                        <p>D, v. 1 co/m/esa SABATINI 1996c, coāēsa; vv. 5-6 de/despensa DAT</p>
+                        <p>E-F, v. 4 ta(n)du DAT</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>'lassao' A, r. 2: &lt;ss&gt; per /ss/ o /ʃʃ/?. Nella <title>Lamentatio Beate Marie de Filio</title>, sia &lt;ss&gt; sia &lt;x&gt; 
+                        rendono /ss/: 'lassate' 32, 'lasso(te)' 55, 'spissu' 59, ma 'laxate' 44, 'laxatu' 61, 'laxi' 49, o 'spexamente' 28 (UGOLINI 1959, pp. 31, 34). 
+                        Per 'Cortexia' H, rr. 1-2: si vedano i <title>Proverbia abruzzesi</title>: «Sopportali ’d onorali k’ è grande cortescia» 123 (UGOLINI 1959, pp. 62).</p>
+                        <p>'Ki' C, r. 1: q ‘chi’ E-F, r. 3 con resa diversa del medesimo fonema cfr. SABATINI 1996c, p. 599.</p>
+                       <p>'ttandu' 5-6, r. 4: l’interpretazione 'ttandu' ‘tanto’ non è sicura; potrebbe trattarsi di 'ntandu', forma che si accosta alle moderne ’ndannə' e 'andannə',
+                           avverbi di tempo con significato di ‘allora, in quel momento, dunque’ (LEA p. 40; DAM s. v. tandə, ndannə e andannə).</p>
+                       <p>'Conuscite' G, r. 1: passaggio /o/ > /u/ per metafonesi (CASTELLANI 2000, pp. 257-260).</p>
+                       <p>'vocca' H, . rr. 3-4: con betacismo caratteristico dei dialetti mediani e meridionali a sud della linea Roma-Ancona (CASTELLANI 2000, pp. 260-261).</p>
+                       <p>'custa' H, r. 7: non è escluso che la chiusura in 'u' possa essersi generata per ripetizione grafica dell’ultima sillaba della parola precedente 
+                           'pocu'. Potrebbe rifarsi alle forme atone del verbo o esser frutto della tendenza che nell’area mediana ha generato il tipo mustra, bene attestato 
+                           nei testi abruzzesi. In ogni caso il termine è in assonanza con vocca il che farebbe ritenere che &lt;u&gt; rappresenti in realtà /o/ (SABATINI 1996c, p. 598; BALDELLI 1971, pp. 22-32).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'lassao' A, r. 2: perfetto debole, bene attestato nei dialetti meridionali e in Abruzzo. V. nella <title>Lamentatio Beate Marie de Filio</title>
+                            'guastao' 14, 'favellao' 53, 'annao' 78, 'creao' 66 (UGOLINI 1959, pp. 42-44); 'lu' forma comune a tutta l’area mediana, è documentata per 
+                            l’Abruzzo già dal codice celestiniano dei <title>Proverbia</title>, XIII ex. (v. UGOLINI 1959, pp. 71-80); 'calceia' E-F, r. 2: frequentativo di 
+                            'calciare' con il senso di ‘viene presa a calci’ che testimonierebbe la tendenza all’uso dei frequentativi nei volgari abruzzesi 
+                            (cfr. GIAMMARCO 1979, p. 159. Si veda in DAM Caucïà come verbo transitivo con il significato di “calciare, tirar calci”) e, nei 
+                            <title>Proverbia</title> la forma 'stodeiate' 121, 247, 'preòccupati' dal verbo 'stodeiarə' (UGOLINI 1959, p. 91).</p>
+                           <p>'Co(r)te/xia d/evoc/ca, mvl/tv vale / pocv / cvsta' H, rr. 1-7: per la stessa espressione proverbiale v. lo <title>Zibaldone da Canal</title>:
+                               «Chortexia de bocha assai vall e pocho costa» (STUSSI 1967, p. 111).</p>
+                    </div>
+                       <div type="commentary" subtype="note">
+                        <p>Data l’impossibilità di una ricognizione diretta o su base fotografica, la presente edizione segue la trascrizione interpretativa di 
+                            SABATINI 1996c, pp. 597-598, salvo al v. 4, 1 (vedi apparato).</p>
+                        <p>La formula della datazione si ripete in 1, 2; Sabatini ritiene che questo possa essere dovuto all’esecuzione in momenti distinti 
+                            o all’opera di due diversi lapicidi. Anche il diverso modo di rendere /u/ con &lt;U&gt; in 1-4 e &lt;V&gt; nelle ultime due 
+                            suggerirebbe l’intervento di due mani differenti. Le altre sei iscrizioni si leggono in rettangoli alternati a fregi e su una 
+                            delle fasce che compongono l’archivolto. Il portale, in uno stile di passaggio tra il romanico e gotico, è ricco di fregi e simboli 
+                            in bassorilievo.
+                         Il contenuto della prima iscrizione dell’archivolto [3] rimanda a Matteo 23, 12 «Qui se humiliaverit, exaltabitur» e Luca 14, 11 
+                         <quote></quote>«Qui se humiliat, exaltabitur» mentre l’iscrizione [7] sembra essere la traduzione del Nosce te delle <title>Tusculanae</title>, 
+                            I, 52 di Cicerone (SABATINI 1996c, pp. 597-599; GAVINI 1927-1928, II, p. 97; ACETO 1986, pp. 532-542).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GAVINI 1927-1928, II, p. 97 (parziale); ACETO 1986, pp. 532-543; DAT, II, 3 pp. 712-713; SABATINI 1996c, pp. 597-599</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Formelle della cattedra di san Pietro</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.03</idno>
+                        <date when="2020-04-26"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Città Del Vaticano</placeName>
+                                <district ref="#CdV">CdV</district>
+                                <repository>Basilica di San Pietro, Cattedra</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#G">Graffito</term>
+                                    <term type="textType" ref="#graffiti">Graffiti</term>
+                                </summary>
+                                <textLang mainLang="xrom">Volgare romanesco</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#ivory">Avorio</material>
+                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#minuscule">Minuscola</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate notBefore="0850" notAfter="0899" precision="low">IX ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                         <div type="textpart" subtype="section" n="A">
+                        <ab>
+                            <lb n="1"/>Cys
+                            </ab>
+                        </div>
+                              <div type="textpart" subtype="section" n="B">
+                           <ab>
+                               <lb n="2"/>Nita
+                                         </ab>
+                              </div>
+                        <div type="textpart" subtype="section" n="C">
+                           <ab>
+                               <lb n="1"/>Berilus manuri
+                             <lb n="1"/>morsum unum cum salamio
+                                         </ab>
+                              </div>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                           <div type="textpart" subtype="section" n="A">
+                        <ab>
+                            <lb n="1"/>CYS
+                            </ab>
+                        </div>
+                              <div type="textpart" subtype="section" n="B">
+                           <ab>
+                               <lb n="2"/>NITA
+                                         </ab>
+                              </div>
+                        <div type="textpart" subtype="section" n="C">
+                           <ab>
+                               <lb n="1"/>BERILUS     MANURI
+                              <lb n="1"/>MORSU(M)  UNUM  CU(M)  SALAMIO
+                                         </ab>
+                              </div>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>'nita' vale ‘netta, pulisci’, forse &lt;i&gt; per /e/. 'morsum unum cum salamio' insieme a, 'manuri', nome greco di un tipo di 
+                            forse alludono al pasto che gli artigiani consumavano durante la pausa di lavoro; 'morsum' vale 'focaccia, pezzo di pane’. 
+                            'cys' è il nome di un lubrificante a base di sego o olio; 'Berilus' forse nome proprio (v. SABATINI 1987,p. 31).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>La Cattedra di San Pietro è, secondo la leggenda medievale, il trono ligneo appartenuto a San Pietro Apostolo. Quella attuale è però un rifacimento 
+                            della seconda metà del secolo IX ed è oggi conservata nell’abside della Basilica Vaticana, racchiusa nel monumento berniniano della Cattedra di san 
+                            Pietro (EUA, vol. II, p. 530). Nel rifacimento della seconda metà del IX secolo, la fronte del sedile è ornata da dodici formelle in avorio più 
+                            antiche (forse del IV secolo) che rappresentano le fatiche di Ercole. I graffiti furono incisi sul retro delle formelle prima che queste venissero 
+                            applicate al trono. Si tratta di «brevi messaggi, in parte “funzionali”, in parte scherzosi» realizzati con molta probabilità dagli artigiani 
+                            addetti all’opera. Accanto a parole semivolgari si trovano anche semplici lettere e numeri ed alcune indicazioni in latino (ad esempio <title>imum 
+                                firmabit pis</title> ‘la pece fermerà la parte bassa’) che testimonierebbero la presenza di assistenti più esperti e di istruzione più elevata. 
+                            Francesco Sabatini ha osservato come l’uso del latino accanto ad espressioni semivolgari «in un simile contesto operativo farebbe pensare […] alla 
+                            necessità di ricorrere a una lingua cólta di interscambio tra parlanti di lingua materna diversa».
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">SABATINI 1987, p. 31.</p>
+                        <p xml:id="other">BISCHOFF 1975, pp. 22-27; GUARDUCCI 1977, pp. 154-163; GUARDUCCI 1982, p. 77; D’ACHILLE-GIOVANARDI 1984, p. 20, n. 2.</p>
+                        <p xml:id="images">SABATINI 1987, p. 31, foto 6-9.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

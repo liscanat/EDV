@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Calice</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.12</idno>
+                        <date when="2020-03-06"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Montefiascone</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>Chiesa di san Flaviano</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#signature">Firma</term>
+                                </summary>
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#silver_copper">Rame argentato</material>
+                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#maiuscule_gothic">Gotica maiuscola</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1400" notAfter="1420">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Tome di Vanino di Siena
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ TO//ME·D//VAN//INO//DISI//ENA
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>La firma dell’artista Tommaso di Vannino è inserita nei sei lati del rocchetto che unisce il piede del calice al fusto, entro due cornici modanate. Il calice è realizzato in rame argentato e sbalzato. Il piede è esagonale ed ornato da una cornice perlinata. La superficie è ornata da archi raccordati da foglie d’acanto alternati a losanghe con crocette. All’interno degli archi si conservano placchette d’argento a bassorilievo che raffigurano, in senso orario, il Cristo in Pietà, San Giovanni Bono, San Flaviano, San Guglielmo di Malavalle, San Giovanni Evangelista e la Vergine. Si tratta di un manufatto tipico della produzione toscana della prima metà del XV secolo, destinato alla chiesa di San Flaviano.</p>
+                        <p>Tommaso, probabilmente figlio di un Vannino orafo attivo a Siena nel 1330-1331, è documentato a partire dal 1378 fino al 1427.</p>
+                        <p>Le lettere dell’iscrizione sono eseguite in argento su fondo blu. Il <title>signum crucis</title> iniziale è in argento su fondo rosso opaco. La scrittura è una maiuscola gotica di elegante esecuzione.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DONATO 2014, scheda n. 27. S. 1.</p>
+                        <p xml:id="other">CIONI 1996; CIONI 1998.</p>
+                        <p xml:id="images">DONATO 2014, scheda n. 27. S. 1., fig. 1, 2 (a-e).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

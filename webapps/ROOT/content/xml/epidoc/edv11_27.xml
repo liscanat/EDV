@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Cona Passatora</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Michela Sacchetti, Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Michela Sacchetti, Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.27</idno>
+                        <date when="2020-03-31"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Loc. Ferrazza, Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario dell’Icona Passatora</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#signature #narrative">Committenza, Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width>varie misure</width><depth/><height>?</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1490" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed">2019-06</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                    <graphic url="11.27_facciata.jpg">
+                    <desc/>
+                </graphic>
+            <graphic url="11.27_01.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                         <p></p>
+                     </div>                  
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <p></p>
+                         </div>
+                           <div type="apparatus">
+                               <p></p>
+                           </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Il complesso ciclo decorativo del Santuario copre interamente le pareti della navata, l'arco, l'abside - compresi soffitto e sottoarco - con immagini sacre
+                            disposte su più registri. Le pitture risalgono ad un arco temporale che si estende per circa tre decenni a cavallo fra 1484 e 1510. 
+                            Gli affreschi sono per la maggior parte anonimi, ma sul pilastro destro del presbiterio si legge la firma del pittore Dionigi 
+                            Cappelli <title>Hoc Dionisius Francisci Cappellis de Amatrice me pi(n)tit 1508</title>.
+                            Il pittore, responsabile della maggior parte dei dipinti realizzati nell'abside (AQUILINI 2002, p.38) e probabilmente anche di quelli che si trovano 
+                            sull'arco del presbiterio
+                            e nelle navate, fu attivo nell'Amatriciano fra la fine del Quattrocento e l'inizio del secolo seguente. 
+                            La sua firma si trova nella Chiesa di san Antonio a Cornillo Nuovo nel 1511, in calce ad un ciclo di affreschi che ripercorre 
+                            la vita del santo, e a lui sono attribuiti anche molti dipinti nella chiesa di Sant'Agostino ad Amatrice, datati 1491. 
+                            (v. https://www.flickr.com/photos/andrea_carloni/albums/72157639151424506).</p>
+                           <p>Abbiamo suddiviso gli affreschi corredati di iscrizioni in cinque schede, dopo averli numerati 
+                               progressivamente secondo la loro collocazione, a partire
+                            dalla parete sinistra della navata e dai registri inferiori dell'abside.
+                            I nn. 1-4, <ref target="edv11_27a">11.27a</ref>, e 5-9 <ref target="edv11_27b">11.27b</ref> si riferiscono ad un'interessante 
+                               ciclo di vignette ex-voto, 
+                            dedicate al ricordo di alcuni miracoli della Cona:</p> 
+                            <p>1. Miracolo di Antonio de Pasquale e la mula.</p>                            
+                            <p>2. Miracolo della neve.</p>                            
+                            <p>3. Miracolo della liberazione del carcerato.</p>
+                            <p>4. Miracolo del viandante disperso.</p>
+                            <p>5. Miracolo della liberazione della spiritata.</p>
+                            <p>6. Miracolo di Petrimarino della Summata e l'asino.</p>
+                            <p>7. Miracolo della fecondità della donna sterile.</p>
+                            <p>8. Miracolo della caduta dal ciliegio di Rotulante Cornillo.</p>
+                            <p>9. Miracolo della guarigione dal mal di denti.</p>
+                            <p>La scheda seguente (nn. 10-13) <ref target="edv11_27c">11.27c</ref> contiene i dipinti eseguiti sulle pareti frontale sinistra e destra
+                                dell'arco del presbiterio: il San Gabriele Annunciante (1484) e la Madonna in trono che tiene in mano la città (1492?); 
+                                l'Annunciazione (1494) e l'affresco della Vergine fra i santi Antonio e Lucia (1490).</p>
+                                <p>In seguito (nn. 14-15) <ref target="edv11_27d">11.27d</ref> sono descritti il Cristo della Domenica (1490) e la cosiddetta Madonna delle
+                            Misericordie (1490), dipinti sulla parete destra della navata; ed infine alcuni frammenti di notizie di committenza, 
+                            (nn. 16-18) <ref target="edv11_27e">11.27e</ref>.</p>
+                            <p>Completano la serie degli affreschi una Crocifissione (1509) e un'Adorazione dei Magi (1508), queste ultime 
+                            di poco posteriori al limite cronologico del nostro catalogo.</p>
+                        <p>Il santuario è stato gravemente danneggiato dal terremoto dell'agosto 2016, ed è al momento oggetto di un imponente
+                        restauro. Una interessante visita virtuale al santuario nel suo stato precedente il devastante terremoto del 2016 è disponibile
+                        al link: https://www.youtube.com/watch?v=NLKOy6WlinE (visitato in data 6 aprile 2020).</p> 
+                        <p>Desideriamo ringraziare padre Luigi Aquilini che ci ha consentito di visitare e fotografare il sito e ne ha discusso con noi
+                            la storia.</p>    
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI CARLO 1908, p. 71; VERANI 1955, pp. 1-12; VERANI 1955a, pp. 1-23; VERANI 1976; VERANI 1982; 
+                            FABBI 1977, p. 245; VIGNUZZI 1994, p. 348, n. 16; D’ACHILLE 1995; D’ACHILLE 1997, pp. 232-235; BRECCOLA 2003; 
+                            AQUILINI 2002; D’ACHILLE 2004, pp. 167-182; D’ACHILLE 2012, pp. 83-88; SACCHETTI 2019.D’ACHILLE 1995, pp.16-24. </p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">D’ACHILLE 1997, fig. 64; D’ACHILLE 2012, pp. 83-88 p. 86, fig.; SACCHETTI 2019, https://commons.wikimedia.org/wiki/File:Icona_passatora_facciata.JPG.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

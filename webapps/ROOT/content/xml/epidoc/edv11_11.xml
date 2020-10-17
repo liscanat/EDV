@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione in versi</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.11</idno>
+                        <date when="2020-03-06"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Carpineto Romano</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Via san Giacomo 33</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width>56</width><height>21</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#maiuscule_gothic">Gotica maiuscola</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Chi più à più lassa
+                            <lb n="2"/>Con più deluri pa[ssa]
+                            <lb n="3"/>&lt;L&gt;assa ch(e)llo ch(e) no(n) po’ por&lt;ta’&gt;
+                            <lb n="4"/>&lt;P&gt;orta ch(e)llo ch(e) non po’ las&lt;sa’&gt;.
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>ChI ∙ PIV ∙ A . PIV ∙ LASSA
+                            <lb n="2"/>CONPIV ∙ DE ∙ LVRI ∙ PA[…]
+                            <lb n="3"/>[.]ASSA ∙ Ch ̅LLO ∙ Ch ̅ ∙ NŌ ∙ POPOR[..]
+                            <lb n="4"/>[.]ORTA ∙ Ch ̅LLO . Ch ̅ . NŌ ∙ POLAS[..]
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p><app loc="2"><note>doluri MAROCCO 1833-1834</note></app></p>
+                        <p><app loc="3-4"><note>chillo MAROCCO 1833-1834</note></app></p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p> &lt;ss&gt; dovrebbe rendere /ss/; tuttavia talvolta, anche in Italia mediana, esso rende la sibilante palatale sorda /ʃ/ (FORMENTIN 2009, p. 100).</p>
+                        <p>'deluri' forma dissimilata e metafonetica da DOLŌRE(M).
+                        </p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’iscrizione, databile su base paleografica, è collocata su una lastra rettangolare di pietra locale posta sopra la porta di ingresso al numero civico 33 di via San Giacomo a Carpineto Romano.</p>
+                        <p>Il testo, composto da un senario, un settenario e due decasillabi tronchi, è un tetrastico in rima baciata, vicino al genere della laude e ai contesti letterari o figurativi che richiamano il tema del Trionfo della Morte.</p>
+                        <!-- <ce n'è un'altra con lo stesso testo ma dove???>-->
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">MAROCCO 1833-1834, vol. V, p. 42; ABBATE 1894, p. 469; MARTINORI 1923, I, p. 125; CAMPAGNA 1978, pp. 59-61; D’ACHILLE-GIOVANARDI 1984, n. 339, p. 122; SABATINI 1996c, pp. 589-590.</p>
+                        <p xml:id="other">D’ACHILLE 1986, p. 32.</p>
+                        <p xml:id="images">SABATINI 1996c, tav XII, foto 2.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

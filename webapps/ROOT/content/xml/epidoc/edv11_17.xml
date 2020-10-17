@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Jacopo di Roccantica, Giudizio Universale</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.17</idno>
+                        <date when="2020-03-18"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Montebuono</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Chiesa di San Pietro ad centum muros</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#patronage #signature">Committenza, Firma</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1451">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed" when="2015-12"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11.17a.jpg">
+            <desc>1: dettaglio</desc>
+        </graphic>
+        <graphic url="11.17b.jpg">
+            <desc>2: dettaglio</desc>
+            </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                        <lb n="0"/>[Nel lato destro del cilindro absidale la firma; le altre didascalie compaiono nel cartiglio attaccato alla tromba dell’angelo]
+ <lb n="1"/>+ hoc op(us) f(ecit) p(ingere?) le bone don(n?)>e de Mo(n?)te bonu adh[...] Magister Iacobus de Roccha Anthica depin<seg type="grapheme" corresp="/ts/">ç</seg>it.
+                        <lb n="1"/><rs>Surgite mortui
+                            venite ad iudici
+                            <lb n="2"/>um</rs>
+                            <lb n="3"/>purgatori<m type="desinence" subtype="ms_sing">u</m>
+                        <lb n="4"/><w type="metaphony">sussuruse</w>
+                        <lb n="5"/><w type="metaphony">biasti
+                        <lb n="6"/>maturi</w>          
+                        <lb n="7"/><w type="metaphony">lusuriusi</w>
+                        <lb n="8"/><w type="metaphony">spri
+                        <lb n="9"/>uri</w>
+                        <lb n="10"/>vanagloria
+                        <lb n="11"/>ruff&lt;iani&gt;
+                        <lb n="12"/>tabern<m type="desinence" subtype="ARIUM">ar</m><m type="desinence" subtype="ms_sing">u</m>
+                        <lb n="13"/><seg type="phoneme" subtype="j_initial">I</seg>udici
+                        <lb n="14"/><w type="metaphony">nvidiusi</w>
+                        <lb n="15"/>co(m)pare
+                        <lb n="16"/>gula
+                        <lb n="17"/><w>miciar<m type="desinence" subtype="ms_sing">u</m></w>
+                        <lb n="18"/>avar<m type="desinence" subtype="ms_sing">u</m>
+                        <lb n="19"/>i(n)fern<m type="desinence" subtype="ms_sing">u</m>
+                        <lb n="20"/>pagani                   
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>+ hoc ∙ op∙ F ∙ P· LE ∙ BONE ∙ DONE ∙ DE MOTE BONU ADH [...] 
+                            ∙ MAGISTER ∙ JACOBUS ∙ DE ∙ ROCCA ∙ ANThICA ∙ depinçit
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">                       
+                        <p>Presenza di metafonesi in &apos;sussurse&apos; r. 4, &apos;biastimaturi&apos; r. 5, &apos;lusuriusi&apos; r. 6, &apos;nvidiusi&apos; r. 14. 
+                            Per la metafonesi in area reatina v., ad esempio, nel <title>Glossario Latino-reatino</title> del Cantalicio, le forme &apos;bastuni&apos; 344, 
+                            &apos;palumbi&apos; 569, &apos;dudici&apos; 138 (BALDELLI 1983, pp. 203-205). Si noti la presenza di metafonesi in &apos;biastimiaturi&apos;,
+                             contro - sempre in area Sabina - &apos;bistrimatore&apos; (Cori <ref target="edv11_14">11.14</ref>)
+                            e &apos;biastimatore&apos; (Fianello, <ref target="edv11_16">11.16</ref>).</p>
+                        <p>&apos;spriuri&apos; spergiuri rr. 8-9: con dileguo di /e/ protonica e vocalizzazione dell'affricata palatale sonora 
+                            /dƷ/. La forma è anche nel <title>Giudizio Universale</title> di Sermoneta <ref target="edv11_29">11.29</ref></p>
+                            <p>&apos;miciaru&apos;, omicida r. 17, &apos;omicidiario&apos;, con aferesi di /o/, dileguo di /d/; passaggio -RJ- > /j/, 
+                                tratto tipicamente mediano, e conservazione della -u finale. &apos;Micidiario&apos; è anche nel <title>Giudizio Universale</title>
+                                di Pofi, <ref target="edv11_28">11.28</ref>. V. anche la forma &apos;micidiari&apos; nella <title>Cronica dell’Anonimo Romano</title>
+                                e &apos;miciari&apos; nel manoscritto di Tor de’ Specchi dei <title>Tractati sulla vita di s. Francesca Romana</title> (D’ACHILLE 2012c, p. 77, nota 37; 
+                                PORTA 1979, pp. 602-603; PELAEZ 1891-1892, p. 379; VIGNUZZI 1992, pp. 65-66; INCARBONE GIORNETTI 2006, p. 108).</p>
+                        <p>Normale per l'area la conservazione di /j/ in posizione iniziale. V., in EDV, <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_17">12.17</ref>. <ref target="edv12_24">12.24</ref>.</p>
+                        <p>&apos;spriuri&apos; rr. 8-9, &apos;tabernaru&apos; r. 12, &apos;miciaru&apos; r. 17, &apos;avaru&apos; r. 18, 
+                            &apos;i(n)fernu&apos;r. 19 con conservazione della -u finale, normale nel volgare sabino dell’epoca.  V., ad esempio, 
+                            nel <title>Glossario Latino-sabino</title> di Ser Iacopo Ursello da Roccantica: &apos;loxuriosu&apos; L204, &apos;ielosu&apos; F619, &apos;dadu&apos; 
+                            L249, &apos;topu&apos; L283, &apos;iuncu&apos; L295/296 (VIGNUZZI 1984, pp. 30-42, 44-46).</p> 
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>
+                        Data la scarsa leggibilità delle didascalie, e l’impossibilità di una ricognizione diretta o su base fotografica, 
+                        la presente trascrizione critico-interpretativa segue la trascrizione interpretativa di D’ACHILLE 2012c, pp. 76-77, 
+                        adattata ai nostri criteri. La presente scheda contiene pertanto l’edizione diplomatica, realizzata su base fotografica, 
+                        e la critico-interpretativa per la r. 1 didascalia, e la sola edizione critico-interpretativa per il resto delle didascalie.</p>
+                        <p>La chiesa di San Pietro ad Centum Muros è attualmente affrescata su tutta la superficie interna dell’abside e sulle 
+                        pareti e i sottarchi delle due cappelle laterali di destra. Un tempo, sul lato destro del cilindro abisdale, al di sotto della Natività, 
+                        era ancora leggibile, insieme al nome del pittore Jacopo di Rocca Antica della didascalia r. 1, la data 1451 
+                        (GUARDABASSI 1872, p. 117; D’ACHILLE 2012C, p. 79 e nota 42). VAN MARLE 1923-1938, pp. 390-392 sosteneva di aver letto la datazione nell' 
+                        iscrizione. Sembra molto probabile che l’esecuzione dell’intero complesso vada ricondotta alla metà del Quattrocento (MONTAGNI-PESSA 1983, p. 110).</p>
+                   </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GUATTANI 1828-1830, vol. II, p. 130; MAROCCO 1833-1834, p. 125; GUARDABASSI 1872, p. 117; BERTINI CALOSSO 1920, p. 195; 
+                            VAN MARLE 1923-1938, pp. 390-392; PALMEGIANI 1932, p. 520; SANGUINETI 1961, pp. 66-68; MONTAGNI-PESSA 1983, p. 110; 
+                            D’ACHILLE 1997, pp. 230-231; RANUCCI 2007, pp. 111,118, nota 44; fig. 21; ENGLEN 2007, p. 129; fig. 4; D’ACHILLE 2012, pp. 79-81.</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">BERTINI CALOSSO 1920, fig. 16; PALMEGIANI 1932, pp. 521-522; D’ACHILLE 1997, fig. 62 ; 
+                            D’ACHILLE 2012, p. 81, fig. 4.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

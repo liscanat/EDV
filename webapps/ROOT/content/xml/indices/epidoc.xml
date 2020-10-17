@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Indici</title>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital document.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="place">
+        <head>Luoghi</head>
+        <div type="headings">
+          <list>
+            <item>Luoghi</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei luoghi menzionati.</p>
+        </div>
+      </div>
+      
+      <div xml:id="person">
+        <head>Persone</head>
+        <div type="headings">
+          <list>
+            <item>Persone</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice delle persone menzionate.</p>
+        </div>
+      </div>
+      
+      <!--<div xml:id="institution">
+        <head>Istituzioni</head>
+        <div type="headings">
+          <list>
+            <item>Istituzioni</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice delle istituzioni menzionate.</p>
+        </div>
+      </div>-->
+      
+      <!--<div xml:id="theme">
+        <head>Tematiche</head>
+        <div type="headings">
+          <list>
+            <item>Tematiche</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice delle principali tematiche.</p>
+        </div>
+      </div>-->
+      
+      <div xml:id="phoneme">
+        <head>Fonemi attestati</head>
+        <div type="headings">
+          <list>
+            <item>Fonemi</item>
+            <item>Tipo</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei fonemi più significativi attestati nelle iscrizioni.</p>
+        </div>
+      </div>
+      
+      <div xml:id="grapheme">
+        <head>Grafemi attestati</head>
+        <div type="headings">
+          <list>
+            <item>Grafemi</item>
+            <item>Corrispondenza</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei grafemi più significativi attestati nelle iscrizioni.</p>
+        </div>
+      </div>
+      
+      <div xml:id="morpheme">
+        <head>Morfemi attestati</head>
+        <div type="headings">
+          <list>
+            <item>Morfemi</item>
+            <item>Corrispondenza</item>
+            <item>Tipo</item>
+            <item>Descrizione</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei morfemi più significativi attestati nelle iscrizioni.</p>
+        </div>
+      </div>
+      
+      <div xml:id="syntagm">
+        <head>Sintagmi attestati</head>
+        <div type="headings">
+          <list>
+            <item>Sintagmi</item>
+            <item>Tipo</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice dei sintagmi più significativi attestati nelle iscrizioni.</p>
+        </div>
+      </div>
+      
+      <div xml:id="word">
+        <head>Lessico attestato</head>
+        <div type="headings">
+          <list>
+            <item>Lessico</item>
+            <item>Tipo</item>
+            <item>Descrizione</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice del lessico più significativo attestato nelle iscrizioni.</p>
+        </div>
+      </div>
+      
+      <div xml:id="quote">
+        <head>Citazioni attestate</head>
+        <div type="headings">
+          <list>
+            <item>Citazioni</item>
+            <item>Precisione</item>
+            <item>Riferimenti</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Indice delle citazioni attestate nelle iscrizioni.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

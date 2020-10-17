@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Scala Santa e Trionfo della Morte</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D’ACHILLE 2012b</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.06</idno>
+                        <date when="2020-03-17"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Subiaco</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Sacro speco</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1330" notAfter="1370">XIV metà</origDate>
+                                </origin>
+                                <provenance type="observed" when="2013"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+             <graphic url="11.06.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.06a.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="11.06b.jpg">
+            <desc/>
+        </graphic>
+    </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>                          
+          <lb n="1"/>[La Morte]: I’ <m type="essere" subtype="pres1ps">so</m> colei c’ocide omne persona,                      
+          <lb n="2"/>giovane e vecchia, né verun ne lasso:
+          <lb n="3"/>de grande altura subito l’abbasso.
+          <lb n="4"/>[I poveri]: Tu lasse noi che sempre te chiam<m type="desinence" subtype="pres4ps">emo</m>
+          <lb n="5"/>desiderando che ne dea la morte
+          <lb n="6"/>[… -orte]
+          <lb n="7"/>[I due giovani]: <seg type="grapheme" corresp="/k/">Ch</seg>angiato se&apos; nel viso […]
+          <lb n="8"/>[…] tanto scolorito;
+          <lb n="9"/>vorr<m type="desinence" subtype="cond1ps">ia</m> sapere chi t’à così ferito.
+          <lb n="10"/><seg type="grapheme" corresp="/k/">Ch</seg>on gran dolor e con forti sospiri
+          <lb n="11"/>sentia la morte che ferì al core
+          <lb n="12"/>de subito ne tolse omne valore.
+          <lb n="13"/>[Sulla falce della Morte]: Mors malis formidabilis et bonis desiderabilis, nemini evitabilis
+              </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                      <p>1 Io VIGO 1901, HERMANIN 1904; son VIGO 1901; che ocide VIGO 1901; c’occido HERMANIN 1904, CRISTIANI TESTI 1982; one CRISTIANI TESTI 1982</p>
+                      <p>2 giovane e vechie VIGO 1901; giovene e vecchie HERMANIN 1904; giovane e vecchie PISTONE 1925</p>
+                        <p>4 lasce HERMANIN 1904, CRISTIANI TESTI 1982</p>
+                    <p>9 vorrei HERMANIN 1904</p>
+                    <p>10 Cho HERMANIN 1904, CRISTIANI TESTI 1982, PISTONE 1925</p>
+                    <p>11 ferimmi PISTONE 1925</p>
+                    <p>12 che subito HERMANIN 1904, CRISTIANI TESTI 1982</p>
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>3, 12 conservazione di &apos;-e&apos; in protonia; 7, 10 uso di &lt;ch&gt; per /k/(ma cfr. rr. 8, 10 &lt;c&gt; per /k/); 
+                            &apos;omne&apos; (rr. 1, 12) con grafia latineggiante per l'esito non palatalizzato, comune in Italia mediana</p>
+                        <p><title>Morfologia:</title></p>
+                            <p>2 persona del presente indicativo di 1 coniugazione in &apos;-e&apos;; 1 persona plurale in &apos;-emo&apos; normali in area 
+                            mediana. Si vedano, al proposito, <title>L’Acerba</title> di Cecco D’Ascoli: «due cieli, i quali noi chiamemo / empireo l’uno, e l’altro cristallino» 
+                            L. 5 (frammento), v. 4701 (CRESPI 1927, p. 401); e la <title>Leggenda di Santa Caterina</title> di Buccio di Ranallo: 
+                            «chiamemo quista sposa / de Christo gloriosa» v. 1723, (MUSSAFIA 1885a, p. 395). Si potrebbe tuttavia ipotizzare una corrispondenza con il moderno dialetto di Subiaco e 
+                            dell’area circostante, nel qual caso chiamemo andrebbe inteso come ‘chiamammo’, essendo in area sublacense la desinenza del passato remoto
+                            &apos;-emmu&apos; (e &apos;-emo&apos; nella vicina località di Roiate) e &apos;–imu&apos; quella del presente. Negli antichi testi spesso non
+                            vi è una netta distinzione tra il passato prossimo ed il passato remoto, ma piuttosto una tendenza alla sovraestensione (D’ACHILLE 2012b, pp. 59-60).. 
+                            Il verbo si potrà dunque interpretare come &apos;sempre ti chiamiamo, chiamiamo sempre te&apos; ma anche come &apos;sempre te abbiamo chiamato&apos;,
+                            anche se riteniamo preferibile la prima alternativa.</p>
+                            <p>&apos;lasso&apos; r. 2 con fricativa dentale sorda intensa /ss/ anziché fricativa palatale intensa /ʃʃ/ caratterizza sia l’area centromeridionale italiana e quindi 
+                            Subiaco, sia il senese, sia i dialetti della Toscana occidentale (LINDSSTROM 1907, p. 254; CASTELLANI 2000, p. 304 e 
+                            ROHLFS 1966 – 1969, § 225). La forma è documentata in testi umbri e abruzzesi (ROHLFS 1966 - 1969, § 528), si vedano, ad esempio, la «Cronaca aquilana» di Buccio di Ranallo: «Et Deo me lasse de vivere tanto» XI, 13 
+                            (DE BARTHOLOMAEIS 1907, p. 136) e in Jacopone «O Deo, ed o’ me lasse – fra i nemice sciarmato» 23 (AGENO 1953, p. 276). R. 9 condizionale in
+                            &apos;-ia&apos; accettabile sia come forma locale sia come voce letteraria, di ascendenza siciliana.</p>
+                        <p><title>Lessico:</title></p>
+                        <p>&apos;altura&apos; v. 3: usato figurativamente anche in Jacopone da Todi e Guittone D’AREZZO: 
+                            «La superbia dell’altura ha fatte tante figliole» 14, v. 1 (Jacopne, cfr. AGENO 1953, p. 47); «sì come om, che si
+                            credia in altura / ed è caduto e tornato in bassanza» Guittone, <title>Rime</title>, son. (D.) 126, v. 3 (EGIDI 1941, p. 202).
+                            &apos;valore&apos; v. 12:  frequente nella tradizione lirica amorosa; diverse attestazioni in rima con &apos;core&apos;
+                            in Giacomo da Lentini, Guinizzelli, Guittone, Cavalcanti. 
+                            ferì v. 11: per il verbo ferire attribuito alla morte v. anche le didascalie del «Trionfo della Morte con Danza Macabra» 
+                            di Clusone <ref target="03.04">03.04.</ref></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Nell’affresco la Morte, rappresentata come uno scheletro dalla folta capigliatura e coperta dalla pelle solo sul petto, cavalca verso sinistra su di un cavallo bianco e, mentre con la mano destra brandisce una spada, con l’altra tiene una falce. Sotto il cavallo sono visibili vari cadaveri calpestati. Sulla destra del dipinto sono rappresentati quattro umili personaggi, tra i quali un anziano signore barbuto che allunga la mano verso la Morte e una donna.  Sulla 
+                            sinistra due giovani riccamente abbigliati; il secondo, raggiunto sul collo dalla spada della Morte, tiene un falcone nella mano sinistra.                           
+Le scritte in volgare sono eseguite in colore bianco, non inserite in cartigli, ma appoggiate vicino a chi le pronuncia. Le battute dei personaggi sono in tutto quattro: una attribuibile alla Morte, una ai poveri e due ai giovani riccamente abbigliati. In particolare, nel caso della Morte, le lettere escono direttamente dalla bocca del teschio. Le battute presentano, dal punto di vista metrico, lo schema epigrafico di tre endecasillabi rimati ABB. Una frase in latino è graffita dentro la falce della Morte.
+HERMANIN 1904 (p. 503) data l’affresco al 1363-1369 e da lui attribuito ad un maestro senese legato a Meo da Siena; CRISTIANI TESTI 1982 (p. 176) propone come data di esecuzione il 1362; più di recente –  sulla base delle osservazioni di VAN MARLE 1923-1938 (Vol. V, p. 42) e TODINI 1989 (pp. 134-135) – ROMANO 1992 (pp. 346-349) ha anticipato la datazione, confermando maestranze legate a Meo da Siena, ad un periodo che va dalla fine degli anni trenta all’inizio degli anni quaranta del Trecento, data accolta anche in TOMEI 2000, pp. 30-33. D’ACHILLE 2012b assegna l’affresco e le scritte al secolo XIV scegliendo di non pronunciarsi per una definizione cronologica più precisa.
+D’ACHILLE 2012b offre nel dettaglio tutte le interpretazioni avanzate dagli studiosi che lo hanno preceduto circa l’attribuzione delle battute (v. VIGO 1901, pp. 53-54; HERMANIN 1904, pp. 509-511; COSACCHI 1965, pp. 560-571; SETTIS FRUGONI 1967, pp. 219-223; CRISTIANI TESTI 1982, p. 178 e PISTONE 1925, pp. 115-116).
+SETTIS FRUGONI 1967 è stata la prima a pubblicare anche la frase in latino, letta sulla falce della morte e sfuggita ad Hermanin. D’Achille fa sua l’interpretazione di PISTONE 1925 (pp. 115-116) qui accolta insieme con il testo di D’Achille nell’impossibilità di verificare l’originale. 
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">VIGO 1901, pp. 53-54; HERMANIN 1904, p. 503, pp. 509-511; PISTONE 1925, pp. 115-116; COSACCHI 1965, pp. 560-571; 
+                            SETTIS FRUGONI 1967, pp. 219-223; CRISTIANI TESTI 1982, pp. 95-202, pp. 236-239; D’ACHILLE – GIOVANARDI 1984, p. 93, n. 221, 
+                            D’ACHILLE 2012b, pp. 45- 64; fig. 1 p. 47.</p>
+                        <p xml:id="other"> DANTIER 1867, pp. 222-223; VAN MARLE 1931-1932, vol. II, p. 369, p. 372; DEL GUERRA-RIALDI 1970, pp. 45-46; 
+                            TODINI 1989, p. 134- 135; ROMANO 1992, pp. 346-349; D’ACHILLE 1997, p. 227; TOMEI 2000, p. 30-33.</p>
+                        <p xml:id="images">ROMANO 1992, IV, 40, 1, p. 345; D’ACHILLE 2012b, pp. 45- 64; fig. 1 p. 47.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

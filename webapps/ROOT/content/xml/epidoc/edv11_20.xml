@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cappella Sparapane</title>
+                <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                <editor role="images"><persName></persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">11.20</idno>
+                <date when="2020-03-21"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Tuscania</placeName>
+                        <district ref="#VT">VT</district>
+                        <repository>Chiesa di san Francesco</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>    
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><width/><depth/><height/></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                            <origDate notBefore="1446" notAfter="1448">XV metà</origDate>
+                        </origin>
+                        <provenance type="observed"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <div type="textpart" subtype="section" n="A">
+                    <ab>
+                        <lb n="1"/>M CCCC L XVI
+                        <lb n="2"/>Questa <seg type="grapheme" corresp="/k/">cha</seg>ppella si è depe(n)ta
+                        <lb n="3"/>p(er) le mano de <persName>Ioha(n)ni de Sparapane</persName>		
+                        <lb n="4"/>et <persName>Antoni<m type="desinence" subtype="ms_sing">u</m></persName> suo figliol<m type="desinence" subtype="ms_sing">u</m>
+                        <lb n="5"/>da Nor<seg type="grapheme" corresp="/tʃ/">zci</seg>a a dì dudici de ma
+                        <lb n="6"/>gi<m type="desinence" subtype="ms_sing">u</m> <m type="essere" subtype="perf3ps">fo</m> <w>fornita</w> P M A R N S			6
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="B">
+                    <ab>
+                        <lb n="1"/>M CCCC L XVI
+                        <lb n="2"/>Questa <seg type="grapheme" corresp="/k/">cha</seg>pella <phr type="syntagm" subtype="synt_lat">a fact&lt;a&gt; mur&lt;are&gt;</phr>
+                        <lb n="3"/>et depe<seg type="grapheme" corresp="/ɲ/">ngn</seg>ere <persName>mastr<m type="desinence" subtype="ms_sing">u</m> Giacob<m type="desinence" subtype="ms_sing">u</m></persName>		
+                        <lb n="4"/>de <persName>Austino de Petto</persName> p(er) ll’anima sua
+                        <lb n="5"/>et delli <phr type="syntagm" subtype="synt_inversion">morti soi</phr>
+                        <lb n="6"/>ER MAS . N Q X . MO(rum)                   
+                    </ab>                    
+                </div>
+                <div type="textpart" subtype="section" n="C">
+                    <ab>
+                        <lb n="1"/>Quando [. . . . .] [. . .] le al mo(n)do sone (?)
+                        <lb n="2"/>superbi <m type="essere" subtype="perf6ps">forno</m> e assai a(r)roganti
+                        <lb n="3"/>per q(uesto) giaciono in sa(n)na del dragone
+                    </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" subtype="section" n="A">
+                    <ab>
+                        <lb n="1"/>M · CCCC° · L XVI° 
+                        <lb n="2"/>questa · chappella · sie · depēta ·
+                        <lb n="3"/>p lemano · de Iohāni ·desparapane		
+                        <lb n="4"/>et antoniu · suo ·  figliolu 
+                        <lb n="5"/>da norzcia · adì dudici · dema
+                        <lb n="6"/>giu fo forn̅nita P M A R N S			6
+                    </ab>
+                </div>
+                    <div type="textpart" subtype="section" n="B">
+                        <ab>
+                            <lb n="1"/>M CCCC L XVI
+                            <lb n="2"/>Questa chapella a fact[.] mur[...]
+                            <lb n="3"/>et depengnere mastru Giacobu
+                            <lb n="4"/>de Austino de Petto p(er) ll’anima sua
+                            <lb n="5"/>et delli morti soi
+                            <lb n="6"/>ER MAS . N Q X . MO(rum)
+                        </ab>
+                    </div>           
+                </div>
+                <div type="apparatus">
+                    <p>b, 4 Austino de Mlto CAMPANARI 1856 Austino de Pe[tro] RICCI-SANTELLA 1993 de Pecto GIONTELLA 2003</p>
+                    <p>c, 2 forno assai aroganti CAMPANARI 1856; superbi forno assai aroganti DI LORENZO 1883, PASQUALI-GIONTELLA 1966</p>
+                    <p>c, 3 però, golla, dragrone CAMPANARI 1856; però, golla PASQUALI-GIONTELLA 1966 gola RICCI-SANTELLA 1993</p>
+                </div>
+                <div type="commentary" subtype="linguistic_analysis">
+                    <p><title>Grafia e fonologia:</title></p>
+                    <p>a, 1 b, 1 &lt;cha&gt; per /k/; &lt;zci&gt; per /tʃ/;  b, 3&lt;ngn&gt; per /ɲ/; 
+                        &apos;Ioha(n)ni&apos; a, 3, &apos;Giacobu&apos; b, 3: conservazione /j/ in posizione iniziale comune in quest’area 
+                        (v. anche &apos;iudicarà&apos; 2, v. 11.19 in &apos;Ioha(n)ni&apos;, ma evoluzione in /dʒ/ in &apos;Giacobu&apos;. 
+                        V., in merito,l’<title>Inventario dell’Ospedale della carità</title> di Viterbo nel quale prevalgono le forme con
+                        /j/ in posizione iniziale (&apos;Iacova&apos; 31r 4, &apos;Iacovo&apos; 17v 3.7, &apos;Iancane&apos; 19v 10, &apos;Ianni&apos;
+                        13v 2 e passim, Iaquitiello passim, Iemino 13v 8, Iemma 18v 
+                        1, &apos;Ienio&apos; 17r 17, &apos;Ionta&apos; 17r 4) ma non mancano anche casi di passaggio ad affricata /dʒ/ (&apos;Gemino&apos; 1
+                        8r 7, &apos;Gianni&apos; 14v 3, &apos;Giovanni&apos; 17r6 e passim), BIANCONI 1962, p. 75; c,1 -ND- al posto dell'atteso -NN-; a, r. 4, magiu a, rr. 5-6, mastru Giacobu b, r. 3 &apos;-u&apos; forse di origine umbra. Manca l'anafonesi in 
+                            &apos;depengnere&apos; b, 3, &apos;depenta&apos; a, 2</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                            <p>Il sintagma &apos;à fatte fare&apos; traduce la tradizionale formula epigrafica &apos;fecit fieri&apos;, v. <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_15">11.15</ref>, <ref target="edv11_23">11.23</ref>, <ref target="edv11_25">11.25</ref>.
+                            &apos;le mano&apos; a, 2, forma presente anche nel romanesco e nell’umbro antichi. 
+                            V. invece &apos;le membri&apos;, nell’iscrizione abruzzese del Monumento Camponeschi dell'Aquila, <ref target="edv13_05">13.05</ref>. 
+                            &apos;suo&apos; a, 4, &apos;sua&apos; b, 4, &apos;soi&apos; b, 5 senza dittongamento nell'aggettivo possessivo
+                            &apos;anima sua&apos; b, 4, &apos;morti soi&apos; b, 5 con il possessivo 
+                            posposto  come normale in area centrale. Solo in &apos;suo figliolu&apos; a, 4, in cui il nome indica parentela, 
+                            l’aggettivo è anteposto.  V., al proposito, la forma &apos;l’anime loro&apos; nelle <title>Didascalie delle Storie 
+                                di Santa Caterina a Roccantica</title>, <ref target="edv11_13">11.13</ref>. &apos;fo fornita&apos; a, 6 
+                            3a persona singolare del piucheperfetto normale in area mediana. Il verbo &apos;fornire&apos;, mutuato dal francese verso il terzo decennio 
+                            del XII secolo è largamente attestato in Italia centrale. V., nella <title>Cronica dell’Anonimo Romano</title>: 
+                            «Currevano anni Domini MCCC[.], dello mese […], quando quella opera fornita fu.» VII, 30.13 e 
+                            «Lo primo dìe che l’opera de Calese ène fornita io esseraio fòra allo campo» XIV, 134.15 (PORTA 1979).</p>
+                        <p><title>Onomastica:</title></p> 
+                    <p>&apos;Austino&apos; b, 4, nome attestato anche in documenti viterbesi. Nello <title>Statuto dell’arte 
+                            degli ortolani</title> (1486) compare un Austino Riza; negli statuti viterbesi del primo Cinquecento 
+                        l’antroponimo ricalca invece la forma latina. Troviamo un Augustino de Benedetto de Tozo nello <title>Statuto 
+                            dell’arte dei lanaroli</title> del 1511 ed un ser Aug(usti)no Almadiano nello <title>Statuto dell’arte dei 
+                                vignaioli</title> del 1511 (SGRILLI 2003, pp. 295, 364, 398, CIMARRA 2014, pp. 133).</p>
+                        <p>&apos;Petto&apos; b, 4: potrebbe trattarsi della continuazione dell’ipocoristico germanico Betto con desonorizzazione 
+                            della consonante bilabiale iniziale, ma anche di ipocoristico di Iacopo (Iacopetto>Petto). 
+                            Non è tuttavia possibile escludere che si tratti di un paronimo 
+                            (CIMARRA 2014, p. 133; BRATTÖ 1953, p. 94, s.v. Bettus).</p>
+                </div>
+                <div type="commentary" subtype="note">
+                    <p>Le due iscrizioni, a, e b, sostanzialmente integre, sono conservate sulle pareti della prima cappella di sinistra, 
+                        presso l’ingresso, nota anche come Cappella Sparapane dal nome dei due pittori che la affrescarono all’inizio del 
+                        1466, Giovanni e suo figlio Antonio.  La prima delle due iscrizioni, a, si trova sul montante destro dell’arcone 
+                        di accesso alla cappella e riporta la datazione, i nomi dei due pittori e la loro origine. Analoga firma dei due artisti 
+                        è conservata in un affresco nella chiesa di San Salvatore a Campi di Norcia <ref target="edv09_41">09.41</ref>. 
+                        La seconda, b, registra nuovamente la data, il nome ed il patronimico del committente, ed è collocata di fronte alla 
+                        prima, sulla sinistra. L’ultimo rigo di entrambe presenta una serie di segni alfabetici di non facile interpretazione 
+                        e tuttora oggetto di studio. Non si esclude che abbiamo semplicemente funzione decorativa e riempitiva CIMARRA 2014, p. 130. Il committente, la 
+                        cui identità è rimasta per lungo tempo ignota anche a causa di errate interpretazioni del testo, dovrebbe 
+                        identificarsi con il mercante di pellami Giacomo di Agostino di Petto, detto Manica. Egli dovrebbe corrispondere 
+                        anche alla figura ritratta in ginocchio, ai piedi della Madonna in trono con Bambino affrescata sulla parete di 
+                        fronte all’ingresso sotto la Crocifissione GIONTELLA 2003, p. 135 ssg.; CIMARRA 2014, pp. 131-132. La terza 
+                        iscrizione, c, è un frammento delle didascalie che accompagnavano il Giudizio Universale affrescato dai pittori 
+                        Giovanni e Antonio Sparapane nell’omonima cappella della Chiesa di San Francesco. La didascalia, conservata in un 
+                        cartiglio, tratta del vizio della superbia. L’affresco risulta oggi fortemente danneggiato: la parte superiore 
+                        risulta ancora parzialmente leggibile, mentre mancano sia la parte centrale sia quella inferiore.  
+                        Dei cartigli con didascalie che accompagnavano le rappresentazioni dei dannati e dei vizi capitali solo uno - 
+                        quello della superbia - si è conservato pressoché integro; degli altri rimangono solo frammenti illeggibili di 
+                        testo. Considerando corretta la lettura dell’ultima parola del primo verso ci troveremmo davanti ad una terzina 
+                        di endecasillabi (CIMARRA 2014, pp. 133-134).</p>
+                </div>
+                <div type="bibliography">
+                    <p xml:id="editions">RICCI-SANTELLA 1991, pp. 7-8; CAMPANARI 1856, I, p. 237; RICCI-SANTELLA 1993, p. 52; GIONTELLA 2003, p. 350; CIMARRA 2014, pp. 129- 133.</p>
+                    <p xml:id="other">RICCI-SANTELLA 2003, p. 367; note 23-24.</p>
+                    <p xml:id="images">RICCI-SANTELLA 1991, fig. 12-13; GIONTELLA 2003, figg. 3-4-5, p. 354; CIMARRA 2014, figg. 3-4.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

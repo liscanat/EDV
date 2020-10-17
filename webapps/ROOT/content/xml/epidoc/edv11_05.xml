@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione del fossato</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.05</idno>
+                        <date when="2020-03-05"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Castellarsa</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>Grotta del prete</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#memorial">Iscrizione commemorativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width>100</width><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#elementary">Minuscola di base</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1326">XIV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11.05.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Quest<m type="desinence" subtype="ms_sing">u</m> foss<m type="desinence" subtype="ms_sing">u</m> fu facto l<m type="desinence" subtype="ms_sing">u</m> mille CCCXXVI
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>questufossufufactolumillecccxxvi
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>La terminazione in -u, tuttora caratteristica dei dialetti di Pitigliano e del Monte Amiata si alterna con la più diffusa –o, qui presente in &apos;fosso&apos; e &apos;facto&apos;.</p>
+                        <p>Si noti la mancanza di metafonesi nel pronome dimostrativo.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                    <p>L’iscrizione è incisa sulla parete sinistra di una grotta nei pressi dei ruderi del castello medievale di Castellarsa e ricorda la datazione dello scavo del fossato.Essa scorre continua su un unico rigo ad un’altezza di circa un metro dall’originario piano di calpestio. BIONDI 2009, pp. 7-8 dà notizia di un’altra scritta sulla parete opposta, oggi non più leggibile a causa del muschio. La grotta, chiamata per ragioni sconosciute ‘Grotta del prete’, si trova nei pressi dei ruderi dei Castello di Castellarsa sul confine tosco-laziale, tra Pitigliano e Ischia di Castro, in provincia di Viterbo. I ruderi sono tuttora visibili tra il fosso Ripignano e la sponda del torrente Arsa.</p>
+                 </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">BIONDI 2009, pp. 6-11; D’ACHILLE 2012, p. 112.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">BIONDI 2009, figg. 1-4.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

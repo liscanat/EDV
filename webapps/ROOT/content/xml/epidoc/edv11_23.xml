@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Madonna del Riposo</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.23</idno>
+                        <date when="2020-03-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Trevi Nel Lazio</placeName>
+                                <district ref="#FR">FR</district>
+                                <repository>Cappella della Madonna del Riposo</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#patronage #signature">Committenza, Firma</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica minuscola</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1483">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="http://www.italiavirtualtour.it/dettaglio.php?id=97728">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Questa cappella <phr type="syntagm" subtype="synt_lat">à fatta fare</phr>
+                            <lb n="2"/>lo populo de Treve ad honore
+                            <lb n="3"/>et laude de Iesu Christo et della
+                            <lb n="4"/>sua matre sancta Maria dello
+                            <lb n="5"/>Repus<m type="desinence" subtype="ms_sing">u</m> la quale li ha libe
+                            <lb n="6"/>rati de morbo et delle mani
+                            <lb n="7"/>dello <persName>duca de Calabria</persName> et d(e)			 
+                            <lb n="8"/>suoi sequaci christiani e
+                            <lb n="9"/>turchi infideli. A. D. MCCCC
+                            <lb n="10"/>LXXXIII. <persName>Petrus</persName> pinxit                         
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>Questa capella afacta fare
+                            <lb n="2"/>lo poplo de treve ad honore
+                            <lb n="3"/>et laude de iesu christo et della
+                            <lb n="4"/>sua matre sancta maria dello
+                            <lb n="5"/>Repusu la quale li ha libe
+                            <lb n="6"/>Rati de morbo et delle mani
+                            <lb n="7"/>dello duca de calabria et d(e)			 
+                            <lb n="8"/>suoi sequaci christiani e
+                            <lb n="9"/>turchi infideli. A. D. MCCCC
+                            <lb n="10"/>LXXXIII. petrus pinxit
+                            </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>2 populo D’ACHILLE-GIOVANARDI 1984</p>
+                        <p>7 di Calabria  et de D’ACHILLE-GIOVANARDI 1984</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Oscillazioni grafiche nella resa dell’ausiliare &apos;avere&apos; (&apos;ha liberati&apos; rr. 5-6, ma &apos;a fatta fare&apos;, r. 1). </p>
+                    <p>Si noti la conservazione di /e/ in protonia sintattica; la -e finale nel toponimo Treve (si vedano, al proposito, negli antichi documenti umbri, le forme Riete, Tode, Nargnie, 
+                        Nepe, MERLO 1922, ROHLFS 1966-1969, § 142), tratti tipici dei volgari mediani; l'oscillazione fra -u e -o in &apos;Iesu&apos; r. 3, &apos;Repusu&apos; 
+                        r. 5 (forma metafonetica), &apos;populo&apos; r. 2, &apos;Christo&apos; r. 3, &apos;morbo&apos; r. 6.</p>
+                    <p>&apos;sequaci&apos; r. 8: perdita della sonorità nella labiovelare, comune nei volgari del Lazio meridionale. Cfr. Jacopone da 
+                        Todi «Frate, tu non fai niente – periscerai malamente / gli sequaci fai dolente» 255. 3 (AGENO 1953). </p>
+                    <p>&apos;della sua matre&apos; rr. 3-4, &apos;d(e) suoi sequaci&apos; r. 8: anteposizione al nome dell’aggettivo possessivo dopo preposizione, tipo attestato in area mediana (ed in particolare con i nomi di parentela) insieme al modello posposto, quest’ultimo generalmente più diffuso. 
+                        Si vedano nelle duecentesche «Storie de Troia e de Roma», per il tipo posposto, i casi: &apos;Iasone suo nepote&apos; 377, 
+                        &apos;Menelao suo marito&apos; 378, &apos;Aiace so fratre consobrino&apos; 384, &apos;Ascanio suo filio&apos; 387 (CASTELLANI POLLIDORI 1966, p. 18).</p>
+                    <p>&apos;Questa cappella à facta fare&apos; r. 1: la frase volgare ricalca la formula latina &apos;hoc opus fecit fieri&apos;. </p>
+                    <p>&apos;morbo&apos; r. 6: questo termine, usato in generale per designare qualsiasi tipo di malattia contagiosa, 
+                        spesso indica per antonomasia la peste (GDLI, s.v. morbo, 2). V., oltre alla analoga iscrizione di San Sebastiano a Trevi 
+                        nel Lazio (EDV 11.25) anche la «Storie de Troia e de Roma»: «compliti LVIII anni [Marco Aurelio] fo morto de male 
+                        de morbo in Bedonia» (MONACI 1920, p. 306). </p>
+                     </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"> CARAFFA 1972, I, pp. 181-182; D’ACHILLE-GIOVANARDI 1984, n. 252, pp. 100-101.</p>
+                        <p xml:id="other"> SABATINI 1996c, p. 190 nota.11; D’ACHILLE 1997, p. 232; D’ACHILLE 2012, p. 83.</p>
+                        <p xml:id="images"> D’ACHILLE-GIOVANARDI 1984, tav. 13</p>
+                        </div>
+                </body>
+            </text>
+        </TEI>

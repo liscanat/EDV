@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pubblicazioni EDV</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EDV</authority>
+                <availability><licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence></availability>
+            </publicationStmt>
+            <sourceDesc><p>Born digital document.</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <bibl xml:id="p1">Luna Cacchioli – Nadia Cannata – Alessandra Tiburzi (con una nota paleografica di Maddalena Signorini), <title>Il volgare esposto in Italia (secc. IX-XV). Lingue, scritture, funzioni</title>, 2 voll. (Vol. I Studi, vol II in 4 tomi Testi), Roma, Bagatto Libri (2019).</bibl>
+                <bibl xml:id="p2">Vol I. Studi Vol II in 4 Tomi  Catalogo e Commento Linguistico (II/1 Italia settentrionale (Area gallo-italica e Veneto); II/2 Toscana e Roma; II/3 Italia mediana, meridionale e Sardegna 170 schede; II/4 Riproduzioni. (in preparazione)</bibl>
+                <bibl xml:id="p3">Luna Cacchioli – Nadia Cannata – Alessandra Tiburzi, <title>EDV – Italian Medieval Epigraphy in the Vernacular (IX-XV c). A New Database</title>, Archaeopress Archaeology, 2016.</bibl>
+                <bibl xml:id="p4">Luna Cacchioli – Alessandra Tiburzi, <title>Contributi e fonti per lo studio del volgare esposto in Italia</title>, in «Critica del Testo», XVIII/2, 2015.</bibl>
+                <bibl xml:id="p5">Luna Cacchioli – Alessandra Tiburzi, <title>Lingua e forme dell’epigrafia medievale in volgare</title>, «Studj Romanzi», nuova serie, n. XI [ISSN:0391-1691].
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

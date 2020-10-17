@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Storie di sant’Onofrio</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>D’ACHILLE-PETROCCHI 2004</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.20</idno>
+                        <date when="2020-04-22"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Chiostro della chiesa di sant’Onofrio al Gianicolo</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xrom">Volgare romanesco</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+                      <ab>
+                    <lb n="1"/>[…] madone […]
+                     </ab>
+                  </div>
+                <div type="textpart" subtype="section" n="B">
+                <ab>
+                 <lb n="1"/>Come lo dimonio disse allo re […]
+               </ab>
+                 </div>
+          <div type="textpart" subtype="section" n="C">
+          <ab>
+             <lb n="1"/>[…] [per] comandamento dell’angelo lo fece battizare et imponere nome Honofrio
+            </ab>
+               </div>
+          <div type="textpart" subtype="section" n="D">
+           <ab>
+                 <lb n="1"/>Come i m(onac)i de lo monasterio veduto el miraculo del pane l’abate [….]
+                  </ab>
+                    </div> 
+                    </div>
+                 <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia</title>:</p>
+                      <p>‘dimonio’ con chiusura di /e/ in protonia e ‘come’ entrambe forme toscaneggianti. 
+                       V., invece, le numerose attestazioni del mediano e meridionale ‘como’ nelle <title>Didascalie di Santa Francesca Romana</title> al monastero di 
+                            Tor de’Specchi, sempre a Roma 12.22. Per 'miraculo' con  conservazione di /u/ V. le <title>Storie de Troja e de Roma</title>:
+                            «Et in quel tempo grande miraculo apparve ad uno romano» (MONACI 1920, p. 214) e «e lo cuore di quello serpente ne mandaro a Roma per gran miraculo» 
+                            (MONACI 1920, p. 141).</p> 
+                            <p><title>Morfologia e sintassi</title>:</p>
+                             <p>D’Achille ha notato una significativa polimorfia data dalla presenza di articoli toscani deboli o elisi: 'el miraculo' 4, 'l’abate' 4, 'i monaci'
+                                  4, 'dell’angelo' 3, 'del pane' 4, contro forme locali forti 'lo dimonio' 2, 'allo re' 2 e 'delo monasterio' 4, da interpretarsi «vuoi come 
+                                  tendenza al toscaneggiamento da parte di autoctoni, vuoi come “compromesso” con la lingua locale da parte di allogeni, ma comunque risulta 
+                                  abbastanza significativa» (D’ACHILLE-PETROCCHI 2004, pp. 123-124).</p>
+                              <p>'battizare et imponere nome Honofrio', v. le numerose formule latine, inclusa quella per l’annuncio del nuovo papa. In volgare, Boccaccio: «Non parve a lui dovere essere contento che 
+                                  questo nome da’ suoi parenti gli fosse imposto casualmente, come molti ciascun dì se ne pongono» Accessus, par. 38 (BRANCA 1965, p. 9).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Considerato il precario stato di conservazione degli affreschi e la conseguente scarsa leggibilità delle iscrizioni si pubblica qui il testo 
+                            secondo l’edizione D’ACHILLE-PETROCCHI 2004, adattata ai nostri criteri.</p>
+                        <p>In origine gli affreschi decoravano al facciata della primitiva cappellina dell’oratorio del cenacolo eremitico girolamino fondata nel 1437 dal Beato Nicola di Forca Palena. 
+                            Il ciclo – realizzato mediante una tecnica molto rara a Roma, con terra verde e rialzi in biacca (PETROCCHI 1998, p. 167) – raffigura l’infanzia e i 
+                            primi miracoli di Sant’Onofrio. Le scene sono divise in due registri da cornici con motivi vegetali e sono corredate da didascalie in volgare oggi 
+                            solo parzialmente leggibili. Tre scene occupano la parte superiore, due la parte inferiore (D’ACHILLE-PETROCCHI 2004, p. 114). La narrazione comincia 
+                            con la Nascita del santo alla quale assistono un gruppo di cortigiane; la scena seguente, al centro, riporta l’apparizione del demonio che indica al 
+                            re, padre di Onofrio, il figlio quale frutto di un adulterio; nell’ultimo riquadro è possibile riconoscere, anche grazie alla didascalia, la scena 
+                            della prova del fuoco: attraverso questa prova il re si sarebbe assicurato che il figlio non fosse di altri e l’angelo sarebbe poi apparso in atto di 
+                            ordinare al re di far battezzare il neonato con il nome Onofrio; nell’ultima scena è invece rappresentato il miracolo del pane donato dal giovane 
+                            santo ad una immagine della Madonna col Bambino: tale gesto sarebbe stato ricambiato miracolosamente con un dono analogo e questo evento avrebbe 
+                            condotto l’abate del monastero a proporre la nomina di superiore per Onofrio (PETROCCHI 1998, pp. 167-168). Scrive Stefano Petrocchi: «Dai pochi 
+                            brani leggibili, in attesa di un quanto mai auspicabile intervento conservativo delle preposta autorità vaticane, emergono caratteri che rinviano a 
+                            un bottega di cultura fiorentina che realizza la decorazione almeno attraverso due mani». (D’ACHILLE-PETROCCHI 2004, p. 114).</p>                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">PETROCCHI 1998, pp. 166-168; D’ACHILLE-PETROCCHI 2004, p. 123.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">D’ACHILLE-PETROCCHI 2004, fig. 8.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

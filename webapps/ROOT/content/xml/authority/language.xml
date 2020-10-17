@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Languages</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Lingua / Language</head>
+                <item xml:id="xcat">
+                    <term xml:lang="it">Catalano</term>
+                    <gloss xml:lang="en">Catalan</gloss>
+                </item>
+                <item xml:id="xfle">
+                    <term xml:lang="it">Fiammingo</term>
+                    <gloss xml:lang="en">Flemish</gloss>
+                </item>
+                <item xml:id="xfr">
+                    <term xml:lang="it">Francese</term>
+                    <gloss xml:lang="en">French</gloss>
+                </item>
+                <item xml:id="xgall">
+                    <term xml:lang="it">Gallurese</term>
+                    <gloss xml:lang="en">Gallurese</gloss>
+                </item>
+                <item xml:id="la">
+                    <term xml:lang="it">Latino</term>
+                    <gloss xml:lang="en">Latin</gloss>
+                </item>
+                <item xml:id="xsar">
+                    <term xml:lang="it">Sardo</term>
+                    <gloss xml:lang="en">Sardinian</gloss>
+                </item>
+                <item xml:id="xesp">
+                    <term xml:lang="it">Spagnolo</term>
+                    <gloss xml:lang="en">Spanish</gloss>
+                </item>
+                <item xml:id="xtosc">
+                    <term xml:lang="it">Toscano letterario</term>
+                    <gloss xml:lang="en">Tuscan (literary)</gloss>
+                </item>
+                <item xml:id="xvolg">
+                    <term xml:lang="it">Volgare</term>
+                    <gloss xml:lang="en">Vernacular</gloss>
+                </item>
+                <item xml:id="xvlat">
+                    <term xml:lang="it">Volgare (?)</term>
+                    <gloss xml:lang="en">Vernacular (?)</gloss>
+                </item>
+                <item xml:id="xbg">
+                    <term xml:lang="it">Volgare bergamasco</term>
+                    <gloss xml:lang="en">Bergamo vernacular</gloss>
+                </item>
+                <item xml:id="xfri">
+                    <term xml:lang="it">Volgare friulano</term>
+                    <gloss xml:lang="en">Friulian vernacular</gloss>
+                </item>
+                <item xml:id="xmed">
+                    <term xml:lang="it">Volgare mediano</term>
+                    <gloss xml:lang="en">Volgare mediano</gloss>
+                </item>
+                <item xml:id="xmer">
+                    <term xml:lang="it">Volgare meridionale</term>
+                    <gloss xml:lang="en">Southern vernacular</gloss>
+                </item>
+                <item xml:id="xrom">
+                    <term xml:lang="it">Volgare romanesco</term>
+                    <gloss xml:lang="en">Roman vernacular</gloss>
+                </item>
+                <item xml:id="xset">
+                    <term xml:lang="it">Volgare settentrionale</term>
+                    <gloss xml:lang="en">Northern vernacular</gloss>
+                </item>
+                <item xml:id="xsic">
+                    <term xml:lang="it">Volgare siciliano</term>
+                    <gloss xml:lang="en">Sicilian Vernacular</gloss>
+                </item>
+                <item xml:id="xvtosc">
+                    <term xml:lang="it">Volgare toscano</term>
+                    <gloss xml:lang="en">Tuscan vernacular</gloss>
+                </item>
+                <item xml:id="xvnt">
+                    <term xml:lang="it">Volgare veneto</term>
+                    <gloss xml:lang="en">Veneto vernacular</gloss>
+                </item>
+                <item xml:id="xvnz">
+                    <term xml:lang="it">Volgare veneziano</term>
+                    <gloss xml:lang="en">Venetian vernacular</gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

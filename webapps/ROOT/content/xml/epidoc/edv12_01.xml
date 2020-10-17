@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Graffito di Commodilla</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName>, <persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.01</idno>
+                        <date when="2020-04-28"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Catacomba di Commodilla</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#G">Graffito</term>
+                                    <term type="textType" ref="#graffiti">Graffiti</term>
+                                </summary>
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#graffiti">Graffito</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#uncial">Onciale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate notBefore="0800" notAfter="0850" precision="low">IX in.</origDate>
+                                </origin>
+                                <provenance type="observed">2014-04</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="12.01.jpg">
+                    <desc/>
+                </graphic>                              
+                 <graphic url="12.01a.jpg">
+                 <desc/>
+                 </graphic>
+            
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                    <lb n="1"/>Non
+                    <lb n="2"/>dice
+          <lb n="3"/>re il
+          <lb n="4"/>le se                           
+          <lb n="5"/>crita
+          <lb n="6"/>abboce
+                        </ab>
+                       </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                      <lb n="1"/>NON
+                    <lb n="2"/>DICE
+          <lb n="3"/>RE IL
+          <lb n="4"/>LE SE
+          <lb n="5"/>CRITA
+          <lb n="6"/>ABbOCE
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia</title>:</p>
+                        <p>'ille secrita' resa grafica di /e/ con &lt;i&gt; – dove /e/ romanzo &lt; Ĕ lat. – tipica delle scritture latine precarolinge (SABATINI 1987, p. 17-18; 
+                            VIELLIARD 1927, pp. 5-11, 13 s.; BONIOLI 1962, pp. 7-22); stessa cosa si potrebbe supporre per la /i/ di 'ille' – dove però /i/ viene da una Ĭ latina – 
+                            in questo caso, si potrà dunque anche considerare un latinismo (SABATINI 1987, pp. 17-18, 20). 'a bboce': la locuzione, dal lat. &lt; AD VOCE(M), 
+                            presenta raddoppiamento fonosintattico con l’iniziale di VOCEM, già allo stadio di fricativa bilabiale sorda /β/: il rafforzamento ha dato dunque 
+                            come esito l’occlusiva bilabiale sonora intensa /bb/; si tratta di un fenomeno largamente attestato anche nel dialetto romanesco 
+                            (SABATINI 1987, p. 23; ROHLFS 1966-1969, § 240). Lo scrivente ha probabilmente giudicato che il grafema &lt;bb&gt; avrebbe reso l’occlusiva 
+                            bilabiale mentre il semplice grafema &lt;b&gt; intervocalico avrebbe reso una costrittiva bilabiale o già labiodentale (/aβóce/ o /avóce/). 
+                            Sabatini suppone che l’autore del graffito, dopo aver scritto 'a boce', abbia perciò corretto in interlineo (SABATINI 1987, p. 23-27).</p>
+                        <p><title>Morfologia e sintassi</title>:</p>
+                        <p>'dicere' a Roma unica forma attestata nelle <title>Storie de Troia e de Roma</title>, nella <title>Cronica</title> e nelle <title>Miracole de Roma</title>
+                        (SABATINI 1987, p. 20). <title>Storie de Troja et de Roma</title>: «comensao a dicere con gran paura» (MONACI 1920, p. 9); «vole homo dicere k’a Roma fo una 
+                        nobilissima troiana donna» (MONACI 1920, p. 81); nella <title>Cronica</title> dell’Anomimo Romano: «Tante fuoro le corpora morte che nude iacevano, che non 
+                        se pote dicere» cap. 3 (PORTA 1979, p. 18) e «Io pozzo dicere in bona fede e con veritate» cap. 11 (PORTA 1979, p. 84). 'non dicere': imperativo proibitivo 
+                        singolare espresso con negazione + infinito, tipo seriore del latino volgare. Sono attestati esempi di questo costrutto già in testi romani tardolatini quali 
+                        il <title>Liber Martyrium</title> del VI sec., e in altri scrittori altomedievali fino ad Alcuino e Agnello Ravennate, «ciò vuol dire che era un popolarismo 
+                        accolto talora nell’uso letterario e nulla toglie alla sua reale presenza nell’uso parlato di Roma e d’Italia, come ci dimostrano le condizioni locali delle 
+                        età successive.», SABATINI 1987, p. 20). 'ille' con funzione di articolo; forma non ancora aferetica, largamente diffusa in italiano antico fino al secolo 
+                        XV (SABATINI 1987, pp. 20-21; ROHLFS 1966-1969, § 416). 'secrita' plurale collettivo in -a; non si tratta del plurale del sostantivo maschile 'secretum' 
+                        ma del singolare secreta (&lt; oratio secreta). Il fatto che si parta da un singolare femminile per la formazione del plurale collettivo in -a dipende 
+                        dalla grande produttività del tipo morfologico in –a/-ora nell’italiano antico e, in particolare, in Italia centrale e meridionale; 
+                        v. l’alta frequenza di plurali in -a negli antichi testi romaneschi (SABATINI 1987, pp. 20-22).</p>     
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Entrando nella cripta dei santi Felice e Adàutto dalla galleria principale, sulla parete di sinistra, all’interno della zona presbiteriale è 
+                            conservato un grande affresco, datato con certezza tra i secoli VI e VII, che rappresenta la Vergine in trono col Bambino; ai lati di Maria si 
+                            trovano san Felice e san Adàutto nell’atto di presentare alla Vergine  Tórtora, alla cui memoria il cui figlio fece eseguire l’affresco. La scena 
+                            è racchiusa in una cornice pittorica bianca, nera e infine rosso-mattone quella più esterna, di larghezza variabile tra i 6 e gli 8 cm ai lati, 
+                            mentre il fascione alla base dell’affresco misura fra i 30 e i 40 cm. Entro questa base si legge, disposta su due colonne, un'elegia latina, 
+                            iscritta in una capitale databile fra VI e VII sec:</p> 
+<p>Col A</p>
+<p>+SVSCIPE NVNC LACRIMAS MATERNATIQVE SUPRESTIS</p>
+<p>QVA FVNDET GEMITVS . LAVDIBVS ECCETVIS</p>
+<p>POS MORTEM PATRIS SERVASTI CASTAM A MARITI</p>
+<p>SEXTRIGINTAANNIS . SIC VIDVA [..]FIDEM</p>
+<p>[.] FICIVM NATO PATRIS MATRI . […] GEREBAS</p>
+<p>[……..] REQVIEX[.]IT IN PACE T&lt;VRT&gt;VRA</p>
+<p>Col B</p>
+<p>IN SVBOLIS FACIEM VIRTVTIBVS VIXIT ORAS</p>
+<p>TVRTVRA NOMEN BISSET TVRTVR VERA FVITI</p>
+<p>CVI CONIVX MORIENS NON FVIT ALER AMOR</p>
+<p>VNICA MATERIA EST QVOS VMIT FEMINA LAVDEM</p>
+<p>QVOT E CONIVGIO. EXBVISSE DOCES</p>
+<p>QVE BISIT PLM ANNVS LX [hedera distinguens]</p>
+<p>Il graffito si trova sul lato sinistro della cornice rossa, a 126 cm di altezza da terra e su di una superficie di 11 × 6,5 cm. Il testo deve essere inteso come 
+    «il richiamo che un religioso, fautore d’un tipo di liturgia più recente e accreditato, rivolgeva a qualche confratello che seguiva ancora il vecchio uso di recitare le 
+    secrete ad alta voce». (SABATINI 1987, pp. 19-20). Sulle pareti della cripta sono presenti altri graffiti, invocazioni latine e nomi religiosi che, sulla base di 
+    un’analisi paleografica e linguistica, risultano essere anteriori al graffito in questione (SILVAGNI 1943, p. 369, num. 6449, 1-38).</p>
+<p>Il graffito di Commodilla fu reso noto agli studiosi nel 1904 dall’archeologo Orazio Marucchi che per primo esplorò la cripta dopo la riscoperta nel 1903 della catacomba 
+    di Commodilla della quale sin dal Medioevo si erano perse le tracce. Già nel 1720, nel corso di uno scavo, la cripta era stata soltanto rapidamente vista dallo studioso 
+    Marc’Antonio Boldetti che aveva descritto il luogo come inviolato sin dall’antichità. Pochi giorni dopo la visita del Boldetti una frana aveva chiuso di nuovo 
+    l’accesso alla catacomba, riscoperta quindi soltanto nel 1903. 
+Le analisi paleografiche consentono di inquadrare il graffito tra l’VIII e l’inizio del X secolo, con una preferenza per il IX; esso fu eseguito con caratteri misti onciali 
+e capitali ed è la testimonianza graffita più antica della cripta. L’ «assetto ordinato ed il corretto taglio sillabico dello scritto» consentono di ritenere che l’esecutore fosse un religioso erudito e di buona esperienza scrittoria (SABATINI 1987, p. 12).  
+Il saccheggio del suburbio romano da parte dei Saraceni causò la traslazione delle reliquie dei martiri Felice e Adàutto, conservate nella basilichetta, entro l’anno 851. 
+La cripta, luogo di culto frequentato e ben conservato fino alla metà del IX secolo, non dovette perciò essere più frequentata dopo la traslazione. 
+L’indagine storico-liturgica conferma d’altra parte che già all’inizio del IX secolo era diffusa a Roma la pratica di 
+«recitare in silenzio o a bassa voce le secrete, siano esse le vere e proprie secrete dell’Offertorio, o anche le altre orazioni silenziose del Canone», pratica di 
+tradizione gallicana che proprio dalla prima età carolingia iniziò a diffondersi e stabilizzarsi sia a Roma sia in Italia (SABATINI 1987, p. 15. Per il problema dell’origine 
+delle preghiere silenziose nella messa: JUNGMANN 1958, pp. 126 ss; RIGHETTI 1956, vol. I, p. 416; vol. III, pp. 261-308; LEWIS 1962; EC, VIII, s.v. Messa; vol. IX, s.v. 
+Secreta). L’analisi linguistica e l’individuazione di un fenomeno tipico delle scritture latine precarolinge, quale la resa di /e/ con &lt;i&gt; in SECRITA, hanno consentito a Sabatini di attribuire il graffito alla prima metà del IX secolo.
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">MARUCCHI 1904, pp. 41-84; MARUCCHI 1905, pp. 5-66; CELI 1906, pp. 239-252; SILVAGNI 1935, II, p. 369, n. 6449, 39; 
+                            BAGATTI 1936, p. 113; CARLETTI 1950, IV, s.v. Commodilla (Cimitero di); SIFFRIN 1953, s.v. Secreta; GRAY 1948, pp. 161 s.; 
+                            CARLETTI 1965, pp. 60-61; SABATINI 1966, pp. 49-80; SABATINI 1968, pp. 322-323; AVALLE 1970, p. 36; DE MAURO 1970, p. 24; TEKAVĈIĆ 1972, p. 149; 
+                            TAGLIAVINI 1972, pp. 530-532; FOLENA 1972, p. 90; CASTELLANI 1973, pp. 3-37; PETRUCCI 1978, p. 98; PULGRAM 1978; FASSÒ-MENONI 1979-1980, p. 27; 
+                            SABATINI 1987 , pp. 5-34; PETRUCCI L. 2010, pp. 71-72.</p>
+                        <p xml:id="other">DELEHAYE 1897, pp. 17-43; D’ACHILLE-GIOVANARDI 1984, pp. 19-20, n. 1; p. 169, n. 1; MINASI 1997, pp. 65-94; CASAPULLO 1999, p. 194; CANNATA 2014.</p>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione della via Velletrana</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.15</idno>
+                        <date when="2020-03-06"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Velletri</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Via Velletrana</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1450">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Queste case
+                            <lb n="2"/><phr type="syntagm" subtype="synt_lat">à fatte fare</phr> <persName>no
+                            <lb n="3"/>taro Petro <seg type="phoneme" subtype="j_initial">I</seg>an
+                            <lb n="4"/>nucce de Vele
+                            <lb n="5"/>tri</persName> e fabrica
+                            <lb n="6"/>te <persName>P. Mast&lt;r&gt;o			 
+                            <lb n="7"/>Nicola de <placeName>Patri
+                            <lb n="8"/>ca</placeName></persName> MCCCCL
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>&lt;cc&gt; in &apos;Iannucce&apos; r. 4 dovrebbe rendere /ʧ/; la conservazione di /j/ in posizione iniziale è propria dell’Italia mediana; come -e 
+                            (v. Ugoline, <ref target="edv11_08">11.08</ref>).</p>
+                        <p>Per /j/ iniziale v. anche il <title>Cantare di Fiorio e Biancofiore</title>, tràdito dal manoscritto velletrano (F), le forme &apos;iongere&apos; 
+                            F 58, 323, 209 e &apos;iurame&apos; F 228 (CROCIONI 1903). V., in EDV, <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_04">11.04</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, 
+                            <ref target="edv12_17">12.17</ref>, <ref target="edv12_24">12.24</ref>.</p>
+                        <p>Il sintagma &apos;à fatte fare&apos; traduce la tradizionale formula epigrafica &apos;fecit fieri&apos; per riferirsi alla figura del 
+                            committente (il notaio Pietro Iannucci). v. <ref target="edv11_02">11.02</ref>, <ref target="edv11_20">11.20</ref>, <ref target="edv11_23">11.23</ref>, <ref target="edv11_25">11.25</ref>; il verbo &apos;fabricate&apos; 
+                            si riferisce all’atto pratico del &apos;costruire&apos; e va riferito in questo caso al mastro Nicola da Patrica.
+                        </p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Nell'impossibilità di una ricognizione diretta o fotografica lapresente edizione si basa unicamente sul testo stabilito in D’ACHILLE-GIOVANARDI 1984, n. 335, p. 121.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">PALUMBO 1930, p. 575; D’ACHILLE-GIOVANARDI 1984, n. 335, p. 121.</p>
+                        <p xml:id="other">SABATINI 1996c, p. 190 nota 11.</p>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

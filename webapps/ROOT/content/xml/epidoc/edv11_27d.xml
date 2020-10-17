@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Santuario della Cona Passatora (nn. 14-15) - Cristo della Domenica e Madonna delle Misericordie (1490).</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Michela Sacchetti</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Michela Sacchetti</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.27c</idno>
+                        <date when="2020-03-29"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Loc. Ferrazza, Amatrice</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Santuario dell’Icona Passatora(a-c)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
+                                    <term type="textType" ref="#signature #narrative">Committenza, Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width>67</width><depth/><height>54</height></dimensions>
+                                            <dimensions><width>60</width><depth/><height>30</height></dimensions>
+                                            <dimensions><width>?</width><depth/><height>?</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1490" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed">2019-06</provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="11_27d14.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="11_27d15.jpg">
+                    <desc/>
+                </graphic>
+                                                            
+                  </facsimile>
+            <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                     <div type="textpart" subtype="section" n="14">
+                      <ab>
+                         <lb n="1"/>Io <m type="essere" subtype="pres1ps">so</m> Christu e onne persona m’endena: fici la domeneca che se vardasse, tucte l’arte a me
+                          <m type="offendere" subtype="pres3ps">offene</m>. 
+                         <lb n="2"/>Qesta feura <phr type="syntagm" subtype="synt_lat">à facta fare</phr> le femene per sua deutione. MCCC ̊CLXXXX [...] </ab>
+                         </div>
+                         <div type="textpart" subtype="section" n="15"> 
+                         <ab>&lt;feme&gt;ne per sua deutione 1491
+                         </ab>
+                         </div>
+                     </div>                                    
+                        <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="14">
+                      <ab>
+                      <lb n="1"/>Io so (Crist)u e o(n)ne p(er)sona m’e(n)dena: fici la domeneca che se vardasse; tucte l’arte a me offene. 
+                      <lb n="2"/>Qesta feura à facta fare le femene p(er) sua deutione. M°.CCC°C.LXXXX[...].
+                        </ab>
+                    </div>
+                         <div type="textpart" subtype="section" n="15"> 
+                         <ab>[...]ne per sua deutione 1491
+                         </ab>
+                         </div>
+                        </div>
+                    <div type="apparatus">
+                           </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                         <p>Si notino la conservazione di di /e/ pre e postonia (v. VIGNUZZI 1984, p. 42); 
+                         ‘o(n)ne’ ‘ogni’ con assimilazione regressiva del nesso consonantico –MN &gt; /nn/ (ROHLFS 1966-1969, § 500; TRIFONE 1988, p. 127), 
+                         forse con &lt;n&gt; per /ɲ/ come in 'm'endena' se è corretta l'interpretazione del verbo come 'm'indigna';  
+                         la metafonesi in ‘fici’; l’assorbimento della consonante omorganica davanti a in 'feura' e 'deutione' r. 2, 
+                         forme tuttora attive in area ascolana ed abruzzese (D’ACHILLE 2012 c, p. 87; FINAMORE 1893, p. 187; DAM, vol. II, p. 774; 
+                         BRANDOZZI 1983, p. 79). V. anche, al proposito, nella confessione di Bellezze Ursini le forme 'diaulo' ‘diavolo’ e 'guerno' ‘governo’ 
+                         (D’ACHILLE 2012 c, pp. 87-88 e nota 68; TRIFONE 1988, p. 108).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'so’ ‘sono’ r .1: esito diretto da SU(M), non apocopato; v. l'<title>Incontro dei Vivi e dei Morti</title> di Poggio Mirteto e la <title>Scala Santa 
+                            e Trionfo della Morte</title> di Subiaco <ref target="edv11_04">11.04</ref> e <ref target="edv11_06">11.06</ref>.</p>  
+                        <p>'offene' forma del presente indicativo di 3a persona plurale. Una coincidenza della terza persona singolare con la terza 
+                            persona plurale è caratteristica dell’area tra le Marche e l’Abruzzo (v. anche gli affreschi della Madonna del Crognale (TE)
+                             <ref target="edv13_10">13.10</ref>, con assimilazione progressiva del nesso -ND- &gt; /nn/ e successivo scempiamento della nasale.</p> 
+                         <p>'tucte l’arte a me offene' r. 1: reggenza proposizionale dell’oggetto diretto, costruzione tipica dell’Italia meridionale che si è estesa a nord fino 
+                             all’Umbria e alle Marche (ROHLFS 1966-1969, § 632; ROHLFS 1971, pp. 312-334). 'sua deutione' r. 2: uso del pronome possessivo di terza persona 
+                             singolare riferito al soggetto plurale 'femene', fenomeno non assente nella lingua antica (v. anche l’uso del verbo in terza persona 
+                             singolare 'à' con il soggetto plurale (D’ACHILLE 2012 c, p. 85; ROHLFS 1966-1969, § 532).</p>
+                        <p><title>Lessico:</title></p>
+                        <p>'m’e(n)dena' r. 1: possibile l’interpretazione di 'm’endéna' come ‘m’indigna’, con normale passaggio di I protonica ed Ĭ ad e, 
+                            ed esito -GN- &gt; /n/, non assente in quest’area; cfr ‘assenaralo’ ‘lo assegnerà’ negli <title>Statuti di Ascoli Piceno</title>, 
+                            D’ACHILLE 2012 c, p. 85; ROHLFS 1966-1969, § 259; VIGNUZZI 1975-1976, II, p. 129, n. 103. 
+                            Più probabile, tuttavia (v. D’ACHILLE 2012c, ivi) che 'me(n)dena' vada interpretato senso di ‘m’intenda’, con sonorizzazione della 
+                            occlusiva dentale sorda postnasale e scempiamento almeno grafico di /nn/. V. anche EGIDI 1965, p. 72, s.v. 
+                            endènne per ‘intendere’; BRANDOZZI 1983, p. 70, s.v. endènne.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L'iconografia del <title>Cristo della Domenica</title> si ritrova anche negli affreschi della Basilica di san Miniato al Monte (FI) <ref target="edv08_83">08.83</ref>
+                        e nella chiesa di San Martino a Castelsantangelo (MC) <ref target="edv10_35">10.35</ref>.</p>
+                        <p></p>                         
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI CARLO 1908, p. 71; VERANI 1955, pp. 1-12; VERANI 1955a, pp. 1-23; VERANI 1982; FABBI 1977, p. 245; 
+                            VIGNUZZI 1994, p. 348, n. 16; D’ACHILLE 1995; D’ACHILLE 1997, pp. 232-235; BRECCOLA 2003; D’ACHILLE 2004, pp. 167-182; D’ACHILLE 2012, pp. 83-88.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">D’ACHILLE 1997, fig. 64; D’ACHILLE 2012, pp. 83-88 p. 86, fig. 6.; 
+                        Andrea Carloni https://www.flickr.com/photos/andrea_carloni/albums/72157639482013326</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

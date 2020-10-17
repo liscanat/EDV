@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Giudizio Universale, Pofi</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D'ACHILLE 2012c</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.28</idno>
+                        <date when="2020-03-25"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Pofi</placeName>
+                                <district ref="#FR">FR</district>
+                                <repository>Chiesa di sant’Antonio</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1400" notAfter="1499" precision="low">XV</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>secr[...]
+          <lb n="2"/>danati p(er) div(er)si pecch[ati]
+          <lb n="3"/><w>micidiario</w>
+          <lb n="4"/>tavern<m type="desinence" subtype="ARIUM">aro</m>
+          <lb n="5"/>li falsi araturi
+          <lb n="6"/>et no da(n)no lo oro
+          <lb n="7"/>alla ecchlesia
+          <lb n="8"/>&lt;t&gt;raditore
+          <lb n="9"/><w>fatuc&lt;hi&gt;ara</w>
+          <lb n="10"/>usur<m type="desinence" subtype="ARIUM">aro</m>
+          <lb n="11"/>sodomi
+          <lb n="12"/>ta
+          <lb n="13"/>lo Iudio (o zudio?)
+          <lb n="13"/>femina vana 
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>La lettura estremamente incerta dell'iscrizione non consente di discuterne troppo a fondo le forme. Si noti la metafonesi in &apos;araturi&apos;, 
+                            le desinenze degli agentivi in &apos;-aro&apos; come è normale in area mediana; la forma &apos;micidario&apos;, aferetica per &apos;omicidiario&apos;. 
+                            V. anche la forma &apos;micidiari&apos; nella <title>Cronica dell’Anonimo Romano</title> e &apos;miciari&apos; nel manoscritto di Tor de’ Specchi dei 
+                            <title>Tractati sulla vita di s. Francesca Romana</title> e nei Giudizi Universale di Cori <ref target="edv11_14">11.14</ref> e Sermoneta <ref target="edv11_29">11.29.</ref> 
+                            cfr. anche &apos;afacctochiara&apos; nelle didascalie del Giudizio Universale di Cori <ref target="edv11_14">11.14.</ref></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’affresco è conservato sulla controfacciata della Chiesa di Sant’Antonio di Pofi. Originariamente comprendeva anche iscrizioni in latino</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">CAMPOLI 1982, p. 466 (parziale); CRISTOFANILLI 1987, p. 9; D’ACHILLE 1997, pp. 228-229; D’ACHILLE 2012, pp. 76-77.</p>
+                        <p xml:id="other">CELLETTI 1957, p. 157; ALONZI 1968, pp. 106-107; FABRIZI-DE LUCA 1983; ROMANO 1992, p. 388, p. 393, n. 52.</p>
+                        <p xml:id="images">D’ACHILLE 1997, fig. 60; D’ACHILLE 2012c, p. 76, fig. 2.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

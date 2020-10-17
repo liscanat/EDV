@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Valentino Pica il Vecchio, Madonna dei Raccomandati</title>
+                <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                <editor role="edition">PEDROCCHI 1983</editor>
+                <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                <editor role="images"><persName></persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">11.21</idno>
+                <date when="2020-03-22"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Tuscania</placeName>
+                        <district ref="#VT">VT</district>
+                        <repository>Chiesa di sant’Agostino</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#admonition">Monito</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>    
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><width>112</width><depth/><height>180</height></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                            <origDate notBefore="1446" notAfter="1450">XV ex.</origDate>
+                        </origin>
+                        <provenance type="observed"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="">
+            <desc/>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <div type="textpart" subtype="section" n="A">
+                    <ab>
+                        <lb n="1"/>QUAL AME [...] TE PER INVOCAR DI [...] EL [...] AMAR [...]
+                        <lb n="2"/>[...] I VOSTRI PEC<seg type="grapheme" corresp="/k/">CH</seg>ATI [...] FRATE PIETRO TO
+                    </ab>
+                </div>
+                <div type="textpart" subtype="section" n="b">
+                    <ab>
+                        <lb n="1"/>PINXIT VALENTINVS
+                    </ab>
+                </div>
+            </div>
+                <div type="edition" subtype="diplomatic" xml:space="preserve">
+                    <ab>
+                    </ab>
+                </div>
+                <div type="apparatus">
+                    <p/>
+                </div>
+                <div type="commentary" subtype="linguistic_analysis">
+                    <p/>
+                </div>
+                <div type="commentary" subtype="note">
+                    <p>Il dipinto, in precarie condizioni di conservazione, è stato sottoposto a due restauri: nel 1932 e nel 1980-82. 
+                        Durante quest'ultimo restauro sono emerse le due iscrizioni: la prima dipinta sui due lati del quadro, 
+                        l'altra, recante la firma dell'artista, sul verso, e dunque non visibile (DI SIMONE 2010). 
+                        Nell'impossibilità di una ricognizione diretta, l'edizione segue PEDROCCHI 1983.</p>
+                </div>
+                <div type="bibliography">
+                    <p xml:id="editions">PEDROCCHI 1983, DI SIMONE 2010</p>
+                    <p xml:id="other">VAN MARLE 1934, MARSHALL 2005</p>
+                    <p xml:id="images"/>
+                </div>
+        </body>
+    </text>
+</TEI>
