@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Mariano D’Antonio (?), Storie del Beato Egidio</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>GARIBALDI 2015</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.16</idno>
+                        <date when="2020-11-25"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Perugia</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Galleria Nazionale delll’Umbria, già Perugia, chiesa di San Francesco al Prato</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#wood">Legno</material>
+                                            <objectType ref="#painting">Dipinto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate notBefore="1410" notAfter="1468">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.16.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                    <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="0"/>[<title>Colloquio con Gregorio IX</title>]
+<lb n="1"/>Facto i(n) (con)templatione el b(ea)to nel suo colloq(ui)o el papa fo p(ri)vato.
+</ab>
+</div>
+    <div type="textpart" subtype="section" n="B">
+<ab>
+    <lb n="0"/>[Il rigo è ritenuto posticcio da GARIBALDI 2015. Si trascrive ugualmente al solo scopo di mantenere l’unitarietà del testo.]
+    <title>Resurrezione della fanciulla di Monte San Savino.</title>]
+    <lb n="1"/><title>Puella mortua resuscitatur ad votum materterae.</title>
+</ab>
+    </div>
+<div type="textpart" subtype="section" n="C">
+<ab>
+    <lb n="0"/>[<title>Visita di san Luigi IX di Francia</title>]
+    <lb n="1"/>[Testo interamente ricostruito in GARIBALDI 2015: <title>S. Ludovicus francorum rex, et beatus mutuo abeque ver</title>].
+<lb n="2"/>[<title>[bis sua sensa communicant]</title> 
+</ab>
+</div>
+<div type="textpart" subtype="section" n="D">
+<ab>
+    <lb n="0"/>[<title>Estasi del beato Egidio</title>]
+    <lb n="1"/>in or(ati)one levato sta (con)te(m)p(e)l(an)do in (con)specto del p&lt;apa?&gt;.
+</ab>
+</div>
+               <div type="textpart" subtype="section" n="E">
+<ab>
+    <lb n="0"/>[<title>Miracolo del latte</title>]
+<lb n="1"/>quando 
+<lb n="2"/>pron
+<lb n="3"/>appar
+<lb n="4"/>mulier lacte caren&lt;s&gt; pectusque adplicans loco ubi
+<lb n="5"/>beatus steterat fit voti compos
+</ab>
+               </div>
+              <div type="textpart" subtype="section" n="F">
+<ab>
+<lb n="0"/>[<title>Transito</title>]
+<lb n="1"/>singularis raptus beati
+</ab>
+</div></div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Nell’impossibilità di vedere personalmente il manufatto abbiamo messo a testo la sola edizione critico-interpretativa sulla base della lettura di GARIBALDI 2015, tranne 
+                            per la resa di «fo’» della prima didascalia, che abbiamo reso con «fo». 
+                            Ricaviamo inoltre da GARIBALDI 2015 il nome dell’opera, nonché degli episodi della vita del santo di cui si parla nel testo. </p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                        <p>Le iscrizioni commentano le storie della vita del beato Egidio e in particolare, da sinistra e a partire dall’alto: [A] il colloquio con Gregorio IX, 
+                            [B] la resurrezione della fanciulla di Monte San Savino, [C] la visita di san Luigi IX di Francia; [D] l’estasi del beato Egidio; [E] il miracolo 
+                            del latte e infine il transito [F].</p>
+<p>Il manufatto proviene dalla chiesa perugina di San Francesco al Prato ed è conservato nella Galleria Nazionale dell’Umbria (inv. 15). 
+    Le iscrizioni, in latino e in volgare, si presentano in un pessimo stato conservativo che rende malagevole la lettura, soprattutto della didascalia [4]. 
+    È inoltre presente la riscrittura dell’intera riga nel segmento [2]. Il volgare, se si esclude la frammentaria didascalia [5], è impiegato soltanto nel primo episodio.
+Il manufatto fu segnalato per la prima volta nel 1784 da Orsini che ricorda nella Sagrestia «il feretro del B. Egidio. Esso è di tavole, su cui fu di poi dipinto il Beato 
+con diverse gesta della vita». Esso è stato con ogni probabilità realizzato dopo il 1439 o dopo la metà del XV secolo ed è generalmente è attribuito a Mariano d’Antonio per alcune affinità con le sue opere più mature
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">MANCINI 1992, p. 146, n. 31; GARIBALDI 2015, p. 346 n. 130.</p>
+                        <p xml:id="other">GUADABASSI 1872, n. 304; TODINI 1989, I, p. 127.</p>
+                        <p xml:id="images">TODINI 1989, II, figg. 764-767; GARIBALDI 2015, p. 223, n. 51.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

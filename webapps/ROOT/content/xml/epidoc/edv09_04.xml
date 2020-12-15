@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Architrave del Palazzo dei Consoli</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Tomasin 2016</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.04</idno>
+                        <date when="2020-11-20"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Gubbio</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Palazzo dei Consoli</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#memorial">Iscrizione commemorativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate when="1336">XIV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.04.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+                            <ab>
+<lb n="1"/>&lt;Anno&gt; D(omi)ni MCCCXXXII
+<lb n="2"/>&lt;fo?&gt; chome(n)çata
+<lb n="3"/>&lt;qu&gt;esta opera.
+<lb n="4"/>
+    </ab>
+</div>                
+<div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="0"/>[stemmi]
+<lb n="1"/>E quando fu post&lt;a&gt;
+<lb n="2"/>questa pietra ch&lt;e fo?&gt;
+<lb n="3"/>MCCCXXXVI del M&lt;ese&gt;
+<lb n="4"/>d'ottobre.
+                        </ab>
+                    </div></div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1">
+<ab>
+<lb n="0"/><title>Le due parti dell'iscrizione sono separate da tre stemmi posti al centro dello spazio epigrafico</title>
+<lb n="1"/>[...]DN ̅I : Mo:CC°C · X · X · X · I · I:
+<lb n="2"/>[...] ChOMĒÇATA:
+<lb n="3"/>[...] ESTA·OPERA:
+<lb n="4"/>
+    </ab>
+</div> 
+<div type="textpart" subtype="section" n="2">
+<ab>
+<lb n="0"/>[stemmi]
+<lb n="1"/>EQUANDO · FU · POST[.]
+<lb n="2"/>QUESTA · PIETRA · Ch[...]
+<lb n="3"/>M · CCC · XXX · VI · DEL M[...]
+<lb n="4"/> DOTTOBRE: ·
+                    </ab>
+</div></div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">COLASANTI 1905, p. 80 (trascrive solo le parti in latino); CENCI 1914, p. 27, n. XLII; FAINA 1957, p. 65, nota 1 (solo parti in latino); 
+                            ZOPPIS 1986, p. 99; BELARDI 2001, p. 77; TOMASIN 2016, p. 508.</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">ZOPPIS 1986, p. 99; BELARDI 2001, p. 77 (in bianco e nero); SANNIPOLI – MARIUCCI 2003, p.  24; TOMASIN 2016, p. 508, fig. 4.</p>
+                    </div>
+                         </body>
+            </text>
+        </TEI>

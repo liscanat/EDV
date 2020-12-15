@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Mariano d’Antonio e Benedetto Bonfigli, Madonna della Misericordia</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.32</idno>
+                        <date when="2020-11-29"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Perugia</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Chiesa di San Giuseppe (già chiesa di Santa Croce dei Falegnami)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate when="1455" precision="medium">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.32.jpg">
+                    <desc/>
+                </graphic>
+              </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                    <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="0"/>[sul nastro tenuto dalla folla]
+<lb n="1"/>Con umele chore et ardente fervore
+<lb n="2"/>Regina Celi dei pechatore salute
+<lb n="3"/>noi pregiam te che prege che ci aiute
+<lb n="4"/>el tuo figliolo e levace dal furore
+</ab>
+</div>
+<div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="0"/>[sul nastro che parte dalla bocca di san Sebastiano verso la Vergine]
+<lb n="1"/>Per quiste piaghe che or ci rude alquanto
+<lb n="2"/>per lo tuo amore e per lo figliuol tuo
+<lb n="3"/>ti priego madre che lo prieghe tanto
+<lb n="4"/>che esshaudischa quisto popul suo
+</ab>
+</div>
+<div type="textpart" subtype="section" n="C">
+<ab>
+<lb n="0"/>[sul nastro che parte dalla Vergine fino all’angelo Raffaele]
+<lb n="1"/>Martir beato con humilie chore
+<lb n="2"/>Se’ essaudito e però Agnolo cruo
+<lb n="3"/>Remette l’arme a la crua spada
+</ab>
+</div>
+<div type="textpart" subtype="section" n="D">
+<ab>
+<lb n="0"/>[Angelo Raffaele]
+<lb n="1"/>fiat
+</ab>
+</div>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>A.1 humele MANCINI 1992</p> 
+<p>A.4 el MANCINI 1992</p> 
+<p>B.1 queste MANCINI 1992; piache SIEPI 1822; er MANCINI 1992</p>
+<p>B.2 figliolo MANCINI 1992</p> 
+<p>B.3 te, priege SIEPI 1822, MANCINI 1992</p>
+<p>B.4 essaudischa SIEPI 1822, MANCINI 1992; questi MANCINI 1992; popol SIEPI 1822</p>
+<p>C.1 beao MANCINI 1992</p>
+<p>C.2 se SIEPI 1822, MANCINI 1992</p>
+<p>C.3  a] et SIEPI 1822, MANCINI 1992</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    <p>Le didascalie volgari contengono una preghiera rimata di intercessione alla Vergine affinché possa far cessare la moria della peste inviata da Dio padre, 
+                        rappresentato in alto in atto di scagliare le sue saette mortifere. L’affresco è stato staccato dalla Chiesa di San Giuseppe (già Chiesa di Santa Croce dei 
+                        Falegnami e si trova oggi presso la Chiesa di Santa Maria delle Grazie.
+                        Le iscrizioni presentano un andamento ritmico, evidente soprattutto nelle prime due quartine, in rime incrociae ABBA. 
+                        Esse sono disposte all’interno di cartigli, eseguite su fondo bianco, e contengono preghiere alla Vergine che si 
+                        configurano come dialoghi  scambiati tra i personaggi in scena secondo un ordine che procede verso destra a partire dalla voce del popolo, 
+                        ai piedi della Vergine, e termina in alto a destra con la risposta dell’angelo.</p>
+                        <p>Il primo cartiglio si sviluppa su cinque righe ed è 
+                        eseguito nella parte inferiore del dipinto, sorretto ai due lati dal popolo fedele, uomini e bambini a sinistra e donne a destra, 
+                        che trovano protezione sotto il manto della Vergine, alla quale chiedono di intercedere presso il figlio affinché faccia cessare 
+                        il flagello delle peste. Sulla sinistra è raffigurato San Sebastiano trafitto da frecce che continua la preghiera di intercessione 
+                        pronunciando, rivolto verso la Vergine, le parole visualizzate nel cartiglio dall’andamento verticale che si articola in otto righe di 
+                        scrittura. Maria risponde a sua volta al martire e chiede di riporre la sua spada all’angelo, che sollecito esegue e risponde in latino ‘e sia’ 
+                        (fiat 4).</p>
+                        <p>L’affresco, in cattivo stato di conservazione è stato ridipinto varie volte. L’opera è stata messa in relazione con la peste del 1348 
+                            dai suoi primi editori, ma andrà piuttosto riferita all'epidemia scoppiata nel 1429.
+                            L'autore del testo fu forse il priore della chiesa di Santa Croce, la cui immagine sembrerebbe 
+                        riconoscersi nel personaggio maschile che regge il cartiglio e veste una cotta chiericale.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">SIEPI 1822, pp. 480-481; BOMBE 1907, p. 2; MANCINI 1992, p. 51; PALOMBARO 2015, p. 61.</p>
+                        <p xml:id="other">TODINI 1989, I, p. 43.</p>
+                        <p xml:id="images">MANCINI 1992, p. 50; PALOMBARO 2015, p. 60.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

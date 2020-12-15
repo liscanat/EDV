@@ -8,14 +8,14 @@
                         <title>Trionfo della morte</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="edition"><persName>DE BLASI 1997, pp. 266-267</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata, Alessandra Tiburzi</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">14.01</idno>
-                        <date when="2020-05-15"/>
+                        <date when="2020-10-06"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -40,7 +40,7 @@
                                     <supportDesc>
                                         <support>    
                                             <material ref="#stone">Pietra</material>
-                                            <objectType ref="#"/>
+                                            <objectType ref="#slab">Lastra</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -71,13 +71,14 @@
                         <div type="textpart" subtype="section" n="A">
 <ab>
 <lb n="0"/>[nel riquadro centrale]
-    <lb n="1"/><m type="personale" subtype="ms_sing">eo</m> <m type="essere" subtype="pres1ps">so</m> la morte, <m type="relativo" subtype="sing">chi</m> <seg type="grapheme" corresp="/ka/">cha</seg>cio
-<lb n="2"/>sopera voi, iente munedana:
+    <lb n="1"/><m type="personale" subtype="ms_sing">eo</m> <m type="essere" subtype="pres1ps">so</m> la morte, <m type="relativo" subtype="sing">chi</m> 
+    <seg type="grapheme" corresp="/ka/">cha</seg>cio
+<lb n="2"/>sopera voi, <w>i<seg type="phoneme" subtype="j_initial">i</seg>ente</w> munedana:
 <lb n="3"/>la malata e la sana,
-<lb n="4"/>dì e note la percha<seg type="grapheme" corresp="/tʃ/">ci</seg>o.
+<lb n="4"/>dì e note la per<seg type="grapheme" corresp="/ka/">cha</seg><seg type="grapheme" corresp="/tʃ/">ci</seg>o.
 <lb n="5"/>No fugia nesuno ine tana
-<lb n="6"/>per scampare da lo mio la<seg type="grapheme" corresp="/tʃ/">cz</seg>io,
-<lb n="7"/>ché tucto lo mundo abra<seg type="grapheme" corresp="/tʃ/">cz</seg>io
+<lb n="6"/>per scampare da lo mio la<seg type="grapheme" corresp="/ts/">cz</seg>io,
+<lb n="7"/>ché tucto lo mundo abra<seg type="grapheme" corresp="/ts/">cz</seg>io
 <lb n="8"/>e tucta la gente umana.
 <lb n="9"/>Per che nessuno se conforta,
 <lb n="10"/>ma prenda spavento,
@@ -99,17 +100,17 @@
 <ab>
 <lb n="1"/>Se tu me potisse dare
 <lb n="2"/>quanto se pote ademandare,
-<lb n="3"/>no te scanparà la morte
+<lb n="3"/>no te <w>scanp<seg type="phoneme" subtype="ar_protonic">ar</seg>à</w>la morte
 <lb n="4"/>se te vene la sorte.
                             </ab>
                     </div>
                                             <div type="textpart" subtype="section" n="D">
 <ab>
-<lb n="1"/>Mille laude fa<seg type="grapheme" corresp="/tʃ/">cz</seg>io a Dio Patre
+<lb n="1"/>Mille laude fa<seg type="grapheme" corresp="/ts/">cz</seg>io a Dio Patre
 <lb n="2"/>e a la Santa Trinitate
-<lb n="3"/>che due volte me aveno scampato
+<lb n="3"/>che due volte me <m type="avere" subtype="pres6ps">aveno</m> scampato
 <lb n="4"/>e tucti li altri <m type="essere" subtype="perf6ps">foro</m> annegate.
-<lb n="5"/>Francischino fui de Brignale
+<lb n="5"/><w type="metaphony">Francischino</w> fui de Brignale
 <lb n="6"/>feci fare questa memoria a le
 <lb n="7"/>MCCCLXI de lo mese				
 <lb n="8"/>de <m>agusto</m> XIIII indiccionis
@@ -122,7 +123,7 @@
                     </div>
                                      <div type="apparatus">
                         <p>Nell’impossibilità di una ricognizione diretta e data la scarsa leggibilità della riproduzione fotografica disponibile, forniamo la sola edizione interpretativa 
-                            sulla base di DE BLASI 1997, pp. 266-267 riadattata secondo i nostri criteri. </p>
+                            sulla base di DE BLASI 1997, pp. 266-267 adattata ai nostri criteri.</p>
                                          <p>A</p>
                                          <p>1 che, chaccio D’ENGENIO CARACCIOLO 1624; 2 jende DE LA VILLE SUR-YLLON 1892, MONTI 1921; mundana D’ENGENIO CARACCIOLO 1624; 
                             4 die (univerbato) DE LA VILLE SUR-YLLON 1892, FUSCO 1839; notte, percaccio D’ENGENIO CARACCIOLO 1624;
@@ -149,7 +150,37 @@
 30 Agost. 14. Indict. D’ENGENIO CARACCIOLO 1624; agusto SABATINI 1996c</p>
                     </div>                                    
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>epentesi vocalica in &apos;sopera&apos;, &apos;munedana&apos; v. 2; &apos;ine&apos; v. 5.</p> 
+                        <p>v. 2 &apos;iente&apos;, con conservazione di /j/ in posizione iniziale (v. ROHLFS 1966-1969, § 279).</p> 
+                            <p>conservazione di ‘e’ in protonia vv. 9, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22.</p>
+                        <p>Si noti inoltre la metafonesi in &apos;mundo&apos;, &apos;Francischino&apos; &apos;agusto&apos;. 
+                            Il fenomeno non si realizza in tutti i casi possibili, come testimoniano le forme &apos;comandamento&apos; v. 11 e &apos;salvamento&apos; 
+                            (PETRUCCI L. 1994, pp. 45 e sgg., in part. p. 51).</p>
+                        <p>Notevole, poiché diffuso in molte testimonianze centro-meridionali, il digramma &lt;cz&gt; per /tʃ/ (v. &apos;laczio&apos; v. 6, &apos;abraczio&apos; v. 7,
+                        &apos;faczio&apos; v. 23 come in <ref target="edv14_02">14.02</ref>). Si vedano il <title>Ritmo Cassinese</title> (e le osservazioni al proposito in SIGNORINI 2009), o il <title>Volgarizzamento della 
+                            Regola di San Benedetto del secolo XIV</title> di area lucana: «[...] abe noy examynato con l'argento i(n)tra lu foco, et ày noy menato dintro 
+                            lu laczo et à' posito tribulacione sup(ra) lu dorso nostro» (ROMANO 1990, p. 23.9). SI noti anche &lt;li&gt; per /ʎ/ in &apos;volio&apos; al v.17.</p>
+                     <p>lasi v. 18 (v. Morfologia e sintassi): l’ esito di -X- intervocalico latino (da LAXARE) attestato a sud della Toscana prevede 
+                     l’impiego della grafia &lt;s&gt; che potrebbe rendere in questo caso la sibilante sorda /ss/ ovvero la sibilante palatale sorda /ʃʃ/.
+                     Il secondo esito è presente soprattutto nella zona di Campania, Abruzzo e Puglia settentrionale (ROHLFS 1966-1969, § 225).</p>
+                     <p><title>Morfologia e sintassi:</title></p>
+                       <p>&apos;Eo so’ la morte&apos; v. 1: incipit auto-presentativo e «formula ‘parlante’» (CIOCIOLA 1992, §§ 10, 11).</p>
+<p>&apos;Fugia&apos;, v. 5; &apos;conforta&apos;, v. 9; &apos;prenda&apos;, v. 10, &apos;sìave&apos;, v. 13 forme del congiuntivo presente; 
+    &apos;pensavie&apos;, v. 15 imperfetto con assorbimento del pronome personale e dileguo della dentale in posizione intervocalica. Secondo DE BLASI 1997 
+    (p. 267, nota 5), la congiunzione e al v. 15 avrebbe una sfumatura avversativa, un’interpretazione che mi sembra senz’altro da accogliere.</p>
+                     <p> &apos;Da lo&apos; v. 6; &apos;a le&apos;, v. 28, &apos;de lo&apos; v. 29 non univerbato, secondo un uso documentato nel volgare napoletano 
+                         coevo (SABATINI 1993, p. 117).</p>
+<p>&apos;ché&apos; v. 8, &apos;ò&apos; v. 8, &apos;questa&apos; vv. 14, 28: forme toscaneggianti in luogo delle rispettive forme napoletane &apos;ca&apos;, 
+    &apos;aggio&apos;, &apos;chesta&apos; (SABATINI 1975, p. 270, nota 342).</p>
+<p>&apos;prenda spavento&apos;, v. 10: cfr. le <title>Rime</title> di Boccaccio (1375): «piangendo il tempo, ch'ho lasciat' arietro/ mal operato, e prendendo spavento/ 
+    de' casi, i quai talora a cento a cento / posson del viver tormi il cammin tetro.» pt. I, 85, v. 6 (BRANCA 1958, p. 102.15).</p>
+                        <p>&apos;scanparà&apos; v. 21:  indicativo futuro con conservazione di A protonica, normale per l’area. 
+                            La forma potrebbe anche essere interpretata come condizionale di tipo meridionale con accentazione sulla penultima sillaba 
+                            (&apos;scanpàra&apos; v. SABATINI 1975, p. 270, nota 342; ROHLFS 1966-1969, § 603).</p>
+<p>&apos;aveno&apos; v. 25 forma di terza persona plurale di &apos;avere&apos; (cfr. il <title>Libro de la destructione de Troya</title>: «Illi me ademandano 
+    satisfatione e mendanza, li quali per raysone so' plu tenuti a mene de multo plu grandi dommagi che me aveno facti [...]» L. 12 (DE BLASI 1986, p. 128.31)»; «Sì che voglyo che lo re Agamenone vuostro imperatore sia ben securo che eo iamay non vorrayo plu la pace de li Grieci, li quali me aveno afflicto de tanta doluri. » L. 12 (DE BLASI 1986, p. 129.11)».
+</p>
                     </div>
                        <div type="commentary" subtype="note">
                         <p>Il bassorilievo raffigura l’incontro tra la Morte ed un uomo che tenta di corromperla offrendole denaro. La lastra è stata fatta scolpire come ex-voto da Franceschino da 

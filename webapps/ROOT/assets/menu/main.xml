@@ -13,22 +13,23 @@
     <item label="Bibliographic references" i18n:key="menu-bibliography" match="local-tei-display-html" params="bibliography"/>
     <item label="Publications" i18n:key="menu-publications" match="local-tei-display-html" params="publications"/>
   </menu>
+  
+  
   <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
     <item label="Places" match="local-index-display-html" params="epidoc place" i18n:key="menu-index-place"/>
     <item label="Persons" match="local-index-display-html" params="epidoc person" i18n:key="menu-index-person"/>
-    <item label="Phoneme" match="local-index-display-html" params="epidoc phoneme" i18n:key="menu-index-phoneme"/>
+    <!--<item label="Institutions" match="local-index-display-html" params="epidoc institution" i18n:key="menu-index-institution"/>
+    <item label="Themes" match="local-index-display-html" params="epidoc theme" i18n:key="menu-index-theme"/>-->
     <item label="Grapheme" match="local-index-display-html" params="epidoc grapheme" i18n:key="menu-index-grapheme"/>
     <item label="Morpheme" match="local-index-display-html" params="epidoc morpheme" i18n:key="menu-index-morpheme"/>
     <item label="Syntagm" match="local-index-display-html" params="epidoc syntagm" i18n:key="menu-index-syntagm"/>
     <item label="Word" match="local-index-display-html" params="epidoc word" i18n:key="menu-index-word"/>
     <item label="Quote" match="local-index-display-html" params="epidoc quote" i18n:key="menu-index-quote"/>
-    <!--<item label="Institutions" match="local-index-display-html" params="epidoc institution" i18n:key="menu-index-institution"/>
-    <item label="Themes" match="local-index-display-html" params="epidoc theme" i18n:key="menu-index-theme"/>
-    <item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>-->
+    <!--<item label="Personal names" match="local-index-display-html" params="epidoc person_name" i18n:key="menu-index-person_name"/>-->
   </menu>
   <menu label="Language" i18n:key="menu-language">
     <item label="Italiano" language="it" match="local-language-home-page"/>
     <item label="English" language="en" match="local-language-home-page"/>
   </menu>
-  <!--<menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />-->
+  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
 </root>

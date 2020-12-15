@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Cola di Pietro e Francesco d’Antonio, Teoria di Santi</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera/</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.10</idno>
+                        <date when="2020-11-25"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Vallo Di Nera</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Chiesa di Santa Maria Assunta (già chiesa di San Francesco)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D #AP">Didascalia, Avviso pubblico</term>
+                                    <term type="textType" ref="#narrative #patronage">Narrativa, Committenza</term>
+                                </summary>
+                                 <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate when="1383">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.10.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="1"/>Nicolaus Petri de Ca-
+<lb n="2"/>mereno et Francis-
+<lb n="3"/>cus Antonii de An-
+<lb n="4"/>cona feceru(n)t hoc opu&lt;s&gt;
+<lb n="5"/>Anno domini MCCCLXXX&lt;III&gt;
+<lb n="6"/>tempore domini Urbani pape vi
+<lb n="7"/>indictione VI de me(n)-
+<lb n="5"/>se Agusti di(e) XIII
+</ab>
+</div>
+<div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="1"/>&lt;hoc opus&gt; Giuhannone de L..v.se &lt;feci&gt;t fieri alli qualii Deio li dia pace MCCCLXXXIII
+</ab>
+</div>
+	                </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                        <p>L’iscrizione reca le firme d’artista di Nicola Pietro di Camerino e Francesco Antonio d’Ancona, la datazione dell’opera  e il nome del committente 
+                            in latino; e una breve preghiera in volgare, secondo una schema assai comune, seguendo il quale le parti formulari sono in latino e gli appelli 
+                            all’emotività dei lettori in volgare. L’iscrizione si trova all’interno della Chiesa di Santa Maria Assunta a Vallo di Nera, sopra ad un altro 
+                            affresco di Cola di Pietro da Camerino raffigurante la Processione dei Bianchi (anch’esso corredato di scrittura, v. <ref target="edv11_14">09.13</ref>).
+</p>
+                        <p>Nell’impossibilità di una ricognizione diretta o su base fotografica del reperto, la seguente trascrizione interpretativa segue quella di 
+                            CORDELLA 2003, p. 664, nota 27, adattata ai nostri criteri. Lo studioso sostiene di aver ricontrollato il testo sia sull’originale sia sulle 
+                            fotografie precedenti al restauro del 1994 (Archivio Fotografico della Coo.be.c. di Spoleto” e che trascrivo di seguito, senza nessun intervento 
+                            editoriale, per ulteriore confronto: NICOLAUS PETRI DE CA/MERENO ET FRANCIS/CUS ANTONII DE AN/CON FECERU(N)T 
+                            HOC OPU[S] // ANNO DOMINI MCCCLXXX[III] / TEMPORE DOMINI URBANI PAPE VI / INDICTIONE VI DE ME(N)/SE AGUSTI DI(E) XIII (...).</p>
+                                 </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">PIRRI 1918, p. 9 [1]; TODINI 1989, I, p. 57; MAZZALUPI 2002, p. 467, n. 1; CORDELLA 2003, p. 664.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">BLIERSBACH 2001, p. 423, n. 19.; https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Istruzioni</title>
+                <title>Descrizione dei materiali</title>
             </titleStmt>
             <publicationStmt>
                 <authority>EDV</authority>
@@ -19,10 +19,48 @@
         <body>
             <div>
                 <div>
-                    <head>...</head>
-                    <p>....</p>
+                    <head>Classificazione</head>
+                    <p><emph>Provenienza geografica</emph></p>
+                    <p>Le iscrizioni sono raggruppate per luogo di conservazione, secondo le correnti suddivisioni regionali, procedendo da nord-ovest a sud-est e poi alle isole. 
+                        All'interno di ciascuna regione, i documenti sono ordinati cronologicamente. Nell'indice, le iscrizioni sono introdotte da un numero che identifica la regione di 
+                        provenienza, e dal numero d'ordine all'interno di quella regione. Ciascuna iscrizione ha poi un titolo identificativo - quello di uso comune, se esistente, 
+                        oppure un titolo che identifichi inequivocabilmente il pezzo: p.es. <title>Graffito di Commodilla</title>, o <title>Giudizio Universale</title>, <title>Sant'Agata dei Goti</title>.</p>
+                        <p>Le regioni sono numerate come segue:</p>
+                        <p>01. LIGURIA - 02. PIEMONTE - 03. LOMBARDIA - 04. TRENTINO A. A. - 05. VENETO</p>
+                        <p>06. FRIULI V. G. - 07. EMILIA ROMAGNA - 08. TOSCANA - 09. UMBRIA - 10. MARCHE</p>
+                        <p>11. LAZIO - 12. ROMA - 13. ABRUZZO - 14. CAMPANIA - 15. BASILICATA</p>
+                        <p>16. PUGLIA - 17. SICILIA - 18. SARDEGNA</p>
+                              <p></p>
+                    <p><emph>Scritture</emph></p>
+                    <p>Ci siamo attenute ad una nomenclatura assai sintetica, che facesse riferimento a grandi categorie grafiche eventualmente poi meglio descritte in ciascuna scheda:
+                        <emph>(a) gotica</emph>, senza distinzioni fra minuscola e maiuscola che non appaiono di utilità particolare in questa fattispecie essendo i due sistemi 
+                        spesso utilizzati simultaneamente; <emph>(b) maiuscola di tipo umanistico</emph>; <emph>(c) elementare di base</emph> nei pochi casi in cui ci è 
+                        risultato impossibile determinare altrimenti la tipologia grafica.</p>
+                       <p><emph>Lingue</emph></p>
+                    <p>Per le iscrizioni più antiche (Commodilla, Pozzo di san Marco, Monreale, e così via) si è trattato di determinare anzitutto la loro qualità di 
+                        ‘iscrizioni in volgare’ – un processo di classificazione che, come prevedibile – ha comportato uno sforzo di interpretazione storica dagli esiti non necessariamente univoci. 
+                        Per queste prime testimonianze nella quasi totalità dei casi non è stato possibile descrivere la lingua dell’iscrizione altrimenti se non con il termine ‘volgare’, poiché spesso il testo è brevissimo e fortemente appoggiato sull’unica tradizione scritta più o meno nota allo scrivente, il latino, da cui spesso fatica ad affrancarsi. 
+                        Abbiamo qualificato come scritte in ‘lingue’ degne di un riferimento onomastico non posto come aggettivo dell’iperonimo <emph>volgare</emph> le iscrizioni in <emph>catalano</emph>, <emph>francese</emph>, 
+                        <emph>gallurese</emph>, <emph>sardo</emph>, <emph>siciliano</emph>, <emph>spagnolo</emph>, <emph>toscano</emph> e <emph>veneziano</emph>; oltre ad avere naturalmente indicato sempre 
+                        l’eventuale presenza del <emph>latino</emph>. Si tratta di una minoranza di 
+                        iscrizioni, poiché (ed è questo un dato in sé di grande interesse) la quasi totalità delle iscrizioni in catalogo utilizzano il volgare in uso nella loro
+                        zona di origine. 
+                        Solo nelle Marche abbiamo riscontrato la presenza di iscrizioni di artisti o artigiani provenienti dall'area veneziana o veneta, che si sottoscrivono in volgare veneziano.</p>
+                    <p>In ogni modo le lingue in uso sono difficilmente classificabili se non utilizzando categorie assai ampie: <emph>volgare settentrionale</emph> e <emph>veneto</emph>; <emph>volgare mediano</emph>, e 
+                        <emph>volgare romanesco</emph>, <emph>volgare meridionale</emph>. Si tratta evidentemente di suddivisioni arbitrarie: se non vi sono elementi nelle iscrizioni della Liguria, 
+                        del Piemonte o della 
+                        Lombardia per caratterizzarne la lingua se non come <emph>volgare settentrionale</emph> le iscrizioni di Veneto e Trentino mostrano 
+                        caratteristiche linguistiche che autorizzano 
+                        a precisare un poco meglio l’area linguistica di appartenenza, come pure accade per lo più per le iscrizioni romane, che utilizzano 
+                        evidentemente un volgare di tipo mediano, ma spesso determinabile anche con maggiore precisione come romano.</p> 
+                        <p>La scarsezza di testimonianze per l’Italia meridionale continentale, spesso brevissime o molto arcaiche, non consente di precisare meglio la lingua in esse utilizzata, che abbiamo sempre descritto come ‘meridionale’ o talvolta semplicemente ‘volgare’ per le più arcaiche; mentre invece tutte le dieci iscrizioni siciliane finora rinvenute e la maggioranza delle sarde sono rispettivamente in un volgare siciliano e sardo dalle caratteristiche inequivocabili, comprese le iscrizioni databili agli ultimi decenni del 15° secolo – un dato che fornisce un’indicazione assai interessante circa le lingue dell’uso, non solo orale, nelle due isole maggiori fra Medioevo e Rinascimento. A conferma di quanto già indicato dalle testimonianze documentarie, in Sardegna si affianca al sardo il toscano come lingua della comunicazione  scritta, anche in testi esposti, sin da epoca antica.
+                            I dati sembrerebbero confermare l’opinione apoditticamente espressa da Bembo nelle <foreign>Prose</foreign>, cioè che è assai difficile chiamare ‘lingua’ alcuna favella che 
+                            non ha scrittore, e ciò nonostante il fatto che le lingue in uso in Italia fra basso medioevo e prima età moderna nella comunicazione quotidiana -  
+                            scritta e orale - presso la maggioranza 
+                            della popolazione fossero evidentemente molte, e non limitabili in alcun modo al toscano, nemmeno se inteso in senso largo come una varietà di <foreign>koiné</foreign>, ma lingue la cui 
+                            memoria se non la storia e i tratti caratteristici sono oggi per noi, in effetti, quasi completamente perdute.</p>
                 </div>
-            </div>
+                   </div>
         </body>
     </text>
 </TEI>

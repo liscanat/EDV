@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Affresco della Vergine e apostoli</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>DE BLASI 1997</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>LIBERTINI 2004</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">14.04</idno>
+                        <date when="2020-10-09"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Caivano</placeName>
+                                <district ref="#NA">NA</district>
+                                <repository>Santuario di santa Maria di Campiglione</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xvolg" otherLangs="la">Volgare, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#campania">Campania</region></origPlace>
+                                    <origDate when="1419">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>&lt;Ann&gt;o do(mi)ni mill(esim)o CCCCX°VIIII° die V° mensis marcij XIII indiccionis regna(n)&lt;tibus&gt; do(mi)na 
+                            n(ost)ra Joha(n)na Regina secunda (et) <seg type="phoneme" subtype="j_initial">I</seg>acobo de Burbono n(ost)ro principe tar&lt;e&gt;(n)tino(rum) hoc opus f(ieri) 
+                            f(ecit) do(mi)na &lt;…&gt;a de magno severino (et) Ia(n)ne Cosentino (et) Cola de <w type="metaphony">Dominico</w> (et) tucte l&lt;i&gt; altre benefacture 
+                            li quale &lt;aven&gt;o avuta parte deo gr&lt;atias&gt;.
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il testo trascorre senza apparente soluzione di continuità dal latino al volgare. 
+                            DE BLASI 1997, (p. 274) accosta il fenomeno ai coevi documenti notarili nei quali spesso le parti formulari sono in latino e quelle libere in volgare; tuttavia il fenomeno 
+                            è relativamente frequente nelle scritture esposte del basso medioevo e prima età moderna, e merita di essere studiato nel dettaglio. Cfr., per il medesimo fenomeno, <ref target="edv00_00">00.00</ref></p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                           <p>Il catino absidale è interamente ricoperto dall'affresco, rappresentante la Vergine con Apostoli, attribuito a Colantonio del Fiore (SCHERILLO 1852, p. 25). 
+                               L’iscrizione, in latino e volgare, è posta a mezza altezza e corre orizzontalmente lungo un fascione all’interno dell'affresco. Essa 
+                               ricorda la committenza dell’opera, fatta eseguire da Ianne Cosentino e Cola Di Domenico come ex-voto nel 1419.
+                           L'edizione De BLASI 1997 è stata riscontrata con le riproduzioni in LIBERTINI 2004.</p>
+                        <p><!-- Immagine: NO. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"> SCHERILLO 1852, pp. 22-23; SCHULZ 1860, II, pp. 197-198; DE BLASI 1997, p. 274.</p>
+                        <p xml:id="other">SCHULZ 1860; LIBERTINI 2004.</p>
+                        <p xml:id="images">LIBERTINI 2004, consultabile al link http://www.iststudiatell.org/p_isa/fonti_storia_atellana/campiglione.pdf (ultimo accesso 9/10/2020)</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

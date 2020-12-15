@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Storie della Vergine</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>DE BLASI 1997, pp. 272-273</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata, Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">14.03</idno>
+                        <date when="2020-10-07"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Casapozzano, Fraz. Di Orta Di Atella</placeName>
+                                <district ref="#CE">CE</district>
+                                <repository>Chiesa di san Michele</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmer">Volgare meridionale</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#campania">Campania</region></origPlace>
+                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="1"/>&lt;Como Ioachi&gt;m <m type="avere" subtype="perf3ps">abe</m> a coma(n)dam(en)to da l’a(n)gelo ch(e) to(r)nasse a ssua pat(ri)a a S(an)c(t)a Anna.
+          <lb n="2"/>Como <seg type="phoneme" subtype="j_initial">I</seg>oachim and<m type="desinence" subtype="perf3ps">ao</m> a ssua patria fece pace 
+                            co S(an)c(t)a A(n)na sua mu<seg type="grapheme" corresp="/ʎ/">ll</seg>er&lt;e&gt;
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>Nell’impossibilità di vedere l’originale riproduco la trascrizione interpretativa di DE BLASI 1997, p. 273.</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p> 
+                      <p>Si noti la rappresentazione grafica del rafforzamento sintattico in &apos;a ssua&apos; 1, 2 e la resa di /ʎ/ con &lt;ll&gt;. 
+                      Cfr. il <title>Libro de la destructione de Troya</title>: «Lo quale, insembla co la regina Tarase soa <title>mollere</title>, lo receppe voluntiary, non obstante 
+                          che fosse a lloro assay remoto de parentato» (DE BLASI 1986, p. 275.12).</p>
+                     <p><title>Morfologia e sintassi:</title></p> 
+                   <p>&apos;abe&apos; 1, &apos;andao&apos; 2 sono forme di terza persona singolare del passato remoto con desinenza comune in area meridionale. 
+                       Per &apos;abe&apos; degeminato cfr. GENTILE 1961, p. 16 che parla di alternanza tra le forme di perfetto &apos;abbe&apos; e &apos;appe&apos;, 
+                       quest’ultima impiegata soprattutto nei testi napoletani trecenteschi. V. inoltre DE BLASI 1986a, pp. 384-386. 
+                       A proposito di entrambe le forme cfr. il <title>Libro de la destructione de Troya</title>: «La quale, commo Iasone l' abe sentuta subitamente se levao da 
+                           lo liecto, e co lliente pedate in compagna de quella domestica per li obscuri luochi de lo palazo sì pervenne a la camera de Medea, la quale 
+                           la trovao in bocha la porta et aspectavalo e, poy che se appero salutati insembla, intrao Iasone allegramenti la camera e la domestica se nde 
+                           andao.» (DE BLASI 1986a, p. 61.18).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Le didascalie appartengono ai resti di un ciclo delle storie della Vergine. L’ affresco è forse databile al XV in. 
+                            e si conserva nella parte più antica della chiesa, in un vano laterale, vicino alle scale che conducono al piano alto.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DE BLASI 1997, pp. 272-273</p>
+                        <p xml:id="other">CIOCIOLA 1992, p. 51 (per le analogie testuali con le didascalie del ciclo di Benozzo Gozzoli in Castelfiorentino
+                            <ref target="edv00_00">00.00</ref></p>
+                        <p xml:id="images">Archivio fotografico della Soprintendenza ai Beni artistici, Reggia di Capodimonte, Napoli.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

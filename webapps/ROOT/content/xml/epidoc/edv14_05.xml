@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Bassorilievo Aldemoresco</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Sabatini 1975</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>http://www.rialfri.eu/rialfriPHP/public/testo/testo/codice/iscrizioneNapoli.html</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">14.05</idno>
+                        <date when="2020-11-20"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Napoli</placeName>
+                                <district ref="#NA">NA</district>
+                                <repository>Chiesa di San Lorenzo Maggiore</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xfr">Francese</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#funerary_memorial">Monumento funebre</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#campania">Campania</region></origPlace>
+                                    <origDate when="1421">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="http://www.rialfri.eu/rialfriWP/opere/iscrizioni-nel-bassorilievo-aldemoresco-della-chiesa-di-san-lorenzo-maggiore-a-napoli">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="1"/>[1 Morte di Ludovico]
+                           Ci demostre [coma]nt [...ar]dit e nobles ciavalier miser Lois Moriske lassa sa gens tutte disconforté et ale con l’anglies de Diu e li montre la 
+                           gloria de le s. Paradis.
+                         <lb n="2"/>[2 l’Ingresso in Paradiso]
+                           Ci v[oit] comman[t san]t Aymé et s. Anton portent le n[obles] princes et posciant roy Landislaus de Duras et port[et] a soy les ardis et 
+                           preus ciavaliers miser Lois Morisk[e] li presentent a la virgo Maria et son fis Ihesu Christe innel gloria del Paradis ou le sant cecile et 
+                           Kterin demore[nt].
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>1. coment ardit, montrer DE LA VILLE SUR-YLLON 1892</p>
+                        <p>2. comant, n., lois de moriske, fius, Xpiste in nel, katerini DE LA VILLE SUR-YLLON 1892</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il sepolcro è stato riconosciuto dalla critica come l’ultima opera realizzata dal napoletano Antonio Baboccio da Piperno a commemorazione di Ludovico Aldemoresco, 
+                            consigliere di re Ladislao di Durazzo nonché ammiraglio del Regno. L’iscrizione funebre, 'in un francese fortemente mescolato con l’italiano, testimonianza della francofilia dell’alta società napoletana' (SABATINI, 1975, p. 204), è inserita in cartigli all’interno di un bassorilievo che correda 
+                            il monumento funebre di Ludovico Aldemoresco, realizzato da Antonio Baboccio da Piperno nel 1421. Il bassorilievo è corredato anche di scritture in latino: «HEC EST 
+                            SEPULTURA MAGNIFICI MILITIS LUDOVICI ALDMARISCO DE NEAPOLI HUJUS REGNI MENESCALLUS ET FIDELISSIMUS CONSILIARIUS ET DELECTUS SERENISSIMI REGIS LANDISLAI NEC NON DUX MARIS 
+                            ARMATE STRENUUS ET PRUDENS SENSU ROBUSTUS IN ARMIS INTEGER ATQUE PUGIL IIUSTO PRO REGE FIDELIS NEC NON EX PARTE REGIS OFFICIUM AMMIRANTIAE ITA ET TALITER QUOD NAVIGIA 
+                            GEREBANT VESSILLUM EJUS ET IN HIIS OFFICIIS SUA VITA CLAUSIT EXTREMUM» (v. ALOE, 1835, il quale leggeva inoltre: «Anno domini 1414 quam hic veram cernis inscriptionem eam in hac 
+                            Ludovici sepoltura gallicis scripta etiam inueberis Robertus Aldemoriscus continuus suae maiestatis», p. 163; v. anche De BLASI, 1997, p. 270).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">ALOE 1835, p. 163 (che riporta solo le iscrizioni in latino) DE LA VILLE SUR-YLLON 1892, p. 69; SABATINI 1975, p. 204; BLASI 1997, p. 274
+                            (riporta l’ed. DE LA VILLE SUR-YLLON 1892); RIALFri, Iscrizioni ella Chiesa di San Lorenzo maggiore a Napoli:  
+                            http://www.rialfri.eu/rialfriPHP/public/testo/testo/codice/iscrizioneNapoli.html (ed. del testo SABATINI 1975, p. 204; ed. e marcatura digitale a cura di Serena Modena)</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">SABATINI 1975, fig. 49; RIALFri, Iscrizioni ella Chiesa di San Lorenzo maggiore a Napoli:  
+                            http://www.rialfri.eu/rialfriWP/opere/iscrizioni-nel-bassorilievo-aldemoresco-della-chiesa-di-san-lorenzo-maggiore-a-napoli</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

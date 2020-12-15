@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decalogo orvietano</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Alessandra Tiburzi</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.08</idno>
+                        <date when="2020-11-23"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Orvieto</placeName>
+                                <district ref="#TR">TR</district>
+                                <repository>Chiesa di San Giovenale</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate notBefore="1360" notAfter="1370">XIV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.08.jpg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
+                           <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
+<lb n="2"/>&lt;no&gt;n recetaerae lu nome de ḷo segno(r)e Dio tuo,
+<lb n="3"/>&lt;si&gt;ati aricordam(en)to di &lt;santificare?&gt;care lu sabato,
+<lb n="4"/>&lt;h&gt;onora lu patre tuo &lt;et la&gt; matre tua,
+<lb n="5"/>&lt;n&gt;on occidarae,
+<lb n="6"/>&lt;n&gt;on farai peccato car&lt;nale&gt;,
+<lb n="7"/>&lt;no&gt;n farae f&lt;ur&gt;to
+<lb n="8"/>&lt;non fara&gt;i falso testimoni(um) (con)t(ra) pariare tuo
+<lb n="9"/>&lt;non&gt; desiderarae &lt;la&gt; &lt;m&gt;ogle&lt;r&gt;a l(u) prosimo tuo
+<lb n="10"/>[. . .][. . . . . . . . .]ai{m} [...] [...]r[...]ṃo tuo : ~
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab> <lb n="1"/>[…] adorarae lidii haltrui :~
+<lb n="2"/>[...]n recetaerae lunome de ḷo segn(oe) ̅ dio tuo
+<lb n="3"/>[...]ati aricordam ̅to di [...]c̣are lu sabato : ~
+<lb n="4"/>[.]onora lu patre tuo [.] [...] matre tua : ~
+<lb n="5"/>[.]on occidarae :~
+<lb n="6"/>[.]ọn farai peccato car[. . . .]
+<lb n="7"/>[...]ṇ farae f[...]to:~
+<lb n="8"/>ṇon fạ[ra]i falso testimonī 9t’pariare tuo :~
+<lb n="9"/>[...]desiderarae [. .] [.]ọglẹ[.]a lprosimo tuo
+<lb n="10"/>[. . .][. . . . . . . . .]ai{m} [...] [...]r[...]ṃo tuo : ~
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’affresco, molto danneggiato è situato nel sottarco della campata ogivale di destra nella chiesa, 
+                            sotto alla rappresentazione di San Guglielmo Abate attribuita a Giovanni di Buccio Leonardelli. </p>
+                        <p>L’iscrizione è nota alla critica come <title>Decalogo orvietano</title> e contiene le dieci regole della legge mosaica in volgare. 
+                            Purtroppo essa versa in un pessimo stato di conservazione, e lacune evidenti interessano il lato sinistro e gran parte dell’ultimo rigo, 
+                            oggi ricostruibile solo sulla base di edizioni precedenti del testo. 
+                            L'iscrizione è riconducibile ad una serie di documenti simili che proliferarono in area italiana nel s. XVI come quella di 
+                            Campi salentino, in provincia di Lecce, che recita: <title>unum cole Deum nec vana jures per ipsum, sabbata santifices, habeas in honore parente, 
+                                non occisor eris, moechus fur testis iniqvus, non alterius nuptam nec rem cupies alienam</title>.  
+</p>
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">PACETTI 1939, p. 26; UBALDINI 2015, p. 86.</p>
+                        <p xml:id="other">DELLA FINA 2015a.</p>
+                        <p xml:id="images">DELLA FINA 2015a, p. 9, n. 3.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

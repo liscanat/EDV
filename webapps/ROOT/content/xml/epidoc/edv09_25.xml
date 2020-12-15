@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Giovanni di Corraduccio, Lignum Vitae</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>SENSI 2006</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">09.25</idno>
+                        <date when="2020-11-25"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Foligno</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Monastero di Sant’Anna</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                                    <origDate when="1450" precision="medium">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="09.25a.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="09.25b.jpg">
+                    <desc/>
+                </graphic>
+                    <graphic url="09.25c.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="09.25d.jpg">
+                    <desc/>
+                </graphic>
+                <graphic url="09.25e.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="09.25f.jpg">
+                    <desc/>
+                </graphic>
+                <graphic url="09.25g.jpg">                
+                <desc/>          
+                 </graphic>                                             
+                   <graphic url="09.25h.jpg">
+                    <desc/>
+                </graphic>
+                <graphic url="09.25i.jpg">                
+                <desc/>          
+                 </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                    <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="0"/>[Teschio di Adamo, cartiglio mutilo]
+<lb n="1"/>[…]o ed lo legno nemo&lt;roso?&gt;
+<lb n="2"/>[…] morte e tu vita m’arendo […]
+</ab>
+                    </div>
+              <div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="0"/>[Daniele, primo cartiglio in basso a sinistra, alla destra del Cristo]
+<lb n="1"/>Da(n)iel: depo le septanta e <w type="metaphony">dui</w> seti-
+<lb n="2"/>mane da(l) dì  <m type="essere" subtype="fut3ps">serà</m> morto C(h)r(ist)o e non serà più quel
+    </ab>
+                    </div>
+<div type="textpart" subtype="section" n="C">
+<ab>
+<lb n="0"/>[Giobbe, primo cartiglio in basso a destra]
+<lb n="1"/>Iob.: Io mo(r)rò e poi resuscit<m type="desinence" subtype="fut1ps">arò</m> ne l’ult-
+<lb n="2"/>imo dì e a<seg type="grapheme" corresp="/ll/">l</seg>ora e<seg type="grapheme" corresp="/ss/">s</seg>endo nel mio p(ro)p(ri)o co(r)po
+</ab>
+                    </div>
+<div type="textpart" subtype="section" n="D">
+<ab>
+<lb n="0"/>[Geremia, secondo cartiglio dal basso a sinistra]
+<lb n="1"/>Gere{re}mia: ne la sepultura de (Christo) resuscita-
+<lb n="1"/>no <m type="article" subtype="masc_plur">li</m> morti
+</ab>
+</div>
+<div type="textpart" subtype="section" n="E">
+<ab>
+<lb n="0"/>[5 Gioele, secondo cartiglio dal basso a destra]
+<lb n="1"/>Ioel: o V(er)gene pia(n)gi, vestita de saco,
+<lb n="2"/>el fi<seg type="grapheme" corresp="/ʎ/">gl</seg>olo de la tua <seg type="phoneme" subtype="j_initial">i</seg>uve(n)tù
+</ab>
+</div>
+    <div type="textpart" subtype="section" n="F">
+<ab>
+<lb n="0"/>[Abacuc, terzo cartiglio dal basso a sinistra]
+<lb n="1"/>Abacuc: Segnore i(n) me<seg type="grapheme" corresp="/dz?/">ç</seg>o de l’a(n)ni manifest<m type="desinence" subtype="fut2ps">arai</m> 
+<lb n="2"/>a el quale tu dema(n)dare arecordarste de la mesi…
+</ab>
+</div>
+               <div type="textpart" subtype="section" n="G">
+<ab>
+<lb n="0"/>[Malachia, terzo cartiglio dal basso a destra]             
+<lb n="1"/>Malachia: verrà al suo s(an)c(t)o te<seg type="grapheme" corresp="/m/">n</seg>pio quel Sig-
+<lb n="2"/>nor che voi aspectate poco poi che […]
+</ab></div>
+               <div type="textpart" subtype="section" n="H">
+<ab>
+<lb n="0"/>[Zaccaria, quarto cartiglio dal basso a sinistra]
+<lb n="1"/><seg type="grapheme" corresp="/ts?, dz?/">Ç</seg>acaria: Io vidi I(he)sù su(m)mo sacerdote c[he?]
+<lb n="2"/>stava ‘na(n)çi a uno angelo (et) Satanas <seg type="grapheme" corresp="/ʎ/">l</seg>i s[…]
+</ab></div>
+                        
+<div type="textpart" subtype="section" n="I">
+<ab>
+<lb n="0"/>[Baruc, quarto cartiglio dal basso a destra]
+<lb n="1"/>Baruc: Et poi eDio n(ost)ro fu veduto i(n) t(er)ra
+<lb n="2"/>e conversò e abitò tra l’o<seg type="grapheme" corresp="/m/">n</seg>ini
+</ab>
+</div>
+    <div type="textpart" subtype="section" n="L">
+<ab>
+<lb n="1"/>Exdras: gridando <seg type="phoneme" subtype="j_initial">I</seg>udei inna(n)<seg type="grapheme" corresp="/ts/">ç</seg>i alla sedia d-
+<lb n="2"/>e <seg type="phoneme" subtype="j_initial">i</seg>udice Pilato me despre<seg type="grapheme" corresp="/tts/">çç</seg><m type="desinence" subtype="perf6ps">aro</m> pone(n)do<m type="complementoAtono" subtype="1ps ">me</m> ne la croce
+</ab>
+    </div>
+    <div type="textpart" subtype="section" n="M">
+<ab>
+<lb n="0"/>[Isaia, quinto cartiglio dal basso, a destra]
+<lb n="1"/>Isaia: <w type="metaphony">custui</w> è stato ferito p(er) le nos-
+<lb n="2"/>tre iniquità (et) co(n)sumato p(er) le ire sancte
+</ab></div>
+<div type="textpart" subtype="section" n="N">
+<ab>
+<lb n="0"/>[David, sesto cartiglio dal basso, a sinistra]
+<lb n="1"/>David: nella me(n)sa della croce,
+<lb n="2"/>per cibo me fu dato el
+<lb n="3"/><w type="NoDipth" subtype="dipht">fele</w> et ala mia sete fu dato
+</ab></div>
+                        
+<div type="textpart" subtype="section" n="O">
+<ab>
+<lb n="0"/>[Giacobbe, sesto cartiglio dal basso, a destra]
+<lb n="1"/>Giacob: non <m type="essere" subtype="fut3ps">serà</m> mai tol-
+<lb n="2"/>ta la se<seg type="grapheme" corresp="/ ɲ /">ngn</seg>oria a la tridbu de
+  </ab>
+</div></div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="0"/>[Teschio di Adamo, cartiglio mutilo]
+<lb n="1"/>[…]O ED LO LEGNO NEMO
+<lb n="2"/>[…] MORTE E TU VITA MARENDO
+
+</ab>
+                    </div>
+              <div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="0"/>[Daniele, primo cartiglio in basso a sinistra, alla destra del Cristo]
+<lb n="1"/>DAĪEL · DE PO LESEPTĀTA · EDUI · SETI
+<lb n="2"/>MANE DĀ DI SERA MORTO X(RISTO) ĒŌ· ENˉŌ· SERA · PIU · QUEL
+</ab>
+                    </div>
+<div type="textpart" subtype="section" n="C">
+<ab>
+<lb n="0"/>[Giobbe, primo cartiglio in basso a destra]
+<lb n="1"/>IOB · IOMŌ·RO · EPOI · RESUSCITARO · NELULT
+<lb n="2"/>IMO · DI · EALORA · ESENDO · NELMIO · PP ̅O · COP ̅O
+</ab>
+                    </div>
+<div type="textpart" subtype="section" n="D">
+<ab>
+<lb n="0"/>[Geremia, secondo cartiglio dal basso a sinistra]
+<lb n="1"/>GEREREMIA · NELA · SEPULTURA · DE · XP ̅O · RESUSCITA
+<lb n="2"/>NO · LI MORTI
+</ab>
+</div>
+<div type="textpart" subtype="section" n="E">
+<ab>
+<lb n="0"/>[5 Gioele, secondo cartiglio dal basso a destra]
+<lb n="1"/>IOEL · OŪGENE ·PIAGI · UESTITA · DE SACO
+<lb n="2"/>ELFIGLOLO · DE · LA · TUA · IUUĒTU ·
+</ab>
+</div>
+    <div type="textpart" subtype="section" n="F">
+<ab>
+<lb n="0"/>[Abacuc, terzo cartiglio dal basso a sinistra]
+<lb n="1"/>ABACUC · SEGNORE · Ī MEÇO · DELĀNI MANIFESTARAI MESI
+<lb n="2"/>A · ELQUALE · TUDE(MĀ)DARE · ARECORDARSTE DELA MES[...]
+</ab>
+</div>
+               <div type="textpart" subtype="section" n="G">
+<ab>
+<lb n="0"/>[Malachia, terzo cartiglio dal basso a destra]             
+<lb n="1"/>MALACHIA · UERRA ALSUO · SCŌ  · TENPIO · QUEL · SIG
+<lb n="2"/>NOR CHEUOI · ASPECTATE · POCO · POI · CHE ·
+</ab></div>
+               <div type="textpart" subtype="section" n="H">
+<ab>
+<lb n="0"/>[Zaccaria, quarto cartiglio dal basso a sinistra]
+<lb n="1"/>ÇACARIA · IO UIDI IHŪ SŪMO · SACERDOTE · C[...]
+<lb n="2"/>STAUA NĀÇI AUNO · ANGELO · 7 · SATANAS LI S
+</ab></div>
+<div type="textpart" subtype="section" n="I">
+<ab>
+<lb n="0"/>[Baruc, quarto cartiglio dal basso a destra]
+<lb n="1"/>BARUC · ET · POI · EDIO · NRŌ · FU UEDUTO · Ī · T ̅RA
+<lb n="2"/>ECONUERSO · EABITO · TRALONINI
+</ab>
+</div>
+    <div type="textpart" subtype="section" n="L">
+<ab>
+<lb n="1"/>EXDRAS · GRIDANDO IUDEI INNĀÇI ALLA SEDIA D
+<lb n="2"/>E IUDICE PILATO ME DESPREÇÇARO PONĒDOME · NELA CROCE
+</ab>
+    </div>
+    <div type="textpart" subtype="section" n="M">
+<ab>
+<lb n="0"/>[Isaia, quinto cartiglio dal basso, a destra]
+<lb n="1"/>ISAIA · CUSTUI · ESTATO · FERITO · PLENOS
+<lb n="2"/>TRE INIQUITA · (ET) (CŌ)SUMATO · PLE · IRE SC
+</ab></div>
+<div type="textpart" subtype="section" n="N">
+<ab>
+<lb n="0"/>[David, sesto cartiglio dal basso, a sinistra]
+<lb n="1"/>DAUID · NELLA MĒSA DELLA
+<lb n="2"/>CROCE PER CIBOME · FU · DATO · EL
+<lb n="3"/>FELE · ET ALA MIA SETE FU DATO
+</ab></div>
+                        <div type="textpart" subtype="section" n="O">
+<ab>
+<lb n="0"/>[Giacobbe, sesto cartiglio dal basso, a destra]
+<lb n="1"/>GIACOB · NON SERA MAI TOL
+<lb n="2"/>TA LA SE ̅GNORIA · ALA TRIDBU DE
+  </ab>
+</div></div>
+                          <div type="apparatus">
+                        <p>Il testo è gravemente mutilo. Per la ricostruzione del testo ci siamo basati sull'edizione SENSI 2006, talvolta integrata grazie al confronto con la 
+                            fonte biblica.</p>
+                              <p>A.1 SENSI 2006 nemo.</p> 
+                              <p>N.1 SENSI 2006 messa</p>
+                              <p>O.2 SENSI tr&lt;i&gt;b&lt;u&gt; d(e) &lt;I&gt;ud</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Si noti la quasi sistematica mancanza di chiusura della &apos;e&apos; protonica, l’uso dell’articolo plurale &apos;li&apos;, i futuri in &apos;ar&apos;
+                            e il futuro del vero essere &apos;serà&apos;, la conservazione di /j/ in posizione iniziale, la metafonia in &apos;dui&apos; e &apos;custui&apos;,
+                            tutte caratteristiche linguistiche normalmente riconducibili al volgare attestato per la zona e l’epoca di composizione (si vedano, al proposito gli 
+                            indici). Interessanti &apos;arecordarste&apos; 6, r. 2 con prostesi di &apos;a&apos; iniziale  e probabile epentesi di &apos;r&apos; 
+                            analogica per influsso della sillaba precedente, vale &apos;arecordarse, ricordare&apos;; &apos;Exdras&apos; 10 r. 1: 
+                            ESDRAS con ipercorrettismo grafico &lt;x&gt; in luogo di &lt;s&gt;.
+</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                        <p>Le tredici iscrizioni compaiono all’interno dell’affresco raffigurante l’Albero della Vita in allusione al <title>Lignum Vitae in medio Paradisi</title>
+                            (Gen. 2,9), dove per &apos;paradiso&apos; si intende lo stesso monastero, destinato alle religiose (SENSI 2006, p. 282; CECCONELLI 2010, p. 116). 
+                            Nella parte centrale è rappresentato il Cristus patiens su una croce in forma di albero che nasce dal teschio di Adamo dalla quale originano dodici 
+                            rami, terminanti in girali in cui sono rappresentati i personaggi veterotestamentari, ognuno recante versetti tratti dai libri storici, didattici e profetici del Vecchio Testamento: Genesi e Esdra, Giobbe e Salmi, Isaia, Geremia, Baruc, Daniele, Gioele, Abacuc, Malachia, Zaccaria. Difficile è invece la decifrazione del testo contenuto sul cartiglio, che origina dal teschio, ed è mutilo della parte centrale.
+La fonte letteraria dell’iconografia è il <title>Lignum Vitae</title> di San Bonaventura da Bagnoregio, poemetto che raccontava schematicamente e per uso mnemonico le tappe 
+                            della vita, passione e glorificazione di Cristo.  Nel cartiglio posto alla base dell’albero sono stati riconosciuti due versetti di Ezechiele, 
+                            probabilmente da integrare con un terzo passo assente sulla parete, in cui può essere riassunto lo stile di vita delle religiose: «convertimini, et 
+                            agite poenitentiam», Ez. 18, 30 (SENSI 2006, pp. 287-290, cui si deve lo studio delle fonti del dipinto dal quale traiamo le notizie). 
+                            Sensi propone di leggere questo «visibile parlare» dal basso verso l’alto, alternando la parte sinistra a quella destra: accettando questa 
+                            interpretazione il versetto in basso a sinistra, sorretto da Daniele, è il primo in ordine di lettura sulla base dei riferimenti contenuti nella 
+                            <title>Legenda aurea</title> di Iacopo da Varazze; mentre l’ultimo in alto a destra, ricorda il <title>Christus triumphans</title> 
+                            (v anche MAGGIONI 1998, pp. 459-470. Sensi suggerisce di identificare così i rimandi al testo sacro:</p>
+                            <p>[A] dal teschio di Adamo: «viderunt omnem collem excelsum et omne lignum nemorosum» Ez. 20, 28; «nolo mortem morientis, dicit Dominus Deus: 
+                            revertimini, et vivite» Ez. 18, 32.</p>
+<p>[B] Daniele: «Et post hebdomades sexaginta duas occidetur Christus; et non erit eius populus qui eum negaturus est» Dan. 9, 26.</p>
+<p>[C] Giobbe: «Scio quia morti trades me, ubi constituta est domus omni viventi. Veruntamen non ad consumptionem eorum emittis manum tuam; et si 
+    corruerintipse salvabis» Iob. 30, 23-24, integrabile con «resuscitabo illud in novissimo die» Io. 6, 40 e «Putasne, mortuus homo rursus vivat?» Job. 14, 14.</p>
+<p>[D] Geremia: «eicient ossa […] de sepulcris suis» Ger. 8, 1 e «nunquid qui cadit non resurget?» Ger. 8, 4.</p>
+<p>[E] Gioele: «Plange quasi virgo accincta sacco super virum pubertatis suae» GI. 1, 8.</p>
+<p>[F] Abacuc: ricorda il passo della Vulgata: «Domine, opus tuum, in medio annorum vivifica illud: in medio annorum notum facies; cum iratus fueris, misericordie recordaberis» Ab. 3, 2.</p>
+<p>[G] Malachia: «veniet ad templum suum Dominator quem vos, quaeritis, et Angelus Testamenti quem vos vultis» MI. 3, 1.</p>
+<p>[H] Zaccaria: «Ostendit mihi Dominus Iesum sacerdotem magnum, stantem coram Angelo Domini, et Satan stabat a dextris eius ut adversaretur ei» Zc. 3, 1.</p>
+<p>[I] Baruch: «Post haec in terris visus est et cum hominibus conversatus est» Bar. 3, 38.</p>
+<p>[L] Exdras (Neemia): «surrexerunt super gradum […] et clamaverun voce magna […] subsannaverunt nos et despexerunt» Ne. 9, 4; 2, 19.</p>
+<p>[M] Isaia: «Ipse autem vulneratus est propter iniquitates nostras; attritus est propter scelera nostra» Is. 53,3.</p>
+<p>[N] David: «Dederunt in escam meam fel, et in siri mea potaverunt me aceto» Ps. 68, 22.</p>
+<p>[O] Giacobbe: «non auferetur sceptrum de Iuda» Gen. 49,10 ma anche alla scritta INRI sopra alla croce.</p>
+<p>L’affresco si trova in situ nella stanza del monastero che collega il coro al refettorio.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">SENSI 2006, pp. 286-287.</p>
+                        <p xml:id="other">SCARPELLINI 1976, p. 57; TODINI 1989, p. 82; CECCONELLI 2010, pp. 115-137.</p>
+                        <p xml:id="images">SENSI 2006, pp. 283; a p. 284 particolari: a) David, Ezechia e Zaccaria, b) Abacuc, Geremia e Daniele; a p. 285 particolari: a) Giacobbe, Isaia e Baruch, b) Malachia, Gioele, Giobbe; CECCONELLI 2010, pp. 116 e 117 (particolare con i profeti Malachia, Gioele e Giobbe).</p>
+</div></body>
+            </text>
+        </TEI>
