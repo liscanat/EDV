@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Affreschi su ex-voto</title>
+                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.10</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Scicli</placeName>
+                                <district ref="#RG">RG</district>
+                                <repository>Chiesa di santa Maria della Croce</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate notBefore="1480" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic>
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <!--<div type="edition" subtype="interpretive" xml:space="preserve">
+                            <div type="textpart" subtype="section" n="1"></div>
+                         <ab>
+                           <lb n="1">Comu se&lt;n&gt;du mucicatu di cani araiatu u(n) frusteri
+                      <lb n="2">fu minatu S(anta) M(ari)a di la Cruchi et apa(r)si p(er) caminu et fu sanu.
+                       </lb>                </ab>
+                                                   </div>-->
+                     <!--                 <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1">                           
+                        <ab>
+                    <lb n="1"/>+ COMV·SEDV·MVCICATV·DI ·CANI·ARAIATV·V ̅FRVSTERI+
+                   ·<lb n="2"/>FV·MINATV·S ̅ · Ma·DILACRVCHI·2APA’SI·PCAMINV2FV SANV
+                        </ab>
+                        </div>
+                            <div type="textpart" subtype="section" n="2">
+                                <ab>
+                             <lb n="1"/>+ COMV·SEDV·LV·PATRI·FRA·IVĀNI P MARI SI·VICTIRV ·
+                            <lb n="2"/>·ANIGATI· 2· LIMARINARI PRIGĀDV·S ̅ · Ṃ·DELA CRVCHI FORV LIBRI
+</ab>
+                    </div>
+                   </div>-->
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Le sette iscrizioni,  costituiscono didascalie a corredo dell'immagine di ex-voto dedicati alla
+                            Madonna della Croce. Esse si trovavano originariamente sulle pareti della chiesa, da cui state rimosse in epoca recente per un restauro. 
+                            Oggi si trovano nella chiesa di Santa Teresa di Scicli.Le iscrizioni sono collocate su fondo bianco e si 
+                        sviluppano su due righi. Fa eccezione la didascalia [4] caratterizzata da una terza riga di scrittura, dipinta in bianco su fondo rosso. Le didascalie sono 
+                        caratterizzate da una struttura sintattica semplice e ripetitiva, principiando ognuna – come prassi nelle iscrizioni a corredo di 
+                        un’immagine – con il <title>comu</title> dichiarativo-esplicativo e terminando con espressioni che attestano l’avvenuto miracolo 
+                        (fu sanu 1, r. 2; foru libri 2 r. 2 ecc.).
+                        A causa del precario stato di conservazione le scritture non sono integralmente leggibili, ed è stato necessario utilizzare 
+                            trascrizioni precedenti (come indicato in nota). Una importante lacuna interessa in particolare il sesto riquadro e la relativa didascalia, l’ultima 
+                            del secondo registro.</p>
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DRAGO-NIFOSÌ 1976, p. 65, nota 1; RAFFAELE 2018.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">DRAGO-NIFOSÌ 1976, figg. 34-36; RAFFAELE 2018.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
