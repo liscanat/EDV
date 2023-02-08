@@ -322,7 +322,7 @@
     <xsl:text>&#160;&#160;&#160;&#160;&#160;&#160;</xsl:text>
   </xsl:template>
   
-  <xsl:template match="//t:titleStmt//t:ref | //t:div//t:bibl/t:ref">
+  <xsl:template priority="10" match="//t:titleStmt//t:ref | //t:div//t:bibl/t:ref">
     <xsl:variable name="bibl-id" select="substring-after(@target,'#')"/>
     <xsl:variable name="biblio-id" select="document(concat('file:',system-property('user.dir'),'/webapps/ROOT/content/xml/tei/bibliography.xml'))//t:bibl[@xml:id=$bibl-id]"/>
     <xsl:choose>
@@ -355,7 +355,7 @@
   </xsl:template>-->
   
   <!-- Link a risorse esterne online e a iscrizioni interne al database -->
-  <xsl:template match="t:div//t:p/t:ref[@target]">
+  <xsl:template priority="10" match="t:div//t:p/t:ref[@target]">
     <xsl:choose>
       <xsl:when test="@type='link'">
         <a><xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute><xsl:attribute name="target"><xsl:value-of select="'_blank'"/></xsl:attribute><xsl:apply-templates/></a>
