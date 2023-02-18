@@ -1,0 +1,63 @@
+EPIGRAPHIC DATABASE VERNACULAR (EDV)
+MARCATURA EPIDOC
+Nella bibliografia/apparato/commento:
+- riferimenti bibliografici: <bibl><ref target="#AutoreAnno">Autore Anno</ref> ...</bibl> (no)
+- riferimenti ad altre iscrizioni del database: <ref target="edv12_05">...</ref> (target: nome del file xml senza l’estensione ‘.xml’)
+- link a risorse esterne: <ref type"link" target="url">...</ref>
+- titoli di opere che devono apparire in corsivo: <title>...</title>
+- termini stranieri che devono apparire in corsivo: <foreign>...</foreign>
+
+Per ogni voce dell’apparato:
+- <app loc="1"><note>...</note></app>  (loc: numero della linea)
+
+Riferimenti bibliografici menzionati nell’<editor role="edition">:
+- <ref target="#AutoreAnno">Autore Anno</ref>
+
+Elementi XML da usare nel testo per l’indicizzazione:
+- tematiche varie di rilievo: <rs type="topic" key="...">...</rs>
+- istituzioni/associazioni: <orgName key="...">...</orgName>
+- luoghi: <placeName key="...">...</placeName> (oppure ref collegata alla AL anziché key)
+- persone: <persName key="...">...</persName> (oppure ref collegata alla AL anziché key)
+- fonemi: <seg type="phoneme" subtype="nome_fenomeno">chi</seg>
+- grafemi: <seg type="grapheme" corresp="/ʎ/">gl</seg>, <seg type="grapheme" corresp="nd">nn</seg>
+- morfemi: <m type="desinence" subtype="perf3ps/verb">ao</m>, <m type="desinence" subtype="noun" corresp="/u/">v</m>
+- sintagmi: <phr type="syntagm" subtype="synt_lat">à fato fare</phr>
+- lessico: <w type="..." subtype="...">...</w>
+- citazioni: <quote type="accurate/inaccurate" source="#Par" n="XXX.13-15">Virgine madre figlia del tuo figlio humile e alta più che creatura Termene fixo delo alto eterno conseglo</quote>
+
+Altri elementi XML da usare nel testo:
+- suddivisione in colonne/facce/sezioni: <div type="textpart" subtype="..." n="..."><ab>...</ab></div>
+- linee: <lb n="1"/>
+- linee con interruzione di parola: <lb n="1" break="no"/>
+- correzioni editoriali: <corr>...</corr>
+- integrazioni di lacune: <supplied reason="lost">...</supplied>
+- integrazioni di omissioni: <supplied reason="omitted">...</supplied>
+- espunzioni: <surplus>...</surplus>
+- scioglimenti di abbreviazioni: <expan><abbr>...</abbr><am>.</am><ex>...</ex></expan>
+- lacune di estensione nota: <gap reason="lost" quantity="1" unit="character"/> 
+- lacune di estensione ignota: <gap reason="lost" extent="unknown" unit="character"/>
+- nessi (da visualizzare come caratteri separati sottolineati): <hi rend="ligature">...</hi>
+- lettere in apice: <hi rend="superscript">...</hi>
+- lettere barrate: <hi rend="intraline">...</hi>
+- lettere sopralineate: <hi rend="supraline">...</hi>
+- eventuali lettere sottolineate: <hi rend="underline">
+- croce: <g ref"cross"/> 	oppure 	<g ref"+"/>
+- punto mediano: <g ref"middot"/> 	oppure 	<g ref"·"/>
+- altri simboli <g ref"symbol_here"/> (fra i simboli anche 7, 3, Ł, Ƨ ?)
+- vacat rappresentati come spazi nella diplomatica: <space/>.
+
+Voci bibliografiche nel file della bibliografia (bibliography.xml in xml/tei):
+<bibl xml:id="AutoreAnno">Autore Anno = ... <title>...</title>, in <title>...</title>, ….</bibl>
+
+TeiHeader:
+Nei vari elementi nel <teiHeader> che utilizzano l'attributo @ref per collegarsi alle authority lists, è possibile indicare più items separandoli con uno spazio, ciascuno preceduto da un #. Esempio: <material ref="#ivory #gold">
+- Se sono usate più lingue: <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
+- Data: <origDate when="....">...</origDate> oppure <origDate notBefore="...." notAfter="....">...</origDate>; se data incerta, aggiungere @precision='low'
+- Editor: <editor role="edition"> può essere sia una persona (e.g. <persName>Nadia Cannata</persName>) che una pubblicazione (e.g. BENUCCI 2015)
+
+Immagini:
+     <facsimile>
+         <graphic url="12.08.jpg">            <!--nome file jpg -->
+                 <desc>1: dettaglio</desc>   <!-- didascalia -->
+             </graphic>
+     </facsimile>
