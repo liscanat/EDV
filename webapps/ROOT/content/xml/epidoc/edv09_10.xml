@@ -11,11 +11,12 @@
                         <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName>https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera/</persName></editor>
+                        <editor role="images"><persName>http://www.lavalnerina.it/dett_luogo.php?id_item=95./</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.10</idno>
-                        <date when="2020-11-25"/>
+                        <date when="2021-03-06"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,7 +62,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.10.jpg">
+                <graphic url="09.10.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -98,7 +99,7 @@
                     </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --></p>
-                        <p>L’iscrizione reca le firme d’artista di Nicola Pietro di Camerino e Francesco Antonio d’Ancona, la datazione dell’opera  e il nome del committente 
+                        <p>L’iscrizione reca le firme d’artista di Nicola Pietro di Camerino e Francesco Antonio d’Ancona, la datazione dell’opera, e il nome del committente 
                             in latino; e una breve preghiera in volgare, secondo una schema assai comune, seguendo il quale le parti formulari sono in latino e gli appelli 
                             all’emotività dei lettori in volgare. L’iscrizione si trova all’interno della Chiesa di Santa Maria Assunta a Vallo di Nera, sopra ad un altro 
                             affresco di Cola di Pietro da Camerino raffigurante la Processione dei Bianchi (anch’esso corredato di scrittura, v. <ref target="edv11_14">09.13</ref>).

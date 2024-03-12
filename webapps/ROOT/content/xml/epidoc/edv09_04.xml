@@ -8,7 +8,7 @@
                         <title>Architrave del Palazzo dei Consoli</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName>Tomasin 2016</persName></editor>
                     </titleStmt>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.04.jpg">
+                <graphic url="09.04.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -71,8 +71,8 @@
                         <div type="textpart" subtype="section" n="A">
                             <ab>
 <lb n="1"/>&lt;Anno&gt; D(omi)ni MCCCXXXII
-<lb n="2"/>&lt;fo?&gt; chome(n)çata
-<lb n="3"/>&lt;qu&gt;esta opera.
+<lb n="2"/>&lt;fo?&gt; <seg type="grapheme" corresp="/ko/">cho</seg>me(n)<seg type="grapheme" corresp="/ts/">ç</seg>ata
+<lb n="3"/>&lt;qu&gt;esta <w>opera</w>.
 <lb n="4"/>
     </ab>
 </div>                
@@ -108,9 +108,24 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p>Si noti l'uso del &lt;ch&gt; per l’occlusiva velare sorda /k/ davanti a vocale velare e &lt;ç&gt; per l’affricata dentale presumibilmente sorda. 
+                            Si noti anche l'uso di forme dittongate e della forma 'ottobre', di contro invece a forme legate agli usi locali come 'octovere' e 'otovere' 
+                            attestate, ad esempio, nel <title>Libro primo della fraternita di S. Maria 
+                                del Mercatale</title>: «Mcccxlv a dì viij d’octovere » r. 1 «Ite(m) ave lo secondo sabato d’octovere de la lemosana» r. 13 e 
+                            «Ite(m) avemo de la lemosana lo terço sabato d’octovere» r. 23; mentre con il nesso assimilato si trova sempre a c. 11v 
+                            «Ite(m) ave de lo qarto sabato de la lemosana d’octovere» (MANCARELLA 1964, p. 43.24).</p>
+<p><title>Lessico</title>: il sostantivo 'opera' è utilizzato nell’accezione di “opera pubblica” ma anche, più genericamente, nel senso di “manufatto artigianale”.
+	V. nel medesimo senso il lemma ‘lavoro’ nelle forme '<w>laurero</w>' '<w>lavorier</w>' assai comuni nelle epigrafi venete e anche marchigiane.</p>
                     </div>
                     <div type="commentary" subtype="note">
+                        <p>L’iscrizione in volgare è incisa sull’architrave del portale d’ingresso sud-est del Palazzo dei Consoli di Gubbio.</p>
+<p>Una seconda epigrafe, in latino,  si sviluppa invece sulla superficie ad arco della lunetta del portale che racchiude il dipinto in cui sono raffigurati santa Maria, 
+    san Giovanni Battista e sant’Ubaldo, protettori della città: ANNO MILLENO TER CENTUM TER QUOQUE DENO AC BINO CEPTUM FUIT HOC OPUS INDEQUE VECTUM EST UBI COMPLETUS HIC ARCUS 
+    LIMINE LETUS POST CEPTUM CUIUS ANNUS QUINUS FUIT HUIUS POST ORTUM CHRISTI NUMERO CREDATUR ET ISTI STRUXIT ET IMMENSIS HOC ANGELUS URBSVETERENSIS (BELARDI 2001, p. 78).  
+    L’iscrizione latina è in versi leonini e reca la firma del costruttore Angelo da Orvieto. È impossibile stabilire se la realizzazione delle due iscrizioni sia stata o meno 
+    contemporanea. Esse presentano, come già osservato, caratteri formali – linguistici e grafici – totalmente differenti (TOMASIN 2016, p. 508).</p>
+<p>L’iscrizione in volgare è delimitata, ai lati, dai capitelli delle mezze colonne, i quali ostacolano la lettura delle lettere iniziali e finali. Ciò sembra forse indicare lo «scarso coordinamento» dei vari elementi compositivi del portale. Al centro dell’iscrizione in volgare sono posti tre scudi: eugubino, pontificio e angioino (CENCI 1914, p. 27; TOMASIN 2016, p. 508; BELARDI 2001, p. 78).
+</p>
                         <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">

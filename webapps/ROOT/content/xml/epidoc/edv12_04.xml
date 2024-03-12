@@ -8,7 +8,7 @@
                         <title>Iscrizione di san Clemente</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url=""><!-- da aggiungere -->
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -109,17 +109,27 @@
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>L'Archivio Ernesto Monaci conserva una lettera del giovane De Lollis al Monaci nella quale si testimonia che la discussa lezione TRAI contro il proposto TRAITE è da considerarsi autentica (v. CANNATA-TRIFONE 2019)</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
                         <p/>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p/>
+                        <p>
+L'affresco databile alla fine dell’XI secolo, occupa per intero la faccia di uno dei pilastri della Basilica Inferiore, ed è diviso in tre registri: quello più in alto rappresenta l’Intronizzazione di San Clemente, quello inferiore la Messa del santo durante la quale avvenne il miracolo dell’accecamento e dell’assordamento del pagano Sisinnio e, il terzo, alto meno della metà del registro inferiore, rappresenta il tentato arresto di San Clemente - narrato nella <title>Passio Sancti Clementis</title> (VI sec.), e le didascalie in volgare. Il patrizio Sisinnio è rappresentato nell’atto di ordinare ai suoi servi – Carvoncello, Albertello e Gosmari – di arrestare il santo ma i servitori, per miracolo, si trovano a trasportare al suo posto una colonna di marmo. Le didascalie volgari rappresentano le battute dei servi e di Sisinnio mentre quelle latine – significativamente disposte in forma di croce all’interno delle due arcate sul lato sinistro della scena – sono pronunciate dal santo, le cui battute citano la citata <title>Passio</title> quasi alla lettera, mentre le battute in volgare non hanno una fonte riconoscibile e furono dunque probabilmente ideate per questo affresco.
+Si noti anche che la scena raffigurata non coincide precisamente con le didascalie, dal momento che la colonna sembra trascinata per mezzo di una corda e non spinta da un palo.
+Come cornice alla scena, su un fascione rosso compare la dedica degli offerenti, Beno de Rapiza e sua moglie Maria Macellaria  <title>Ego Beno de Rapiza cum Maria uxor mea pro amore dei et beati Clementi pingere fecit</title>).
+L'iscrizione, giustamente famosissima, è il primo caso di una contrapposizione con fini espressionistici del volgare al latino, e dunque testimonia di un uso a fini d'arte della diglossia (per utilizzare un termine della sociolinguistica contemporanea)  della Roma dell'XI secolo. 
+Il testo presenta non pochi problemi interpretativi, in particolare, «la lezione congetturale dell’antroponimo e del verbo posti tra le figure di Albertello e di Gosmari, l’attribuzione delle scritte volgari, la successione delle battute» (RAFFAELLI 1987, p. 45).  
+La battuta <title>Fili de le pute tràite</title> è attribuita in maniera unanime dagli studiosi al patrizio Sisinnio mentre le restanti battute volgari vengono di volta in volta attribuite ai tre servi o, nuovamente, allo stesso Sisinnio. Le battute in latino sono invece con ogni certezza pronunciate da San Clemente. Anche per ciò che riguarda l’ordine delle battute gli editori hanno proposto numerose combinazioni possibili e particolarmente problematica è la collocazione della battuta del santo che potrebbe essere intesa come conclusiva o inaugurale; non manca chi la consideri interna al dialogo.  Altri, tra cui lo stesso Raffaelli 1987 ritengono piuttosto che i nomi <title>Gosmari</title> e <title>Sisinium</title> vadano considerati come etichette, ‘didascalie contestuali’ integrate al testo ma con funzione puramente esplicativa. 
+                Mette conto notare che l'affresco con il <title>Miracolo di san Clemente</title> è solo uno di una serie di quattro affreschi commissionati da Beno de Rapiza e sua moglie Maria, originariamente disposti due nel nartece, ai lati dell'ingresso della Basilica del IV secolo, <title>Il miracolo del Mar d'Azov</title> e <title>Il ritorno delle spoglie di san Clemente</title> e due sulla parete meridionale della navata centrale della basilica inferiore <title>Il ritorno di sant'Alessio</title> e il <title>Miracolo di san Clemente</title>. La chiesa inferiore ne conserva anche altri e più antichi al cui stile gli artisti ingaggiati da Beno e Maria cercarono di uniformarsi.
+</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
-                        <p xml:id="other"/>
+                        <p xml:id="editions">BRUNENGO 1862, p. 102-104; MULLOOLY 1869, p. 166; 1873, p. 254; ROLLER 1873, p. 290; BAUDI DI VESME 1874, p. 38; SALAZARO 1882, p. 17; STEVENSON 1884, p. 219; MONACI 1912, p. 4; MARUCCHI 1902, p. 296, foto p. 297; CASINI 1909, p. 324; NOLAN 1910, p. 188; WILPERT 1917, p. 141; FRASCINO 1926, p. 7; CECCHELLI 1930, p. 175; MONTEVERDI 1934, p. 9; MONTEVERDI 1936, pp. 25-26; DE SANCTIS- LAZZERI 1940, p. 36; MONTEVERDI 1941, pp. 30-31; UGOLINI 1942, p. 134; LAZZERI 1942, pp. 43-45; PELLEGRINI 1948, pp. 77-82; RUGGIERI 1949, II, pp. 34-35; TAGLIAVINI 1949, pp. 529-530; MONACI-ARESE 1955, pp. 7-8; VISCARDI VIDOSSI 1959, pp. 506-510; ESCOBAR 1957, pp. 1-4; MIGLIORINI 1960, pp. 98-99; CHIURLO 1960, pp. 221-242; RONCAGLIA 2000 (1965), pp. 216-219; VISCARDI 1966, pp. 716-717; HORRENT 1969, p. 537-547; PASQUINI 1970, p. 128-130; FOLENA 1971, p. 92; FELICI 1972, pp. 11-12; FOLENA 1972, p. 92; CASTELLANI POLLIDORI 1972, pp. 33-39; CASTELLANI 1973, pp. 111-121; CHIARINI 1977, p. 14; BATTISTI 1978, pp. 81-84; PULGRAM 1978; FASSÒ-MENONI 1979-1980, p. 28; D’ACHILLE-GIOVANARDI 1984, pp. 20-2, num. 3; RAFFAELLI 1987, pp. 35-66; CASAPULLO 1999, p. 164; PETRUCCI 2010, pp. 74-82. CANNATA-TRIFONE 2019,
+Una letterainedita di Cesare De Lollis a Ernesto Monaci intorno all’Iscrizione di San Clemente
+, in reteall’indirizzo https://mondodomani.academia.edu/ PietroTrifone/</p>
+                        <p xml:id="other">Passio S. Clementis, VII, 2-X</p>
                         <p xml:id="images"/>
                     </div>
                 </body>

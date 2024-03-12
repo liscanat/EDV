@@ -15,7 +15,7 @@
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
                 <idno type="filename">12.26</idno>
-                <date when="2020-10-10"/>
+                <date when="2024-03-09"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -69,23 +69,38 @@
      </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="interpretive" xml:space="preserve">
+                 <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>Dorathea da Verzeli 
+                    <lb n="1"/>Qui gia<seg type="grapheme" corresp="/z/">s</seg> <w type="scempiamento">madona</w>
+                    <lb n="2"/>a Doratea da <w type="assibilation">Verzeli
+                    <lb n="3"/>zeli</w> hospitaler
+                    <lb n="4"/>a <w type="scempiamento">delo</w> ispetale de 
+                            <lb n="5"/>santa Cicilia de se
+                            <lb n="6"/>tebre die XXVI MCCCC
+                            <lb n="7"/>LXXXX
                 </ab>
             </div>
-                <div type="apparatus">
+                <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>QVI GIASE MADON
+                            <lb n="2"/>A DORATEA DA VER
+                            <lb n="3"/>ZELI HOSPITALER
+                            <lb n="4"/>A DELO ISPETALE DE
+                            <lb n="5"/>SANTA CICILIA DE SE
+                            <lb n="6"/>TEBRE DIE XXVI MCCCC
+                            <lb n="7"/>LXXXX
+                        </ab>
+                    </div> <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
-                <p/>
+                <p>La lingua dell'iscrizione conserva tratti tipici dei volgari settentrionali: la sibilante o l'assibilata che sostituiscono l'affricata in &apos;giase&apos; e &apos;Verzeli&apos;, lo scempiamento delle geminate in &apos;madona&apos;, &apos;delo&apos; &apos;setembre&apos; l'agentivo &apos;hospitalera&apos; senza dittongamento, l'apertura della &apos;a&apos; in &apos;Doratea&apos;.</p>
             </div>
             <div type="commentary" subtype="note">
                 <p/>
             </div>
             <div type="bibliography">
                 <p xml:id="editions"></p>
-                <p xml:id="images">D’ACHILLE 1987,  Tav. x , pp. 94-95.</p>
+                <p xml:id="images">D’ACHILLE 1987,  Tav. X n.22 , pp. 73 n. 13.</p>
             </div>
         </body>
     </text>

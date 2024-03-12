@@ -10,7 +10,7 @@
                         <editor role="edition"><persName>Alessadra Tiburzi</persName></editor>
                         <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>Vincenzo Lerro</persName></editor>
+                        <editor role="images"><persName>Vincenzo Lerro https://www.flickr.com/photos/14747125@N08/8190549217/in/photolist-dtLUd8-dtLN4z-dtSqLA-dtSf2J-dtLGVP-dtSepw-dtLByi-dtLySa-dtLRXX-dtLGpv-dtSixy-dtSkHf-dtSh8f-dtLDhD-dtLKRT-ojTuqq-ouRN4H-pwM52J-4ah4Gb-4ah4Gq-47zWt1-4ah4Gu-47vRc8-cNqrhS-imdrMN-dtSbZd-dtLJLR-dtSrd3-dtSd3m-dtLyp4-dtLJjn-dtS5JQ-dtS9nC-dtLHnp-dtLxxe-dtS777-dtS5dh-dtSrCS-dtLx7p-dtS4so-dtLTL8-dtSdVU-dRhR1P-dtLzNF-dtSpLG-dtLC7z-dtS9N3-4ah4Gf-47vQZX-nfmhhg/</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
@@ -41,7 +41,7 @@
                                         <support>    
                                             <material ref="#plaster">Intonaco</material>
                                             <objectType ref="#fresco">Affresco</objectType>
-                                            <dimensions><width>n.d.</width> <depth>n.d.</depth> <height>n.d.</height></dimensions>
+                                            <dimensions><width>n.d.</width><depth>n.d.</depth><height>n.d.</height></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>

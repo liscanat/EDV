@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.07</idno>
-                        <date when="2020-11-29"/>
+                        <date when="2021-03-05"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,14 +61,15 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.07.jpg">
+                <graphic url="09.07.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>Fulcho de Massa fo capitanio de populu
+                        <ab><lb n="1"/>Ful<seg type="grapheme" corresp="/ko/">cho</seg> de Massa <m type="essere" subtype="perf3ps">fo</m> capitanio 
+                            de popul<m type="desinence" subtype="ms_sing">u</m>
 <lb n="2"/>[...] de guerra mili(tes) MIIILVIIII
                         </ab>
                     </div>
@@ -81,7 +82,16 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p><title>Lessico:</title></p>
+                        <p>'capitanio de populu' - la forma 'capetanio' è attestata nello <title>Statuto del Comune e del Popolo di Perugia</title> (1342): 
+                            «Le 'nfrascricte sonno le rubriche del primo livro del volume degle statute del comuno e del popolo de Peroscia, el 
+                            quale tracta de la electione de la podestade e del capetanio e del giudece de la giustitia e de molte altre cose, facte e 
+                            negotie. De la electione de la podestade e del capetanio e del giudece de la giustitia.» L. 1 rubr., vol. 1 (ELSHEIKH 2000, p. 3.3); 
+                            e negli <title>Annali e Cronaca di Perugia</title> (1191-1336): 
+                            «E meser Oddo se n' andò co quilgle da Monte Melino en casa loro e quilgle che 'l sequitavano 
+                            gridavano: - Viva el popolo e non meser Venciolo -, onde che 'l capetanio del popolo cavalcò con tutta la sua famelglia 
+                            armate de tutta arme (…)» (UGOLINI 1963-1964, p. 225.11). La forma si trova anche in un'iscrizione bolognese dei primi anni del XVI secolo: "Al tenpo de zoane
+                            Dalab[*]sa capitanio" (Bologna, Museo Civico Medievale).</p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --></p>

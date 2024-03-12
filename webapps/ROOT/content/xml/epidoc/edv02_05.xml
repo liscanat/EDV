@@ -61,18 +61,18 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.04.jpg">
+                <graphic url="">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>prova
+                        <ab>
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>prova
+                        <ab>
                         </ab>
                     </div>
                     <div type="apparatus">

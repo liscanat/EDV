@@ -69,7 +69,8 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
-                            <lb n="1"/>Quest<m type="desinence" subtype="ms_sing">u</m> foss<m type="desinence" subtype="ms_sing">u</m> fu facto l<m type="desinence" subtype="ms_sing">u</m> mille CCCXXVI
+                            <lb n="1"/>Quest<m type="desinence" subtype="ms_sing">u</m> foss<m type="desinence" subtype="ms_sing">u</m> fu 
+                            facto <m type="article" subtype="masc_sing">lu</m> mille CCCXXVI
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">

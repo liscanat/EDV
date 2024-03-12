@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">11.30</idno>
-                        <date when="2020-03-28"/>
+                        <date when="2024-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="edv11_30.jpg" >
                     <desc/>
                 </graphic>
             </facsimile>
@@ -76,7 +76,7 @@
                             <lb n="6"/>&lt;Quanno&gt;  sanctu Dionisiu <m type="essere" subtype="perf3ps">fo</m> [...]. 
                             <lb n="7"/>&lt;Qua&gt; nno sanctu Dionisiu <m type="essere" subtype="perf3ps">fo</m> postu in c&lt;roce&gt; . 
                             <lb n="8"/>Quanno sanc&lt;tu&gt;  Dionisiu disse la mesa in presione che gl’aparse Cr(i)stu. 
-                            <lb n="10"/>Quanno li g(r)oriusi sancti lo <m type="essere" subtype="perf3ps">fo</m> ta<seg type="grapheme" corresp="/ʎ/">gl</seg>ata la testa. 
+                            <lb n="10"/>Quanno li g(r)oriusi sancti lo <m type="essere" subtype="perf3ps">fo</m> ta<seg type="grapheme" corresp="/ʎ/">gl</seg>ata la testa.
                             <lb n="11"/>Quanno [...]. 
                         </ab>
                     </div>
@@ -105,20 +105,18 @@
                             <title>Storie contra i pagani</title>: «e comandaro loro che lunga e ordinata schiera facessero quando fuoro menati pregioni» L. 3, cap. XV (TASSI 1849, p. 161).</p> 
                             <p> <title>che gl’aparse</title> 8: uso del &apos;che&apos; polivalente, qui con valore temporale di &apos;quando, allorché&apos;.</p> 
                             <p><title>li g(r)oriusi sancti lo fo taglata la testa</title>, 9: costrutto con <title>nominativus pendens</title> e ripresa pronominale di <title>Lo</title> 
-                                da intendersi probabilmente come &apos;loro&apos; ( l’anteposizione della forma lo’ al verbo è documentata sia in area senese, sia umbra e marchigiana. 
+                                da intendersi probabilmente come &apos;loro&apos; (l’anteposizione della forma lo’ al verbo è documentata sia in area senese, sia umbra e marchigiana. 
                                 V., ad esempio, per il marchigiano antico <title>lo’ facia</title>, <title>lo’ desse</title> e, in particolare 
                                 per il nostro caso, <title>lo’ fui raccomandata</title> (MONACI 1912, pp. 470, 450 e ROHLFS 1996-1969, §463).</p></div>
                     <div type="commentary" subtype="note">
                         <p>Il ciclo affrescato con la storia dei Santi Dionigi, Rustico ed Eleuterio era un tempo conservato presso la chiesa dedicata ai tre santi e 
-                            conosciuta anche come chiesa di Sant’Antonio, presso Borgo Velino (RI). Del ciclo rimangono tre frammenti staccati, restaurati nel 1966 e 
-                            custoditi in un primo momento presso il Palazzo Diocesano di Rieti, sono passati agli inizi degli anni Ottanta al Museo Civico di Borgo Velino, 
+                            conosciuta anche come chiesa di Sant’Antonio, presso Borgo Velino (RI). Del ciclo rimangono tre frammenti staccati, restaurati nel 1966 e custoditi in un primo momento presso il Palazzo Diocesano di Rieti, sono passati agli inizi degli anni Ottanta al Museo Civico di Borgo Velino, 
                             in attesa di una ricollocazione nel loro sito originario (D'ACHILLE 2012, p. 99). Le didascalie in volgare erano tutte collocate nello spazio 
                             che divideva il registro superiore da quello inferiore ed erano dunque riferite alle scene in alto, quelle della prima riga, in basso quelle 
                             della seconda riga. Questo tipo di disposizione delle scritte costituisce un interessante <title>unicum</title> in area laziale e in area 
                             centromeridionale come pure unico per queste aree è il soggetto rappresentato (KAFTAL 1965, coll. 348-352). 
                             I tre pannelli conservano in totale dieci scene: nel primo pannello tre nel registro superiore (una perduta, due con didascalie), tre scene 
-                            nel registro inferiore, delle quali due perdute; il secondo pannello conserva tre scene ma non le didascalie leggibili nel terzo pannello, nel quale è visibile inoltre
-                            un’immagine del Cristo, e le ultime tre scene con le relative didascalie.</p>
+                            nel registro inferiore, delle quali due perdute; il secondo pannello conserva tre scene ma non le didascalie leggibili nel terzo pannello, nel quale è visibile inoltre un’immagine del Cristo, e le ultime tre scene con le relative didascalie.</p>
                   </div>
                     <div type="bibliography">
                         <p xml:id="editions">VERANI 1955a, pp. 14-156 (che colloca il ciclo prima del 1511); VERANI 1976, pp. 270-271; D’ACHILLE 1997, pp. 242-246; D’ACHILLE 2012, pp. 97-101.</p>

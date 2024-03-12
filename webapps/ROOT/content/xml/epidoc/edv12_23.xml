@@ -6,16 +6,16 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Gismunda</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>D'ACHILLE 1987</persName></editor>
+                        <editor role="commentary"><persName>D'ACHILLE 1987</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">12.23</idno>
-                        <date when="2020-04-22"/>
+                        <date when="2024-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="0">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -69,42 +69,33 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
-          <lb n="1"/>+ Chi gia<seg type="grapheme" corresp="/tʃe/">cie</seg> Gism
-          <lb n="2"/>unda […..] figli deantea foigoglio de g
-          <lb n="3"/>Ginillo MCCCC
-          <lb n="4"/>LXXVI X iunii
+                             <lb n="1"/>+ Chi <seg type="phoneme" subtype="j_initial">i</seg>iace Gism
+                            <lb n="2"/>vnda [...] figli. de Antea. Foigolio, De G
+                            <lb n="3"/>gingillo. MCCCC
+                            <lb n="4"/>LXXVI. X.IVNII.
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
-                            <lb n="1"/>+ CHI GIACIE. GISM                            
-                            <lb n="2"/>VNDA […..] FIGLI. DEANTEA. FOIGOLIO. DEG
-                            <lb n="3"/>GINILLO. MCCCC 
-                            <lb n="4"/>LXXVI X iunii
-                               </ab>
+                            <lb n="1"/>+ CHI IACE. GISM
+                            <lb n="2"/>VNDA [...] FIGLI. DEANTEA. FOIGOLIO. DEG.
+                            <lb n="3"/>GINILLO. MCCCC
+                            <lb n="4"/>LXXVI. X.IVNII.
+                        </ab>
                     </div>
                     <div type="apparatus">
-                        <p>1 in hoc iacie Gism/vunda [……] gli de antea iogolio deg/gīnillo MCCCC/LXXVI ivnii GALLETTI 1760; folgoglio, MCCCCLVI/X EROLI 1895; 
-                            ginnillo BUCHOWIECKI 1967-1974; GALLETTI</p>
+                        <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Il pessimo stato di conservazione non consente  di restituire il testo in modo attendibile, e di fornirne un’analisi linguistica. Si noti tuttavia 
-                            ‘chi’ ‘qui’, con perdita dell’elemento labiale nella labiovelare secondaria:  si tratta di una forma ben attestata negli antichi documenti di area 
-                            centro-meridionale anche se scarseggiano gli esempi nei testi romaneschi antichi. V. EDV <ref target="edv12_12">12.12</ref>. Ancora in 'giacie', 
-                            si noti &lt;ci&gt; per /ʧ/ davanti a vocale palatale (CASTELLANI 1952, I, p. 18); in 'degginillo' si potrebbe ipotizzare la presenza di 
-                            raddoppiamento fonosintattico di /g/ e del suffisso diminutivo –ĪLLUM (D’ACHILLE 1987, p. 90). Per il raddoppiamento fonosintattico, comune in 
-                            area centromeridionale v. ROHLFS 1966-1969, § 156; Ernst 1970, p. 84; per il suffisso -ĪLLUS, frequente nei nomi meridionali, v. 
-                            ROHLFS 1966-1969, § 1083. Infine, 'figli denatea' potrebbe forse interpretarsi come ‘figlia di Andrea’ (D’ACHILLE 1987, p. 90).</p>
+                        <p>chi ‘qui’ con perdita dell’elemento labiale nella labiovelare secondaria e &apos;iace&apos; con conservazione di /j/ in posizione iniziale <ref target="edv12_12">12.12</ref>Chi <ref target="edv12_12">12.12</ref>. Il pessimo stato di conservazione della lastra non consente un'analisi linguistica approfondita, D'Achille 1987 nota tuttavia il possibile raddoppiamento fonosintattico in Degginillo (Andrea figlio di Ginetto?)</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>L’iscrizione, ormai quasi illeggibile, è incisa su una lastra marmorea del pavimento della terza cappella di sinistra, chiamata di Santo Stefano, all’interno del 
-                            Pantheon; il testo corre intorno ad un bassorilievo che raffigura la defunta con in mano un candeliere.</p>
+                        <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">GALLETTI 1760, III, CCCCXIX n. 70; FORCELLA 1889-1893, I, 293 n. 112; EROLI 1895, pp. 426-427; BUCHOWIECKI 1967-1974, II, 684; 
-                            D’ACHILLE-GIOVANARDI 1984, n. 86; D’ACHILLE 1987, p. 90, n. 19.</p>
+                        <p xml:id="editions">D'ACHILLE 1987</p>
                         <p xml:id="other"/>
-                        <p xml:id="images">D’ACHILLE 1987, foto 17.</p>
+                        <p xml:id="images"/>
                     </div>
                 </body>
             </text>
