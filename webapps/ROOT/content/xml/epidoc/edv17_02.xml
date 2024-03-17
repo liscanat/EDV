@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Custodia eucaristica</title>
+                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.02</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Petralia Sottana</placeName>
+                                <district ref="#PA">PA</district>
+                                <repository>Santuario della Madonna dell’Alto</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
+                                </summary>
+                                <textLang mainLang="xsic" otherLangs="la">Volgare siciliano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#metal">Metallo</material>
+                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate when="1337">XIV metà</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="00">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="1"></lb><foreign xml:lang="la">Fieri me fecit</foreign>
+                            <lb n="4" break ="no"></lb>lo popul<m type="desinence" subtype="ms_sing">u</m> di la <seg type="grapheme" corresp="/tʃ/">ch</seg>ita di Poli<seg type="grapheme" corresp="/ts/">c</seg>i per us<m type="desinence" subtype="ms_sing">u</m> lor<m type="desinence" subtype="ms_sing">u</m></ab></div>
+                                          <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Analisi linguistica
+in 'populu', 'usu', 'loru' forme si osserva la conservazione della -u finale, normale in Italia meridionale e in Sicilia.
+Tipicamente siciliano, probabilmente per influenza del francese il grafema &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. x<ref target="edv12_03">11.03</ref>, <ref target="edv12_04">12.04</ref>, <ref target="edv12_07">12.07</ref>, <ref target="edv12_09">12.09</ref>, <ref target="edv12_11">12.11</ref>, <ref target="edv12_12">12.12</ref>.
+	Nel siciliano antico è diffusa la forma 'chitadi' con il grafema  grafema &lt;ch&gt; per l'affricata palatale sorda /ʧ/ e la mancata registrazione grafica della consonante intensa: si veda, ad esempio, i <title>Capitoli frumentari di Palermo</title> (1349): «[...]exceptu in la dicta <title>chitati</title> di Palermu ad usu di kissa <title>chitati</title>» (LI GOTTI 1951, p. 42.9); ne <title>La conquesta di Sichilia fatta per li Normandi</title> di Simone da Lentini, testo siracusano del 1358: «Et li Normandi sequitandu a li Missinisi et [li Missinisi] sempri fugendu, a li ultimi, chi fugianu a la <title>chitati</title>, illi intraru insembli cum illi a la <title>chitati</title> di Missina [...]» cap. 3 (ROSSI-TAIBBI 1954, p. 9.16); nel <title>Libru de lu Dialagu de Sanctu Gregoriu</title> di Giovanni Campulu di area messinese: «[...] in Ytalia foru dissavitate <title>chitati</title> [...]»L. 3, cap. 38 (SANTANGELO 1933, p. 128.7).
+</p>
+                   </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: NO. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">Nicola da Guardiagrele 2008, p. 179.
+</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
