@@ -61,34 +61,63 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-                        </ab>
+                        <div type="textpart" subtype="section" n="A">
+                                <ab>
+                                <lb n="1"/>Mastru Simuni 
+<lb n="2"/>pinturi di Curigliunu
+                                </ab>                        
                     </div>
+                        <div type="textpart" subtype="section" n="B">
+                                <ab>
+                                <lb n="1"/>Mastru Chicu 
+                                    <lb n="2"/>pinturi di Naro 
+                                <lb n="3"/>Matru &lt;P&gt;illirinu Darenu Pi(n)gituri de Palermu    
+                                </ab>
+                        </div>
+                        </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                        </ab>
+                                <div type="textpart" subtype="section" n="A">
+                                <ab>
+                                <lb n="1"/>MASTRU SIMUNI 
+<lb n="2"/>PINTURI DICURIGLU&lt;NI&gt;
+                                </ab>                        
                     </div>
+                        <div type="textpart" subtype="section" n="B">
+                                <ab>
+                                <lb n="1"/>MASTRU ChICU 
+                                    <lb n="2"/>PINTURI DI NARO 
+                                    <lb n="3"/>MASTRU &lt;P&gt;ILLIRINU DARENU PI(N)GITURI DE PALERMU
+                                    </ab>
+                        </div>
+                        </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p><title>Grafia e fonologia</title>
+                            Si noti il rispetto del sistema fonologico siciliano, nel vocalismo (tonico e atono) nelle chiusure metafonetiche; nelle allimilazioni consonantiche (Pillirinu), l'oscillazione fra 'di' e 'de' nella designazione della provenienza e infine l'uso tipicamente siciliano (probabilmente per influenza del francese) del grafema &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_12">17.12</ref>; nonché lo scempiamento grafico dell’occlusiva velare /k/ in 'Chicu' forma normale in Sicilia per 'Cecco'.  Il nome personale è attestato con grafia geminata ne <title>Il Caternu</title> dell'abate Angelo Senisio del 1371-1381: «Tutta la altra terra di la Xurtia la tene Chicchu Chassirella et Henricu di la Gacta per &lt;tr. iii. g.&gt; thumini x di furmentu, et di oriu thumini viij. Appimundi di oriu thumini xij.» (RINALDI 1989, II, p. 325.3).
+                           Si noti la forma locale 'Curigliuni' per Corleone (TOPONOMASTICA 1990, p. 229).
+                      <title>Lessico</title>       
+'Pinturi' e 'pigituri': il primo più aderente al tipo toscano, il secondo a quello meridionale. Si veda anche 'pingituri' nel <title>Valeriu Maximu translatatu in vulgar messinisi</title>: «Nìn pertantu lu pingituri non atribuiu troppu a la sua mani dritta [...]» (UGOLINI 1967, I, p. 135.31).
+Il tipo ‘pintore’ è attestato trasversalmente sul territorio italiano: <!-- in varie iscrizioni settentrionali --> , v. <title>Purg.</title> 32, v. 67: «come pintor che con essempro pinga»; nei <title>Trionfi</title>: «Questo cantò gli errori e le fatiche / Del figliuol di Laerte e de la [d' una] diva, / Primo pintor delle memorie antiche.» <title>T. Famae III</title>, v. 15; nel <title>Dittamondo</title>di Fazio degli Uberti: «Qui vo', pintor, s'avièn che pennel tinghi / per disegnar questo luogo silvano, / che sopra il Nilo un'isola dipinghi [...]» L. 5, cap. 27, . Si veda infine nelle <title>Storie de Troia e de Roma</title> (cod. Riccardiano): «Et da molti era chiamato Graculo ne le studia di Atena e insegnato in costumi, ma non audace in parlamento, ma in tucte altre scientie admaestrato, di cantare, d' organare, di medicare, di musica, di pintore, maestro di rame e di marmora [...]» (MONACI 1920, p. 302.33).
+Il tipo ‘pingitore’ è attestato – oltre che nel citato Valerio Massimo, anche nel <title>Libro de la destructione de Troya</title>: «[...] loco clavettieri; loco statuarii; loco pingituri [...]» L. 5 (DE BLASI 1986, p. 79.27).
+</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p><!-- Immagine: SI. -->Le firme dei tre pittori compaiono nella parte mediana del soffitto, dopo la trave VII, nel mezzo di quello che viene considerato il «secondo settore» del programma decorativo del soffitto.  La firma di Mastro Simuni campeggia isolata tra le mezze travi VII (B 191) e VIII (B 197), nella parte aniconica del  soffitto, vicino ad un motivo «di fettucce intrecciate e stellate».  Le firme di Cecco di Naro e Pellegrino Darena da Palermo si trovano invece collocate una di fianco all’altra in posizione più periferica, tra le travi del lacunare n. 218 (XI e XII B). La posizione della firma di Mastru Simuni è stata vista come indizio di una posizione di preminenza dell’artista rispetto ai suoi colleghi.</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
-                        <p xml:id="other"/>
-                        <p xml:id="images"/>
-                    </div>
-                </body>
-            </text>
+                        <p xml:id="editions">GABRICI-LEVI 1932, p. 65; BOLOGNA 1975, p. 95.</p>
+                        <p xml:id="other">Le città medievali 2004; CAFFARELLI 2009.</p>
+                        <p xml:id="images">BOLOGNA 1975, p. 95; CAFFARELLI 2009.</p>
+                            </div>
+               </body>
+                            </text>
         </TEI>

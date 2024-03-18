@@ -61,28 +61,29 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="17.08">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
+                        <ab>Manya y Fuer<seg type="grapheme" corresp="/ts/">cz</seg>a <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>.
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
+                        <ab>MANYA Y FUERCZA
                         </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p>L'iscrizione, in spagnolo, mostra la resa dell'affricata /ts/ con &lt;cz&gt; un'abitudine grafica assai diffusa nel meridione, a partire dal <title>Ritmo Cassinese</title> (v. SIGNORINI 2009).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p><!-- Immagine: SI. --> 
+                        Il motto, esposto sul portone di Palazzo Abatellis a Palermo, costituisce - forse sorprendentemente - l'unica presenza della lingua spagnola nel patrimonio epigrafico in volgare della Sicilia. </p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions"/>

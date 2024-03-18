@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Tommaso di Vigilia, Madonna in trono con santi</title>
+                        <title>Storie di santa Caterina</title>
                         <editor role="data_collection"><persName></persName></editor>
                         <editor role="edition"><persName></persName></editor>
                         <editor role="commentary"><persName></persName></editor>
@@ -14,7 +14,7 @@
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">17.11</idno>
+                        <idno type="filename">17.12</idno>
                         <date when="2020-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,9 +23,9 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Palermo</placeName>
+                                <placeName>Termini Imerese</placeName>
                                 <district ref="#PA">PA</district>
-                                <repository>Galleria regionale della Sicilia - Palazzo Abatellis</repository>
+                                <repository>Chiesa di santa Caterina di Alessandria</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -33,26 +33,26 @@
                                     <term type="textFunction" ref="#D">Didascalia</term>
                                     <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
-                                <textLang mainLang="" otherLangs="">?</textLang>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#unknown">?</material>
-                                            <objectType ref="#painting">Dipinto</objectType>
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <handNote><term ref="#unknown">?</term></handNote>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
                                 </handDesc>
                             </physDesc>
                             <history>
                                 <origin>
                                     <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
-                                    <origDate notBefore="1480" notAfter="1499">XV ex.</origDate>
+                                    <origDate notBefore="1480" notAfter="1500">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="0">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -82,7 +82,7 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: NO. --></p>
+                        <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions"/>

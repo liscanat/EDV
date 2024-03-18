@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -82,7 +82,7 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p><!-- Immagine: SI. -->L’iscrizione è posta in una cornice modanata; il testo è inciso su sette righi di scrittura interrotti nella porzione centrale da uno stemma raffigurante un castello con tre torri merlate e sorretto da due grifi alati. La lastra è lacunosa dell’angolo inferiore destro, con una perdita del testo, che è tuttavia recuperabile per tradizione indiretta.</p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions"/>
