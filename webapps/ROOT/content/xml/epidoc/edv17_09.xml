@@ -61,15 +61,74 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="17.09.jpeg">
                     <desc/>
                 </graphic>
+                                <graphic url="17.09a.jpg">
+<desc/>
+</graphic>
+<graphic url="17.09b.jpg">
+<desc/>
+</graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-                        </ab>
+                       <div type="textpart" subtype="section" n="A">
+                           <ab>[Il registro superiore del dipinto raffigura il Cristo e gli strumenti della Passione]
+                               <lb n="1" break ="no"></lb><foreign xml:lang="la">[in alto a sinistra della Croce] <quote>
+ vestem meam</quote>
+ <lb n="2" break ="no"></lb><foreign xml:lang="la"><quote>[…] &lt;mi&gt;serunt sortem 
+concilium fecerunt principes sacerdotes</quote></foreign>
+ <lb n="3" break ="no"></lb><foreign xml:lang="la"><quote>et similiter universi populi contra[…]</quote>(Gv 19.24)</foreign> 
+                        </foreign>
+<lb n="4" break ="no"></lb><foreign xml:lang="la">[in alto a destra della Croce)<quote>dedit eis signum</quote>(Mt 26, 48)</foreign>                        
+<lb n="5" break ="no"></lb>La cena
+    <lb n="6" break ="no"></lb><foreign xml:lang="la"><quote>Petrus negavit cum ancilla</quote>(Mt 26, 70)</foreign>
+                               <lb n="7" break ="no"></lb><foreign xml:lang="la">Petrus Ancilla Judas</foreign> [didascalie alle immagini]
+<lb n="8" break ="no"></lb><foreign xml:lang="la"><quote>
+[sul braccio della croce] INRI</quote></foreign>
+[sul braccio sinistro della croce]<lb n="9" break ="no"></lb><foreign xml:lang="la"><quote>
+Pater dimitte illis quia ne<seg type="grapheme" corresp="/ʃ/">si</seg>unt quid faciunt </quote>(Lc 23. 34)</foreign>
+<lb n="10" break ="no"></lb><foreign xml:lang="la"><quote>dico tibi hodie eris mecum in paradiso </quote>(Lc 23, 43)</foreign>
+<lb n="11" break ="no"></lb><foreign xml:lang="la"><quote>Eli eli lamacza abatani(Mt 27,46; Mc 15,34) sitio (Gv 19, 28) in manus tuas com(m)endo spiritum meum: consumactum est (Gv 19, 30) </quote></foreign>
+<lb n="12" break ="no"></lb><foreign xml:lang="la"><quote></quote></foreign>            
+                               <lb n="13" break ="no"></lb><foreign xml:lang="la">[in basso a sinistra della Croce)<quote>Memento mei domine cum ueneris</quote></foreign>
+    <lb n="14" break ="no"></lb><foreign xml:lang="la"><quote>in regnum tuum </quote>(Lc 23, 42)</foreign>
+                                      <lb n="15"/>L<m type="desinence" subtype="ms_sing">u</m> iudi<m type="desinence" subtype="ms_sing">u</m> ch(e) spu 
+                               <lb n="16"/> ta a xp<m type="desinence" subtype="ms_sing">u</m>
+<lb n="17"/>Li bu<seg type="grapheme" corresp="/ss/">x</seg>uli di lunguen
+                               <lb n="18"/>t<m type="desinence" subtype="ms_sing">u</m> dila madalena
+<lb n="19" break ="no"></lb><foreign xml:lang="la"><quote>
+mulier ecce filius</quote></foreign><lb n="20" break ="no"></lb><foreign xml:lang="la"><quote>
+tuus </quote>(Gv 19,26)</foreign>
+<lb n="21" break ="no"></lb><foreign xml:lang="la"><quote>
+Longin(us) uidit et testa</quote></foreign><lb n="22" break ="no"></lb><foreign xml:lang="la"><quote>
+uit </quote>(Gv 19,34)</foreign>
+<lb n="23" break ="no"></lb><foreign xml:lang="la"><quote>Si tu es chr(ist)s salus fac tecum nos</quote>(Lc 23, 39)</foreign>
+<lb n="24" break ="no"></lb>Sona beni
+<lb n="25" break ="no"></lb><foreign xml:lang="la"><quote>Ecce mater tua</quote>(Gv 19, 27)</foreign>
+<lb n="26" break ="no"></lb>Iosep haramatia
+<lb n="27" break ="no"></lb><foreign xml:lang="la"><quote>Centurio dixit uere fili(us)/ Dei er&lt;at&gt; iste</quote> (Mt, 27,54)</foreign>
+                              </ab>
+                       </div>
+                    </div>
+                           <div type="textpart" subtype="section" n="b">
+                           <ab>[Il registro inferiore del dipinto raffigura la messa di san Gregorio]</ab>
+                             <div type="textpart" subtype="column">
+               <ab>
+                   <lb n="1" break ="no"></lb>Summanu tuti li prisenti indulgentij conchesi et confirmati ala dicta figura
+di la pietati di nostru Signuri Jesu Xristu per sanctu Grigoli papa di Ruma et altri papa et episcopi XX. M. annorum et trichentu 42 iorni di piradunanza per
+volta che si dichi la orationi genibus flexis videlicet Pater Noster Ave Maria
+per la passioni di Xristu.
+Papa Nicola confirma li predicti indulgentij et asupplixi chi s…22… annorum
+di indulgentij … Papa Pius romanus omnia supradicta confirmavit et adidit
+… anorum et 20 dies de indulgentia. Et deinde pro sequentibus orationibus
+genibus flexis ab memoriam passionis Domini, videlicet 15 Pater Noster et
+Ave maria concessit indulgentiam omnium peccatorum suorum.</ab>
+                             </div>
+
+                           
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
