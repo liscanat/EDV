@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Giovanni di Corraduccio, Storie della Passione, Santi e profeti</title>
-                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <title>Passione e Messa di San Gregorio</title>
+                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName></persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">09.21</idno>
-                        <date when="2020-12-09"/>
+                        <idno type="filename">09.47</idno>
+                        <date when="2020-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,9 +23,9 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Montefalco</placeName>
-                                <district ref="#PG">PG</district>
-                                <repository>Museo di San Francesco</repository>
+                                <placeName>Colonia</placeName>
+                                <district ref="#umbria">Umbria</district>
+                                <repository>Wallraf-Richartz Museum</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -33,14 +33,14 @@
                                     <term type="textFunction" ref="#D">Didascalia</term>
                                     <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
-                                <textLang mainLang="xvnz" otherLangs="xvolg xvlat la">Volgare mediano, Latino</textLang>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#plaster">Intonaco</material>
-                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <material ref="#wood">Legno</material>
+                                            <objectType ref="#painting">Dipinto</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                                    <origDate notBefore="1415" notAfter="1420">XV in.</origDate>
+                                    <origDate notBefore="1475" notAfter="1500">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,43 +61,16 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="00">
+                <graphic url="">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                    <div type="textpart" subtype="section" n="A">
-<ab>
-<lb n="0"/>[nel cartiglio di San Giovanni Battista]
-<lb n="1"/>Ecce Agn(us) Dei
-    </ab>
-</div>
-     <div type="textpart" subtype="section" n="B">
-<ab><lb n="0"/>[nei cartigli dei profeti]
-<lb n="1"/>Ieremia
-<lb n="2"/>Isaac
-<lb n="3"/>Daniel
-<lb n="4"/>Aron        
-</ab>
-</div>
-     <div type="textpart" subtype="section" n="C">
-<ab><lb n="0"/>[sotto alla scena del crocifisso frammentario]
-    <lb n="1"/>(Mos)trate ge(n)te p(er) lo nostro onore (l’am)or che voi (portate) al salvatore
-    </ab>
-</div>
-     <div type="textpart" subtype="section" n="D">
-<ab><lb n="0"/>[sotto la Discesa di Cristo al Limbo]
-    <lb n="1"/>costor (pec)caro p(er) lo pomo de leg(no) (Cristo) li co(n)duce a lo celeste regno
-    </ab>
-</div>
-     <div type="textpart" subtype="section" n="E">
-<ab>
-    <lb n="0"/>[sotto al <title>Noli me tangere</title>]
-    <lb n="1"/>la Madalena col pe&lt;r&gt;fecto amore amava (Cristo) con u(n) gran fervore.
-</ab>
-     </div></div>
+                        <ab>
+                        </ab>
+                    </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
                         </ab>
@@ -109,13 +82,12 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>I tre profeti sorreggono cartigli contenenti il loro nome; sotto di essi tre scene corredate da tre distici rimati in volgare. 
-                            Le iscrizioni sono <title>in loco</title> nella Cappella della Passione.</p>
+                        <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">SILVESTRELLI 1990a, p. 123; TOSCANO-MONTELLA 1999, p. 37.</p> 
-                        <p xml:id="other">GUARDABASSI 1872, p. 119; %manca in biblioFALOCI PULIGNANI 1915, pp. 17-18; VAN MARLE 1923-1938, XII, p. 77; %manca in biblioLONGHI 1962, p. 14; %manca in biblioNESSI 1962, pp. 261-262; SCARPELLINI 1976, pp. 31, 64-66; BOSKOVITS 1977, p. 41; TODINI 1989, p. 83.</p>
-                        <p xml:id="images">SILVESTRELLI 1990a, p. 124, 10.5-10.10; p. 125, 10.11; TOSCANO-MONTELLA 1999, p. 38, 10.11 (parete sinistra), 10.12-10.13 (parete destra), 10.5-10.10 (parete di fondo con il volto santo).</p>
+                        <p xml:id="editions"/>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
                     </div>
                 </body>
             </text>
