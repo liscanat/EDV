@@ -6,16 +6,16 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Ruolo dei defunti</title>
-                        <editor role="data_collection"><persName></persName></editor>
-                        <editor role="edition"><persName></persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
-                        <editor role="images"><persName></persName></editor>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Francesco Fabbiano</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">17.05</idno>
-                        <date when="2020-03-04"/>
+                        <date when="2024-04-03"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,31 +61,37 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="17.05.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
+                        <ab><lb n="1" break ="no"></lb><foreign xml:lang="la">IN NOMINE DOMINI IHESU CHRISTI AMEN ANNO A NATTIV&lt;I&gt;TATE MCCCVI</foreign> <w type="metaphony">QVIS&lt;TI&gt; </w>SONO LI DEFVNTI
+                            <lb n="2" break ="no"></lb> DE LA FRATERNITATI DI SANTO NICOLA DI SANTO FRAN<seg type="grapheme" corresp="/tʃ/">Ch</seg>ISSCO &lt;L&gt;A PRIMA CASA
+                            <lb n="3" break ="no"></lb>DI DI<seg type="grapheme" corresp="/ʃ/">S</seg>IPLINA DI LAGITATE DI PALERMO DIPINTA MII&lt;I&gt;LXXXVIII
+                            <lb n="4" break ="no"></lb>DA VI&lt;N&gt;E<seg type="grapheme" corresp="/ss/">X</seg>IA PI&lt;N&gt;XIT
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
+                        <ab><lb n="1" break ="no"></lb>I(N) NOMINE D(OMI)NI IHU XPI AME(N) AN(N)O A NATTIV[.]TAT(E) MCCCVI QVIS[..] SONO LI DEFVNTI
+                            <lb n="2" break ="no"></lb> DE LA FRA(TER)NITAT(I) DI SANTO NICOLA DI SANTO FRANChISSCO [.]A PRIMA CASA
+                            <lb n="3" break ="no"></lb>DI DISIPLINA DI LAGITATE DI PAL(ER)MO DIPINTA MII[.]LXXXVIII
+                            <lb n="4" break ="no"></lb>DA VI[.]EXIA PI[.]XIT
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>r. 4 AN&lt;TON&gt;I&lt;US&gt; DA VI&lt;N&gt;EXIA PI&lt;N&gt;XIT</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p>L'intitolazione del ruolo dei defunti, probabilmente eseguita a Pisa da Antonio Veneziano, mostra ciononostante caratteristiche di grafia e fonologia riconducibili al siciliano trecentesco; &lt;ch&gt; per /tʃ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>,<ref target="edv17_12">17.12</ref>; la forma metafonetica del pronome dimostrativo, la forma ipercorretta 'gitati'. Tali caratteristiche si ritrovano regolarmente anche nell'onomastica (v. PICCOLO 2002)</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: NO. --></p>
+                        <p>Si trascrive qui unicamente l'intitolazione e la firma, non i 704 nomi (solo la metà circa ancora leggibili) per i quali si rimanda a LO PICCOLO 2002</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
+                        <p xml:id="editions">LO PICCOLO 2002, p. 570</p>
                         <p xml:id="other"/>
                         <p xml:id="images"/>
                     </div>
