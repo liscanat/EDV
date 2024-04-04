@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Tommaso di Vigilia, Madonna in trono tra i santi Giovanni Battista e Benedetto</title>
+                        <title>La Vergine del Carmelo con otto storiette laterali</title>
                         <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
-                        <editor role="edition"><persName></persName>Nadia Cannata</editor>
-                        <editor role="commentary"><persName></persName>Nadia Cannata</editor>
-                        <editor role="encoding"><persName></persName>Nadia Cannata</editor>
-                        <editor role="images"><persName>Francesco Fabbiano</persName></editor>
+                        <editor role="edition"><persName>Maria Concetta Di Natale</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">17.11</idno>
-                        <date when="2024-04-04"/>
+                        <idno type="filename">17.13</idno>
+                        <date when="2024-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,9 +23,9 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Palermo</placeName>
+                                <placeName>Corleone</placeName>
                                 <district ref="#PA">PA</district>
-                                <repository>Galleria regionale della Sicilia - Palazzo Abatellis</repository>
+                                <repository>Chiesa del Carmine</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -33,27 +33,27 @@
                                     <term type="textFunction" ref="#D">Didascalia</term>
                                     <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
-                                <textLang mainLang="xsic" otherLangs="la">Volgare siciliano, Latino</textLang>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#unknown">Tela</material>
-                                           <!-- <term xml:lang="it">Tela</term> --> 
-                                            <objectType ref="#painting">Dipinto</objectType>
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <!-- si tratta di olio su tela -->
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <handNote><term ref="#unknown">?</term></handNote>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
                                 </handDesc>
                             </physDesc>
                             <history>
                                 <origin>
                                     <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
-                                    <origDate notBefore="1480" notAfter="1499">XV ex.</origDate>
+                                    <origDate notBefore="1480" notAfter="1500">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -62,38 +62,31 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="17.11a.jpeg">
-                    <desc/>
-                </graphic>
-                <graphic url="17.11b.jpeg">
+                <graphic url="0">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><w type="metaphony">Quista</w> opera <phr type="syntagm" subtype="synt_lat">fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fari</phr> <w>soru</w> Lucre<seg type="grapheme" corresp="/ts/">ci</seg>a di Lagona a&lt;bbadiss&gt; di sanctu Iohani
+                        <ab>
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>QVISTA OPERA FICHI FARI SORVLVCRECIA
-                            DILAGONA A[...]A DI S(AN)CTVIOHANI
+                        <ab>
                         </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p><title>Grafia e fonologia</title>
-                            Il testo dell'iscrizione presenta pur nella sua brevità inequivocabili caratteristiche linguistiche del sicilano: la grafia &lt;ch&gt; per l’affricata palatale sorda /ʧ/, normale nelle iscrizioni siciliane <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_12">17.12</ref>, l'uso di &lt;ci&gt; per /ts/ si v. <ref target="edv17_09">17.09</ref>.</p>
-                        <p><title>Morfologia e lessico</title>  
-                            Si noti la desinenza maschile in -u in 'sanctu' e la sopravvivenza di 'soru' da 'SORUS' con desinenza etimologica in -u al femminile, comune in siciliano.</p>
-                    </div>
-                    <div type="commentary" subtype="note">
                         <p></p>
                     </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
                     <div type="bibliography">
-                        <p xml:id="editions">DI NATALE 1977, p. 30</p>
+                        <p xml:id="editions"/>
                         <p xml:id="other"/>
                         <p xml:id="images"/>
                     </div>
