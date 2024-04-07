@@ -68,18 +68,77 @@
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
+                        <ab><lb n="I"/><w>Como</w>·Sancta·Catarina·stando in lu so pala<seg type="grapheme" corresp="/ts/">cz</seg><m type="desinence" subtype="ms_sing">u</m>·mand<m type="desinence" subtype="perf3ps">au</m>· lu so bai<m type="desinence" subtype="ms_sing">u</m>·a la <seg type="grapheme" corresp="/ka/">cha</seg><seg type="grapheme" corresp="/ts/">cz</seg>a·a intendiri·<w>chi</w>·rimuri·<w>chi</w>·era
+                        <lb n="II"/><w>Comu</w>·lo inperaturi·fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fari un idol<m type="desinence" subtype="ms_sing">u</m>et fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i
+<w><seg type="phoneme" subtype="j_initial">I</seg>ettari</w> lo bando <w>chi</w> tuti cristiani veni<m type="desinence" subtype="impfsubj6ps3class">siru</m> adorari lo idol<m type="desinence" subtype="ms_sing">u</m> 
+                        <lb n="III"/><w>Comu</w>· Sancta·Catarina· si part<m type="desinence" subtype="perf6ps">iu</m> di lo so palaczo and<m type="desinence" subtype="perf3ps">au</m> inanczi lo inperaturi e multo lo reprind<m type="desinence" subtype="impf3ps2class">ia</m> <w>chi</w> petri marmuri no si divino ador<m type="desinence" subtype="inf_are">ari</m> ecept<m type="desinence" subtype="ms_sing">u</m> a Iesu Pasionat<m type="desinence" subtype="ms_sing">u</m>.
+                        
                         </ab>
+                        
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
-                            <lb n="1"/>COMO·S·C·STANDO·IN·LVSO·PALAC3V·MANDAV· LVSO·BAIV·ALACHAC3A·AINTENDIRI·CHI·RIMVRI·CHI·ERA
-                            <lb n="2"/>
-                            <lb n="3"/>
-                            <lb n="4"/>
-                            <lb n="5"/>
-                            <lb n="6"/>
-                            <lb n="7"/>
+                            <lb n="I"/>COMO·S·C·STANDO·IN·LVSO·PALACZV·MANDAV· LVSO·BAIV·ALACHAC3A·AINTENDIRI·CHI·RIMVRI·CHI·ERA
+                            <lb n="II"/>COMV·LO·IN·PERATVRI·FICHI·FARI·VNIDOLV·ET ·FICHI
+IETTARI LOBANDO·CHI·TVTI·CRISTIANI·VENISIRV·ADORI·LOIDOLV
+                            <lb n="III"/>COMV· S· C· SIPARTIV· DILOSOPALAC3O· ANDAV· INANC3I· LOINPERATVRI
+E MVLTO·LOREPRINDIA·CHI·PETRI·MARMVRI·NO·SIDIVINO ADORARI·ECEPTV
+A IESVPASIONATV
+
+                            <lb n="IV"/>COMV· SANTA· CATERINA· FV MANDATA· PRIXVNI· CON· GRAN· FVRVRI·
+                            <lb n="V"/>COMV· FVMISA· LABEATA· SANTA· CATERINA· PRIXVNI
+                            <lb n="VI"/>COMV· S· C· CONFVS[...] LV INPERATVRI 
+                            <lb n="VII"/>[. .]MV· S· C· STANDV·PRIXVNI·LA NOTTI ·  APARSI · VNVANGILV· DISICHI N[.] [.]AVRA
+
+
+[8]
+DISPVTANDO · S·C·A TTVTTI LI DOTVRI 
+CŌFVSI · ETVTI · LICONVERTIVALAFIDI· I▁HS · X▁PS·
+
+[9]
+COMO · LVPERATVRI · ATTVTTI · LIDOTTVRI · SIFICHI · VENIRI · DAVANC[.]I  [...]
+C3OCH[.] [. . .]ANV·FATTV·TVTTV·GRID▁ADO·CO[.]O·▁NO·POTIMO·DISPV [...]
+
+[10]
+COMV LV RE CVMANDAV CHI FVSSIRV ABRVXATI LI DVTVRI ET S C LIAPPARSI ▁COFIRMANDVLI ALA FIDI 		IHV XPO			M. CCCCC. XXXXVI
+
+[11]
+COMO LO IMPERATVRI  CVMANDAU C[...]
+STRAC3ATI LIMINNI
+
+[12]
+COMV ESSĒDV VNV DEVOTV DILA B·▁S·C· ET DITTO MĀ▁CADO  DILADEVOCIONI LI APPARSSI · ▁S · C ▁CV  MVLTI·▁S·VIRGINI ▁CV LA FACHI VILATA ELV DITTV DIMĀDAO 
+
+CVI TVSSI QVLLA ▁CV LA FACHI VILATA LI FVI DITTV CHIERA · ▁S ·C· P LA QALI IPSSO AVIA MĀCATV DILA DIVOCIONI, TE P · QVISTV · NŌ CHI VOSI DEMOSSTRI LA FACHI
+
+[13]
+COMV LVIMPERATVRI COMANDAV CHI ALA BEATA SANTA 
+CATERINA LIFVSSIRV STRAC3ATI LI CARNI CVM LI RANPINI
+
+[14]
+COMV LA BEATA SANTA CATERINA · CONVERTIV · LA IMPERATRICHI 
+ET · PROFILIO · CONLIAVTRI · DONNI · ET · CAVALERI
+
+[15]
+COMV·LVINPERATVRI·FICHI·STARI·XII·IORN[.]
+CARCERATA A SANTA·CATERINA·SENC3A MANGIARỊ
+
+[16]
+COMV · LABEATA · SANTA · CATERINA · STANDO · INLA PRIXVNI
+CHI APARSI·CRISTV· CON · VNA · GRANDISIMA · MVLTITVDINI · DIANGELI·
+
+[17]
+COMV LO IPERATVR[.] DONAV LA SINTENCIA hI 
+LAINPERA[.]RICHI [.]VSI·DECOLLATA
+
+[18]
+· COMV·LOINPERATURI FICHI MORIRI LA INPERATRICHI 
+· ET· TVTTI· LISOI· DONNI· LIQVALI ERANV DATI A CRISTV
+
+[19]
+· COMV· LOINPERATVRI· FCHI [...] LA TESTA
+ A PROFILIO E [.]I SOI·SEQ[. . . .]
+
                             <lb n="1"/>
 
                         </ab>
@@ -88,7 +147,15 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>sul piano della grafia si registra l'uso - maggioritario in Sicilia - di &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref><ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>.</p>
+                        <p>sul piano della grafia si registra l'uso - maggioritario in Sicilia - di &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref><ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>; e l'uso di &lt;cz&gt; per l'affricata dentale, generalizzato in Italia meridionale (v. <ref target="edv14_01">14.01</ref> e le osservazioni nel commento, <ref target="edv14_02">14.02</ref>, <ref target="edv17_08">17.08</ref>). </p>
+                        
+                        <p>Perfetti -au, -iu, 
+                        sintassi fichi fari
+                        pasionatu aggettivo di Gesu
+                        </p>
+                        
+                        
+                        
                     </div>
                     <div type="commentary" subtype="note">
                         <p>Le iscrizioni si trovano all’interno dell’affresco rappresentante le Storie di Santa Caterina attribuito a Giacomo e Nicolò Graffeo e si sviluppano secondo una sequenza di pannelli rettangolari su due ordini sovrapposti mentre le didascalie sono poste all’interno di una fascia continua che corre orizzontalmente delimitando i due ordini. Gli affreschi si sviluppavano un tempo su tutte e quattro le pareti della chiesa, ma oggi compaioni solo sulle due pareti laterali, mentre i rifacimenti della la porzione di controfacciata e quella di fondo hanno distrutto gli affreschi originari con le Storie, che hanno lasciato spazio rispettivamente all’affresco della Crocifissione di Nicolò Spalletta e ad un nuovo altare settecentesco dotato di stucchi. La narrazione origina dalla prima scena del registro inferiore di destra, con dodici episodi su due registri relativi all’infanzia della santa fino al suo matrimonio. Il ciclo continua nel registro superiore e per tutta la lunghezza della parete perimetrale e prosegue in senso orario anche sull’altra parete, con i riquadri disposti in maniera speculare rispetto alle figurazioni della parete di fronte. Alcuni pannelli sono stati rifatti dallo Spalletta ([11] e [12]) e non seguono in modo puntuale e cronologico le vicende biografiche della santa.</p>

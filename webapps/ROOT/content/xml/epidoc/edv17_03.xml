@@ -70,15 +70,15 @@
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <div type="textpart" subtype="section" n="A">
                                 <ab>
-                                <lb n="1"/>Mastru Simuni 
-<lb n="2"/>pinturi di Curigliunu
+                                <lb n="1"/>Mastru Simun<m type="desinence" subtype="ms_sing">i</m> 
+<lb n="2"/>pintur<m type="desinence" subtype="ms_sing">i</m>i di Curigliun<m type="desinence" subtype="ms_sing">u</m>
                                 </ab>                        
                     </div>
                         <div type="textpart" subtype="section" n="B">
                                 <ab>
-                                <lb n="1"/>Mastru <seg type="grapheme" corresp="/tʃ/">Ch</seg>icu 
-                                    <lb n="2"/>pinturi di Naro 
-                                <lb n="3"/>Mastru &lt;P&gt;illirinu Darenu Pingituri de Palermu    
+                                <lb n="1"/>Mastru <seg type="grapheme" corresp="/tʃ/">Ch</seg>ic<m type="desinence" subtype="ms_sing">u</m> 
+                                    <lb n="2"/>pintur<m type="desinence" subtype="ms_sing">i</m> di Naro 
+                                <lb n="3"/>Mastr<m type="desinence" subtype="ms_sing">u</m> &lt;P&gt;illirin<m type="desinence" subtype="ms_sing">u</m> Daren<m type="desinence" subtype="ms_sing">u</m> Pingitur<m type="desinence" subtype="ms_sing">i</m> de Palerm<m type="desinence" subtype="ms_sing">u</m>    
                                 </ab>
                         </div>
                         </div>

@@ -68,10 +68,10 @@
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1" break ="no"></lb><foreign xml:lang="la">IN NOMINE DOMINI IHESU CHRISTI AMEN ANNO A NATTIV&lt;I&gt;TATE MCCCVI</foreign> <w type="metaphony">QVIS&lt;TI&gt; </w>SONO LI DEFVNTI
-                            <lb n="2" break ="no"></lb> DE LA FRATERNITATI DI SANTO NICOLA DI SANTO FRAN<seg type="grapheme" corresp="/tʃ/">Ch</seg>ISSCO &lt;L&gt;A PRIMA CASA
-                            <lb n="3" break ="no"></lb>DI DI<seg type="grapheme" corresp="/ʃ/">S</seg>IPLINA DI LAGITATE DI PALERMO DIPINTA MII&lt;I&gt;LXXXVIII
-                            <lb n="4" break ="no"></lb><persName>&lt;ANTONIO&gt;DA VI&lt;N&gt;E<seg type="grapheme" corresp="/ss/">X</seg>IA</persName> PI&lt;N&gt;XIT
+                        <ab><lb n="1" break ="no"></lb><foreign xml:lang="la">In nomine Domini Ihesu Christi amen anno a nattiv&lt;I&gt;tate MCCCVI</foreign> <w type="metaphony">quis&lt;ti&gt; </w>sono li defunti
+                            <lb n="2" break ="no"></lb>de la fraternitati di santo Nicola di santo Fran<seg type="grapheme" corresp="/tʃ/">ch</seg>issco &lt;l&gt;a prima casa
+                            <lb n="3" break ="no"></lb>di di<seg type="grapheme" corresp="/ʃ/">s</seg>iplina la gitate di Palermo dipinta MII&lt;I&gt;LXXXVIII
+                            <lb n="4" break ="no"></lb><persName>&lt;Antonio&gt;da Vi&lt;n&gt;e<seg type="grapheme" corresp="/ss/">x</seg>ia</persName> pi&lt;n&gt;xit
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">

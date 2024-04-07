@@ -69,14 +69,14 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab><lb n="0"/>[Si trascrivono le didascalie delle vignette nel loro ordine logico, iniziando dalla prima in alto sul lato sinistro e proseguendo a dx a partire dal basso. Non indico il fine rigo perché manca nella trascrizione di Di MARZO 1899]
-                            <lb n="1"/><w>COMU</w> LI FRATI ANDAR<m type="desinence" subtype="perf6ps">U</m> A PAPA IOANNE P(IR) CONFERMARI LA RELIGIONI DEL CARMINO
-          <lb n="2"/>[manca]
-          <lb n="3"/><w>COMU</w> LA VIRGINI MARIA APARSI DI NOTTI A PAPA IOANE E CUMANDA<m type="desinence" subtype="perf3ps">AU</m> CONFERMA LA MIA RELIGIONI PER MULTI RISPETI
-          <lb n="4"/><w>COMU</w> PAPA IOANNI CONFIRMA LA RELIGIONI DELLA VIRGINI MARIA
-          <lb n="5"/><w>COMU</w> LI FRATI VESTINU LI FRATI ET <w>SORU</w> DEL HABIT<m type="desinence" subtype="ms_sing">U</m> DELLA VIRGINI MARIA
-          <lb n="6"/><w>COMU</w> LA VIRGINI MARIA TRAI LANIMI DI FRATI E <w>SORV</w> L<m type="desinence" subtype="ms_sing">U</m> PRIM<m type="desinence" subtype="ms_sing">U</m> SABAT<m type="desinence" subtype="ms_sing">U</m> DEL PURGATORIO
-          <lb n="7"/>[manca]
-                        <lb n="8"/><w>COMU</w> LA VIRGINI MARIA PORTA LI ANIMI DI FRATI E <w>SORU</w> IN PARADIS<m type="desinence" subtype="ms_sing">U</m> E RICOMANDA A CRIST<m type="desinence" subtype="ms_sing">U</m>
+                            <lb n="I"/><w>Comu</w> li frati andar<m type="desinence" subtype="perf6ps">u</m> a papa Ioanne pir confermari la religioni del Carmino
+          <lb n="II"/>[manca]
+          <lb n="III"/><w>Comu</w> la Virgini Maria apar<m type="desinence" subtype="perf3ps">si</m> di notti a papa Ioane e cumand<m type="desinence" subtype="perf3ps">au</m> conferma la mia religioni per multi rispeti
+          <lb n="IV"/><w>Comu</w> papa Ioanni confirma la religioni della Virgini Maria
+          <lb n="V"/><w>Comu</w> li frati vesti<m type="desinence" subtype="perf3ps">nu</m> li frati et <w>soru</w> del habit<m type="desinence" subtype="ms_sing">u</m> della Virgini Maria
+          <lb n="VI"/><w>Comu</w>la Virgini Maria trai l'animi di frati e <w>soru</w> l<m type="desinence" subtype="ms_sing">u</m> prim<m type="desinence" subtype="ms_sing">u</m> sabat<m type="desinence" subtype="ms_sing">u</m> del Purgatorio
+          <lb n="VII"/>[manca]
+                        <lb n="VIII"/><w>Comu</w>la Virgini Maria porta li animi di frati e <w>sory</w> in Paradis<m type="desinence" subtype="ms_sing">u</m> e ricomanda a Crist<m type="desinence" subtype="ms_sing">u</m>
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -84,20 +84,20 @@
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p>r. 1 PI CONFE(R)MARI, DI NATALE 1977; r. 2 LA VIRGINI APARSI, P(ER) DI NATALE 1977; r. 5 FRI, r. 6 DI LI FRATI, DI NATALE 1877; r. 6 PRIMO SABATO, DI NATALE 1977;  r. 8 GLI COMANDA, DI NATALE 1977.</p>
+                        <p>I -  PI CONFE(R)MARI, DI NATALE 1977; II - LA VIRGINI APARSI, P(ER) DI NATALE 1977; V - FRI; VI - DI LI FRATI, PRIMO SABATO, DI NATALE 1977; VIII - GLI COMANDA, DI NATALE 1977.</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
                         <p><title>Grafia e fonologia</title></p>
-                        <p>Il sistema vocalico del siciliano è riprodotto sistematicamente: r. 1, 3, 4, 5, 6, 8 'comu' r. 1 'religioni', r. 2, 4, 5, 6, 8 'Virgini'; tutti i sostantivi maschili e l'etimologico 'soru' singolare e plurale terminano regolarmente in -u. Oscilla la grafia di 'confirmare': r. 4 'confirma', ma r.1 'confermari', r. 3 'conferma'. </p>
+                        <p>Il sistema vocalico del siciliano è riprodotto conregolarità: r. 1, 3, 4, 5, 6, 8 'comu' r. 1 'religioni', r. 2, 4, 5, 6, 8 'Virgini' anche se si ravvisa una lieve tendenza verso la fonologia toscana in  'confirmare': r. 4 'confirma', ma r.1 'confermari', r. 3 'conferma'. Tutti i sostantivi maschili e l'etimologico 'soru' singolare e plurale terminano regolarmente in -u, con l'eccezione di Purgatorio'.</p>
                        <p><title>Morfologia e lessico</title></p> 
-                      <p>Articolo determinativo maschile sempre in forma debole 'lu', 'li'; perfetti della 1 classe di 3 persona singolare in in 'au'; terza plurale regolarmente in -u: r. 1 andaru, r. 3 'cumandau', r. 5 'vestinu'.  Per 'soru' v. anche <ref target="edv17_11">17.11</ref></p>  
+                      <p>Articolo determinativo maschile sempre in forma debole 'lu', 'li'; perfetti della 1 classe di 3 persona singolare in in 'au'; terza plurale regolarmente in -u: r. 1 andaru, r. 3 'cumandau', r. 5 'vestinu'.  Interessante 'andaru' contro i più diffuso ìru'.  Per 'soru' v. anche <ref target="edv17_11">17.11</ref></p>  
                     </div>
                     <div type="commentary" subtype="note">
                         <p>Non si fornisce la trascrizione diplomatica perché l'ispezione indiretta non è stata possibile. L'edizione riproduce il testo pubblicato in DI MARZO 1899 con qualche aggiustamento. Le lezioni di DI NATALE sono in apparato. </p>
                         <p>Il dipinto raffigura la Vergine con il bambino al centro; su ciascuno dei lati della figura di trovano quattro vignette rettangolari corredate di didascalie in volgare siciliano (due delle quali irrimediabilmente perdute), il cui tema è la conferma dell'ordine Carmelitano da parte del papa Giovanni XXII. Analogo dipinto, ma privo di didascalie, si trova nella chiesa del Carmine di Palermo, firmato da <persName>Tommaso de Vigilia</persName> e datato 1492.  </p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">DI MARZO 1899, pp. 106-107; DI NATALE 1977.</p>
+                        <p xml:id="editions">DI MARZO 1899, pp. 106-107; DI NATALE 1977, 12</p>
                         <p xml:id="other"/>
                         <p xml:id="images"/>
                     </div>
