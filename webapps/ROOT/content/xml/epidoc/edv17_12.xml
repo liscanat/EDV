@@ -6,16 +6,16 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Storie di santa Caterina</title>
-                        <editor role="data_collection"><persName></persName></editor>
-                        <editor role="edition"><persName></persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
-                        <editor role="images"><persName></persName></editor>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">17.12</idno>
-                        <date when="2020-03-04"/>
+                        <date when="2024-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -73,6 +73,15 @@
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
+                            <lb n="1"/>COMO·S·C·STANDO·IN·LVSO·PALAC3V·MANDAV· LVSO·BAIV·ALACHAC3A·AINTENDIRI·CHI·RIMVRI·CHI·ERA
+                            <lb n="2"/>
+                            <lb n="3"/>
+                            <lb n="4"/>
+                            <lb n="5"/>
+                            <lb n="6"/>
+                            <lb n="7"/>
+                            <lb n="1"/>
+
                         </ab>
                     </div>
                     <div type="apparatus">
@@ -82,12 +91,12 @@
                         <p>sul piano della grafia si registra l'uso - maggioritario in Sicilia - di &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref><ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p>Le iscrizioni si trovano all’interno dell’affresco rappresentante le Storie di Santa Caterina attribuito a Giacomo e Nicolò Graffeo e si sviluppano secondo una sequenza di pannelli rettangolari su due ordini sovrapposti mentre le didascalie sono poste all’interno di una fascia continua che corre orizzontalmente delimitando i due ordini. Gli affreschi si sviluppavano un tempo su tutte e quattro le pareti della chiesa, ma oggi compaioni solo sulle due pareti laterali, mentre i rifacimenti della la porzione di controfacciata e quella di fondo hanno distrutto gli affreschi originari con le Storie, che hanno lasciato spazio rispettivamente all’affresco della Crocifissione di Nicolò Spalletta e ad un nuovo altare settecentesco dotato di stucchi. La narrazione origina dalla prima scena del registro inferiore di destra, con dodici episodi su due registri relativi all’infanzia della santa fino al suo matrimonio. Il ciclo continua nel registro superiore e per tutta la lunghezza della parete perimetrale e prosegue in senso orario anche sull’altra parete, con i riquadri disposti in maniera speculare rispetto alle figurazioni della parete di fronte. Alcuni pannelli sono stati rifatti dallo Spalletta ([11] e [12]) e non seguono in modo puntuale e cronologico le vicende biografiche della santa.</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
+                        <p xml:id="editions">Di Marzo 1899, pp. 255-259; Nicchitta 2006, pp. 84-85.</p>
                         <p xml:id="other"/>
-                        <p xml:id="images"/>
+                        <p xml:id="images">Nicchitta 2006, pp. 82-83</p>
                     </div>
                 </body>
             </text>

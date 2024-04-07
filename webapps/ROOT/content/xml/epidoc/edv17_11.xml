@@ -39,8 +39,7 @@
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#unknown">Tela</material>
-                                           <!-- <term xml:lang="it">Tela</term> --> 
+                                            <material ref="#canvas">Tela</material>
                                             <objectType ref="#painting">Dipinto</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
@@ -76,8 +75,9 @@
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>QVISTA OPERA FICHI FARI SORVLVCRECIA
-                            DILAGONA A[...]A DI S(AN)CTVIOHANI
+                        <ab><lb n="1"/>QVISTA OPERA FICHI FARI SORVLVCRECIA
+                            <lb n="2"/>DILAGONA A[...]A DI S(AN)CTVIOHANI
+                            <lb n="3"/>THOMAVS
                         </ab>
                     </div>
                     <div type="apparatus">
@@ -90,7 +90,7 @@
                             Si noti la desinenza maschile in -u in 'sanctu' e la sopravvivenza di 'soru' da 'SORUS' con desinenza etimologica in -u al femminile, comune in siciliano.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p></p>
+                        <p>L'opera di deve a <persName>Tommaso de Vigilia</persName>, pittore palermitano autore anche della tavola di Corleone 17.13</p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">DI NATALE 1977, p. 30</p>

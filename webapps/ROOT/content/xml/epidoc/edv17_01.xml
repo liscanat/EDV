@@ -6,11 +6,11 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Formelle di bronzo</title>
-                        <editor role="data_collection"><persName></persName></editor>
-                        <editor role="edition"><persName></persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
-                        <editor role="images"><persName></persName></editor>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
@@ -85,8 +85,8 @@
                         <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
-                        <p xml:id="other"/>
+                        <p xml:id="editions">BALDELLI 1990, pp. 389-391; MELCZER 1987; PETRUCCI L. 2010, n. 10, pp. 97-98</p>
+                        <p xml:id="other">CANNATA 2018, 2024</p>
                         <p xml:id="images"/>
                     </div>
                 </body>
