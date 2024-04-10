@@ -71,7 +71,7 @@
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><w type="metaphony">Quista</w> opera <phr type="syntagm" subtype="synt_lat">fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fari</phr> <w>soru</w> Lucre<seg type="grapheme" corresp="/ts/">ci</seg>a di Lagona a&lt;bbadiss&gt; di sanctu Iohani
+                        <ab><m type="dimostrativo" subtype="ms_sing">Quista</m><phr type="syntagm" subtype="synt_lat">fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fari</phr> <w>soru</w> Lucre<seg type="grapheme" corresp="/ts/">ci</seg>a di Lagona a&lt;bbadiss&gt;a di sanct<m type="desinence" subtype="ms_sing">u</m> Iohani
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -85,7 +85,7 @@
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
                         <p><title>Grafia e fonologia</title>
-                            Il testo dell'iscrizione presenta pur nella sua brevità inequivocabili caratteristiche linguistiche del sicilano: la grafia &lt;ch&gt; per l’affricata palatale sorda /ʧ/, normale nelle iscrizioni siciliane <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_12">17.12</ref>, l'uso di &lt;ci&gt; per /ts/ si v. <ref target="edv17_09">17.09</ref>.</p>
+                            Il testo dell'iscrizione presenta pur nella sua brevità inequivocabili caratteristiche linguistiche del sicilano: la grafia &lt;ch&gt; per l’affricata palatale sorda /ʧ/, normale nelle iscrizioni siciliane <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_12">17.12</ref>, l'uso di &lt;ci&gt; per /ts/ si v. <ref target="edv17_09">17.09</ref>, la regolare chiusura della vocale palatale in 'quista' e 'fari'.</p>
                         <p><title>Morfologia e lessico</title>  
                             Si noti la desinenza maschile in -u in 'sanctu' e la sopravvivenza di 'soru' da 'SORUS' con desinenza etimologica in -u al femminile, comune in siciliano.</p>
                     </div>

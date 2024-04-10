@@ -68,7 +68,7 @@
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1" break ="no"></lb><foreign xml:lang="la">In nomine Domini Ihesu Christi amen anno a nattiv&lt;I&gt;tate MCCCVI</foreign> <w type="metaphony">quis&lt;ti&gt; </w>sono li defunti
+                        <ab><lb n="1" break ="no"></lb><foreign xml:lang="la">In nomine Domini Ihesu Christi amen anno a nattiv&lt;I&gt;tate MCCCVI</foreign> <m type="dimostrativo" subtype="ms_sing">quis&lt;ti&gt;</m>sono li defunti
                             <lb n="2" break ="no"></lb>de la fraternitati di santo Nicola di santo Fran<seg type="grapheme" corresp="/tʃ/">ch</seg>issco &lt;l&gt;a prima casa
                             <lb n="3" break ="no"></lb>di di<seg type="grapheme" corresp="/ʃ/">s</seg>iplina la gitate di Palermo dipinta MII&lt;I&gt;LXXXVIII
                             <lb n="4" break ="no"></lb><persName>&lt;Antonio&gt;da Vi&lt;n&gt;e<seg type="grapheme" corresp="/ss/">x</seg>ia</persName> pi&lt;n&gt;xit
@@ -85,7 +85,7 @@
                         <p>r. 4 AN&lt;TON&gt;I&lt;US&gt; DA VI&lt;N&gt;EXIA PI&lt;N&gt;XIT</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>L'intitolazione del ruolo dei defunti, probabilmente eseguita a Pisa da Antonio Veneziano, mostra ciononostante caratteristiche di grafia e fonologia riconducibili al siciliano trecentesco; &lt;ch&gt; per /tʃ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_11">17.11</ref>, <ref target="edv17_12">17.12</ref>; la forma metafonetica del pronome dimostrativo, la forma ipercorretta 'gitati'. Tali caratteristiche si ritrovano regolarmente anche nell'onomastica (v. PICCOLO 2002)</p>
+                        <p>L'intitolazione del ruolo dei defunti, probabilmente eseguita a Pisa da Antonio Veneziano, mostra ciononostante caratteristiche di grafia e fonologia riconducibili al siciliano trecentesco; &lt;ch&gt; per /tʃ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_11">17.11</ref>, <ref target="edv17_12">17.12</ref>; la forma siciliana del pronome dimostrativo, la forma ipercorretta 'gitati'. Tali caratteristiche si ritrovano regolarmente anche nell'onomastica (v. PICCOLO 2002)</p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p>Si trascrive qui unicamente l'intitolazione e la firma, non i 704 nomi (solo la metà circa ancora leggibili) per i quali si rimanda a LO PICCOLO 2002</p>
