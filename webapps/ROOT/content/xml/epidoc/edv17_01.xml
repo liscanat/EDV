@@ -60,11 +60,12 @@
                     </sourceDesc>
                 </fileDesc>
             </teiHeader>
-            <facsimile>
-                <graphic url="00">
-                    <desc/>
-                </graphic>
-            </facsimile>
+           <facsimile> 
+<graphic url="17.01a.jpg"> 
+<desc/> </graphic> 
+<graphic url="17.02b.jpg"> 
+<desc>1: dettaglio. 2: dettaglio.</desc> </graphic> </facsimile>
+
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">

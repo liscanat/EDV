@@ -67,50 +67,109 @@
             </facsimile>
             <text>
                 <body>
-                    <!--<div type="edition" subtype="interpretive" xml:space="preserve">
-                            <div type="textpart" subtype="section" n="1"></div>
-                         <ab>
-                           <lb n="1">Comu se&lt;n&gt;du mucicatu di cani araiatu u(n) frusteri
-                      <lb n="2">fu minatu S(anta) M(ari)a di la Cruchi et apa(r)si p(er) caminu et fu sanu.
-                       </lb>                </ab>
-                                                   </div>-->
-                     <!--                 <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="1">                           
-                        <ab>
-                    <lb n="1"/>+ COMV·SEDV·MVCICATV·DI ·CANI·ARAIATV·V ̅FRVSTERI+
-                   ·<lb n="2"/>FV·MINATV·S ̅ · Ma·DILACRVCHI·2APA’SI·PCAMINV2FV SANV
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1">
+                        <ab><lb n="1"/><w>Comu</w> se&lt;n&gt;du <w>mucicat<m type="desinence" subtype="ms_sing">u</m></w> di can<m type="desinence" subtype="ms_sing">i</m> araiat<m type="desinence" subtype="ms_sing">u</m> un <w>fruster<m type="desinence" subtype="ms_sing">i</m></w>
+<lb n="2"/>fu minat<m type="desinence" subtype="ms_sing">u</m> Santa Maria di la Cru<seg type="grapheme" corresp="/tʃ/">ch</seg><m type="desinence" subtype="fem_sing">i</m> et <m type="apparire" subtype="perf3ps">aparsi</m> pir camin<m type="desinence" subtype="ms_sing">u</m> et fu san<m type="desinence" subtype="ms_sing">u</m>.
                         </ab>
                         </div>
                             <div type="textpart" subtype="section" n="2">
-                                <ab>
-                             <lb n="1"/>+ COMV·SEDV·LV·PATRI·FRA·IVĀNI P MARI SI·VICTIRV ·
-                            <lb n="2"/>·ANIGATI· 2· LIMARINARI PRIGĀDV·S ̅ · Ṃ·DELA CRVCHI FORV LIBRI
-</ab>
+                        <ab><lb n="1"/><w>Comu</w> se&lt;n&gt;du lu patr<m type="desinence" subtype="ms_sing">i</m> fra’ Iuanni p&lt;ir&gt; mar<m type="desinence" subtype="ms_sing">i</m> si <w>victiru</w>
+<lb n="2"/>anigati et li marinari prigandu S. M. de la Cru<seg type="grapheme" corresp="/tʃ/">ch</seg><m type="desinence" subtype="fem_sing">i</m> <m type="essere" subtype="perf6ps">foru</m> libri. 
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="3">
+                        <ab>
+                            <lb n="1"/>&lt;Comu a Terranova fu firutu u garzuni acumadausi S. M. de la Cruchi fu libru&gt;
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="4">
+                        <ab><lb n="1"/>&lt;Co&gt;mu sendu malata a lectu una donna
+<lb n="2"/>de una gra&lt;n&gt;dissima infirmitati p&lt;ir&gt; virtuti de Santa Maria de +
+<lb n="3"/>la Cruchi fu libra
+                        </ab>
+                            </div>
+                        <div type="textpart" subtype="section" n="5">
+                        <ab><lb n="1"/>Comu una do(n)na avia lu mali de chancu
+<lb n="2"/>et pir virtutiti de Santa Maria di la Cruchi fu sana
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="6">
+                        <ab><lb n="1"/>&lt;Comu? certi doni avedu li filii malati X e vinendu a S. M. de la Cruchi furunu sani&gt;
+                        </ab>
                     </div>
-                   </div>-->
+                        </div>
+                   <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="1">
+                        <ab><lb n="1"/>+ COMV·SEDV·MVCICATV·DI ·CANI·ARAIATV·VFRVSTERI+
+·<lb n="2"/>FV·MINATV·S · Ma·DILACRVCHI·7APA(R)SI·PCAMINV7FV SANV
+                        </ab>
+                        </div>
+                            <div type="textpart" subtype="section" n="2">
+                        <ab><lb n="1"/>+ COMV·SEDV·LV·PATRI·FRA·IV(N)NI P MARI SI·VICTIRV ·
+·<lb n="2"/>ANIGATI· 7· LIMARINARI PRIGA(N)DV·S · Ṃ·DELA CRVCHI FORV LIBRI 
+                       </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="3">
+                        <ab><lb n="1"/>[manca]
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="4">
+                        <ab>
+                            <lb n="1"/>[. .]ṂV·SENDV·MALATA·ALECTV·VNADŌNA·
+<lb n="2"/>DEUNA·GRADISSIMA INFIRMITATI P VĪTUTI·DE S · Ma·DE +
+<lb n="3"/>LACRVCHI·FVLIBRA
+ </ab>
+                            </div>
+                        <div type="textpart" subtype="section" n="5">
+                        <ab><lb n="1"/>+ COMV·VNA·DO(N)NA AVIA∙ LV ∙ MALI ∙ De ∙ CHA(N)CV 
+<lb n="2"/>ET ∙ P(IR) ∙ VIRTVTI ∙ DI ∙ S̑ MA ∙ DILA ∙ CRVCHI ∙ FV ∙ SANA
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="6">
+                        <ab><lb n="1"/>[manca]
+                        </ab>
+                    </div>
+                        </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>I, 2 minatu &lt;a&gt; Raffaele 2018; </p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p><ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, , <ref target="edv17_05">17.05</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, , <ref target="edv17_11">17.11</ref>, <ref target="edv17_12">17.12</ref>.</p>
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>‘sepulecro’ 1,1 con vocale anaptittica /e/, fenomeno tipico dell’area centromeridionale (ROHLFS 1966-1969, § 338); ‘besacce’ 1, 2, ‘miraculo’ 5, 2 presentano
+                            fenomeni che seguono lo scambio di e/i e o/u tipico dei dialetti meridionali (DE BLASI 1986b, p. 84); ‘crogialo’ ‘corniolo’ 1,2 e 2,2: &lt;gi&gt; dovrebbe 
+                            rendere /ɲ/;  –o potrebbe indicare un suono finale indistinto (DE BLASI 1986b, p. 83-84). Analogamente, la terminazione in –e in ‘le rame’ 1,2 e -o in 'cresiecto' 
+                            2,2 potrebbero indicare un suono finale indistinto. La grafia -ngi- per /ɲ/ è frequente nei testi antichi. V., ad esempio, nella <title>Lamentatio 
+                                Beate Marie de Filio</title>: «Soa piçula compangia» 94 (UGOLINI 1959, p. 93); ma anche le forme 'compangi', 'Spangia', 'Yspangia' dal <title>Liber 
+                                    Ystoriarum Romanorum</title> duecentesco (MONACI-ARESE 1955, pp. 157-159-166).</p>
+                        <p>'dicti' 2, r. 1; 4, r. 1, 'quilli' 3, r. 1, 'arciviscovi' 1, 2, 3, 4, r. 1: metafonesi /e/ > /i/.</p>
+                        <p>'cresiecto' 2, r. 2: &lt;si&gt; dovrebbe rendere la fricativa palatale /ʃ/. Si tratterebbe di grafia dovuta a retroscrizione, ossia di una forma 
+                            ipercorretta: in area abruzzese -si- ha subito in alcuni casi un’evoluzione fonetica in -sci-: lo scrivente avrebbe dunque, secondo le sue 
+                            abitudini fonetiche e scrittorie, scritto &lt;si&gt; per [ʃi] (DE BLASI 1986b, p. 83). V. nella <title>Lamentatio abruzzese</title>, 
+                            la presenza di forme quali ‘scì’ 46, 47, e ‘coscì’ 40 (UGOLINI 1959, pp. 43).</p>
+                        <p>'ad papa' 5,1: la grafia latineggiante ad indicherebbe in realtà il raddoppiamento fonosintattico 'a ppapa' 
+                            (DE BLASI 1986b, p. 84). V. nei <title>Proverbia abruzzesi</title>: ‘a mmonacu’ 49, ‘a ppelletteru’ 52, contro ‘ad theologu’ 51, ‘ad carpenteru’ 51,
+                            ‘ad medicu’ 52 (UGOLINI 1959, p. 72).</p>
+                        <p>reve{ve}logle 5, r. 2:  &lt;gl&gt; per la laterale palatale /ʎ/; la ripetizione della sillaba -ve- è probabilmente dovuta a diplografia.</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'Appese' 1,1, 'Volse' 2,1, 'apparse' 5,1 perfetti forti sigmatici, che compare anche nella variante grafica 'apparsse' (3,2) con soggetto plurale, 
+                            dunque con coincidenza delle forme di 3 e 6 persona. Di contro, si vedano i perfetti deboli 'cresiecto' 2,2 con desinenza -ette, presente nei dialetti centro-meridionali e 
+                            meridionali e toscani; 'adifieo' ‘edificarono’ 4,2.</p>
+                        <p>In tutte le didascalie (ad eccezione della 2) la struttura sintattica genera dei periodi ellittici di proposizione reggente introdotti da 'quando'. 
+                            Si noti la presenza di elementi deittici che rimandano alle immagini rappresentate ed al contesto ('questa cappella', 4,2) e la scelta degli 
+                            articoli determinativi sin dalla prima didascalia: 'li tre arciviscovi', 'le besacce', 'lo crogialo'. (DE BLASI 1986b, pp. 86-89)</p>
+                        <p><title>Lessico:</title></p>
+                        <p>'crogialo', dal lat. CORNEUS con metatesi è nome dialettale per il 'corniolo', arbusto appartenente alla famiglia delle cornacee e caratteristico della zona. Ad esso
+                            è attribuita la funzione di attualizzare la leggenda a livello spaziale. Si confronti a proposito il toponimo 'Crognaleto' (TE), che si trova a pochi chilometri 
+                            da Propezzano (DE BLASI 1986b, pp. 81-83; DEI, vol. II, p. 1108).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Le sette iscrizioni,  costituiscono didascalie a corredo dell'immagine di ex-voto dedicati alla
-                            Madonna della Croce. Esse si trovavano originariamente sulle pareti della chiesa, da cui state rimosse in epoca recente per un restauro. 
-                            Oggi si trovano nel Convento della Croce. Le iscrizioni sono dipinte su fondo bianco generalmente sulla porzione inferiore dell'immagine e si 
-                        sviluppano su due righi. Fa eccezione la didascalia [4] caratterizzata da una terza riga di scrittura, dipinta in bianco su fondo rosso. Le didascalie sono 
-                        caratterizzate da una struttura sintattica semplice e ripetitiva, principiando ciascuna – come prassi nelle iscrizioni a corredo di 
-                        un’immagine – con il <title>comu</title> dichiarativo-esplicativo e terminando con espressioni che attestano l’avvenuto miracolo 
-                        (fu sanu 1, r. 2; foru libri 2 r. 2 ecc.).
-                        A causa del precario stato di conservazione le scritture non sono integralmente leggibili, ed è stato necessario utilizzare 
-                            trascrizioni precedenti (come indicato in nota). Una importante lacuna interessa in particolare il sesto riquadro e la relativa didascalia, l’ultima 
-                            del secondo registro.</p>
-                        <p><!-- Immagine: SI. --></p>
+                        <p>A causa del precario stato di conservazione le scritture non sono integralmente leggibili; le integrazioni  necessario l’ausilio di trascrizioni precedenti..</p>
                     </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">DRAGO-NIFOSÌ 1976, p. 65, nota 1; RAFFAELE 2018.</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images">DRAGO-NIFOSÌ 1976, figg. 34-36; RAFFAELE 2018.</p>
+                        <div type="bibliography">
+                        <p xml:id="editions">DRAGO-NIFOSÌ 1976, p. 65, nota 1 che la riporta dal manoscritto del Pacetto, «con qualche correzione imposta dalla lettura in loco». Non è stato possibile consultare il manoscritto in questione, né avere notizie circa le correzioni apportate; RAFFAELE 2018</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">DRAGO-NIFOSÌ 1976, figg. 34-36.</p>
                     </div>
                 </body>
             </text>

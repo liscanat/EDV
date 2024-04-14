@@ -61,10 +61,10 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="0">
-                    <desc/>
-                </graphic>
-            </facsimile>
+                <graphic url="17.12a.jpg"> 
+<desc/> </graphic> 
+<graphic url="17.12b.jpg"> 
+<desc>1: dettaglio. 2: dettaglio.</desc> </graphic> </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
