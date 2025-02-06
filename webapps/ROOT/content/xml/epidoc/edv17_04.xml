@@ -6,10 +6,10 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Coperte Guicciardini</title>
-                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="edition"><persName></persName></editor>
                         <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
@@ -61,14 +61,36 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
+                        <ab>1 (I). Comu lu misageri è vinutu a Tristainu.
+2 (II). Comu T(r)&lt;istainu&gt; (et) Gu&lt;v&gt;irnal&lt;i&gt; si parteru da lu rre Feramonti.
+3 (III). Comu T(r)&lt;istainu&gt; (et) Guvirnali so vinuti allu rre Marcu.
+4 (IV). Comu lu rre Marcu fechi cavalieri Tristainu.
+5 (IX). Comu lu rre Languis manda per lu trabutu in Cornualia.
+6 (XI). Comu lu rre Languis cumanda chi vaia lo osti &lt;in&gt; Cornuaglia.
+7 (XII). Comu lu Amoroldu fa bandiri lu osti i(n) Cornuvalgia.
+8 (XV). Comu lu Amoroldu fa suldari la genti.
+9 (XVI). Comu lu Amoroldu vai i(n) Cornuvalgia.
+10 (XIII). Comu lu Amoroldu è vinutu in Cornuvalgia cu(n) XXXX galei.
+11 (XIV). Comu T(r)&lt;istainu&gt; dai lu gua(n)tu allu Amoroldu de la bataglia.
+12 (X). Comu li missagieri so vinuti al[lu] rre Marcu p(er) lu tributu di secti anni.
+13 (VI). Comu lu Amoroldu vai alla isolecta.
+14 (V). Comu T(r)&lt;istainu&gt; vai nella isola p(er) cu(m)bactiri locu.
+15 (XVIII). Comu Tristainu bucta la varca arretu intu allu maru.
+16 (XVII). Comu Tristainu aspecta lu Amoroldu alla isola dilu maru Sança Vintura.
+17 (VII). Comu lu Amoroldu cumbactiu cu Tristainu a c&lt;a&gt;vallu.
+18 (VIII). Comu Tristainu cumbactiu cullu Amoroldo (et) speciaru li lan(c)i.
+19 (XX). Comu Tristainu feriu lu Amorolldo i(n) testa.
+20 (XIX). Come lu i(n)fa de lu Amoroldu aspecttava lu patrunu.
+21 (XXII). Comu lu Amoroldu feriu Tristainu a tradimentu.
+22 (XXI). Sitati da Irlanda.
+
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
