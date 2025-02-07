@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
@@ -97,13 +97,11 @@
                            di forma piena (v., anche, sempre a Roma, 'delli Rofini' <ref target="edv12_16">12.16</ref>, ma 'de li Cunti' <ref target="edv12_15">12.15</ref>. 
                            'Liello' presenta dittongo dovuto a metafonesi, proprio dell’antico romanesco. V., per Roma, 'Oddariello' EDV 
                             <ref target="edv12_08">12.08</ref>; Rienço e Iordaniello, <ref target="edv12_09">12.09</ref> e <ref target="edv12_10">12.10</ref>; Saviello 
-                            <ref target="edv12_19">12.19</ref>. 'Vocchabella' con &lt;ch&gt; per /k/ davanti a vocale centrale, v. anche 'Bocchaçiola' <ref target="edv12_08">12.08</ref>;
+                            <ref target="edv12_19">12.19</ref>. 'Vocchabella' con &lt;ch&gt; per /k/ davanti a vocale centrale, v. anche 'Bocchaçiola' <ref target="edv12_08">12.08</ref>; e Simone de Lucha <ref target="edv12_25">12.25</ref>.
                             e 'Lucha' <ref target="edv12_25">12.25</ref>. 'Cola' è ipocoristico ben attestato nel documenti medievali di Roma.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Unica iscrizione conservata di un gruppo di quattro epigrafi votive in volgare provenienti dalla basilica di San Giovanni in Laterano. Tutte le 
-                            iscrizioni ricordavano la donazione alla chiesa, da parte di privati, di alcuni pilastri eretti in sostituzione delle colonne distrutte 
-                            dall’incendio del 1361. Le lastre, un tempo murate alla parete sud della navata centrale al di sopra dei rispettivi pilastri, andarono variamente 
+                        <p>Unica iscrizione conservata di un gruppo di quattro epigrafi votive in volgare provenienti dalla basilica di San Giovanni in Laterano. Tutte le iscrizioni ricordavano la donazione alla chiesa, da parte di privati, di alcuni pilastri eretti in sostituzione delle colonne distrutte dall’incendio del 1361. Le lastre, un tempo murate alla parete sud della navata centrale al di sopra dei rispettivi pilastri, andarono variamente 
                             disperse durante le operazioni di rifacimento della chiesa nel 1565. Ogni lastra recava, accanto all’iscrizione lo stemma della famiglia 
                             (D’ACHILLE 1987, p. 75; MALMSTROM 1967, p. 159 nota 8). L’iscrizione è conservata nel Museo del Tesoro della basilica stessa, sulla parete della 
                             Sacrestia fra due finestre. Oggi purtroppo è coperta da un armadio. Si ringrazia Nicola di Foggia per averci permesso di localizzarla. 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
@@ -78,15 +78,16 @@
           <lb n="2"/>m'è scura.La
           <lb n="3"/>morte dura.
           <lb n="4"/>Perd<m type="desinence" subtype="pastpart">utu</m> <m type="avere" subtype="pres1ps">aio</m> lo ris<m type="desinence" subtype="ms_sing">u</m>.
-          <lb n="5"/>e gioia. <lb n="1"/><seg type="phoneme" subtype="j_initial">i</seg>oc<m type="desinence" subtype="ms_sing">u</m>u. et ale
-          <lb n="6"/>gretia no me &apos;'&apos;(n)vo
-          <lb n="7"/>glia no me con(n)segli
-          <lb n="8"/>ate cosa ke si falace
-          <lb n="9"/>ca Deu me <m type="essere" subtype="pres1ps">so</m> re
-          <lb n="10"/>n<m type="desinence" subtype="pastpart">utu</m> ca li ho petu
-          <lb n="11"/>tu. Male n&lt;on v&gt;og
+          <lb n="5"/>e gioia. <seg type="phoneme" subtype="j_initial">i</seg>oc<m type="desinence" subtype="ms_sing">u</m>u. et ale
+          <lb n="6"/>gretia no me (n)vo
+          <lb n="7"/>glia no me con(n)s<seg> type=”phoneme” subtype=“no anaphonesis”>e<seg type="grapheme" corresp="/ʎ/">gl
+          <lb n="8"/>ate</seg> cosa <seg type="grapheme" corresp="/k/">k</seg>e si falace
+          <lb n="9"/>ca a Deu me <m type="essere" subtype="pres1ps">so</m> re
+          <lb n="10"/>n<m type="desinence" subtype="pastpart">utu</m> ca li ho pet<m type="desinence" subtype="pastpart">utu</m>
+          <lb n="11"/>tu. Male non vog
           <lb n="12"/>lio fare [...]
-                </ab>
+                </seg>
+           </ab>
                     </div>
         <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
@@ -149,13 +150,10 @@
                          21.54 (AGENO 1953, p. 198); «tu vidi stare / l’omo che iace en la fossa scura» 13.6 (CONTINI 1960, p. 108). In particolare, in «vòl’ predecare; e mustreme che 
                          la mea vita è oscura, / la tua non vòl’cercare» 30.29 (AGENO 1958, p. 110) si noti come la parola oscura compare come predicativo riferito a vita 
                          (D’ACHILLE 2012a, pp. 41-42). Il termine, naturalmente è anche dantesco, in rima proprio con ‘duro’ in Inf. III,10 (queste parole di colore oscuro 
-                         […] il senso lor m’è duro); XXV, 13 e XXX, 101 e 105 (E l’un di lor, che si recò a noia/ forse d’esser nomato sì oscuro,/ col pugno li percosse l’epa 
-                         croia./ Quella sonò come fosse un tamburo/ e mastro Adamo li percosse il volto/ col braccio suo, che non parve men duro).
+                         […] il senso lor m’è duro); XXV, 13 e XXX, 101 e 105 (E l’un di lor, che si recò a noia/ forse d’esser nomato sì oscuro,/ col pugno li percosse l’epa croia./ Quella sonò come fosse un tamburo/ e mastro Adamo li percosse il volto/ col braccio suo, che non parve men duro).
                          Se i versi jacoponici sono certo il principale punto di riferimento del testo in questione, si notino ancora riscontri di 'iocu' e 'risu' in 
                          Giacomo da Lentini «o’ si mantien sollazzo, gioco e riso» 27.4, ANTONELLI 1979, p. 316); e nel Fiore: «vernando in quel salvag[g]io loco, / 
-                         ch’ pena de·ninferno è riso e gioco» 34.3, CONTINI 1984, p. 70). Ancora in Giacomo da Lentini compare il sintagma m’è dura seguito da scura: 
-                         «Sì m’è dura – [e] scura – figura / di quantonqu’eo veo» 17.76 (ANTONELLI 1979, p. 227). Anche l’aggettivo fallace è attestato in Jacopone, nel <title>
-                         Fiore</title> e più spesso in Guittone. In quest’ultimo è attestato il riflessivo rendersi (cfr. qui v. 9-10 rennutu), nel senso di ‘raccomandarsi con 
+                         ch’ pena de·ninferno è riso e gioco» 34.3, CONTINI 1984, p. 70). Ancora in Giacomo da Lentini compare il sintagma m’è dura seguito da scura: «Sì m’è dura – [e] scura – figura / di quantonqu’eo veo» 17.76 (ANTONELLI 1979, p. 227). Anche l’aggettivo fallace è attestato in Jacopone, nel <title>Fiore</title> e più spesso in Guittone. In quest’ultimo è attestato il riflessivo rendersi (cfr. qui v. 9-10 rennutu), nel senso di ‘raccomandarsi con 
                         fiducioso abbandono’ a Dio e alla sua misericordia: «noi pria chiamò gaudenti, / ch’ogn’omo a Dio renduto / lo più diritto nome è lui gaudente» 32. 105 
                         (EGIDI 1940, p. 86). Per quanto riguarda petutu numerosi i riscontri, sia mediani che meridionali (BALDELLI 1971, p. 88). I caratteri generali e la 
                         terminologia del testo sono dunque pienamente duecenteschi. Attestazioni più tarde si trovano, solo per il verbo invogliare (cfr. v. 6-7 e(n)voglia), 

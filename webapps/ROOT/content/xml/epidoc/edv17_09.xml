@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Pietà e Messa di san Gregorio</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.09</idno>
+                        <date when="2024-04-03"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Piazza Armerina</placeName>
+                                <district ref="#EN">EN</district>
+                                <repository>Gran Priorato di Sant’Andrea</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic" otherLangs="la">Volgare siciliano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate notBefore="1450" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="17.09.jpeg">
+                    <desc/>
+                </graphic>
+                                <graphic url="17.09a.jpg">
+<desc/>
+</graphic>
+<graphic url="17.09b.jpg">
+<desc/>
+</graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                       <div type="textpart" subtype="section" n="A">
+                           <ab>[Il registro superiore del dipinto raffigura il Cristo e gli strumenti della Passione]
+                               <lb n="1" break ="no"></lb><foreign xml:lang="la"><quote>vestem meam
+ <lb n="2" break ="no"></lb>&lt;mi&gt;serunt sortem concilium fecerunt principes sacerdotes
+ <lb n="3" break ="no"></lb>et similiter universi populi contra me</quote></foreign>
+<lb n="4" break ="no"></lb>[in alto a destra della Croce] La cena                      
+<lb n="5" break ="no"></lb><foreign xml:lang="la"><quote>dedit eis signum</quote></foreign>Iesus. Iudas.
+<lb n="6" break ="no"></lb><foreign xml:lang="la"><quote>Petrus negavit cum ancilla</quote></foreign>
+<lb n="7" break ="no"></lb>Petrus. Ancilla.
+<lb n="8" break ="no"></lb>INRI
+<lb n="9" break ="no"></lb>[sul braccio sinistro della croce] Pater igno<seg type="grapheme" corresp="/ʃ/">s</seg>e illis quia ne<seg type="grapheme" corresp="/ʃ/">si</seg>unt quid faciunt amen amen
+<lb n="10" break ="no"></lb><foreign xml:lang="la"><quote>dico tibi hodie eris mecum in paradiso </quote></foreign>
+<lb n="11" break ="no"></lb><foreign xml:lang="la"><quote>Eli eli lamacza abatani. sitio. in manus tuas commendo spiritum meum. consumactum est.</quote></foreign>
+<lb n="12" break ="no"></lb><foreign xml:lang="la"><quote>Memento mei domine cum veneris
+<lb n="13" break ="no"></lb>in regnum tuum</quote></foreign>
+<lb n="14" break ="no"></lb>L<m type="desinence" subtype="ms_sing">u</m> iudi<m type="desinence" subtype="ms_sing">u</m>chi spu 
+<lb n="15" break ="no"></lb> ta a Christ<m type="desinence" subtype="ms_sing">u</m>
+<lb n="16" break ="no"> </lb>Li bu<seg type="grapheme" corresp="/ss/">x</seg>uli di l<m type="desinence" subtype="ms_sing">u</m> inguen
+ <lb n="17" break ="no"> </lb>t<m type="desinence" subtype="ms_sing">u</m> di la madalena
+<lb n="18" break ="no"></lb><foreign xml:lang="la"><quote>mulier ecce filius
+<lb n="19" break ="no"></lb>tuus</quote></foreign>
+<lb n="20" break ="no"></lb><foreign xml:lang="la"><quote>Longinus vidit and testavit</quote></foreign>
+<lb n="21" break ="no"></lb><foreign xml:lang="la"><quote>Si tu es Christus saluos fac tecum nos</quote></foreign>
+<lb n="22" break ="no"></lb>Sona beni
+<lb n="23" break ="no"></lb><foreign xml:lang="la"><quote>Ecce mater tua</quote></foreign>
+<lb n="24" break ="no"></lb>Iosep Haramatia
+<lb n="25" break ="no"></lb><foreign xml:lang="la"><quote>Centurio dixit vere filius
+<lb n="26" break ="no"></lb>Dei er&lt;at&gt; iste</quote></foreign>
+                                 </ab>
+                       </div>
+                    </div>
+                           <div type="textpart" subtype="section" n="B">
+                           <ab>[Il registro inferiore del dipinto raffigura la messa di san Gregorio]</ab>
+                             <div type="textpart" subtype="column">
+              <ab>
+                   <lb n="1" break ="no"></lb>Summa<seg type="grapheme" corresp="/nn/">n</seg>u tuti li pr&lt;isenti&gt; in
+                   <lb n="2" break ="no"></lb>dulgentij con<seg type="grapheme" corresp="/tʃ/">ch</seg>esi et &lt;co&gt;nfir
+                   <lb n="3" break ="no"></lb>mati ala dicta figura di la pie
+                    <lb n="4" break ="no"></lb>tati di nostru Signuri Jesu Christu 
+                   <lb n="5" break ="no"></lb>pir sanctu Grigoli papa di Ruma 
+                   <lb n="6" break ="no"></lb>et altri patri et episcopi XX. M. 
+                   <lb n="7" break ="no"></lb><foreign xml:lang="la">annorum</foreign> et tri<seg type="grapheme" corresp="/tʃ/">ch</seg>entu XXXXV
+                   <lb n="8" break ="no"></lb>iorni di pirdunanza pir volta che 
+                   <lb n="9" break ="no"></lb>si di<seg type="grapheme" corresp="/tʃ/">ch</seg>i la orationi <foreign xml:lang="la">genibus flexis
+                   <lb n="10" break ="no"></lb>videlicet Pater noster Ave Maria </foreign>pir la
+                   <lb n="11" break ="no"></lb>passioni di Christu:
+                   <lb n="12" break ="no"></lb>papa &lt;Nic&gt;ola confirma li p(re)
+                   <lb n="13" break ="no"></lb>dicti indulgentij et a suppli
+                   <lb n="14" break ="no"></lb>xi ch[...] <foreign xml:lang="la">xxx [...] annorum di in
+                   <lb n="15" break ="no"></lb>[...]
+                   <lb n="16" break ="no"></lb>papa [...] romanus omnia supra
+                   <lb n="17" break ="no"></lb>[...]irmauit et adidit
+                  <lb n="18" break ="no"></lb>[...] et XX dies de 
+                   <lb n="19" break ="no"></lb>[...]gentia</foreign>
+                  <lb n="20" break ="no"></lb><foreign xml:lang="la">et deinde pro sequentibus orationibus
+                   <lb n="21" break ="no"></lb>genibus flexis ad memoriam 
+                   <lb n="22" break ="no"></lb>passionis Domini, videlicet Christu Pater 
+                   <lb n="23" break ="no"></lb>noster et Ave Maria concesit indu
+                   <lb n="24" break ="no"></lb>lgentiam omnium peccatorum 
+                   <lb n="25" break ="no"></lb>suorum.</foreign></ab> 
+                            <ab>
+                                 <lb n="26" break ="no"></lb>[...] indulgentie
+                                 <lb n="27" break ="no"></lb>ualent ad septem:
+                                 <lb n="28" break ="no"></lb>primo ad delictorum expiacionem: 
+                                  <lb n="29" break ="no"></lb>Tercio ad penitentie sup
+                                  <lb n="30" break ="no"></lb>plectionem:
+                                  <lb n="31" break ="no"></lb>Quarto ad pene purga
+                                  <lb n="32" break ="no"></lb>torij diminucionem: 
+                                     <lb n="33" break ="no"></lb>Quinto ad penitentis pene 
+                                     <lb n="34" break ="no"></lb>debite exterminacionem: 
+                                     <lb n="35" break ="no"></lb>Sexto ad &lt;veloci&gt;oris gracie
+                                     <lb n="36" break ="no"></lb>&lt;i&gt;m petrat&lt;ione&gt;m:
+                                     <lb n="37" break ="no"></lb>Septimo ad maioris &lt;gra&gt;
+                                     <lb n="38" break ="no"></lb>cie augmentationem
+                                     <lb n="39" break ="no"></lb>Do(mi)ne Jesu Xr(ist)e ado&lt;ro&gt; 
+                                     <lb n="40" break ="no"></lb>te in cruce pende(n)te co&lt;rona&gt; 
+                                     <lb n="41" break ="no"></lb>spinea &lt;in&gt; capite porta(n)te &lt;de&gt;
+                                     <lb n="42" break ="no"></lb>precor te ut cruifix&lt;us?&gt; libe
+                                     <lb n="43" break ="no"></lb>ret me ab angelo percutien
+                                     <lb n="44" break ="no"></lb>te</ab>
+                             
+                             
+                             </div>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                    <div type="textpart" subtype="section" n="A">
+                           <ab>
+                               <lb n="1" break ="no"></lb>uestem meam
+ <lb n="2" break ="no"></lb>[...]serunt sortem concilium fecerunt principes sacerdotes
+ <lb n="3" break ="no"></lb>et similiter uniuersi populi contra me 
+<lb n="4" break ="no"></lb>La cena                      
+<lb n="5" break ="no"></lb>dedit eis signum  IESVS :IUDAS:
+<lb n="6" break ="no"></lb>Petrus negauit cum ancilla
+<lb n="7" break ="no"></lb>:Petrus: Ancilla
+<lb n="8" break ="no"></lb>INRI
+<lb n="9" break ="no"></lb>Pater ignose illis quia nesiunt quid faciunt amen amen
+<lb n="10" break ="no"></lb>dico tibi hodie eris mecum in paradiso
+<lb n="11" break ="no"></lb>Eli eli lamacza abatani: sitio: in manus tuas com(m)endo spiritum meum: consumactum est:
+<lb n="12" break ="no"></lb>Memento mei domine cum ueneris
+<lb n="13" break ="no"></lb>in regnum tuum
+<lb n="14" break ="no"></lb>Lu iudiu ch(i) spu 
+<lb n="15" break ="no"></lb> ta a xpu
+<lb n="16" break ="no"> </lb>Li buxuli di lu inguen
+ <lb n="17" break ="no"> </lb>tu dila madalena
+<lb n="18" break ="no"></lb>mulier ecce filius
+<lb n="19" break ="no"></lb>tuus
+<lb n="20" break ="no"></lb>Longin(us) vidit and testauit
+<lb n="21" break ="no"></lb>Si tu es chr(istu)s saluos fac tecum nos
+<lb n="22" break ="no"></lb>Sona beni
+<lb n="23" break ="no"></lb>Ecce mater tua
+<lb n="24" break ="no"></lb>Iosep haramatia
+<lb n="25" break ="no"></lb>Centurio dixit uere fili(us)
+<lb n="26" break ="no"></lb>dei er[...] iste
+                              </ab>
+                       </div>
+                    </div>
+                           <div type="textpart" subtype="section" n="B">
+                             <div type="textpart" subtype="column1">
+               <ab>
+                   <lb n="1" break ="no"></lb>Summanu tuti li pr&lt;isenti&gt; in
+                   <lb n="2" break ="no"></lb>dulgentij conchesi et &lt;co&gt;nfir
+                   <lb n="3" break ="no"></lb>mati ala dicta figura di la pie
+                    <lb n="4" break ="no"></lb>tati di n(ost)ru Signuri Jesu Xr(ist)u 
+                   <lb n="5" break ="no"></lb>p(ir) s(a)n(ct)u Grigoli papa di ruma 
+                   <lb n="6" break ="no"></lb>et altri patri et e(pisco)pi XX: M: 
+                   <lb n="7" break ="no"></lb>an(n)or(um) et trichentu xxxxu 
+                   <lb n="8" break ="no"></lb>io(r)ni di p(ir)dunanza p(ir) uolta che 
+                   <lb n="9" break ="no"></lb>si dichi la orationi genib(us) flexis 
+                   <lb n="10" break ="no"></lb>v(idelic)et pater no(ste)r ave maria p(ir) la
+                   <lb n="11" break ="no"></lb>passioni di Xristu:
+                   <lb n="12" break ="no"></lb>papa [...]ola confirma li p(re)
+                   <lb n="13" break ="no"></lb>dicti indulgentij et a suppli
+                   <lb n="14" break ="no"></lb>xi ch[...] xxx [...] an(n)or(um) di in
+                   <lb n="15" break ="no"></lb>[...]
+                   <lb n="16" break ="no"></lb>papa [...] roman(us) o(m)nia sup(r)a
+                   <lb n="17" break ="no"></lb>[...]irmauit et adidit
+                  <lb n="18" break ="no"></lb>[...] et xx dies de 
+                   <lb n="19" break ="no"></lb>[...]gentia
+                  <lb n="20" break ="no"></lb>et deinde pro sequentib(us) or(ati)o(n)ib(us)
+                   <lb n="21" break ="no"></lb>genibus flexis ad memoria(m) 
+                   <lb n="22" break ="no"></lb>passionis domini, v(idelic)et xu pater 
+                   <lb n="23" break ="no"></lb>nos(te)r et ave m(aria) concesit indu
+                   <lb n="24" break ="no"></lb>lgentia(m) o(mni)um peccatorum 
+                   <lb n="25" break ="no"></lb>suorum.</ab>
+                                 <ab>
+                                 <lb n="26" break ="no"></lb>[...] indulgentie
+                                 <lb n="27" break ="no"></lb>ualent ad septem:
+                                 <lb n="28" break ="no"></lb>primo ad delictorum expi
+                                   <lb n="29" break ="no"></lb>acionem: 
+                                  <lb n="30" break ="no"></lb>Tercio ad penitentie sup
+                                  <lb n="31" break ="no"></lb>plectionem:
+                                  <lb n="32" break ="no"></lb>Quarto ad pene purga
+                                  <lb n="33" break ="no"></lb>torij diminucionem: 
+                                     <lb n="34" break ="no"></lb>Quinto ad penite(n)tis pene 
+                                     <lb n="35" break ="no"></lb>debite exterminacionem: 
+                                     <lb n="36" break ="no"></lb>Sexto ad [veloci]oris gracie
+                                     <lb n="37" break ="no"></lb>[.]m petrat[...]m:
+                                     <lb n="38" break ="no"></lb>Septimo ad maioris [...]
+                                     <lb n="39" break ="no"></lb>cie augmentationem
+                                     <lb n="40" break ="no"></lb>Do(mi)ne Jesu Xr(ist)e ado[...] 
+                                     <lb n="41" break ="no"></lb>te in cruce pende(n)te co[...] 
+                                     <lb n="42" break ="no"></lb>spinea [...] capite porta(n)te [...]
+                                     <lb n="43" break ="no"></lb>p(re)cor te ut cruifix[?] libe
+                                     <lb n="44" break ="no"></lb>ret me ab angelo p(er)cutie(n)
+                                     <lb n="45" break ="no"></lb>te</ab>
+                             </div>
+                    </div>
+                    <div type="apparatus">
+                        <p>A 9 ignosce, nesciunt, amen BELLA 2012; 14 tu iudiu sputa axru BELLA 2012; 16 fibuxuli di li unguentu BELLA 2012</p>
+                        <p>B r. 7 42; piradunanza ; r. 14 s [...] 22; r. 15 dul[gentij]; 16 Pius; r. 18 [...an]or(um) et 20 dies de; r. 22 videlicet 15 pater; [...] ad septem; r. 28-29 expiationem; r. 30-31 supplectionem; r. 33 diminutionem; r. 35 exterminationem;  r. 36-37 ad [...]ionis gratia m petrat[...]m; r. 39 tie; r. 40-41 adora[to] in cruce; r. 43 crux; r. 44-45 [percutent]te BELLA 2012</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>
+                            <title>Grafia e fonologia:</title>
+                          Si noti l'uso prevalente di &lt;ch&gt; per l’affricata palatale sorda /ʧ/, normale nelle iscrizioni siciliane <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_11">17.11</ref>, <ref target="edv17_12">17.12</ref> (ma si notino anche 'cruce' e 'cena' con grafia condizionata dal latino); l'uso diffuso di &lt;ci&gt; per /ts/ in concorrenza con il meno usato &lt;ti&gt;, sempre condizionato dal latino; &lt;x&gt; per /ss/ (buxuli, 16 A) e /ts/ (supplixi 13.14 B); gli esiti vocalici regolari nel siciliano -i per -e (buxuli, 16; beni, 22 etc.) e -u per -o (lu iudiu, 14; Christu, 15 e passim; lu inguentu, 17); nei cartigli si veda 'Grigoli', 5 e 'pirdunanza', 8.  
+<title>Lessico:</title>
+'Grigoli' per 'Gregorio', con esito vocalico regolare in siciliano e dissimilazione della /r/ in /l/.
+</p>
+                    </div>
+                    <div type="commentary" subtype="note">                       
+                       <p>L’opera, interamente inquadrata da un motivo ad archetti intrecciati di color ocra, è suddivisa in due registri. Nel registro superiore, al centro, è posta l'immagine del Cristo crocifisso, in piedi nel sepolcro con accanto gli strumenti della Passione. Ai lati sono evocati eventi e personaggi con numerose immagini, ciascuna glossata da un’iscrizione in minuscola racchiusa entro un cartiglio. Il filo della narrazione è affidato a numerose ma brevi citazioni evangeliche: <title> vestem meam miserunt sortem, concilium fecerunt principes sacerdotes et similiter universi populi contra </title>(Gv 19.24); <title>dedit eis signum </title> (Mt 26, 48); <title>Petrus negavit cum ancilla</title>(Mt 26, 70); <title>Pater dimitte illis quia nesiunt quid faciunt </title>(Lc 23. 34); <title>dico tibi hodie eris mecum in paradiso </title>(Lc 23, 43); <title>Eli eli lamacza abatani</title>(Mt 27,46; Mc 15,34); <title>sitio</title> (Gv 19, 28); <title>in manus tuas com(m)endo spiritum meum: consumactum est</title> (Gv 19, 30); <title>Memento mei domine cum ueneris in regnum tuum </title>(Lc 23, 42); <title>mulier ecce filius</title>(Gv 19,26); <title>Longin(us) vidit et testavit </title>(Gv 19,34); <title>Si tu es chr(ist)s salus fac tecum nos</title>(Lc 23, 39); <title>Ecce mater tua</title>(Gv 19, 27); <title>Centurio dixit vere fili(us)/ Dei erat iste</title> (Mt, 27,54). Accanto alle citazioni evangeliche compaiono battute e chiose in volgare siciliano: <title>La cena</title>, <title>sona beni</title>,<title>li buxuli di l'unguenti di la madalena</title>,<title>lu iudiu che sputa a Christu</title>. Si realizza così una complessa narrazione iconica e verbale, in cui il volgare ha la funzione di illustrare e ravvivare tramite inserti vivaci una storia nota, narrata per mezzo dei Vangeli, con una dinamica assai simile a quella dell'affresco di san Clemente a Roma <ref target="edv12_04">12.04</ref>, databile a circa quattrocento anni prima. Il registro inferiore è occupato dall'immagine della messa di san Gregorio, ai lati della quale si trovano due cartigli con la notizia delle indulgenze che i pontefici, nel corso del tempo, avevano disposto per coloro che avessero pregato in ginocchio davanti a quell’immagine devozionale. In essi il latino liturgico e formulare trascorre senza soluzione di continuità nel siciliano, e il testo è curiosamente dipinto in un'alternanza di nero e rosso, senza che sia evidente un criterio che guidi questa alternanza; una particolarità che si ritrova in una delle testimonianze più antiche in EDV, la <title>Lapide dei fratelli Lercari</title> <ref target="edv01_01">01.01</ref> . L'affresco mostra in entrambi i registri una integrazione fra latino e volgare sorprendente per l'epoca in cui l'opera è stata eseguita, a cui si attribuirebbe oramai una coscienza della distinzaione fra i due sistemi ben più matura. Si noti inoltre che il secondo dei due cartigli contiene un evidente errore: nell'elenco delle sette ragioni per richiedere le indulgenze, manca la seconda.
+                       </p>
+<p>In coda a questo elenco compaiono i primi versi della lauda <quote>O domine Iesu Christe, adoro te in cruce pendentem</quote>, nella versione latina. Si tratta di un'antichissima preghiera settentrionale di epoca forse carolingia composta per la cerimonia dell’<title>Adoratio crucis</title> del venerdì santo (CIOCIOLA 1992). La lauda compare in associazione con il <title>Christus patiens</title> e la Messa di san Gregorio in almeno tre altre iscrizioni in EDV in Italia settentrionale e centrale v. a Vercelli <ref target="edv02_04">02.04</ref>, in cui la <title>Lauda</title> è trascritta nella sua versione volgare e il racconto degli eventi straordinari della Messa di san Gregorio in latino; a Bergamo <ref target="edv03_05">03.05</ref> in cui la <title>Lauda</title> è trascritta nella sua versione latina e la notizia delle indulgenze è in volgare; e infine in Umbria <ref target="edv09_47">09.47</ref> dove l'intero apparato descrittivo e la preghiera sono in volgare. Le tre testimonianze, localizzate in zone tanto lontane quanto presumibilmente non comunicanti fra loro, offrono dunque l'intera gamma delle possibili alternanze fra latino e volgari dell'uso, senza che in nessuna di esse sia possibile ravvisare una prevalenza dell'uno o dell'altro sistema. Piuttosto le quattro iscrizioni, nel loro insieme, sembrano rafforzare l'ipotesi che il latino della liturgia e la lingua locale e dell’uso a fine Quattrocento rappresentassero ancora, in diverse zone d'Italia, un diasistema unico.</p>
+<p>L’affresco si presenta in un discreto stato di conservazione con lacune che interessano il registro inferiore del dipinto, che venne staccato e posto su supporto ligneo nel corso dei restauri eseguiti tra il 1958 e il 1962 per iniziativa della Soprintendenza ai Monumenti della Sicilia Orientale, per permettere una pulitura ottimale della superficie pittorica (BELLA 2012, 201).</p>
+<p>Non lontano da Piazza Armerina, nell'Abbazia di Santo Spirito a Caltanissetta, probabilmente lo stesso artista che operò al Priorato di sant'Andrea o un altro a lui vicino (BELLA 2012) eseguì un dipinto assai simile, raffigurante il Cristo della Passione e la Messa di San Gregorio. Il dipinto è evidentemente coevo, l’iconografia identica, il corredo testuale indubbiamente discende da
+una fonte comune, ma i testi del dipinto dell'Abbazia sono esclusivamente in latino. Il secondo cartiglio conserva un testo quasi identico, ma in questo caso corretto, almeno nella sequenza dei vantaggi legati alle indulgenze: 
+    <title>Nota quae indulgencie valent ad septem: primo ad delictorum ingnorancie et expiationem; secundo ad venialium peccaturum detercionem; tercio ad penitencie […] supplectionem; quarto ad pene purgatorii diminucionem; quinto ad penitencie pene debite exterminacionem; sexto ad velociorem […] impetracionem; septimo ad maioris gracie augmentacione.</title>. Manca nel cartiglio di Caltanissetta la lauda.</p>
+    <p>Si noti infine che, da quanto si apprende da RAFFAELE 2018, p. 23 presso il Convento di santa Maria della Croce a Scicli è "riprodotta la messa di San Gregorio che riporta su un cartiglio, oggi leggibile solo parzialmente, parti del testo della
+relativa indulgenza sia in lingua latina che in volgare siciliano". 
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">BELLA 2012, p. 253, nota 62; edizioni delle due tabelle a p. 255, nota 66; CANNATA 2018, 2020.</p>
+                        <p xml:id="other">CIOCIOLA 1992, GALLORI 2021, RAFFAELE 2010</p>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.32</idno>
-                        <date when="2020-11-29"/>
+                        <date when="2021-01-26"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -71,26 +71,26 @@
                     <div type="textpart" subtype="section" n="A">
 <ab>
 <lb n="0"/>[sul nastro tenuto dalla folla]
-<lb n="1"/>Con umele chore et ardente fervore
-<lb n="2"/>Regina Celi dei pechatore salute
-<lb n="3"/>noi pregiam te che prege che ci aiute
+<lb n="1"/>Con <w>umele</w> <seg type="grapheme" corresp="/ko/">cho</seg>re et ardente fervore
+<lb n="2"/>Regina Celi dei pe<seg type="grapheme" corresp="/ka/">cha</seg>tor<m type="desinence" subtype="ms_plur">e</m> salute
+<lb n="3"/>noi pre<seg type="grapheme" corresp="/g/">g</seg>iam te che pre<seg type="grapheme" corresp="/g/">g</seg>e che ci aiut<m type="desinence" subtype="subj3ps1class">e</m>
 <lb n="4"/>el tuo figliolo e levace dal furore
 </ab>
 </div>
 <div type="textpart" subtype="section" n="B">
 <ab>
 <lb n="0"/>[sul nastro che parte dalla bocca di san Sebastiano verso la Vergine]
-<lb n="1"/>Per quiste piaghe che or ci rude alquanto
+<lb n="1"/>Per <w>quiste</w> piaghe che or ci rude alquanto
 <lb n="2"/>per lo tuo amore e per lo figliuol tuo
 <lb n="3"/>ti priego madre che lo prieghe tanto
-<lb n="4"/>che esshaudischa quisto popul suo
+<lb n="4"/>che esshaudis<seg type="grapheme" corresp="/ka/">cha</seg> <w>quisto</w> popul suo
 </ab>
 </div>
 <div type="textpart" subtype="section" n="C">
 <ab>
 <lb n="0"/>[sul nastro che parte dalla Vergine fino all’angelo Raffaele]
-<lb n="1"/>Martir beato con humilie chore
-<lb n="2"/>Se’ essaudito e però Agnolo cruo
+<lb n="1"/>Martir beato con humilie <seg type="grapheme" corresp="/ko/">cho</seg>re
+<lb n="2"/>Se’ essaudito e però Agnolo <w>cruo</w>
 <lb n="3"/>Remette l’arme a la crua spada
 </ab>
 </div>
@@ -117,28 +117,30 @@
 <p>C.3  a] et SIEPI 1822, MANCINI 1992</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
-                    </div>
+                        <p><title>Grafia e fonologia</title></p>
+                        <p>Si noti la mancanza di sistematicità nella resa delle velari /k/ e /g/ in &apos;chore&apos;, &apos;pechatore&apos;, &apos;pregiam&apos;
+                            &apos;prege&apos; &apos;priego&apos; &apos;prieghe&apos; e l'alternanza di forme dittongate e no; la regolare conservazione di /e/ in protonia in &apos;umele&apos;, 
+                            &apos;humilie&apos; &apos;umele&apos;, &apos;remette&apos; e, altro tratto tipicamente mediano, la chiusura per metafonesi della vocale in &apos;quisto&apos;  e &apos;quiste&apos;.
+                        &apos;cruo&apos;, &apos;crua&apos; qui nel significato di &apos;spietato&apos; presentano caduta della dentale intervocalica, fenomeno non comune nel perugino.</p>
+                            <p><title>Morfologia e sintassi</title></p>
+                            <p>Da notare &apos;pechatore&apos; con -/e/ finale per il maschile plurale e la forma del congiuntivo di 1 classe &apos;prieghe&apos; con uscita in -e.</p>
+                            </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --></p>
-                    <p>Le didascalie volgari contengono una preghiera rimata di intercessione alla Vergine affinché possa far cessare la moria della peste inviata da Dio padre, 
-                        rappresentato in alto in atto di scagliare le sue saette mortifere. L’affresco è stato staccato dalla Chiesa di San Giuseppe (già Chiesa di Santa Croce dei 
-                        Falegnami e si trova oggi presso la Chiesa di Santa Maria delle Grazie.
-                        Le iscrizioni presentano un andamento ritmico, evidente soprattutto nelle prime due quartine, in rime incrociae ABBA. 
-                        Esse sono disposte all’interno di cartigli, eseguite su fondo bianco, e contengono preghiere alla Vergine che si 
-                        configurano come dialoghi  scambiati tra i personaggi in scena secondo un ordine che procede verso destra a partire dalla voce del popolo, 
-                        ai piedi della Vergine, e termina in alto a destra con la risposta dell’angelo.</p>
-                        <p>Il primo cartiglio si sviluppa su cinque righe ed è 
-                        eseguito nella parte inferiore del dipinto, sorretto ai due lati dal popolo fedele, uomini e bambini a sinistra e donne a destra, 
-                        che trovano protezione sotto il manto della Vergine, alla quale chiedono di intercedere presso il figlio affinché faccia cessare 
-                        il flagello delle peste. Sulla sinistra è raffigurato San Sebastiano trafitto da frecce che continua la preghiera di intercessione 
+                    <p>Le iscrizioni sono disposte all’interno di cartigli, eseguite su fondo bianco, e contengono una preghiera alla Vergine in rime incrociate in forma di dialogo
+                        tra i personaggi in scena, che procede verso destra a partire dalla voce del popolo raffigurato ai piedi della Vergine - uomini e bambini 
+                        a sinistra e donne a destra protetti sotto il manto - e termina in alto 
+                        con la risposta dell’angelo. Gli oranti chiedono che cessi la moria della peste inviata da Dio, 
+                        rappresentato in alto in atto di scagliare le sue saette mortifere. Sulla sinistra è raffigurato San Sebastiano trafitto dalle
+                        frecce che continua la preghiera di intercessione 
                         pronunciando, rivolto verso la Vergine, le parole visualizzate nel cartiglio dall’andamento verticale che si articola in otto righe di 
-                        scrittura. Maria risponde a sua volta al martire e chiede di riporre la sua spada all’angelo, che sollecito esegue e risponde in latino ‘e sia’ 
-                        (fiat 4).</p>
-                        <p>L’affresco, in cattivo stato di conservazione è stato ridipinto varie volte. L’opera è stata messa in relazione con la peste del 1348 
-                            dai suoi primi editori, ma andrà piuttosto riferita all'epidemia scoppiata nel 1429.
+                        scrittura. Maria risponde a sua volta al martire e chiede di riporre la sua spada all’angelo, che sollecito esegue e risponde in latino ‘fiat’ 
+                        </p>
+                        <p>L’opera è stata messa in relazione con la peste del 1348 dai suoi primi editori, ma andrà piuttosto riferita all'epidemia scoppiata nel 1429.
                             L'autore del testo fu forse il priore della chiesa di Santa Croce, la cui immagine sembrerebbe 
                         riconoscersi nel personaggio maschile che regge il cartiglio e veste una cotta chiericale.</p>
+                        <p>L’affresco è stato staccato dalla Chiesa di San Giuseppe (già Chiesa di Santa Croce dei Falegnami e si trova oggi presso la Chiesa di Santa Maria delle Grazie</p>
+                        <p>Lo stato di conservazione non è buono, e l'opera è stata ridipinta varie volte.                        </p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">SIEPI 1822, pp. 480-481; BOMBE 1907, p. 2; MANCINI 1992, p. 51; PALOMBARO 2015, p. 61.</p>

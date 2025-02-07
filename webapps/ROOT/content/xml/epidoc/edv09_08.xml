@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.08</idno>
-                        <date when="2020-11-23"/>
+                        <date when="2021-03-05"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.08.jpg">
+                <graphic url="09.08.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -71,14 +71,15 @@
                         <ab>
                             <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
                            <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
-<lb n="2"/>&lt;no&gt;n recetaerae lu nome de ḷo segno(r)e Dio tuo,
-<lb n="3"/>&lt;si&gt;ati aricordam(en)to di &lt;santificare?&gt;care lu sabato,
-<lb n="4"/>&lt;h&gt;onora lu patre tuo &lt;et la&gt; matre tua,
+<lb n="2"/>&lt;no&gt;n recetaerae <m type="article" subtype="masc_sing">lu</m> nome de ḷo segno(r)e Dio tuo,
+<lb n="3"/>&lt;si&gt;ati aricordam(en)to di &lt;santificare?&gt;care <m type="article" subtype="masc_sing">lu</m> sabato,
+<lb n="4"/>&lt;h&gt;onora <m type="article" subtype="masc_sing">lu</m> <phr type="syntagm" subtype="synt_inversion">patre tuo</phr> &lt;et la&gt; 
+                            <phr type="syntagm" subtype="synt_inversion">matre tua</phr>,
 <lb n="5"/>&lt;n&gt;on occidarae,
 <lb n="6"/>&lt;n&gt;on farai peccato car&lt;nale&gt;,
 <lb n="7"/>&lt;no&gt;n farae f&lt;ur&gt;to
-<lb n="8"/>&lt;non fara&gt;i falso testimoni(um) (con)t(ra) pariare tuo
-<lb n="9"/>&lt;non&gt; desiderarae &lt;la&gt; &lt;m&gt;ogle&lt;r&gt;a l(u) prosimo tuo
+<lb n="8"/>&lt;non fara&gt;i falso testimoni(um) (con)t(ra) <phr type="syntagm" subtype="synt_inversion">pariare tuo</phr>
+<lb n="9"/>&lt;non&gt; desiderarae &lt;la&gt; &lt;m&gt;o<seg type="grapheme" corresp="/ʎ/">gl</seg>e&lt;r&gt;a <m type="article" subtype="masc_sing">lu</m> prosimo tuo
 <lb n="10"/>[. . .][. . . . . . . . .]ai{m} [...] [...]r[...]ṃo tuo : ~
                         </ab>
                     </div>
@@ -96,10 +97,37 @@
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>1 li dii haltrui] Dii haltrui con omisssione di li PACETTI 1939, UBALDINI 2015
+2 recetaerae] recetarae PACETTI 1939, UBALDINI 2015; sancto invano PACETTI 1939, UBALDINI 2015
+3[si]ati aricordam(en)to] Fae PACETTI 1939, UBALDINI 2015; ariposare PACETTI 1939, UBALDINI 2015
+4 onora PACETTI 1939, UBALDINI 2015 
+6 farae PACETTI 1939; fare UBALDINI 2015
+7 furtu PACETTI 1939, UBALDINI 2015
+8 falsu testimoniu co lu PACETTI 1939, UBALDINI 2015
+9 mogliera PACETTI 1939, UBALDINI 2015
+10 verso estremamente lacunoso. Non desiderare la robba de lu prossimu tuo PACETTI 1939; Non desiderarae la robba de lu prosimu tuo UBALDINI 2015
+</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p><title>Morfologia e sintassi</title>:</p> 
+                       <p>'adorarae' r. 1, 'recetaerae' r. 2, 'occidarae' r. 5, 'farae' r. 7 (ma 'farai' rr. 6, 8), 'desiderarae' r. 9, tutti
+                       futuri iussivi. Si notino inoltre (esiti comunque attesi nell'area) il passaggio della finale ad -e, ove occorra la conservazione della ‘e’ in posizione 
+                       protonica, e la conservazione del gruppo -ar- intertonico, per la quale cfr AGOSTINI 1968, p. 123 che segnala il tipo anche ad Arezzo, Cortona, 
+                       Sansepolcro, Città di Castello, Umbertide, Urbino, Gubbio, Todi, Orvieto, Viterbo, Spello e Siena.
+                       Interessante anche l'alternanza, nelle forme dell’articolo maschile, di chiusura e conservazione di -u finale; la posposizione dell’aggettivo possessivo di 
+                       seconda persona singolare in 'Dio tuo' (r. 2), 'patre tuo' e 'matre tua' (r. 4), 'pariare tuo' (r. 8), 'prosimo tuo' (r. 9), 
+                       tipo diffuso nei vogari mediani e in Italia meridionale (cfr. anche ROHLFS 1966-1969, § 431).</p>
+                      <p><title>Lessico:</title></p> 
+<p>'pariare' (r. 8) con il significato di ‘prossimo, vicino, pari’ dalla radice lat. PĂRE(M), forse con influsso dell’antico francese parier ‘socio’ (DELI 2 s. v. 'pari'. FEW, VII, 
+    p. 596, s. v. 'par'; interessante anche il derivato 'pariage' con prima attestazione nel 1290 per ‘parentela, famiglia’. La forma 'pariare' potrebbe anche essersi generata 
+    per diplografia della sillaba tonica /ar/ *parear con chiusura in iato /ea/ja/ ed epitesi di /e/. V. anche (a)pareare ‘uguagliare’ in CELLA 2003, p. 214.). 
+    Un forma verbale corrispondente nelle <title>Rappresentazioni sacre di Orvieto</title>: «Partete, Lucibello, / e ne la gloria più non dimorare, / dapoché si ribello e con 
+    Dio Patre ti vuo’ pariare! Non ti più enduziare, / mettete en colpa al nostro Patre Dio» I, v. 97 (DE BARTHOLOMAEIS 1943, I, p. 341).</p>
+<p>[si]ati aricordam(en)to (r. 9), v. in area umbra Jacopone da Todi: «Sìate recordamento, - frate, la guarda fare» 7, v. 61; nel testo della 
+    <title>Passione di Cristo</title> con ripresa del sintagma: «“quando verai a lo tuo regno, / de me non te sia desdegno; / anke te sia recordamento / d'averme en 
+    recordamento”. /Et lo Signore humilimente / respose a lui encontenente […]» (AGENO 1953, p. 24-7). Sempre in area mediana nella <title>Leggenda del Transito della Madonna abruzzese</title>
+    s. XIV: «Pur de Erode te sia recordamento, / cha per ti fece grande occidemento.» v. 413 (ELSHEIKH 1995, p. 33).
+ </p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p>L’affresco, molto danneggiato è situato nel sottarco della campata ogivale di destra nella chiesa, 
@@ -109,8 +137,8 @@
                             oggi ricostruibile solo sulla base di edizioni precedenti del testo. 
                             L'iscrizione è riconducibile ad una serie di documenti simili che proliferarono in area italiana nel s. XVI come quella di 
                             Campi salentino, in provincia di Lecce, che recita: <title>unum cole Deum nec vana jures per ipsum, sabbata santifices, habeas in honore parente, 
-                                non occisor eris, moechus fur testis iniqvus, non alterius nuptam nec rem cupies alienam</title>.  
-</p>
+                                non occisor eris, moechus fur testis iniqvus, non alterius nuptam nec rem cupies alienam</title>.</p>  
+                            <p>Si ringraziano Luigi Cimarra ed Emma Condello, per la segnalazione del pezzo e la sua datazione.</p>
                         <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">

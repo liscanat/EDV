@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Storie di santa Caterina</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.12</idno>
+                        <date when="2024-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Termini Imerese</placeName>
+                                <district ref="#PA">PA</district>
+                                <repository>Chiesa di santa Caterina di Alessandria</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate notBefore="1480" notAfter="1500">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="17.12a.jpg"> 
+<desc/> </graphic> 
+<graphic url="17.12b.jpg"> 
+<desc>1: dettaglio. 2: dettaglio.</desc> </graphic> </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="I"/><w>Como</w>·Santa·Caterina·stando in l<m type="desinence" subtype="ms_sing">u</m> so pala<seg type="grapheme" corresp="/ts/">cz</seg><m type="desinence" subtype="ms_sing">u</m>·mand<m type="desinence" subtype="perf3ps">au</m>· lu so bai<m type="desinence" subtype="ms_sing">u</m>·a la <seg type="grapheme" corresp="/kia/">cha</seg><seg type="grapheme" corresp="/ts/">cz</seg>a·a intend<m type="desinence" subtype="inf_ire ">iri</m>·<w>chi</w>·rimur<m type="desinence" subtype="ms_sing">i</m>·<w>chi</w>·era
+                        <lb n="II"/><w>Comu</w>·lo inperatur<m type="desinence" subtype="ms_sing">i</m>·fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i f<m type="desinence" subtype="inf_are">ari</m> un idol<m type="desinence" subtype="ms_sing">u</m>et fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i
+<w><seg type="phoneme" subtype="j_initial">I</seg>ettari</w> lo bando <w>chi</w> tuti cristiani veni<m type="desinence" subtype="impfsubj6ps3class">siru</m> adorari lo idol<m type="desinence" subtype="ms_sing">u</m> 
+                        <lb n="III"/><w>Comu</w>· Santa·Caterina· <phr type="syntagm" subtype="synt_verb">si part<m type="desinence" subtype="perf6ps">iu</m></phr>di lo so pala<seg type="grapheme" corresp="/ts/">cz</seg>o and<m type="desinence" subtype="perf3ps">au</m> inan<seg type="grapheme" corresp="/ts/">cz</seg>i lo inperaturi e multo lo reprind<m type="desinence" subtype="impf3ps2class">ia</m> <w>chi</w> petri marmuri no si divino ador<m type="desinence" subtype="inf_are">ari</m> ecept<m type="desinence" subtype="ms_sing">u</m> a Iesu Pasionat<m type="desinence" subtype="ms_sing">u</m>.
+                        <lb n="IV"/><w>Comu</w> santa Caterina· fu mandata pri<seg type="grapheme" corresp="/ʃ/">x</seg>uni con gran fururi
+                    <lb n="V"/><w>Comu</w>·fu <m type="mettere" subtype="partpassfemm">misa</m> la beata santa Caterina pri<seg type="grapheme" corresp="/ʃ/">x</seg>uni
+                     <lb n="VI"/><w>Comu</w>· Santa·Caterina·confus&lt;i&gt; lu inperaturi
+                            <lb n="VII"/>&lt;Co&gt;mu· Santa·Caterina·standu ·pri<seg type="grapheme" corresp="/ʃ/">x</seg>uni·la nott<m type="desinence" subtype="fem_sing">i</m> <m type="apparire" subtype="perf3ps">aparsi</m> un<m type="desinence" subtype="ms_sing">u</m> angil<m type="desinence" subtype="ms_sing">u</m> disi chi n[...] aurà
+<lb n="VIII"/>Disputando  Santa·Caterina a ttutti li doturi confu<m type="desinence" subtype="perf3ps">si</m> e tuti li convertiva a la fid<m type="desinence" subtype="fem_sing">i</m> Jhesus Christus
+                      <lb n="IX"/><w>Como</w> · lu mperaturi a ttutti li dotturi si fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i ven<m type="desinence" subtype="inf_ire ">iri</m> dananc&lt;cz&gt;i<seg type="grapheme" corresp="/ts/">cz</seg>o ch[.] [. . .] anu fattu tuttu gridando <w>como</w> non <w>potimo</w> dispu&lt;tari&gt;
+                            <lb n="X"/><w>Comu</w> lu re cumand<m type="desinence" subtype="perf3ps">au</m> chi fussiru abru<seg type="grapheme" corresp="/ʃ/">x</seg>ati li duturi et santa Caterina li <m type="apparire" subtype="perf3ps">aparsi</m> confirmanduli a la fidi Jhesu Christo MCCCCCXXXXVI
+                         <lb n="XI"/><w>Como</w> lu imperaturi  cumand<m type="desinence" subtype="perf3ps">au</m> c[...] stra<seg type="grapheme" corresp="/ts/">cz</seg>ati li <w>minni</w> 
+                            <lb n="XII"/><w>Comu</w> essendu unu devotu di la beata santa Caterina et ditto mancando di la devo<seg type="grapheme" corresp="/ts/">ci</seg>oni li <m type="apparire" subtype="perf3ps">apparssi</m> santa Caterina cum multi santi virgini cum la fa<seg type="grapheme" corresp="/tʃ/">ch</seg>i vilata e lu dittu dimand<m type="desinence" subtype="perf3ps">ao</m> cui fussi <w>quilla</w> cum la fa<seg type="grapheme" corresp="/tʃ/">ch</seg>i vilata li fui dittu chi era santa Caterina per la quali <m type="dimostrativo" subtype="ms_sing">isso</m> <m type="avere" subtype="impf3ps">avia</m> mancatu di la divo<seg type="grapheme" corresp="/ts/">ci</seg>oni, e per <w>quistu</w> non chi <w>vosi</w> demosstari la fa<seg type="grapheme" corresp="/tʃ/">ch</seg>i
+                            <lb n="XIII"/><w>Comu</w> lu imperaturi comandau chi a la beata santa Caterina li fussiru stra<seg type="grapheme" corresp="/ts/">cz</seg>ati li carni cum li ranpini
+<lb n="XIV"/><w>Comu</w> la beata santa Caterina convert<m type="desinence" subtype="perf6ps">iu</m> la imperatri<seg type="grapheme" corresp="/tʃ/">ch</seg>i et profilio con li <w>autri</w> donn<m type="desinence" subtype="fem_plur">i</m> et cavalieri
+                            <lb n="XV"/><w>Comu</w>·lu imperaturi fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i stari XII iorn&lt;i&gt; carcerata a santa Caterina sen<seg type="grapheme" corresp="/ts/">cz</seg>a mangiari
+                            <lb n="XVI"/><w>Comu</w> · la beata Santa Caterina stando in la pri<seg type="grapheme" corresp="/ʃ/">x</seg>uni <seg type="grapheme" corresp="/tʃ/">ch</seg>i <m type="apparire" subtype="perf3ps">aparsi</m> Cristu con una grandisima multitudini di angeli
+                            <lb n="XVII"/>[manca]
+                            <lb n="XVIII"/>[manca]
+                            <lb n="XIX"/><w>Comu</w> lo imperaturi don<m type="desinence" subtype="perf3ps">au</m> la sinten<seg type="grapheme" corresp="/ts/">ci</seg>a chi la inpera&lt;t&gt;ri<seg type="grapheme" corresp="/tʃ/">ch</seg>i &lt;f&gt;usi decollata
+                            <lb n="XX"/><w>Comu</w>·lo inperaturi fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i moriri la inperatri<seg type="grapheme" corresp="/tʃ/">ch</seg>i et tutti li soi donn<m type="desinence" subtype="fem_plur">i</m> li quali eranu dati a Cristu
+                            <lb n="XXI"/>· <w>Comu</w>·lo inperaturi fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i [...] la testa a profilio e [...] i soi seq
+                        </ab>     
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="I"/>COMO·S·C·STANDO·IN·LVSO·PALACZV·MANDAV· LVSO·BAIV·ALACHACZA·AINTENDIRI·CHI·RIMVRI·CHI·ERA
+                            <lb n="II"/>COMV·LO·IN·PERATVRI·FICHI·FARI·VNIDOLV·ET ·FICHI
+IETTARI LOBANDO·CHI·TVTI·CRISTIANI·VENISIRV·ADORI·LOIDOLV
+                            <lb n="III"/>COMV· S· C· SIPARTIV· DILOSOPALAC3O· ANDAV· INANC3I· LOINPERATVRI
+E MVLTO·LOREPRINDIA·CHI·PETRI·MARMVRI·NO·SIDIVINO ADORARI·ECEPTV
+A IESVPASIONATV
+
+                            <lb n="IV"/>COMV· SANTA· CATERINA· FV MANDATA· PRIXVNI· CON· GRAN· FVRVRI·
+                            <lb n="V"/>COMV· FVMISA· LABEATA· SANTA· CATERINA· PRIXVNI
+                            <lb n="VI"/>COMV· S· C· CONFVS[...] LV INPERATVRI 
+                            <lb n="VII"/>[. .]MV· S· C· STANDV·PRIXVNI·LA NOTTI ·  APARSI · VNVANGILV· DISICHI N[.] [.]AVRA
+<lb n="VIII"/>DISPVTANDO · S·C·A TTVTTI LI DOTVRI CŌFVSI · ETVTI · LICONVERTIVALAFIDI· IHS · XPS
+                            <lb n="IX"/>COMO · LV(M)PERATVRI · ATTVTTI · LIDOTTVRI · SIFICHI · VENIRI · DAVANC[.]I  [...] C3OCH[.] [. . .]ANV·FATTV·TVTTV·GRIDADO·CO[.]O·NO·POTIMO·DISPV [...]
+                            <lb n="X"/>COMV LV RE CVMANDAV CHI FVSSIRV ABRVXATI LI DVTVRI ET S C LIAPPARSI COFIRMANDVLI ALA FIDI IHV XPO M. CCCCC. XXXXVI
+                            <lb n="XI"/>COMO LO IMPERATVRI  CVMANDAU C[...] STRAC3ATI LIMINNI
+                            <lb n="XII"/>COMV ESSĒDV VNV DEVOTV DILA B·S·C· ET DITTO MĀCADO  DILADEVOCIONI LI APARSSI · S · C CV  MVLTI·S·VIRGINI CV LA FACHI VILATA ELV DITTV DIMĀDAO CVI FVSSI QVLLA CV LA FACHI VILATA LI FVI DITTV CHIERA · S ·C· P LA QALI ISSO AVIA MĀCATV DILA DIVOCIONI, E P · QVISTV · NŌ CHI VOSI DEMOSSTRI LA FACHI
+                            <lb n="XIII"/>COMV LVIMPERATVRI COMANDAV CHI ALA BEATA SANTA 
+CATERINA LIFVSSIRV STRAC3ATI LI CARNI CVM LI RANPINI
+<lb n="XIV"/>COMV LA BEATA SANTA CATERINA · CONVERTIV · LA IMPERATRICHI ET · PROFILIO · CONLIAVTRI · DONNI · ET · CAVALERI
+                            <lb n="XV"/>COMV·LVINPERATVRI·FICHI·STARI·XII·IORN[.] CARCERATA A SANTA·CATERINA·SENC3A MANGIARỊ
+                            <lb n="XVI"/>COMV · LABEATA · SANTA · CATERINA · STANDO · INLA PRIXVNI
+CHI APARSI·CRISTV· CON · VNA · GRANDISIMA · MVLTITVDINI · DIANGELI
+<lb n="XVII"/>[manca]
+                            <lb n="XVIII"/>[manca]
+                            <lb n="XIX"/>COMV LO IPERATVR[.] DONAV LA SINTENCIA ChI 
+LAINPERA[.]RICHI [.]VSI·DECOLLATA
+                            <lb n="XX"/>COMV·LOINPERATURI FICHI MORIRI LA INPERATRICHI· ET· TVTTI· LISOI· DONNI· LIQVALI ERANV DATI A CRISTV
+                            <lb n="XXI"/>· COMV· LOINPERATVRI· FCHI [...] LA TESTA
+ A PROFILIO E [.]I SOI·SEQ[. . . .]
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>La sequenza delle vignette nell'edizione Di Marzo 1899 è invertita XII-XXI, I-XI. Le didascalie alle vignette XVII-XVIII sono perdute. Le immagini superstiti raffigurano la disputa con l'imperatore (XVII) e il martirio della ruota (XVIII).  </p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia</title></p>
+                        <p>Si notino l'uso - maggioritario in Sicilia - di &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_04">17.04</ref>, <ref target="edv17_07">17.07</ref><ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>; l'uso di &lt;cz&gt; per l'affricata dentale, generalizzato in Italia meridionale (v. <ref target="edv14_01">14.01</ref> e le osservazioni nel commento, <ref target="edv14_02">14.02</ref>, <ref target="edv17_08">17.08</ref>). Si noti anche il sistematico &lt;x&gt; per /ʃ/" per il quale v. anche <ref target="edv17_03">17.03</ref> e &lt;ci&lt;per /ts/ in 'divocioni' (XII) e 'sintencia' (XIX) e la  vocalizzazione di 'l' in autri (XIV), anch'essa titpicamente siciliana. Il vocalismo segue il sistema fonologico siciliano con rare eccezioni, dovute ad una tendenza verso le forme canoniche, cosa del tutto prevedibile vista la datazione del dipinto.</p>
+                        <p><title>Morfologia e sintassi</title></p>
+                        <p>Si notino gli articoli maschili sempre in forma forte, i dimostrativi 'quistu' e 'quilla' (forse con uso di &lt;qu&gt; per /k/, e l'uso di 'isso' con valore di determinativo; i gerundi ('stando' I,1 'standu' e 'disputando' VII, 1) con valore temporale; i perfetti in -au (con una eccezione alla vignetta XII fortemente ripassata), e -iu; i perfetti forti sigmatici 'vosi', 'aparsi'; l'imperfetto 'avia'; gli infiniti in -ari e -iri; le costruzioni sintattiche tipicamente siciliane 'fichi fari', 'a ttutti li doturi confusi'.</p>
+                       <p>I, 1-2 'mandau a intendiri chi rimuri chi era' ‘mandò a vedere che tipo di rumore fosse’, v. nella <title>Istoria di Eneas di Angilu</title> di Capua: «audendu zo, adimandau ki rimuri era killu, lu quali audia supra lu mari.» primu libru (FOLENA 1956, p. 9.16).
+</p>
+                            <p><title>Lessico</title></p>
+                            <p> bainu I, 1 'banditore'. L’espressione 'fichi iettari lo bando' II, 1-2 è impiegata con il senso di ‘far annunciare da un banditore’, ‘emanare un bando’.</p>
+                               <p> III 'Iesu pasionatu' 'Gesù tormentato, in croce' hapax. L'unica occorrenza riconducibile a questo significato dell'aggettivo in TLIO 'passionale' (Pannuccio del Bagno) nel significato di 'tormentoso'.</p>  
+                               <p> 'Prixuni' IV, 2, e passim è attestato per la prima volta nel corpus <title>Artesia</title> (http://artesia.ovi.cnr.it/) ne <title>La conquesta di Sichilia fatta per li Normandi di Simuni da Lentini</title>: «Lu Duca, audendu di li soy castelli prisi et di li soy cavaleri in prixuni, pluy appi in memoria li malifichii chi li benefichii, fu fortimenti indignatu et negau a so frati zo chi avia impromisu, ecceptu non li rendissi killu castellu chi era imparatu dananti Militu, chi si chamau Castru Santu Angelu, et li cavaleri chi eranu in prisuni.» capitulu XI (ROSSI-TAIBBI 1954, p. 51.14). Lo troviamo inoltre ne <title>Lu Rebellamentu di Sichilia</title> della metà del XIV s.: «[...] et lu re Carlu sirrà prixuni [...]» 67.3 (BARBATO 2010, p. 61.9).</p>
+                               <p> 'minni' XI, 2: vale ‘i seni’. La prima attestazione della forma nel corpus TLIO è registrata nel <title>Libru di Valeriu Maximu translatatu in vulgar messinisi</title> di Accurso di Cremona databile 1321-1337: «La quali, commu issa non nutricau cu habundanti minni, cussì li nutricau con fidili, li Publicoli, li Emilij, li Fabricij, li Curij, li Scipiuni [...]» L. 4, cap. 4 (UGOLINI 1967, vol. I, p. 175.8).</p>                      
+                                <p>'Profilio' XIV, 2, XIX, 2 nome derivato dal greco <title>porohyrios</title>, con il significato di ‘color porpora’ e continua l’antroponimo latino PORFIRIUS – PORFIRION (v. ROSSEBASTIANO-PAPA 2005, II, s. v. Porfirio-Porfiria).
+                      </p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Le iscrizioni si trovano all’interno dell’affresco rappresentante le Storie di Santa Caterina attribuito a Giacomo e Nicolò Graffeo e si sviluppano secondo una sequenza di pannelli rettangolari su due ordini sovrapposti, mentre le didascalie sono poste all’interno di una fascia continua che corre orizzontalmente delimitando i due ordini. Gli affreschi si sviluppavano un tempo su tutte e quattro le pareti della chiesa, ma oggi compaiono solo sulle due pareti laterali, mentre i rifacimenti della porzione di controfacciata e quella di fondo hanno distrutto gli affreschi originari con le Storie, e oggi ospitano l’affresco della Crocifissione di Nicolò Spalletta e un nuovo altare settecentesco dotato di stucchi. La narrazione origina dalla prima scena del registro inferiore di destra, con dodici episodi su due registri relativi all’infanzia della santa fino al suo matrimonio. Il ciclo continua nel registro superiore e per tutta la lunghezza della parete perimetrale e prosegue in senso orario anche sull’altra parete. I pannelli XI e XII sono stati rifatti dallo Spalletta e non seguono in modo puntuale e cronologico le vicende biografiche della santa.
+                        </p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">Di Marzo 1899, pp. 255-259; Nicchitta 2006, pp. 84-85.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">Nicchitta 2006, pp. 82-83</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

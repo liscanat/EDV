@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
@@ -61,31 +61,31 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.25a.jpg">                
+                <graphic url="09_25a.jpg">                
                 <desc/>          
                  </graphic>                                             
-                   <graphic url="09.25b.jpg">
+                   <graphic url="09_25b.jpg">
                     <desc/>
                 </graphic>
-                    <graphic url="09.25c.jpg">                
+                    <graphic url="09_25c.jpg">                
                 <desc/>          
                  </graphic>                                             
-                   <graphic url="09.25d.jpg">
+                   <graphic url="09_25d.jpg">
                     <desc/>
                 </graphic>
-                <graphic url="09.25e.jpg">                
+                <graphic url="09_25e.jpg">                
                 <desc/>          
                  </graphic>                                             
-                   <graphic url="09.25f.jpg">
+                   <graphic url="09_25f.jpg">
                     <desc/>
                 </graphic>
-                <graphic url="09.25g.jpg">                
+                <graphic url="09_25g.jpg">                
                 <desc/>          
                  </graphic>                                             
-                   <graphic url="09.25h.jpg">
+                   <graphic url="09_25h.jpg">
                     <desc/>
                 </graphic>
-                <graphic url="09.25i.jpg">                
+                <graphic url="09_25i.jpg">                
                 <desc/>          
                  </graphic>
             </facsimile>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
                         <title>Cassa di Santa Rita</title>
-                        <editor role="data_collection"><persName></persName></editor>
-                        <editor role="edition"><persName></persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
                         <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.35</idno>
-                        <date when="2020-03-04"/>
+                        <date when="2021-01-25"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="09.35.jpg">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -69,26 +69,96 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
-                            <lb n="1"/>
+          <lb n="1"/>O beata, co(n) fe(r)me<seg type="grapheme" corresp="/ts/">ç</seg>a (et) (con) vi(r)tu
+          <lb n="2"/>de qua(n)do <w>alluminasti</w> in
+          <lb n="3"/>nella croce dove pene da(l)
+          <lb n="4"/>re <w>avisti</w> acute lassan
+          <lb n="5"/>do la mu(n)dana (et) trista foce
+          <lb n="6"/>&lt;per&gt;? sanar toi i(n)ferme (et) scu
+          <lb n="7"/>re p&lt;l&gt;a<seg type="grapheme" corresp="/g/">g</seg>e in quella pa<seg type="grapheme" corresp="/ss/">x</seg>i
+          <lb n="8"/>on &lt;t&gt;ant<m type="desinence" subtype="ms_sing">u</m> feroce che me(r)i
+          <lb n="9"/>to sci gra(n)de adtribuisti!
+          <lb n="10"/>che acti sop(ra) o<seg type="grapheme" corresp="/ɲ/">ngn</seg>e <w>domp
+          <lb n="11"/>na</w> <m type="essere" subtype="perf3ps">fo</m> donata! che una de
+          <lb n="12"/>lle spine de (Cristu) recepesti
+          <lb n="13"/>non per pre<seg type="grapheme" corresp="/ts/">ç</seg>çu mu(n)dan<m type="desinence" subtype="ms_sing">u</m> (?) non 
+          <lb n="14"/>per mercede ch’ella crede<seg type="grapheme" corresp="/ss/">x</seg>e
+          <lb n="15"/>aver altro tresor<m type="desinence" subtype="ms_sing">u</m> se non 
+          <lb n="16"/>con (l)u che tucta a llui se die
+          <lb n="17"/>de &lt;et&gt;? non te parve ancor esser 
+          <lb n="18"/>ben monda che XV anni la spina
+            <lb n="19"/>patisti. Per andar alla vita
+            <lb n="20"/>la (?) &lt;pi&gt;ù iocunda. 1457
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
+          <lb n="1"/>o beata co ̅ fe ̅meça (et) (con)vi ̅tu
+          <lb n="2"/>de qua ̅do alluminasti in
+          <lb n="3"/>nella croce · dove pene da’ 
+          <lb n="4"/>re avisti acute · Lassan
+          <lb n="5"/>do la mu ̅dana (et) trista foce ·
+          <lb n="6"/>[...] sanar toi i ̅ferme (et)scu
+          <lb n="7"/>re p[.]age · In quella paxi
+          <lb n="8"/>on · [.]ạṇtu feroce · che mei ̅
+          <lb n="9"/>to sci gra ̅de ad tribuisti
+          <lb n="10"/>che acti sop ̅ ongne domp
+          <lb n="11"/>na fo donata · che una de
+          <lb n="12"/>llẹ spine de xp ̅u recepesti
+          <lb n="13"/>noṇ per precçu mu ̅danu no ̅
+          <lb n="14"/>pmercede · chella credexe      
+          <lb n="15"/>auer altro tresoru · Senon
+          <lb n="16"/>con ̅u che tucta allui se die
+          <lb n="17"/>de · […] non te parue ancor e(ss)e(r)
+          <lb n="18"/>ben monda ·ch xu an ̅i laspina
+            <lb n="19"/>patisti · per anda r allauita
+            <lb n="20"/>[.]a [..]u iocunda · 1457 ·
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>1 con fermezza, e con FABBI 1956; con fermeça e virtu/de GIORGETTI-SABATINI 2003 
+2 quanto GIORGETTI-SABATINI 2003; qvando, illuminasti FABBI 1956
+3 te FABBI1956
+4 mvndana FABBI 1956; mundana GIORGETTI-SABATINI 2003; e FABBI 1956
+5 ossannar GIORGETTI-SABATINI 2003; noi FABBI 1956; inferme oscvre e mvte FABBI 1956; inferme GIORGETTI-SABATINI 2003
+6 paxione de maritv feroce FABBI 1956
+7 meritv, adtrovasti FABBI 1956 (non segnala sci prima di grande); meri/to, grande GIORGETTI-SABATINI 2003; 
+8 a tvtte sopre ogne compagne ha FABBI 1956; sopra GIORGETTI-SABATINI 2003
+9 da Christv FABBI 1956; recepisti FABBI 1956, GIORGETTI-SABATINI 2003
+10 che per rexv mondanv non perdisti FABBI 1956; mundano GIORGETTI-SABATINI 2003
+11 chella credezze, tresorv FABBI 1956
+12 recepisti GIORGETTI-SABATINI 2003
+13 che, esser, joconda FABBI 1956; esse(re) GIORGETTI-SABATINI 2003
+14 jocvnda FABBI 1956
+</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p><title>Grafia e fonologia</title></p> 
+                          <p>L'iscrizione presenta molti tratti grafici ricorrenti nell'area: l'alveolare sorda resa graficamente con la cedigliata &lt;ç&gt; (rr. 1, 13); 
+                              la sibilante intensa intervocalica resa con &lt;x&gt; (rr. 7, 14); la nasale palatale resa con il trigramma &lt;ngn&gt; (r. 10);                               
+                              &apos;dompna&apos; r.10 con utilizzo di &apos;p&apos; epentetico, assai comune nel latino medievale e in ambiente mediano. 
+                              Si noti anche la conservazione di /j/ iniziale in iocunda r. 20. Ai rr. 4-5 impossibile dire se in 'triste' e 'scure' la &lt;s&gt; valga o meno per la sibilante palatale, 
+                          come sarebbe normale per l'area (v- ROHLFS 1966-1969, §266).</p>
+                        <p>Normali per l'area mediana anche il perfetto metafonetico 'avisti' e il perfetto 'fo'; la conservazione sistematica di -u in posizione finale, la 
+                        conservazione delle vocali aperte in protonia, la conservazione dello /j/ in posizione iniziale e la forma 'alluminasti' con apertura della vocale iniziale, attestata - fra gli altri - 
+                        nelle <title>Laudes Creaturarum</title> di Francesco d'Assisi (CONTINI 1960, 33-34), e nelle duecentesche <title>Laude della scuola urbinate</title> (BETTARINI 1969, pp. 571 e 603)
+                        .</p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --></p>
+                        <p>L’epitaffio è trascritto sulla cassa più esterna, la cosiddetta ‘solenne’ in cui è contenuto il corpo di Santa Rita da Cascia. Il testo è 
+                            dipinto all’interno di un cartiglio posto nella parte spiovente della cassa, sulla destra, sopra al capo della monaca dormiente. 
+                            Il testo presenta alcune lettere di colore rosso poste probabilmente come marcatori dell’andamento rimico del componimento. 
+                            Giorgetti e Sabatini ricordano che solo con il restauro avvenuto nel 1925 si potè effettuare una corretta lettura dell’iscrizione.  La cassa è stata 
+                            realizzata nel 1457 ed è interessante in quanto rappresenta, a detta degli studiosi, «il primo elemento iconografico che conosciamo» 
+                            della Spina di Santa Rita. 
+                            L’elemento frontale della tavola è tripartito e ospita, rispettivamente, le immagini di Maria Maddalena, del Cristo, e di Santa Rita. 
+                            Sul coperchio spiovente vi è l'immagine di Rita sul letto di morte, accompagnata da un epitaffio.</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions"/>
+                        <p xml:id="editions">GIORGETTI - SABATINI 2003, p.8 (poi trascritta in PICCOLOMINI - NATALINO 2007, pp. 77-78).</p>
                         <p xml:id="other"/>
-                        <p xml:id="images"/>
+                        <p xml:id="images">GIORGETTI - SABATINI 2003, p. 9, foto 1.</p>
                     </div>
                 </body>
             </text>

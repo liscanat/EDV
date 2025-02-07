@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Coperte Guicciardini</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.04</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Firenze, Londra</placeName>
+                                <district ref="#sicilia">Sicilia</district>
+                                <repository>Museo del Bargello e Victoria and Albert Museum</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#cloth">Tessuto</material>
+                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate when="1380" precision="medium">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="00">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>1 (I). Comu lu misageri è vinutu a Tristainu.
+2 (II). Comu T(r)&lt;istainu&gt; (et) Gu&lt;v&gt;irnal&lt;i&gt; si parteru da lu rre Feramonti.
+3 (III). Comu T(r)&lt;istainu&gt; (et) Guvirnali so vinuti allu rre Marcu.
+4 (IV). Comu lu rre Marcu fechi cavalieri Tristainu.
+5 (IX). Comu lu rre Languis manda per lu trabutu in Cornualia.
+6 (XI). Comu lu rre Languis cumanda chi vaia lo osti &lt;in&gt; Cornuaglia.
+7 (XII). Comu lu Amoroldu fa bandiri lu osti i(n) Cornuvalgia.
+8 (XV). Comu lu Amoroldu fa suldari la genti.
+9 (XVI). Comu lu Amoroldu vai i(n) Cornuvalgia.
+10 (XIII). Comu lu Amoroldu è vinutu in Cornuvalgia cu(n) XXXX galei.
+11 (XIV). Comu T(r)&lt;istainu&gt; dai lu gua(n)tu allu Amoroldu de la bataglia.
+12 (X). Comu li missagieri so vinuti al[lu] rre Marcu p(er) lu tributu di secti anni.
+13 (VI). Comu lu Amoroldu vai alla isolecta.
+14 (V). Comu T(r)&lt;istainu&gt; vai nella isola p(er) cu(m)bactiri locu.
+15 (XVIII). Comu Tristainu bucta la varca arretu intu allu maru.
+16 (XVII). Comu Tristainu aspecta lu Amoroldu alla isola dilu maru Sança Vintura.
+17 (VII). Comu lu Amoroldu cumbactiu cu Tristainu a c&lt;a&gt;vallu.
+18 (VIII). Comu Tristainu cumbactiu cullu Amoroldo (et) speciaru li lan(c)i.
+19 (XX). Comu Tristainu feriu lu Amorolldo i(n) testa.
+20 (XIX). Come lu i(n)fa de lu Amoroldu aspecttava lu patrunu.
+21 (XXII). Comu lu Amoroldu feriu Tristainu a tradimentu.
+22 (XXI). Sitati da Irlanda.
+
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_12">17.12</ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"/>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Stemma Palazzo Abatellis</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.08</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Palermo</placeName>
+                                <district ref="#PA">PA</district>
+                                <repository>Palazzo Abatellis</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#heraldry">Stemma</term>
+                                </summary>
+                                <textLang mainLang="xesp">Spagnolo</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate when="1495">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="17.08">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>Manya y Fuer<seg type="grapheme" corresp="/ts/">cz</seg>a <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>.
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>MANYA Y FUERCZA
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>L'iscrizione, in spagnolo, mostra la resa dell'affricata /ts/ con &lt;cz&gt; un'abitudine grafica assai diffusa nel meridione, a partire dal <title>Ritmo Cassinese</title> (v. SIGNORINI 2009).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --> 
+                        Il motto, esposto sul portone di Palazzo Abatellis a Palermo, costituisce - forse sorprendentemente - l'unica presenza della lingua spagnola nel patrimonio epigrafico in volgare della Sicilia. </p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"></p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
