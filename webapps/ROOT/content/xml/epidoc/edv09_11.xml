@@ -1,112 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Cristo morto e simboli della passione</title>
-                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">09.11</idno>
-                        <date when="2020-11-25"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Perugia</placeName>
-                                <district ref="#PG">PG</district>
-                                <repository>Galleria Nazionale dell’Umbria (già Monastero di Santa Lucia in Porta Sant’Angelo)</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#admonition">Monito</term>
-                                </summary>
-                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#wood">Legno</material>
-                                            <objectType ref="#painting">Dipinto</objectType>
-                                            <dimensions><width>75</width><depth>11</depth><height>113</height></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#capital">Capitale</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-          <lb n="1"/>O vos o&lt;m&gt;nes qui tra&lt;n&gt;sitis p&lt;e&gt;r via&lt;m&gt; ate&lt;n&gt;dite et videte unive&lt;r&gt;-
-          <lb n="2"/>si populi si est dolor sicut dolor meus.
-          <lb n="3"/>Resguarda in me che so pietà infinita.
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p/>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>In mancanza di una buona riproduzione fotografica su cui effettuare la lettura, ci siamo serviti di SARGENTI 1985-1986, e GARIBALDI 2015, p. 344-345. 
-                            </p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
-                        <p>L’iscrizione è contenuta all’interno dell’altarolo con il Cristo morto e i simboli della Passione di un pittore anonimo della prima metà del 
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title>Cristo morto e simboli della passione</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Alessandra Tiburzi</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>Alessandra Tiburzi</ns0:persName></ns0:editor>
+                        <ns0:editor role="commentary"><ns0:persName>Alessandra Tiburzi, Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">09.11</ns0:idno>
+                        <ns0:date when="2020-11-25" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Perugia</ns0:placeName>
+                                <ns0:district ref="#PG">PG</ns0:district>
+                                <ns0:repository>Galleria Nazionale dell’Umbria (già Monastero di Santa Lucia in Porta Sant’Angelo)</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
+                                    <ns0:term type="textType" ref="#admonition">Monito</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#wood">Legno</ns0:material>
+                                            <ns0:objectType ref="#painting">Dipinto</ns0:objectType>
+                                            <ns0:dimensions><ns0:width>75</ns0:width><ns0:depth>11</ns0:depth><ns0:height>113</ns0:height></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#umbria">Umbria</ns0:region></ns0:origPlace>
+                                    <ns0:origDate notBefore="1400" notAfter="1449" precision="low">XV in.</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="09.11.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:ab>
+          <ns0:lb n="1" />O vos o&lt;m&gt;nes qui tra&lt;n&gt;sitis p&lt;e&gt;r via&lt;m&gt; ate&lt;n&gt;dite et videte unive&lt;r&gt;-
+          <ns0:lb n="2" />si populi si est dolor sicut dolor meus.
+          <ns0:lb n="3" />Resguarda in me che so pietà infinita.
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:ab>
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p />
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p>In mancanza di una buona riproduzione fotografica su cui effettuare la lettura, ci siamo serviti di SARGENTI 1985-1986, e GARIBALDI 2015, p. 344-345. 
+                            </ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p />
+                        <ns0:p>L’iscrizione è contenuta all’interno dell’altarolo con il Cristo morto e i simboli della Passione di un pittore anonimo della prima metà del 
                             s. XV. Essa proviene dal monastero di Santa Lucia in porta Sant’Angelo a Perugia ed è esposta oggi presso la Galleria Nazionale dell’Umbria, 
                             (sala 7 inv. 152). La didascalia, bilingue, si apre con l’incipit di Geremia (1, 12) che descrive la desolazione 
                             di Gerusalemme, conseguenza del suo peccato. Il passo ricorre anche in Vita Nova VII, 7: «ne la prima [parte del sonetto] intendo chiamare li 
-                            fedeli d'Amore per quelle parole di Geremia profeta che dicono: <title>O vos omnes qui transitis per viam, attendite et videte si est dolor 
-                                sicut dolor meus</title>»; e nella Commedia (Inf. XXX, VV. 58-61 e Inf. XXVIII, vv. 130-132). V. la voce in <title>Enciclopedia dantesca</title>
+                            fedeli d'Amore per quelle parole di Geremia profeta che dicono: <ns0:title>O vos omnes qui transitis per viam, attendite et videte si est dolor 
+                                sicut dolor meus</ns0:title>»; e nella Commedia (Inf. XXX, VV. 58-61 e Inf. XXVIII, vv. 130-132). V. la voce in <ns0:title>Enciclopedia dantesca</ns0:title>
                             consultabile all’indirizzo https://www.treccani.it/enciclopedia/o-vos-omnes-qui-transitis-per-viam_%28Enciclopedia-Dantesca%29/
 (ultimo accesso 25/11/2020). L’opera riflette il motivo iconografico dell’Arma Christi, ampiamente diffuso nella prima parte del secolo XV con finalità legate alla pratica 
-delle indulgenze. Per l’iconografia del <title>Cristus patiens</title> corredato dei simboli della Passione (la croce, i dadi, la coppa di fiele, le mani che contano i 
+delle indulgenze. Per l’iconografia del <ns0:title>Cristus patiens</ns0:title> corredato dei simboli della Passione (la croce, i dadi, la coppa di fiele, le mani che contano i 
                             denari, la lancia, il martello, la scala con la testa di Giuda impiccato, la mano ingiuriante, la mano con la borsa di denari, la mano dello 
                             schiaffo, l’uomo che sputa, san Pietro, una delle Marie, il sole e la luna, il coltello con cui Pietro recise l’orecchio di Malco, il gallo, 
                             la lanterna posta sopra l’asta, la mano con la bacchetta, la canna con la spugna intrisa di aceto, la colonna della flagellazione con i 
-                            flagelli, la corda e le tenaglie della deposizione, il lavaggio delle mani di Pilato), diffusa in tutta la penisola, cfr, in EDV, <ref target="edv02_04">02.04
-                            </ref>; <ref target="edv02_07">02.07</ref>; <ref target="edv03_05_">03.05</ref>; <ref target="edv09_23">09.23</ref>; <ref target="edv09_47">09.47</ref>, <ref target="edv17_09">17.09</ref>.</p>
-                                               </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">CECCHINI 1932, p. 72; SANTI 1985, pp. 37-38; SARGENTI 1985-1986; GARIBALDI 2015, pp. 344-345, scheda n. 239.</p>
-                        <p xml:id="other">CECCHINI 1932, p. 72; SANTI 1985, pp. 37-38; GARIBALDI 2015, pp. 344-345, scheda n. 239.</p>
-                        <p xml:id="images">SANTI 1985, n. 24 (b/n); GARIBALDI-MERCURELLI SALARI 2006, p. 30; GARIBALDI 2015, p. 344.</p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+                            flagelli, la corda e le tenaglie della deposizione, il lavaggio delle mani di Pilato), diffusa in tutta la penisola, cfr, in EDV, <ns0:ref target="edv02_04">02.04
+                            </ns0:ref>; <ns0:ref target="edv02_07">02.07</ns0:ref>; <ns0:ref target="edv03_05_">03.05</ns0:ref>; <ns0:ref target="edv09_23">09.23</ns0:ref>; <ns0:ref target="edv09_47">09.47</ns0:ref>, <ns0:ref target="edv17_09">17.09</ns0:ref>.</ns0:p>
+                                               </ns0:div>
+                    <ns0:div type="bibliography">
+                        <ns0:p xml:id="editions">CECCHINI 1932, p. 72; SANTI 1985, pp. 37-38; SARGENTI 1985-1986; GARIBALDI 2015, pp. 344-345, scheda n. 239.</ns0:p>
+                        <ns0:p xml:id="other">CECCHINI 1932, p. 72; SANTI 1985, pp. 37-38; GARIBALDI 2015, pp. 344-345, scheda n. 239.</ns0:p>
+                        <ns0:p xml:id="images">SANTI 1985, n. 24 (b/n); GARIBALDI-MERCURELLI SALARI 2006, p. 30; GARIBALDI 2015, p. 344.</ns0:p>
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>

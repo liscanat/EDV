@@ -1,103 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title> Pietro Donzelli, Madonna con bambino</title>
-                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">14.08</idno>
-                        <date when="2020-10-09"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Napoli</placeName>
-                                <district ref="#NA">NA</district>
-                                <repository>Chiesa di santa Maria di Porta Nova (o in Cosmedin)</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#patronage">Committenza</term>
-                                </summary>
-                                <textLang mainLang="xmer">Volgare meridionale</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#wood">Legno</material>
-                                            <objectType ref="#painting">Dipinto</objectType>
-                                            <dimensions><width/><depth/><height/></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#capital">Capitale</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#campania">Campania</region></origPlace>
-                                    <origDate when="1490">XV ex.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>[Dr]usia Brancatia ha facta fare questa fiura ad te se reccumanda Vergene pura
-          <lb n="2"/>[e]t he donata per più de una messa al dì dedicata ad honore de sa(n)to Sebastiano.
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                                            </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p/>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si notino le mancate chiusure in protonia, e il dileguo della velare intervocalica, normali per l'area.
-                             Il sintagma &apos;ha facta fare&apos; traduce la tradizionale formula epigrafica &apos;fecit fieri&apos; 
-                            v. <ref target="edv11_02">11.02</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_20">11.20</ref>, 
-                            <ref target="edv11_23">11.23</ref>, <ref target="edv11_25">11.25</ref></p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p> L’iscrizione ricorda la realizzazione della tavola votiva di San Nicola ad opera di Antonello da Capua. 
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title> Pietro Donzelli, Madonna con bambino</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Alessandra Tiburzi</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="commentary"><ns0:persName>Alessandra Tiburzi</ns0:persName></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">14.08</ns0:idno>
+                        <ns0:date when="2020-10-09" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Napoli</ns0:placeName>
+                                <ns0:district ref="#NA">NA</ns0:district>
+                                <ns0:repository>Chiesa di santa Maria di Porta Nova (o in Cosmedin)</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#AP">Avviso pubblico</ns0:term>
+                                    <ns0:term type="textType" ref="#patronage">Committenza</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xmer">Volgare meridionale</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#wood">Legno</ns0:material>
+                                            <ns0:objectType ref="#painting">Dipinto</ns0:objectType>
+                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#campania">Campania</ns0:region></ns0:origPlace>
+                                    <ns0:origDate when="1490">XV ex.</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="14.08.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:ab><ns0:lb n="1" />[Dr]usia Brancatia ha facta fare questa fiura ad te se reccumanda Vergene pura
+          <ns0:lb n="2" />[e]t he donata per più de una messa al dì dedicata ad honore de sa(n)to Sebastiano.
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:ab>
+                                            </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p />
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p>Si notino le mancate chiusure in protonia, e il dileguo della velare intervocalica, normali per l'area.
+                             Il sintagma 'ha facta fare' traduce la tradizionale formula epigrafica 'fecit fieri' 
+                            v. <ns0:ref target="edv11_02">11.02</ns0:ref>, <ns0:ref target="edv11_15">11.15</ns0:ref>, <ns0:ref target="edv11_20">11.20</ns0:ref>, 
+                            <ns0:ref target="edv11_23">11.23</ns0:ref>, <ns0:ref target="edv11_25">11.25</ns0:ref></ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p> L’iscrizione ricorda la realizzazione della tavola votiva di San Nicola ad opera di Antonello da Capua. 
                             La chiesa non è visitabile e non è stato possibile controllare la trascrizione, che si basa su DE BLASI 1997, riscontrato sulla riproduzione 
                             fornita da ROLFS 1910 (p. 145), il quale così descrive la tavola: «Questa tavola rappresenta in campo dorato la B. Vergine a sedere col Divino 
                             Figliuolo fra le braccia, ed ai lati S. Sebastiano e S. Giacomo della Marca. Nel basso vi sono espressi i dodici Apostoli e nel mezzo il 
                             Salvatore risorto, a piccole figure, nella lunetta superiore di vede il Salvatore deposto dalla Croce, nell’atto che San Giovanni e 
                             la Maddalena gli osservano le sacre piaghe: sotto di essa lunetta si legge la soprascritta iscrizione nel dialetto volgare del Cinquecento. 
-                            Questa bella opera di pittura fu eseguita dai fratelli Pietro ed Ippolito del Donzello, allievi dello Zingaro».</p>
-                        <p><!-- Immagine: SI. --></p>
-                    </div>
-                    <div type="bibliography">
-                      <p xml:id="editions">ALOE 1835, p. 269, n. 534; ROLFS 1910, p. 145; DE BLASI 1997, p. 278.</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images">ROLFS 1910, tav. 80.</p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+                            Questa bella opera di pittura fu eseguita dai fratelli Pietro ed Ippolito del Donzello, allievi dello Zingaro».</ns0:p>
+                        <ns0:p />
+                    </ns0:div>
+                    <ns0:div type="bibliography">
+                      <ns0:p xml:id="editions">ALOE 1835, p. 269, n. 534; ROLFS 1910, p. 145; DE BLASI 1997, p. 278.</ns0:p>
+                        <ns0:p xml:id="other" />
+                        <ns0:p xml:id="images">ROLFS 1910, tav. 80.</ns0:p>
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>

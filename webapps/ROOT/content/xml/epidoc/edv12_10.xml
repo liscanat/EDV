@@ -1,105 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Rienço Iannipaolo</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">12.10</idno>
-                        <date when="2020-04-17"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Roma</placeName>
-                                <district ref="#RM">RM</district>
-                                <repository>Chiesa di santa Maria in Aquiro</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
-                                </summary>
-                                <textLang mainLang="xrom">Volgare romanesco</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width/><depth/><height/></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#gothic">Gotica</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate notBefore="1300" notAfter="1399" precision="low">XIV</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/><w type="metaphony" subtype="dipht">Rien<seg type="grapheme" corresp="/ts/">ç</seg>o</w> <seg type="phoneme" subtype="j_initial">I</seg>an(n)ipaolo
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>RIENÇ° I(AN) ̅IPAOLO  
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p>1 Rienso GALLETTI 1760, FORCELLA 1869-1884; Rienzo I(ho)anipaol GRABMÄLER 1981.</p>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si noti la resa di /ts/ con &lt;ç&gt; (per la quale vedi anche negli Indici le numerose occorrenze in EDV; il dittongamento metafonetico sia nel nome sia nel cognome del defunto,  
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title>Rienço Iannipaolo</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">12.10</ns0:idno>
+                        <ns0:date when="2020-04-17" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Roma</ns0:placeName>
+                                <ns0:district ref="#RM">RM</ns0:district>
+                                <ns0:repository>Chiesa di santa Maria in Aquiro</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#AP">Avviso pubblico</ns0:term>
+                                    <ns0:term type="textType" ref="#funerary">Iscrizione funeraria</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xrom">Volgare romanesco</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#stone">Pietra</ns0:material>
+                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
+                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#roma">Roma</ns0:region></ns0:origPlace>
+                                    <ns0:origDate notBefore="1300" notAfter="1399" precision="low">XIV</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="12.10.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:ab><ns0:lb n="1" /><ns0:w type="metaphony" subtype="dipht">Rien<ns0:seg type="grapheme" corresp="/ts/">ç</ns0:seg>o</ns0:w> <ns0:seg type="phoneme" subtype="j_initial">I</ns0:seg>an(n)ipaolo
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:ab>
+                            <ns0:lb n="1" />RIENÇ° I(AN) ̅IPAOLO  
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p>1 Rienso GALLETTI 1760, FORCELLA 1869-1884; Rienzo I(ho)anipaol GRABMÄLER 1981.</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p>Si noti la resa di /ts/ con &lt;ç&gt; (per la quale vedi anche negli Indici le numerose occorrenze in EDV; il dittongamento metafonetico sia nel nome sia nel cognome del defunto,  
                              proprio dell’antico romanesco (D’ACHILLE 1987, p. 92, MERLO 19592, p. 47; ROHLFS 1966-1969, § 101; ERNST 1970, p. 31 sgg.; PORTA 1979, pp. 535-537; 
-                             MACCIOCCA 1982, p. 59 sgg). V. anche, sempre a Roma in EDV, Rienço <ref target="edv12_09">12.09</ref>, Liello <ref target="edv12_05">12.05</ref>, 
-                            Oddariello <ref target="edv12_08">12.08</ref>, Saviello <ref target="edv12_19">12.19</ref>.</p>
-                        <p>Ian(n)ipaolo: antroponimo composto, Ian(n)i con conservazione di /j/ in posizione inziale, comune negli antichi testi romaneschi e mediani
+                             MACCIOCCA 1982, p. 59 sgg). V. anche, sempre a Roma in EDV, Rienço <ns0:ref target="edv12_09">12.09</ns0:ref>, Liello <ns0:ref target="edv12_05">12.05</ns0:ref>, 
+                            Oddariello <ns0:ref target="edv12_08">12.08</ns0:ref>, Saviello <ns0:ref target="edv12_19">12.19</ns0:ref>.</ns0:p>
+                        <ns0:p>Ian(n)ipaolo: antroponimo composto, Ian(n)i con conservazione di /j/ in posizione inziale, comune negli antichi testi romaneschi e mediani
                             (D’ACHILLE 1987, p. 92, MERLO 19592, pp. 55-56, ROHLFS 1966-1969 § 158, ERNST 1970, pp. 83-85, PORTA 1979, pp. 562-563, MACCIOCCA 1982, p. 82). 
-                            V., in EDV, <ref target="edv11_02">11.02</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, 
-                            <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
-                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_17">12.17</ref>, <ref target="edv12_24">12.24</ref>.
-</p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p>D’ACHILLE 1987a, p. 91 nota 110.  FORCELLA 1869-1884, II, p. 435 num. 1337; GALLETTI 1760, III, CCCCIII num. 17; GRABMÄLER 1981, p. 109, num. XXVII, 1; foto num. 53; D’ACHILLE - GIOVANARDI 1984, num. 361.</p>
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">GALLETTI 1760, III, CCCCIII n. 17; FORCELLA 1869-1884, II, p. 435 n. 1337; 
-                            GRABMÄLER 1981, p. 109, n. XXVII, 1; D’ACHILLE - GIOVANARDI 1984, n. 361; D’ACHILLE 1987, p. 91, n. 21.</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images"/>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+                            V., in EDV, <ns0:ref target="edv11_02">11.02</ns0:ref>, <ns0:ref target="edv11_04">11.04</ns0:ref>, <ns0:ref target="edv11_15">11.15</ns0:ref>, <ns0:ref target="edv11_17">11.17</ns0:ref>, 
+                            <ns0:ref target="edv11_19">11.19</ns0:ref>, <ns0:ref target="edv11_26">11.26</ns0:ref>,
+                            <ns0:ref target="edv12_09">12.09</ns0:ref>, <ns0:ref target="edv12_12">12.12</ns0:ref>, <ns0:ref target="edv12_17">12.17</ns0:ref>, <ns0:ref target="edv12_24">12.24</ns0:ref>.
+</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p>D’ACHILLE 1987a, p. 91 nota 110.  FORCELLA 1869-1884, II, p. 435 num. 1337; GALLETTI 1760, III, CCCCIII num. 17; GRABMÄLER 1981, p. 109, num. XXVII, 1; foto num. 53; D’ACHILLE - GIOVANARDI 1984, num. 361.</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="bibliography">
+                        <ns0:p xml:id="editions">GALLETTI 1760, III, CCCCIII n. 17; FORCELLA 1869-1884, II, p. 435 n. 1337; 
+                            GRABMÄLER 1981, p. 109, n. XXVII, 1; D’ACHILLE - GIOVANARDI 1984, n. 361; D’ACHILLE 1987, p. 91, n. 21.</ns0:p>
+                        <ns0:p xml:id="other" />
+                        <ns0:p xml:id="images" />
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>

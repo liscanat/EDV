@@ -1,265 +1,263 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Nicola da Guardiagrele, Paliotto</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">13.06</idno>
-                        <date when="2020-04-14"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Atri</placeName>
-                                <district ref="#TE">TE</district>
-                                <repository>Cattedrale di santa Maria Assunta</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#narrative #signature">Narrativa, Firma</term>
-                                </summary>
-                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#silver">Argento</material>
-                                            <objectType ref="#artifact">Artefatto</objectType>
-                                            <dimensions><width/><depth/><height/></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#gothic">Gotica</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
-                                    <origDate notBefore="1433" notAfter="1448">XV in.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, primo quadrato, Annunciazione</title>
-                        <lb n="1"/>Ave gratia plena dominus tecum
-                        <lb n="2"/>anno domini M CCCC XXXIII
-                         </ab>
-                         </div>                        
-                         <div type="textpart" subtype="section" n="B">
-                          <ab>
-                        <lb n="0"/><title>Primo registro, quarto quadrato, san Giovanni Evangelista</title>
-                        <lb n="1"/>In principio erat verbum.
-                         </ab>
-                         </div>                        
-                        <div type="textpart" subtype="section" n="C">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, quinto quadrato, Presentazione al Tempio</title>
-                        <lb n="1"/>Quan(d)o Chr(ist)o f
-                        <lb n="2"/>o presentat
-                        <lb n="3"/>o a lo tenplo.    
-                         </ab>
-                         </div>
-                            <div type="textpart" subtype="section" n="D">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, primo quadrato, Tentazioni del deserto</title>
-                        <lb n="1"/>Vade retro Satan
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="E">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, quarto quadrato, Matteo</title>
-                        <lb n="1"/>Liber generazioni(s) J(esu) Ch(risti).
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="F">
-                        <ab>
-                        <lb n="0"/><title>Secondo registro, quadrato centrale, Redentore</title>
-                        <lb n="1"/>Ego
-                        <lb n="2"/>sum
-                        <lb n="3"/>lux    
-                        <lb n="4"/>mun
-                        <lb n="5"/>di via 
-                        <lb n="6"/>verit
-                        <lb n="7"/>as et
-                        <lb n="8"/>vita<quote type="accurate" source="#Io" n="08.12" ></quote>
-                        </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="G">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, settimo quadrato, Orazione nell’orto</title>
-                        <lb n="1"/>Pater si fieri p(otest) t(ranseat) a m(e) c(alix) i(ste).
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="H">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, secondo quadrato, Flagellazione</title>
-                        <lb n="1"/>Quando Chr(ist)o <m type="essere" subtype="perf3ps">fo</m> bactuto a la colonda
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="I">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, quinto quadrato, Sant’mbrogio</title>
-                        <lb n="1"/>Cui(us) op(er)a q(ui)s q(uam) facit [...]
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="L">
-                          <ab>
-                         <lb n="0"/><title>Terzo registro, sesto quadrato, Cristo deriso</title>
-                        <lb n="1"/>Profitia q(ui) te p(ercussit)
-                         </ab>
-                         </div>
-                       <div type="textpart" subtype="section" n="M">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, primo quadrato, Deposizione di Cristo</title>
-                        <lb n="1"/>Opus Nicolai de Guardia Gr
-                         <lb n="2"/>elis Anno Domini M CCCCXXXX
-                          <lb n="3"/>VIII. Undecime indetionis m(ense) i[...]
-                                      </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="N">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, quarto quadrato, San Marco</title>
-                        <lb n="1"/>Fuit Ioh(ann)es in deserto
-                          </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="O">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, sesto quadrato, San Girolamo</title>
-                        <lb n="1"/>Ego sum tra(n)salator heb[...]
-                          </ab>
-                         </div>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, primo quadrato, Annunciazione</title>
-                        <lb n="1"/>♦ AVE GRATIA PLENA DOMINUS TECUM ♦
-                        <lb n="2"/>♦ ANNO ♦DOMINI ♦M♦CCCC♦XXXIII♦
-                         </ab>
-                         </div>                        
-                         <div type="textpart" subtype="section" n="B">
-                          <ab>
-                        <lb n="0"/><title>Primo registro, quarto quadrato, san Giovanni Evangelista</title>
-                        <lb n="1"/>in principio∙erat∙verbum
-                         </ab>
-                         </div>                        
-                        <div type="textpart" subtype="section" n="C">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, quinto quadrato, Presentazione al Tempio</title>
-                        <lb n="1"/>QUANO∙XP ̅O∙F
-                        <lb n="2"/>O PRESENTAT
-                        <lb n="3"/>O ALOTENPLO    
-                         </ab>
-                         </div>
-                            <div type="textpart" subtype="section" n="D">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, primo quadrato, Tentazioni del deserto</title>
-                        <lb n="1"/>VADE RETRO SATAN
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="E">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, quarto quadrato, Matteo</title>
-                        <lb n="1"/>liber∙generazioni∙j∙x
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="F">
-                        <ab>
-                        <lb n="0"/><title>Secondo registro, quadrato centrale, Redentore</title>
-                        <lb n="1"/>EGO
-                        <lb n="2"/>SUM
-                        <lb n="3"/>LUX    
-                        <lb n="4"/>MUN
-                        <lb n="5"/>DI VIA 
-                        <lb n="6"/>VERIT
-                        <lb n="7"/>AS ET
-                        <lb n="8"/>VITA
-                        </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="G">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, settimo quadrato, Orazione nell’orto</title>
-                        <lb n="1"/>PATER SI FIERI P∙T∙A∙M∙C∙I
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="H">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, secondo quadrato, Flagellazione</title>
-                        <lb n="1"/>QVANDO∙XP ̅O∙FO BACTVTO∙ALACOLONDA
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="I">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, quinto quadrato, Sant’Ambrogio</title>
-                        <lb n="1"/>cui∙opa∙qs∙q ̅∙facit∙[...]
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="L">
-                          <ab>
-                         <lb n="0"/><title>Terzo registro, sesto quadrato, Cristo deriso</title>
-                        <lb n="1"/>profitia∙q.te∙p
-                         </ab>
-                         </div>
-                       <div type="textpart" subtype="section" n="M">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, primo quadrato, Deposizione di Cristo</title>
-                        <lb n="1"/>OPVS*NICOLAI*DE**GVARDIA*GR
-                         <lb n="2"/>ELIS*ANNO*DOMINI*M*CCCCXXXX
-                          <lb n="3"/>VIII*VNDECIME*INDETIONIS*M*I
-                                      </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="N">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, quarto quadrato, San Marco</title>
-                        <lb n="1"/>Fuit Ioh(ann)es in deserto
-                          </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="O">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, sesto quadrato, San Girolamo</title>
-                        <lb n="1"/>Ego sum tra(n)salator heb[...]
-                          </ab>
-                         </div>
-                    </div>
-                    <div type="apparatus">
-                        <p>C, 3 templo CASINI 1907</p>
-                         <p>O, 1 translator CASINI 1907; tr(n)salator MATTIOCCO 2008</p>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si notino gli ipercorrettismi in 'bactuto' e 'colonda; il perfetto forte 'fo' comunissimo in area mediana (v. Indici),  </p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p>Mastro Nicola da Guardiagrele (XIV ex. - 1461) fu il più importante orafo ed argentiere abruzzese del suo tempo. Il suo celebre paliotto, di forma 
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title>Nicola da Guardiagrele, Paliotto</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">13.06</ns0:idno>
+                        <ns0:date when="2020-04-14" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Atri</ns0:placeName>
+                                <ns0:district ref="#TE">TE</ns0:district>
+                                <ns0:repository>Cattedrale di santa Maria Assunta</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
+                                    <ns0:term type="textType" ref="#narrative #signature">Narrativa, Firma</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#silver">Argento</ns0:material>
+                                            <ns0:objectType ref="#artifact">Artefatto</ns0:objectType>
+                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#abruzzo">Abruzzo</ns0:region></ns0:origPlace>
+                                    <ns0:origDate notBefore="1433" notAfter="1448">XV in.</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="13.06.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:div type="textpart" subtype="section" n="A">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, primo quadrato, Annunciazione</ns0:title>
+                        <ns0:lb n="1" />Ave gratia plena dominus tecum
+                        <ns0:lb n="2" />anno domini M CCCC XXXIII
+                         </ns0:ab>
+                         </ns0:div>                        
+                         <ns0:div type="textpart" subtype="section" n="B">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, quarto quadrato, san Giovanni Evangelista</ns0:title>
+                        <ns0:lb n="1" />In principio erat verbum.
+                         </ns0:ab>
+                         </ns0:div>                        
+                        <ns0:div type="textpart" subtype="section" n="C">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, quinto quadrato, Presentazione al Tempio</ns0:title>
+                        <ns0:lb n="1" />Quan(d)o Chr(ist)o f
+                        <ns0:lb n="2" />o presentat
+                        <ns0:lb n="3" />o a lo tenplo.    
+                         </ns0:ab>
+                         </ns0:div>
+                            <ns0:div type="textpart" subtype="section" n="D">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, primo quadrato, Tentazioni del deserto</ns0:title>
+                        <ns0:lb n="1" />Vade retro Satan
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="E">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, quarto quadrato, Matteo</ns0:title>
+                        <ns0:lb n="1" />Liber generazioni(s) J(esu) Ch(risti).
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="F">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, quadrato centrale, Redentore</ns0:title>
+                        <ns0:lb n="1" />Ego
+                        <ns0:lb n="2" />sum
+                        <ns0:lb n="3" />lux    
+                        <ns0:lb n="4" />mun
+                        <ns0:lb n="5" />di via 
+                        <ns0:lb n="6" />verit
+                        <ns0:lb n="7" />as et
+                        <ns0:lb n="8" />vita<ns0:quote type="accurate" source="#Io" n="08.12" />
+                        </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="G">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, settimo quadrato, Orazione nell’orto</ns0:title>
+                        <ns0:lb n="1" />Pater si fieri p(otest) t(ranseat) a m(e) c(alix) i(ste).
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="H">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Terzo registro, secondo quadrato, Flagellazione</ns0:title>
+                        <ns0:lb n="1" />Quando Chr(ist)o <ns0:m type="essere" subtype="perf3ps">fo</ns0:m> bactuto a la colonda
+                         </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="I">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Terzo registro, quinto quadrato, Sant’mbrogio</ns0:title>
+                        <ns0:lb n="1" />Cui(us) op(er)a q(ui)s q(uam) facit [...]
+                         </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="L">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Terzo registro, sesto quadrato, Cristo deriso</ns0:title>
+                        <ns0:lb n="1" />Profitia q(ui) te p(ercussit)
+                         </ns0:ab>
+                         </ns0:div>
+                       <ns0:div type="textpart" subtype="section" n="M">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, primo quadrato, Deposizione di Cristo</ns0:title>
+                        <ns0:lb n="1" />Opus Nicolai de Guardia Gr
+                         <ns0:lb n="2" />elis Anno Domini M CCCCXXXX
+                          <ns0:lb n="3" />VIII. Undecime indetionis m(ense) i[...]
+                                      </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="N">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, quarto quadrato, San Marco</ns0:title>
+                        <ns0:lb n="1" />Fuit Ioh(ann)es in deserto
+                          </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="O">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, sesto quadrato, San Girolamo</ns0:title>
+                        <ns0:lb n="1" />Ego sum tra(n)salator heb[...]
+                          </ns0:ab>
+                         </ns0:div>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:div type="textpart" subtype="section" n="A">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, primo quadrato, Annunciazione</ns0:title>
+                        <ns0:lb n="1" />♦ AVE GRATIA PLENA DOMINUS TECUM ♦
+                        <ns0:lb n="2" />♦ ANNO ♦DOMINI ♦M♦CCCC♦XXXIII♦
+                         </ns0:ab>
+                         </ns0:div>                        
+                         <ns0:div type="textpart" subtype="section" n="B">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, quarto quadrato, san Giovanni Evangelista</ns0:title>
+                        <ns0:lb n="1" />in principio∙erat∙verbum
+                         </ns0:ab>
+                         </ns0:div>                        
+                        <ns0:div type="textpart" subtype="section" n="C">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Primo registro, quinto quadrato, Presentazione al Tempio</ns0:title>
+                        <ns0:lb n="1" />QUANO∙XP ̅O∙F
+                        <ns0:lb n="2" />O PRESENTAT
+                        <ns0:lb n="3" />O ALOTENPLO    
+                         </ns0:ab>
+                         </ns0:div>
+                            <ns0:div type="textpart" subtype="section" n="D">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, primo quadrato, Tentazioni del deserto</ns0:title>
+                        <ns0:lb n="1" />VADE RETRO SATAN
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="E">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, quarto quadrato, Matteo</ns0:title>
+                        <ns0:lb n="1" />liber∙generazioni∙j∙x
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="F">
+                        <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, quadrato centrale, Redentore</ns0:title>
+                        <ns0:lb n="1" />EGO
+                        <ns0:lb n="2" />SUM
+                        <ns0:lb n="3" />LUX    
+                        <ns0:lb n="4" />MUN
+                        <ns0:lb n="5" />DI VIA 
+                        <ns0:lb n="6" />VERIT
+                        <ns0:lb n="7" />AS ET
+                        <ns0:lb n="8" />VITA
+                        </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="G">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Secondo registro, settimo quadrato, Orazione nell’orto</ns0:title>
+                        <ns0:lb n="1" />PATER SI FIERI P∙T∙A∙M∙C∙I
+                         </ns0:ab>
+                         </ns0:div>
+                        <ns0:div type="textpart" subtype="section" n="H">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Terzo registro, secondo quadrato, Flagellazione</ns0:title>
+                        <ns0:lb n="1" />QVANDO∙XP ̅O∙FO BACTVTO∙ALACOLONDA
+                         </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="I">
+                          <ns0:ab>
+                        <ns0:lb n="0" /><ns0:title>Terzo registro, quinto quadrato, Sant’Ambrogio</ns0:title>
+                        <ns0:lb n="1" />cui∙opa∙qs∙q ̅∙facit∙[...]
+                         </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="L">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Terzo registro, sesto quadrato, Cristo deriso</ns0:title>
+                        <ns0:lb n="1" />profitia∙q.te∙p
+                         </ns0:ab>
+                         </ns0:div>
+                       <ns0:div type="textpart" subtype="section" n="M">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, primo quadrato, Deposizione di Cristo</ns0:title>
+                        <ns0:lb n="1" />OPVS*NICOLAI*DE**GVARDIA*GR
+                         <ns0:lb n="2" />ELIS*ANNO*DOMINI*M*CCCCXXXX
+                          <ns0:lb n="3" />VIII*VNDECIME*INDETIONIS*M*I
+                                      </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="N">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, quarto quadrato, San Marco</ns0:title>
+                        <ns0:lb n="1" />Fuit Ioh(ann)es in deserto
+                          </ns0:ab>
+                         </ns0:div>
+                         <ns0:div type="textpart" subtype="section" n="O">
+                          <ns0:ab>
+                         <ns0:lb n="0" /><ns0:title>Quarto registro, sesto quadrato, San Girolamo</ns0:title>
+                        <ns0:lb n="1" />Ego sum tra(n)salator heb[...]
+                          </ns0:ab>
+                         </ns0:div>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p>C, 3 templo CASINI 1907</ns0:p>
+                         <ns0:p>O, 1 translator CASINI 1907; tr(n)salator MATTIOCCO 2008</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p>Si notino gli ipercorrettismi in 'bactuto' e 'colonda; il perfetto forte 'fo' comunissimo in area mediana (v. Indici),  </ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p>Mastro Nicola da Guardiagrele (XIV ex. - 1461) fu il più importante orafo ed argentiere abruzzese del suo tempo. Il suo celebre paliotto, di forma 
                             rettangolare, realizzato per ll’altare maggiore della Cattedrale di Teramo, è formato da trentacinque lamine d’argento fissate su un supporto in 
                             legno che formano quattro file orizzontali, la superiore e la inferiore formate da nove riquadri e le due intermedie da otto. Al centro una formella 
                             più grande ospita la figura di Cristo Redentore. Gli Evangelisti e i Dottori della Chiesa occupano le formelle intorno al Cristo mentre gli altri 
@@ -267,13 +265,13 @@
                             d’inizio dell’opera, 1433, è riportata sulla prima formella, quella dell’Annunciazione, la data finale di esecuzione, 1448, insieme alla firma 
                             dell’artista compaiono sulla formella del Sepolcro, la prima in basso a sinistra. Il paliotto, restaurato nel 1734, era stato spostato in 
                             quell’occasione nella sacrestia della Cattedrale dove rimase fino agli anni Sessanta del Novecento, quando venne nuovamente collocato di nuovo 
-                            riposizionato sull’altare maggiore (CASINI 1907, p. 635; ADORANTE 2000, p. 58, MATTIOCCO 2008, p. 323), dove si trova a tutt’oggi.</p>
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">PANNELLA 1890, pp. 44-47; PANNELLA 1910; CASINI 1907, pp. 635-636, n. 40 MATTIOCCO 2008, p. 323.</p>
-                        <p xml:id="other">ADORANTE 2000, pp. 54-63, GUIDO 2008, pp. 10-11; GUIDO-MANTELLA 2008, pp. 223-248.</p>
-                        <p xml:id="images">ADORANTE 2000, pp. 54-55; GUIDO 2008, fig. 11; GUIDO-MANTELLA 2008, fig. 10; MATTIOCCO 2008, pp. 312-313, 317, 318, 325-367.</p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+                            riposizionato sull’altare maggiore (CASINI 1907, p. 635; ADORANTE 2000, p. 58, MATTIOCCO 2008, p. 323), dove si trova a tutt’oggi.</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="bibliography">
+                        <ns0:p xml:id="editions">PANNELLA 1890, pp. 44-47; PANNELLA 1910; CASINI 1907, pp. 635-636, n. 40 MATTIOCCO 2008, p. 323.</ns0:p>
+                        <ns0:p xml:id="other">ADORANTE 2000, pp. 54-63, GUIDO 2008, pp. 10-11; GUIDO-MANTELLA 2008, pp. 223-248.</ns0:p>
+                        <ns0:p xml:id="images">ADORANTE 2000, pp. 54-55; GUIDO 2008, fig. 11; GUIDO-MANTELLA 2008, fig. 10; MATTIOCCO 2008, pp. 312-313, 317, 318, 325-367.</ns0:p>
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>

@@ -1,106 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Iscrizione in versi</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">11.11</idno>
-                        <date when="2020-03-06"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Carpineto Romano</placeName>
-                                <district ref="#RM">RM</district>
-                                <repository>Via san Giacomo 33</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#admonition">Monito</term>
-                                </summary>
-                                <textLang mainLang="xmed">Volgare mediano</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width>56</width><height>21</height></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#maiuscule_gothic">Gotica maiuscola</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
-                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>Chi più à più lassa
-                            <lb n="2"/>Con più deluri pa[ssa]
-                            <lb n="3"/>&lt;L&gt;assa ch(e)llo ch(e) no(n) po’ por&lt;ta’&gt;
-                            <lb n="4"/>&lt;P&gt;orta ch(e)llo ch(e) non po’ las&lt;sa’&gt;.
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>ChI ∙ PIV ∙ A . PIV ∙ LASSA
-                            <lb n="2"/>CONPIV ∙ DE ∙ LVRI ∙ PA[…]
-                            <lb n="3"/>[.]ASSA ∙ Ch ̅LLO ∙ Ch ̅ ∙ NŌ ∙ POPOR[..]
-                            <lb n="4"/>[.]ORTA ∙ Ch ̅LLO . Ch ̅ . NŌ ∙ POLAS[..]
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p><app loc="2"><note>doluri MAROCCO 1833-1834</note></app></p>
-                        <p><app loc="3-4"><note>chillo MAROCCO 1833-1834</note></app></p>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p> &lt;ss&gt; dovrebbe rendere /ss/; tuttavia talvolta, anche in Italia mediana, esso rende la sibilante palatale sorda /ʃ/ (FORMENTIN 2009, p. 100).</p>
-                        <p>'deluri' forma dissimilata e metafonetica da DOLŌRE(M).
-                        </p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p>L’iscrizione, databile su base paleografica, è collocata su una lastra rettangolare di pietra locale posta sopra la porta di ingresso al numero civico 33 di via San Giacomo a Carpineto Romano.</p>
-                        <p>Il testo, composto da un senario, un settenario e due decasillabi tronchi, è un tetrastico in rima baciata, vicino al genere della laude e ai contesti letterari o figurativi che richiamano il tema del Trionfo della Morte.</p>
-                        <!-- <ce n'è un'altra con lo stesso testo ma dove???>-->
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">MAROCCO 1833-1834, vol. V, p. 42; ABBATE 1894, p. 469; MARTINORI 1923, I, p. 125; CAMPAGNA 1978, pp. 59-61; D’ACHILLE-GIOVANARDI 1984, n. 339, p. 122; SABATINI 1996c, pp. 589-590.</p>
-                        <p xml:id="other">D’ACHILLE 1986, p. 32.</p>
-                        <p xml:id="images">SABATINI 1996c, tav XII, foto 2.</p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title>Iscrizione in versi</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                         <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">11.11</ns0:idno>
+                        <ns0:date when="2020-03-06" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Carpineto Romano</ns0:placeName>
+                                <ns0:district ref="#RM">RM</ns0:district>
+                                <ns0:repository>Via san Giacomo 33</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
+                                    <ns0:term type="textType" ref="#admonition">Monito</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xmed">Volgare mediano</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#stone">Pietra</ns0:material>
+                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
+                                            <ns0:dimensions><ns0:width>56</ns0:width><ns0:height>21</ns0:height></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#maiuscule_gothic">Gotica maiuscola</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
+                                    <ns0:origDate notBefore="1400" notAfter="1449" precision="low">XV in.</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="11.11.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:ab>
+                            <ns0:lb n="1" />Chi più à più lassa
+                            <ns0:lb n="2" />Con più deluri pa[ssa]
+                            <ns0:lb n="3" />&lt;L&gt;assa ch(e)llo ch(e) no(n) po’ por&lt;ta’&gt;
+                            <ns0:lb n="4" />&lt;P&gt;orta ch(e)llo ch(e) non po’ las&lt;sa’&gt;.
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:ab>
+                            <ns0:lb n="1" />ChI ∙ PIV ∙ A . PIV ∙ LASSA
+                            <ns0:lb n="2" />CONPIV ∙ DE ∙ LVRI ∙ PA[…]
+                            <ns0:lb n="3" />[.]ASSA ∙ Ch ̅LLO ∙ Ch ̅ ∙ NŌ ∙ POPOR[..]
+                            <ns0:lb n="4" />[.]ORTA ∙ Ch ̅LLO . Ch ̅ . NŌ ∙ POLAS[..]
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p><ns0:app loc="2"><ns0:note>doluri MAROCCO 1833-1834</ns0:note></ns0:app></ns0:p>
+                        <ns0:p><ns0:app loc="3-4"><ns0:note>chillo MAROCCO 1833-1834</ns0:note></ns0:app></ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p> &lt;ss&gt; dovrebbe rendere /ss/; tuttavia talvolta, anche in Italia mediana, esso rende la sibilante palatale sorda /ʃ/ (FORMENTIN 2009, p. 100).</ns0:p>
+                        <ns0:p>'deluri' forma dissimilata e metafonetica da DOLŌRE(M).
+                        </ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p>L’iscrizione, databile su base paleografica, è collocata su una lastra rettangolare di pietra locale posta sopra la porta di ingresso al numero civico 33 di via San Giacomo a Carpineto Romano.</ns0:p>
+                        <ns0:p>Il testo, composto da un senario, un settenario e due decasillabi tronchi, è un tetrastico in rima baciata, vicino al genere della laude e ai contesti letterari o figurativi che richiamano il tema del Trionfo della Morte.</ns0:p>
+                        
+                    </ns0:div>
+                    <ns0:div type="bibliography">
+                        <ns0:p xml:id="editions">MAROCCO 1833-1834, vol. V, p. 42; ABBATE 1894, p. 469; MARTINORI 1923, I, p. 125; CAMPAGNA 1978, pp. 59-61; D’ACHILLE-GIOVANARDI 1984, n. 339, p. 122; SABATINI 1996c, pp. 589-590.</ns0:p>
+                        <ns0:p xml:id="other">D’ACHILLE 1986, p. 32.</ns0:p>
+                        <ns0:p xml:id="images">SABATINI 1996c, tav XII, foto 2.</ns0:p>
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>

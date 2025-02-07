@@ -1,86 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Cecho</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">12.14</idno>
-                        <date when="2020-04-15"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Roma</placeName>
-                                <district ref="#RM">RM</district>
-                                <repository>Basilica di santa Cecilia in Trastevere</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
-                                </summary>
-                                <textLang mainLang="xrom">Volgare romanesco</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width>25</width><depth/><height>31,5</height></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#capital">Capitale</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate notBefore="1350" notAfter="1450" precision="low">XIV-XV</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>Ce<seg type="grapheme" corresp="/k/">ch</seg>o
-                             <lb n="2"/>co
-                                 </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p>1-2 Cecho /[   ]co GRABMÄLER 1981</p>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>Se il testo fosse frammentario dovremmo trascrivere Cecho / […] co; non si può tuttavia escludere che il testo possa essere integro: in tal caso 
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <ns0:teiHeader>
+                <ns0:fileDesc>
+                    <ns0:titleStmt>
+                        <ns0:title>Cecho</ns0:title>
+                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="edition"><ns0:persName>D’ACHILLE 1987</ns0:persName></ns0:editor>
+                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
+                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
+                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
+                    </ns0:titleStmt>
+                    <ns0:publicationStmt>
+                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
+                        <ns0:idno type="filename">12.14</ns0:idno>
+                        <ns0:date when="2020-04-15" />
+                        <ns0:availability>
+                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
+                        </ns0:availability>
+                    </ns0:publicationStmt>
+                    <ns0:sourceDesc>
+                        <ns0:msDesc>
+                            <ns0:msIdentifier>
+                                <ns0:placeName>Roma</ns0:placeName>
+                                <ns0:district ref="#RM">RM</ns0:district>
+                                <ns0:repository>Basilica di santa Cecilia in Trastevere</ns0:repository>
+                                <ns0:idno type="invNo" />
+                            </ns0:msIdentifier>
+                            <ns0:msContents>
+                                <ns0:summary>
+                                    <ns0:term type="textFunction" ref="#AP">Avviso pubblico</ns0:term>
+                                    <ns0:term type="textType" ref="#funerary">Iscrizione funeraria</ns0:term>
+                                </ns0:summary>
+                                <ns0:textLang mainLang="xrom">Volgare romanesco</ns0:textLang>
+                            </ns0:msContents>
+                            <ns0:physDesc>
+                                <ns0:objectDesc>
+                                    <ns0:supportDesc>
+                                        <ns0:support>    
+                                            <ns0:material ref="#stone">Pietra</ns0:material>
+                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
+                                            <ns0:dimensions><ns0:width>25</ns0:width><ns0:depth /><ns0:height>31,5</ns0:height></ns0:dimensions>
+                                        </ns0:support>
+                                    </ns0:supportDesc>
+                                </ns0:objectDesc>
+                                <ns0:handDesc>
+                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
+                                </ns0:handDesc>
+                            </ns0:physDesc>
+                            <ns0:history>
+                                <ns0:origin>
+                                    <ns0:origPlace><ns0:region ref="#roma">Roma</ns0:region></ns0:origPlace>
+                                    <ns0:origDate notBefore="1350" notAfter="1450" precision="low">XIV-XV</ns0:origDate>
+                                </ns0:origin>
+                                <ns0:provenance type="observed" />
+                            </ns0:history>
+                        </ns0:msDesc>
+                    </ns0:sourceDesc>
+                </ns0:fileDesc>
+            </ns0:teiHeader>
+            <ns0:facsimile>
+                <ns0:graphic url="12.14.jpg">
+                    <ns0:desc />
+                </ns0:graphic>
+            </ns0:facsimile>
+            <ns0:text>
+                <ns0:body>
+                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ns0:ab><ns0:lb n="1" />Ce<ns0:seg type="grapheme" corresp="/k/">ch</ns0:seg>o
+                             <ns0:lb n="2" />co
+                                 </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ns0:ab>
+                        </ns0:ab>
+                    </ns0:div>
+                    <ns0:div type="apparatus">
+                        <ns0:p>1-2 Cecho /[   ]co GRABMÄLER 1981</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="linguistic_analysis">
+                        <ns0:p>Se il testo fosse frammentario dovremmo trascrivere Cecho / […] co; non si può tuttavia escludere che il testo possa essere integro: in tal caso 
                             sarebbe necessario supporre un errore grafico e, anziché Cechoco, leggere Cecholo, diminutivo di Cecco, ipocoristico ben attestato nei documenti 
                             romaneschi medievali, qui con scempiamento grafico di &lt;c&gt;, e /k/ resa con &lt;ch&gt; (D’ACHILLE 1987, p. 81; CASTELLANI 1952, I, pp. 17-18. Per gli 
                                 scempiamenti grafici e fonetici nel romanesco antico v. anche ERNST 1970, pp. 108-109 e MACCIOCCA 1982, pp. 55, 91-92). Per l’ipocoristico 
@@ -88,21 +86,21 @@
                                 (D’ACHILLE 1987, p. 80, FORCELLA 1869-1884, XIII, p. 339, num. 787, GRABMÄLER 1981, pp. 92-93, num. XIX). Un esempio di iscrizione 
                                 limitata al solo diminutivo del defunto è Nannolo, inciso su di una lapide del tardo XIV sec. un tempo conservata presso la Chiesa di 
                                 Santa Maria Nova a Roma (D’ACHILLE 1987, p. 81, GRABMÄLER 1981, p. 194, num. XXXVI, Galletti 1970, III, CCCCXXIII, num. 85, 
-                                D’ACHILLE-GIOVANARDI 1984, num. 35).</p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p>Paolo D’Achille ci ha gentilmente confermato di avere potuto vedere e studiare nel 1983 l'iscrizione, allora collocata sulla parete del terzo ambiente della 
-                            <title>domus</title>, nei sotterranei della Basilica. Oggi, purtroppo,  l'iscrizione risulta irreperibile. Per tale ragione la presente trascrizione segue 
-                            l’edizione D’ACHILLE 1987. </p>
-                        <p>La datazione al XIV secolo proposta da Vincenzo Forcella viene posticipata dal GRABMÄLER al XV secolo su base paleografica (D’ACHILLE 1987, p. 81; 
-                            FORCELLA 1869-1884, II, p. 21 num. 68; GRABMÄLER 1981, p. 65, num. VII, 8 e D’ACHILLE-GIOVANARDI 1984, num. 34). </p>
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">FORCELLA 1869-1884, II, p. 21 n. 68; GRABMÄLER 1981, p. 65, n. VII, 8; D’ACHILLE-GIOVANARDI 1984, n. 34; 
-                            D’ACHILLE 1987, p. 81, n. 6.</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images"/>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+                                D’ACHILLE-GIOVANARDI 1984, num. 35).</ns0:p>
+                    </ns0:div>
+                    <ns0:div type="commentary" subtype="note">
+                        <ns0:p>Paolo D’Achille ci ha gentilmente confermato di avere potuto vedere e studiare nel 1983 l'iscrizione, allora collocata sulla parete del terzo ambiente della 
+                            <ns0:title>domus</ns0:title>, nei sotterranei della Basilica. Oggi, purtroppo,  l'iscrizione risulta irreperibile. Per tale ragione la presente trascrizione segue 
+                            l’edizione D’ACHILLE 1987. </ns0:p>
+                        <ns0:p>La datazione al XIV secolo proposta da Vincenzo Forcella viene posticipata dal GRABMÄLER al XV secolo su base paleografica (D’ACHILLE 1987, p. 81; 
+                            FORCELLA 1869-1884, II, p. 21 num. 68; GRABMÄLER 1981, p. 65, num. VII, 8 e D’ACHILLE-GIOVANARDI 1984, num. 34). </ns0:p>
+                    </ns0:div>
+                    <ns0:div type="bibliography">
+                        <ns0:p xml:id="editions">FORCELLA 1869-1884, II, p. 21 n. 68; GRABMÄLER 1981, p. 65, n. VII, 8; D’ACHILLE-GIOVANARDI 1984, n. 34; 
+                            D’ACHILLE 1987, p. 81, n. 6.</ns0:p>
+                        <ns0:p xml:id="other" />
+                        <ns0:p xml:id="images" />
+                    </ns0:div>
+                </ns0:body>
+            </ns0:text>
+        </ns0:TEI>
