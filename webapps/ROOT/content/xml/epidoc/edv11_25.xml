@@ -1,115 +1,117 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>San Sebastiano</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">11.25</ns0:idno>
-                        <ns0:date when="2020-03-08" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Trevi nel Lazio</ns0:placeName>
-                                <ns0:district ref="#FR">FR</ns0:district>
-                                <ns0:repository>Cappella di san Sebastiano</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#AP">Avviso pubblico</ns0:term>
-                                    <ns0:term type="textType" ref="#patronage">Committenza</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed">Volgare mediano</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#plaster">Intonaco</ns0:material>
-                                            <ns0:objectType ref="#fresco">Affresco</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1486">XV ex.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="11.25.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />Questa cappella <ns0:phr type="syntagm" subtype="synt_lat">à facta penge
-                            <ns0:lb n="2" />re</ns0:phr> et fabricare dalle fundam
-                            <ns0:lb n="3" />enta l<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> populo colli Fraternali
-                            <ns0:lb n="4" />de <ns0:placeName>Treve</ns0:placeName> ad laude et reverentia
-                            <ns0:lb n="5" />dello onipotente Dio e dalla
-                            <ns0:lb n="6" />sua matre Vergene Maria et de
-                            <ns0:lb n="7" />Sancto Sebastiano Martiro g
-                            <ns0:lb n="8" />lorioso che li à scampati de morbo
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />QVESTA CAPPELLA AFACTA PENGE
-                            <ns0:lb n="2" />RE ET FABRICARE DALLE FVNDAM
-                            <ns0:lb n="3" />ENTA LVPOPVLO COLLI FRATERNALI
-                            <ns0:lb n="4" />DE TREVE AD LAVDE ET REVERENTIA
-                            <ns0:lb n="5" />DELLO ONIPOTENTE DIO ET DALLA
-                            <ns0:lb n="6" />SVA MATRE VERGENE MARIA ET DE
-                            <ns0:lb n="7" />SANCTO SEBASTIANO MARTIRO G
-                            <ns0:lb n="8" />LORIOSO CHE LI ASCAMPATI DE MORBO
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p>A proposito dell'alternanza fra -o e -u Vignuzzi sottolinea la generale confusione rispetto all’alternanza delle forme lo/lu nel <ns0:title>Glossario Latino-sabino</ns0:title>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>San Sebastiano</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.25</idno>
+                        <date when="2020-03-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Trevi nel Lazio</placeName>
+                                <district ref="#FR">FR</district>
+                                <repository>Cappella di san Sebastiano</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1486">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>Questa cappella <phr type="syntagm" subtype="synt_lat">à facta penge
+                            <lb n="2"/>re</phr> et fabricare dalle fundam
+                            <lb n="3"/>enta l<m type="desinence" subtype="ms_sing">u</m> populo colli Fraternali
+                            <lb n="4"/>de <placeName>Treve</placeName> ad laude et reverentia
+                            <lb n="5"/>dello onipotente Dio e dalla
+                            <lb n="6"/>sua matre Vergene Maria et de
+                            <lb n="7"/>Sancto Sebastiano Martiro g
+                            <lb n="8"/>lorioso che li à scampati de morbo
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>QVESTA CAPPELLA AFACTA PENGE
+                            <lb n="2"/>RE ET FABRICARE DALLE FVNDAM
+                            <lb n="3"/>ENTA LVPOPVLO COLLI FRATERNALI
+                            <lb n="4"/>DE TREVE AD LAVDE ET REVERENTIA
+                            <lb n="5"/>DELLO ONIPOTENTE DIO ET DALLA
+                            <lb n="6"/>SVA MATRE VERGENE MARIA ET DE
+                            <lb n="7"/>SANCTO SEBASTIANO MARTIRO G
+                            <lb n="8"/>LORIOSO CHE LI ASCAMPATI DE MORBO
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>A proposito dell'alternanza fra -o e -u Vignuzzi sottolinea la generale confusione rispetto all’alternanza delle forme lo/lu nel <title>Glossario Latino-sabino</title>
                             di Ser Iacopo Ursello da Roccantica, cfr. 'lo fornaro overo lu panactero' L68, 
-                            'lo capello' L117 ma 'lo capellecto' L107, 'lu topo' L129 ma 'lo topu' L283, 'lo capo' F501 ma 'lu capo' F562, VIGNUZZI 1984, pp. 45-46.</ns0:p>
-                        <ns0:p>'a fatta pengere' rr. 1-2: per la ripresa della tradizionale formula epigrafica latina 'hoc opus fecit fieri / pinxit' 
-                            cfr anche <ns0:ref target="edv11_02">11.02</ns0:ref>, <ns0:ref target="edv11_15">11.15</ns0:ref>, <ns0:ref target="edv11_20">11.20</ns0:ref>, <ns0:ref target="edv11_23">11.23</ns0:ref>,
-                         <ns0:ref target="edv11_25">11.25</ns0:ref>.</ns0:p>
-                        <ns0:p>'li à scampati' r. 8, Per l’uso transitivo del verbo v. almeno Giovanni Boccaccio: 'scampati ci ha dai perigli eminenti' 
-                            <ns0:title>Rime</ns0:title>, I, 110, v. 6 (BRANCA 1958, p. 131) e il <ns0:title>Fiorio e Biancifiore</ns0:title> 'e la vertù dell’anello gli ha scampati' st. 119, 
-                            v. 3 (DE ROBERTIS 1970, p. 108).</ns0:p>
-                        </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">CARAFFA 1972, I, p. 182; D’ACHILLE-GIOVANARDI 1984, n. 254, pp. 101.</ns0:p>
-                        <ns0:p xml:id="other">SABATINI 1996c, p. 618, nota 11.</ns0:p>
-                        <ns0:p xml:id="images">D’ACHILLE-GIOVANARDI 1984, tav. 14.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+                            'lo capello' L117 ma 'lo capellecto' L107, 'lu topo' L129 ma 'lo topu' L283, 'lo capo' F501 ma 'lu capo' F562, VIGNUZZI 1984, pp. 45-46.</p>
+                        <p>&apos;a fatta pengere&apos; rr. 1-2: per la ripresa della tradizionale formula epigrafica latina &apos;hoc opus fecit fieri / pinxit&apos; 
+                            cfr anche <ref target="edv11_02">11.02</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_20">11.20</ref>, <ref target="edv11_23">11.23</ref>,
+                         <ref target="edv11_25">11.25</ref>.</p>
+                        <p>&apos;li à scampati&apos; r. 8, Per l’uso transitivo del verbo v. almeno Giovanni Boccaccio: &apos;scampati ci ha dai perigli eminenti&apos; 
+                            <title>Rime</title>, I, 110, v. 6 (BRANCA 1958, p. 131) e il <title>Fiorio e Biancifiore</title> &apos;e la vertù dell’anello gli ha scampati&apos; st. 119, 
+                            v. 3 (DE ROBERTIS 1970, p. 108).</p>
+                        </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">CARAFFA 1972, I, p. 182; D’ACHILLE-GIOVANARDI 1984, n. 254, pp. 101.</p>
+                        <p xml:id="other">SABATINI 1996c, p. 618, nota 11.</p>
+                        <p xml:id="images">D’ACHILLE-GIOVANARDI 1984, tav. 14.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,96 +1,98 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Reliquiario (già Ostensorio)</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">13.04</ns0:idno>
-                        <ns0:date when="2020-04-13" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>L’Aquila</ns0:placeName>
-                                <ns0:district ref="#AQ">AQ</ns0:district>
-                                <ns0:repository>Museo Nazionale d’Abruzzo</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#signature">Firma</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xvolg">Volgare</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#metal">Metallo</ns0:material>
-                                            <ns0:objectType ref="#artifact">Artefatto</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#abruzzo">Abruzzo</ns0:region></ns0:origPlace>
-                                    <ns0:origDate notBefore="1375" notAfter="1499">XIV ex.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="13.04.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />+ <ns0:persName>Fran<ns0:seg type="grapheme" corresp="/tʃe/">cie</ns0:seg>sco e Bartalo Minucci di Siena</ns0:persName> mi fecero
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />+FRANCI//ESCO:EB//ARTALOM//INUCCI:DI//SIENA:MI//FECERO
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p>Il digramma &lt;ci&gt; davanti a vocale palatale /e/ per /ʧ/, è un un uso grafico attestato anche nei testi toscani. V., in EDV, 08.72, 08.103, 08.111. </ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p>Conservato presso il Museo Nazionale d’Abruzzo (inv. 666), è probabile che il manufatto in rame dorato fosse in origine un ostensorio, 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Reliquiario (già Ostensorio)</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">13.04</idno>
+                        <date when="2020-04-13"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>L’Aquila</placeName>
+                                <district ref="#AQ">AQ</district>
+                                <repository>Museo Nazionale d’Abruzzo</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#signature">Firma</term>
+                                </summary>
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#metal">Metallo</material>
+                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
+                                    <origDate notBefore="1375" notAfter="1499">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ <persName>Fran<seg type="grapheme" corresp="/tʃe/">cie</seg>sco e Bartalo Minucci di Siena</persName> mi fecero
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+FRANCI//ESCO:EB//ARTALOM//INUCCI:DI//SIENA:MI//FECERO
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il digramma &lt;ci&gt; davanti a vocale palatale /e/ per /ʧ/, è un un uso grafico attestato anche nei testi toscani. V., in EDV, 08.72, 08.103, 08.111. </p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Conservato presso il Museo Nazionale d’Abruzzo (inv. 666), è probabile che il manufatto in rame dorato fosse in origine un ostensorio, 
                             utilizzato in un secondo momento come reliquiario. Appartiene alla tipologia con teca architettonica su piede slanciato, tipica dei primi vasi sacri utilizzati nel 
-                            corso del Trecento per tale funzione. Il piede esagonale è unito al fusto da un rocchetto lungo il quale corre la firma degli artisti (DONATO 2014).</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">PICCIRILLI 1916, pp. 142-143; GABBRIELLI 1934, p. 9; DONATO 2014, scheda n. 25.S.1.</ns0:p>
-                        <ns0:p xml:id="other" />
-                        <ns0:p xml:id="images">DONATO 2014, scheda n. 25.S.1.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+                            corso del Trecento per tale funzione. Il piede esagonale è unito al fusto da un rocchetto lungo il quale corre la firma degli artisti (DONATO 2014).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">PICCIRILLI 1916, pp. 142-143; GABBRIELLI 1934, p. 9; DONATO 2014, scheda n. 25.S.1.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">DONATO 2014, scheda n. 25.S.1.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

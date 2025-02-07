@@ -1,136 +1,138 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Crocifisso fra i santi Giuliana e Antonio da Padova</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">11.26</ns0:idno>
-                        <ns0:date when="2020-03-23" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Rieti</ns0:placeName>
-                                <ns0:district ref="#RI">RI</ns0:district>
-                                <ns0:repository>Museo Diocesano</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#narrative">Narrativa</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</ns0:textLang>
-                                 </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#plaster">Intonaco</ns0:material>
-                                            <ns0:objectType ref="#fresco">Affresco</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#unknown">?</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1489">XV ex.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="11.26.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve" />
-                     <ns0:div type="textpart" subtype="section" n="A">
-                                            <ns0:ab>                            
-                            <ns0:lb n="1" />Quan(n)o sancta <ns0:seg type="phoneme" subtype="j_initial">I</ns0:seg>uliana co(m)matteio coll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> diavol<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> et
-                            <ns0:lb n="2" />sì·ll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> ven<ns0:seg type="grapheme" corresp="/ts/">ç</ns0:seg>e che ll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> legone colla oratione.
-                            <ns0:lb n="3" />Questa <ns0:m type="essere" subtype="pres3ps">ene</ns0:m> la cappella <ns0:m type="possessivo" subtype="3ps_fm">sova</ns0:m>.						
-                                            </ns0:ab></ns0:div>
-                         <ns0:div type="textpart" subtype="section" n="B">
-                         <ns0:ab>
-                            <ns0:lb n="1" />Quan(n)o sanct<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> Antoni<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> de Paduva liberone
-                            <ns0:lb n="2" />una donna che aveva la can(n)a grossa
-                            <ns0:lb n="3" />che <ns0:w>mo</ns0:w> è sana per gratia de Dio.						
-                             </ns0:ab>
-                         </ns0:div>
-                             <ns0:div type="textpart" subtype="section" n="C">
-                                 <ns0:ab>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Crocifisso fra i santi Giuliana e Antonio da Padova</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.26</idno>
+                        <date when="2020-03-23"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Rieti</placeName>
+                                <district ref="#RI">RI</district>
+                                <repository>Museo Diocesano</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                                 </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1489">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve"></div>
+                     <div type="textpart" subtype="section" n="A">
+                                            <ab>                            
+                            <lb n="1"/>Quan(n)o sancta <seg type="phoneme" subtype="j_initial">I</seg>uliana co(m)matteio coll<m type="desinence" subtype="ms_sing">u</m> diavol<m type="desinence" subtype="ms_sing">u</m> et
+                            <lb n="2"/>sì·ll<m type="desinence" subtype="ms_sing">u</m> ven<seg type="grapheme" corresp="/ts/">ç</seg>e che ll<m type="desinence" subtype="ms_sing">u</m> legone colla oratione.
+                            <lb n="3"/>Questa <m type="essere" subtype="pres3ps">ene</m> la cappella <m type="possessivo" subtype="3ps_fm">sova</m>.						
+                                            </ab></div>
+                         <div type="textpart" subtype="section" n="B">
+                         <ab>
+                            <lb n="1"/>Quan(n)o sanct<m type="desinence" subtype="ms_sing">u</m> Antoni<m type="desinence" subtype="ms_sing">u</m> de Paduva liberone
+                            <lb n="2"/>una donna che aveva la can(n)a grossa
+                            <lb n="3"/>che <w>mo</w> è sana per gratia de Dio.						
+                             </ab>
+                         </div>
+                             <div type="textpart" subtype="section" n="C">
+                                 <ab>
                             Hoc opus fecit fi&lt;e&gt;ri Amicus de Stabilibus cano(ni)c(u)s Reatino(rum) huius cappelle cappellan(us) p(er) sua devotione et p(ro) a(n)i(m)a sua et suo(rum) defunto(rum) ac et(iam) benefacto(rum) p(re)dice cappelle sub an[no] D(omi)ni 1489 die 6 iulii
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:div type="textpart" subtype="section" n="A">
-                                            <ns0:ab>                            
-                            <ns0:lb n="1" />Quan(n)o sancta Iuliana co(m)matteio coll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> diavol<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> et
-                            <ns0:lb n="2" />sì·ll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> ven<ns0:seg type="grapheme" corresp="/ts/">ç</ns0:seg>e che ll<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> legone colla oratione.
-                            <ns0:lb n="3" />Questa <ns0:m type="essere" subtype="pres3ps">ene</ns0:m> la cappella <ns0:m type="possessivo" subtype="3ps_fm">sova</ns0:m>.						
-                                            </ns0:ab></ns0:div>
-                         <ns0:div type="textpart" subtype="section" n="B">
-                         <ns0:ab>
-                            <ns0:lb n="1" />Quan(n)o sanct<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> Antoni<ns0:m type="desinence" subtype="ms_sing">u</ns0:m> de Paduva liberone
-                            <ns0:lb n="2" />una donna che aveva la can(n)a grossa
-                            <ns0:lb n="3" />che <ns0:w>mo</ns0:w> è sana per gratia de Dio.						
-                             </ns0:ab>
-                         </ns0:div>
-                             <ns0:div type="textpart" subtype="section" n="C">
-                                 <ns0:ab>
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="A">
+                                            <ab>                            
+                            <lb n="1"/>Quan(n)o sancta Iuliana co(m)matteio coll<m type="desinence" subtype="ms_sing">u</m> diavol<m type="desinence" subtype="ms_sing">u</m> et
+                            <lb n="2"/>sì·ll<m type="desinence" subtype="ms_sing">u</m> ven<seg type="grapheme" corresp="/ts/">ç</seg>e che ll<m type="desinence" subtype="ms_sing">u</m> legone colla oratione.
+                            <lb n="3"/>Questa <m type="essere" subtype="pres3ps">ene</m> la cappella <m type="possessivo" subtype="3ps_fm">sova</m>.						
+                                            </ab></div>
+                         <div type="textpart" subtype="section" n="B">
+                         <ab>
+                            <lb n="1"/>Quan(n)o sanct<m type="desinence" subtype="ms_sing">u</m> Antoni<m type="desinence" subtype="ms_sing">u</m> de Paduva liberone
+                            <lb n="2"/>una donna che aveva la can(n)a grossa
+                            <lb n="3"/>che <w>mo</w> è sana per gratia de Dio.						
+                             </ab>
+                         </div>
+                             <div type="textpart" subtype="section" n="C">
+                                 <ab>
                             Hoc opus fecit fi&lt;e&gt;ri Amicus de Stabilibus cano(ni)c(u)s Reatino(rum) huius cappelle cappellan(us) p(er) sua devotione et p(ro) a(n)i(m)a sua et suo(rum) defunto(rum) ac et(iam) benefacto(rum) p(re)dice cappelle sub an[no] D(omi)ni 1489 die 6 iulii
-                        </ns0:ab>
-                    </ns0:div>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                       <ns0:p><ns0:title>Grafia e fonologia</ns0:title></ns0:p>
-                        <ns0:p>'Quanno' 1, 2, 'commatteio' entrambi con assimilazione progressiva del nesso consonantico. cfr. <ns0:ref target="edv11_30">11.30</ns0:ref></ns0:p>
-                        <ns0:p>'Iuliana' 1, r. 1: conservazione di /j/ in posizione iniziale, comune per l'area (cfr., sempre in EDV, V., <ns0:ref target="edv11_02">11.02</ns0:ref>, 
-                            <ns0:ref target="edv11_04">11.04</ns0:ref>, <ns0:ref target="edv11_15">11.15</ns0:ref>, <ns0:ref target="edv11_17">11.17</ns0:ref>, <ns0:ref target="edv11_19">11.19</ns0:ref>,
-                            <ns0:ref target="edv12_09">12.09</ns0:ref>, <ns0:ref target="edv12_10">12.10</ns0:ref>, <ns0:ref target="edv12_12">12.12</ns0:ref>, 
-                            <ns0:ref target="edv12_17">12.17</ns0:ref>), <ns0:ref target="edv12_24">12.24</ns0:ref>.</ns0:p>
-                        <ns0:p>Conservazione di -u finale (collu, diavolu sì·llu, lu, sanctu Antoniu). cfr. anche <ns0:ref target="edv11_04">11.04</ns0:ref>, <ns0:ref target="edv11_05">11.05</ns0:ref>
-                        <ns0:ref target="edv11_17">11.17</ns0:ref>, <ns0:ref target="edv11_20">11.20</ns0:ref>, <ns0:ref target="edv11_23">11.23</ns0:ref>, <ns0:ref target="edv11_25">11.25</ns0:ref></ns0:p> 
-                        <ns0:p>'vençe', cfr. anche <ns0:ref target="edv12_08">12.08</ns0:ref>, ma il fonema è reso con grafia latina &lt;ti&gt; in 'oratione' e 'gratia'.</ns0:p>
-                        <ns0:p>Sova 'sua' con epentesi di /v/; 'legone', 'ene', 'liberone' con epitesi di –ne. (v. ROHLFS 1966-1969, § 536). 
-                        Cfr anche 'salìne' e 'partìne' in <ns0:title>Purg.</ns0:title>, VI, 22 e 'ène', 'fòne', 'ciòne', 
-                        'formòne' in Guittone (RÖHRSHEIM 1908, 59).</ns0:p>
-                        <ns0:p>Paduva 2, r. 1: passaggio di /o/ postonica a /u/ a seguito di un’oscillazione della vocale mediana nei proparossitoni, possibile in area centrale (ROHLFS 1966-1969, § 139).</ns0:p>
-                        <ns0:p><ns0:title>Morfologia e sintassi</ns0:title></ns0:p>
-                        <ns0:p>'co(m)matteio' 3a persona singolare del passato remoto della coniugazione debole in -e, come in Italia meridionale, spesso in -èo in Italia centrale 
-                            (v. il tipo 'rendèo', 'solvèo', 'rompèo', 'potèo');  qui con dittongo /ei/.</ns0:p>
-                        <ns0:p>'cappella sova' con posposizione del possessivo, comune in area centrale (CASTELLANI POLLIDORI 1966) cfr. anche 'morti soi'
-                            <ns0:ref target="edv11_20">11.20</ns0:ref></ns0:p> 
-                        <ns0:p><ns0:title>Lessico</ns0:title></ns0:p>
-                        <ns0:p><ns0:w>mo</ns0:w> per 'ora' normale in area sabina e in generale italo-centrale.</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p>L’affresco, posto in una nicchia dell’ex Battistero che ospita oggi il Museo Diocesano di Rieti,  rappresenta un Crocifisso tra i Santi Giuliana e 
+                        </ab>
+                    </div>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                       <p><title>Grafia e fonologia</title></p>
+                        <p>&apos;Quanno&apos; 1, 2, &apos;commatteio&apos; entrambi con assimilazione progressiva del nesso consonantico. cfr. <ref target="edv11_30">11.30</ref></p>
+                        <p>&apos;Iuliana&apos; 1, r. 1: conservazione di /j/ in posizione iniziale, comune per l'area (cfr., sempre in EDV, V., <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, 
+                            <ref target="edv12_17">12.17</ref>), <ref target="edv12_24">12.24</ref>.</p>
+                        <p>Conservazione di -u finale (collu, diavolu sì·llu, lu, sanctu Antoniu). cfr. anche <ref target="edv11_04">11.04</ref>, <ref target="edv11_05">11.05</ref>
+                        <ref target="edv11_17">11.17</ref>, <ref target="edv11_20">11.20</ref>, <ref target="edv11_23">11.23</ref>, <ref target="edv11_25">11.25</ref></p> 
+                        <p>&apos;vençe&apos;, cfr. anche <ref target="edv12_08">12.08</ref>, ma il fonema è reso con grafia latina &lt;ti&gt; in &apos;oratione&apos; e &apos;gratia&apos;.</p>
+                        <p>Sova &apos;sua&apos; con epentesi di /v/; &apos;legone&apos;, &apos;ene&apos;, &apos;liberone&apos; con epitesi di –ne. (v. ROHLFS 1966-1969, § 536). 
+                        Cfr anche &apos;salìne&apos; e &apos;partìne&apos; in <title>Purg.</title>, VI, 22 e &apos;ène&apos;, &apos;fòne&apos;, &apos;ciòne&apos;, 
+                        &apos;formòne&apos; in Guittone (RÖHRSHEIM 1908, 59).</p>
+                        <p>Paduva 2, r. 1: passaggio di /o/ postonica a /u/ a seguito di un’oscillazione della vocale mediana nei proparossitoni, possibile in area centrale (ROHLFS 1966-1969, § 139).</p>
+                        <p><title>Morfologia e sintassi</title></p>
+                        <p>&apos;co(m)matteio&apos; 3a persona singolare del passato remoto della coniugazione debole in -e, come in Italia meridionale, spesso in -èo in Italia centrale 
+                            (v. il tipo &apos;rendèo&apos;, &apos;solvèo&apos;, &apos;rompèo&apos;, &apos;potèo&apos;);  qui con dittongo /ei/.</p>
+                        <p>&apos;cappella sova&apos; con posposizione del possessivo, comune in area centrale (CASTELLANI POLLIDORI 1966) cfr. anche &apos;morti soi&apos;
+                            <ref target="edv11_20">11.20</ref></p> 
+                        <p><title>Lessico</title></p>
+                        <p><w>mo</w> per &apos;ora&apos; normale in area sabina e in generale italo-centrale.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’affresco, posto in una nicchia dell’ex Battistero che ospita oggi il Museo Diocesano di Rieti,  rappresenta un Crocifisso tra i Santi Giuliana e 
                             Antonio da Padova affiancati rispettivamente da un diavolo e da una donna inginocchiata,. Le didascalie in volgare sono inserite entro due cartigli 
                             ai lati dei santi. A seguito di un maldestro restauro, nella prima didascalia si legge O van(n)o anziché Quan(n)o (D’ACHILLE 2012c, p. 97, nota 97).
                             Alla base del crocifisso un’iscrizione in latino conserva il nome del committente, Amico Stabili, e la data di esecuzione dell’opera, il 6 luglio 
@@ -138,13 +140,13 @@
                             L’affresco è sicuramente opera di un autore locale la cui identità resta comunque ignota. SACCHETTI SASSETTI 1968, pp. 67-68 attribuisce il dipinto
                             a Domenico Papa, ipotesi accolta anche da Luisa Mortari (MORTARI 1974, p. 14). Per le questioni di attribuzione si veda anche SANTARELLI 1981, 
                             pp. 45-53. Data la scarsa leggibilità delle didascalie e l’impossibilità di una ricognizione diretta o su base fotografica, la presente trascrizione critico-interpretativa segue la trascrizione di D’ACHILLE 2012c, pp. 95-97.
-</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">SACCHETTI SASSETTI 1968, p. 67; SANTARELLI 1981, p. 50; D’ACHILLE 1997, pp. 241-242; D’ACHILLE 2012c, pp. 95-97.</ns0:p>
-                        <ns0:p xml:id="other">SACCHETTI SASSETTI 1968, pp. 67-68 (assegna il pezzo a Domenico Papa); MORTARI 1974, p. 14; SANTARELLI 1981, pp. 45-53.</ns0:p>
-                        <ns0:p xml:id="images">D’ACHILLE 1997, fig. 66; D’ACHILLE 2012c, p. 96, fig. 8.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">SACCHETTI SASSETTI 1968, p. 67; SANTARELLI 1981, p. 50; D’ACHILLE 1997, pp. 241-242; D’ACHILLE 2012c, pp. 95-97.</p>
+                        <p xml:id="other">SACCHETTI SASSETTI 1968, pp. 67-68 (assegna il pezzo a Domenico Papa); MORTARI 1974, p. 14; SANTARELLI 1981, pp. 45-53.</p>
+                        <p xml:id="images">D’ACHILLE 1997, fig. 66; D’ACHILLE 2012c, p. 96, fig. 8.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

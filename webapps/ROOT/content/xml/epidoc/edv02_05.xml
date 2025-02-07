@@ -1,92 +1,94 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Didascalie della Manta</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName /></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName /></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">02.05</ns0:idno>
-                        <ns0:date when="2020-03-04" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Cuneo</ns0:placeName>
-                                <ns0:district ref="#CN">CN</ns0:district>
-                                <ns0:repository>Castello della Manta, Sala Baronale</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#narrative">Narrativa</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xfr">Francese</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#plaster">Intonaco</ns0:material>
-                                            <ns0:objectType ref="#fresco">Affresco</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#piemonte">Piemonte e Valle d’Aosta</ns0:region></ns0:origPlace>
-                                    <ns0:origDate notBefore="1416" notAfter="1443">XV ex.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="02.05.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions" />
-                        <ns0:p xml:id="other" />
-                        <ns0:p xml:id="images" />
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Didascalie della Manta</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">02.05</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Cuneo</placeName>
+                                <district ref="#CN">CN</district>
+                                <repository>Castello della Manta, Sala Baronale</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xfr">Francese</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#piemonte">Piemonte e Valle d’Aosta</region></origPlace>
+                                    <origDate notBefore="1416" notAfter="1443">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p><!-- Immagine: SI. --></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions"/>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

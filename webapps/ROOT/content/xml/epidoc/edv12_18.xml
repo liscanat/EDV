@@ -1,112 +1,114 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Antonella de Fiorucio</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">12.18</ns0:idno>
-                        <ns0:date when="2020-04-21" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Roma</ns0:placeName>
-                                <ns0:district ref="#RM">RM</ns0:district>
-                                <ns0:repository>Palazzo della Cancelleria</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#AP">Avviso pubblico</ns0:term>
-                                    <ns0:term type="textType" ref="#funerary">Iscrizione funeraria</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xrom" otherLangs="la">Volgare romanesco, Latino</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#stone">Pietra</ns0:material>
-                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#gothic #capital">Gotica, Capitale</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#roma">Roma</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1419">XV in.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="12.18.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                       <ns0:lb n="1" />+ Anc sepulturam fecit fieri
-                      <ns0:lb n="2" />domina Antonella de Fiorucio
-                      <ns0:lb n="3" />dell’Amatrice in vita sua
-                      <ns0:lb n="4" />sub anno domini M CCCC XVIIII
-                      <ns0:lb n="5" />mens&lt;e&gt; agusti die XXIII
-                      <ns0:lb n="6" />Antonella
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>  
-                      <ns0:lb n="1" />+ ANC SEPVLTURĀ FECIT FIERI
-                      <ns0:lb n="2" />DN ̅A ANTONELLA DE FIORVCIO
-                      <ns0:lb n="3" />DELLAMATRICE IN VITA SVA
-                      <ns0:lb n="4" />SVB AN ∙ D ∙ M° ∙ CCCC° ∙ XVIIII°
-                      <ns0:lb n="5" />MĒS ∙AGVSTI DIE XXIII
-                      <ns0:lb n="6" />ANTONELLA
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p>Si noti 'Fiorucio' con scempiamento grafico di &lt;ci&gt; per /tʧ/ davanti a vocale palatale; ‘in vita sua’ con il consueto ordinamento 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Antonella de Fiorucio</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.18</idno>
+                        <date when="2020-04-21"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Palazzo della Cancelleria</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
+                                </summary>
+                                <textLang mainLang="xrom" otherLangs="la">Volgare romanesco, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate when="1419">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                       <lb n="1"/>+ Anc sepulturam fecit fieri
+                      <lb n="2"/>domina Antonella de Fiorucio
+                      <lb n="3"/>dell’Amatrice in vita sua
+                      <lb n="4"/>sub anno domini M CCCC XVIIII
+                      <lb n="5"/>mens&lt;e&gt; agusti die XXIII
+                      <lb n="6"/>Antonella
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>  
+                      <lb n="1"/>+ ANC SEPVLTURĀ FECIT FIERI
+                      <lb n="2"/>DN ̅A ANTONELLA DE FIORVCIO
+                      <lb n="3"/>DELLAMATRICE IN VITA SVA
+                      <lb n="4"/>SVB AN ∙ D ∙ M° ∙ CCCC° ∙ XVIIII°
+                      <lb n="5"/>MĒS ∙AGVSTI DIE XXIII
+                      <lb n="6"/>ANTONELLA
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Si noti 'Fiorucio' con scempiamento grafico di &lt;ci&gt; per /tʧ/ davanti a vocale palatale; ‘in vita sua’ con il consueto ordinamento 
                             sostantivo + possessivo, in concorrenza nei testi medievali romaneschi con il meno popolare possessivo + sostantivo 
-                            (D’ACHILLE 1987, p. 93, ROHLFS 1966-1969, § 431, CASTELLANI POLLIDORI 1966-1970, VI, 18-19; VII, 45-47). V., EDV <ns0:ref target="edv11_20">11.20</ns0:ref>, <ns0:ref target="edv13_01">13.01</ns0:ref>, <ns0:ref target="edv13_03">13.03</ns0:ref>, e 
-                           a Roma, <ns0:ref target="edv12_17">12.17</ns0:ref>.</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p>La lastra, proveniente dalla Basilica di San Lorenzo in Damaso, conserva al di sotto di uno stemma un’iscrizione che ricorda la defunta Antonella 
+                            (D’ACHILLE 1987, p. 93, ROHLFS 1966-1969, § 431, CASTELLANI POLLIDORI 1966-1970, VI, 18-19; VII, 45-47). V., EDV <ref target="edv11_20">11.20</ref>, <ref target="edv13_01">13.01</ref>, <ref target="edv13_03">13.03</ref>, e 
+                           a Roma, <ref target="edv12_17">12.17</ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>La lastra, proveniente dalla Basilica di San Lorenzo in Damaso, conserva al di sotto di uno stemma un’iscrizione che ricorda la defunta Antonella 
                             di Fioruccio di Amatrice (RI) che commissionò la lapide il 23 agosto 1419. La lapide fa parte di un corpus di reperti provenienti dall’antica 
-                            basilica romana di San Lorenzo in Damaso, nel rione Parione, oggi in Palazzo della Cancelleria (<ns0:ref target="edv12_07">12.07</ns0:ref>, 
-                            <ns0:ref target="edv12_21">12.21</ns0:ref>, <ns0:ref target="edv12_24">12.24</ns0:ref>, <ns0:ref target="edv12_25">12.25</ns0:ref>). Il testo dell'iscrizione è in maiuscola 
+                            basilica romana di San Lorenzo in Damaso, nel rione Parione, oggi in Palazzo della Cancelleria (<ref target="edv12_07">12.07</ref>, 
+                            <ref target="edv12_21">12.21</ref>, <ref target="edv12_24">12.24</ref>, <ref target="edv12_25">12.25</ref>). Il testo dell'iscrizione è in maiuscola 
                             gotica, mentre il nome posto in basso intorno all'immagine di un candeliere è in capitale: non da escludersi che il candeliere ed il nome siano stati aggiunti dopo la morte della donna.
-</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">GRABMÄLER 1994, Addenda n. 8, GARMS-SOMMERLECHNER 2009, p. 157, n. 8.</ns0:p>
-                        <ns0:p xml:id="other">GARMS-SOMMERLECHNER 2009, p. 157, n. 8, fig. 12-13.</ns0:p>
-                        <ns0:p xml:id="images" />
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GRABMÄLER 1994, Addenda n. 8, GARMS-SOMMERLECHNER 2009, p. 157, n. 8.</p>
+                        <p xml:id="other">GARMS-SOMMERLECHNER 2009, p. 157, n. 8, fig. 12-13.</p>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

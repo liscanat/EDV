@@ -1,117 +1,119 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Branca D’Urso</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName /></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">13.02</ns0:idno>
-                        <ns0:date when="2020-04-12" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Teramo</ns0:placeName>
-                                <ns0:district ref="#TE">TE</ns0:district>
-                                <ns0:repository>Via Nicola Palma</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#admonition">Monito</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed">Volgare mediano</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#terracotta">Terracotta</ns0:material>
-                                            <ns0:objectType ref="#architectural_element">Elemento architettonico</ns0:objectType>
-                                            <ns0:dimensions><ns0:width>100</ns0:width><ns0:depth /><ns0:height>70</ns0:height></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#abruzzo">Abruzzo</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1372">XIV ex.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="13.02.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                        <ns0:lb n="1" />Io <ns0:m type="essere" subtype="pres1ps">so</ns0:m> Branca d’&lt;Ur&gt;so p(er) natura
-                        <ns0:lb n="2" />de offendere ad chi me sde<ns0:seg type="grapheme" corresp="/ɲ/">ngn</ns0:seg>a s(e) p(r)ocura.
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />IOSOBRĀCAD[..]SOP∙NATURA∙
-                            <ns0:lb n="2" />DE∙OFFENDEREADChIMESDENGNAS ̅POCURA
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p>1 Bracchu rissoso CASINI 1907, GAVINI 1927-1928, SAVINI 1907</ns0:p>
-                        <ns0:p>2 e a offendere, senpr o cura CASINI; d’offendere GAVINI1927-1928, SAVINI 1907; te procura GAVINI1927-1928</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p><ns0:title>Grafia-fonologia:</ns0:title></ns0:p>
-                        <ns0:p>Resa di /ɲ/ con trigramma &lt;ngn&gt;; conservarzione di -e in protonia ‘de offendere’, ‘s(e) p(r)ocura’ v. 2 , normale in area mediana (SABATINI 1996c, p. 601).</ns0:p>
-                        <ns0:p><ns0:title>Morfologia e sintassi:</ns0:title></ns0:p>
-                        <ns0:p>'Io so… v. 1, …s(e) p(r)ocura': da notare la contorsione sintattica dell’enunciato; nel primo segmento 'branca 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Branca D’Urso</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">13.02</idno>
+                        <date when="2020-04-12"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Teramo</placeName>
+                                <district ref="#TE">TE</district>
+                                <repository>Via Nicola Palma</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#terracotta">Terracotta</material>
+                                            <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                            <dimensions><width>100</width><depth/><height>70</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
+                                    <origDate when="1372">XIV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                        <lb n="1"/>Io <m type="essere" subtype="pres1ps">so</m> Branca d’&lt;Ur&gt;so p(er) natura
+                        <lb n="2"/>de offendere ad chi me sde<seg type="grapheme" corresp="/ɲ/">ngn</seg>a s(e) p(r)ocura.
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>IOSOBRĀCAD[..]SOP∙NATURA∙
+                            <lb n="2"/>DE∙OFFENDEREADChIMESDENGNAS ̅POCURA
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>1 Bracchu rissoso CASINI 1907, GAVINI 1927-1928, SAVINI 1907</p>
+                        <p>2 e a offendere, senpr o cura CASINI; d’offendere GAVINI1927-1928, SAVINI 1907; te procura GAVINI1927-1928</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia-fonologia:</title></p>
+                        <p>Resa di /ɲ/ con trigramma &lt;ngn&gt;; conservarzione di -e in protonia ‘de offendere’, ‘s(e) p(r)ocura’ v. 2 , normale in area mediana (SABATINI 1996c, p. 601).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'Io so… v. 1, …s(e) p(r)ocura': da notare la contorsione sintattica dell’enunciato; nel primo segmento 'branca 
                             d’urso' è riferito al soggetto di prima persona 'Io so', in funzione di complemento predicativo; nel secondo segmento diventa soggetto del verbo 
-                            in terza persona 'se procura', pur continuando ad avere l'oggetto pronominale in prima persona 'me sdegna' (SABATINI 1996c, pp. 599-601).</ns0:p>
-                        <ns0:p><ns0:title>Lessico:</ns0:title></ns0:p>
-                        <ns0:p>'offendere' v. 2: vale per ‘arrecare danno, ingiuria’. Comune nell’italiano antico la costruzione con l’oggetto indiretto (v. GDLI, s. v.); 
+                            in terza persona 'se procura', pur continuando ad avere l'oggetto pronominale in prima persona 'me sdegna' (SABATINI 1996c, pp. 599-601).</p>
+                        <p><title>Lessico:</title></p>
+                        <p>'offendere' v. 2: vale per ‘arrecare danno, ingiuria’. Comune nell’italiano antico la costruzione con l’oggetto indiretto (v. GDLI, s. v.); 
                             'me sdegna' v. 2: vale per ‘fare che altri si adiri’ (TOMMASEO-BELLINI, s. v. sdegnare, n. 4); 'se procura' v. 2: forma pronominale attestata 
-                            anticamente; va intesa nel senso di ‘si attiva, provvede’ (GDLI, s. v. procurare).</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p>Secondo Sabatini Branca d’Urso potrebbe essere nome o soprannome del personaggio emittente. In questo caso l’artista avrebbe sfruttato il piano 
+                            anticamente; va intesa nel senso di ‘si attiva, provvede’ (GDLI, s. v. procurare).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>Secondo Sabatini Branca d’Urso potrebbe essere nome o soprannome del personaggio emittente. In questo caso l’artista avrebbe sfruttato il piano 
                             iconico per rafforzare l’immagine minacciosa del personaggio: il cimiero ha, infatti, forma di zampa d’orso e il mazzafrusto termina con una grossa 
                             B, iniziale di Branca, in funzione di sfera contundente. L’espressione per natura indicherebbe quindi l’essere branca d’orso ‘di nome e di fatto’ 
                             (SABATINI 1996c, p. 600). La lastra, seppure in cattivo stato, mostra ancora tre ordini di immagini. In basso due angeli alati sorreggono uno 
                             scudo contenente lo stemma della famiglia dei Melatini, circondato dal nastro recante l’iscrizione. In alto, si affiancano quattro stemmi: quello 
                             della casa d’Angiò, quello dei Cavalcanti, forse quello del vescovo Pietro della Valle – non perfettamente riconoscibile perché scalpellato – 
                             e quello cardinalizio degli Orsini. Sulla cornice della lastra, sotto lo stemma, sono visibili tracce di lettere di un’iscrizione latina. Sabatini 
-                            informa che, secondo letture fatte nell’Ottocento da storici locali, questa epigrafe riportava l’artefice della lastra e la data: <ns0:title>Bartolomeus 
-                                magistri Iocundi me fecit a. MCCCLXXII</ns0:title>. (SABATINI 1996c, p. 600-601).</ns0:p>
-                            <ns0:p>Desideriamo ringraziare Elisa Amorosi, Funzionario Delegato alla Tutela dei Beni Storici Artistici della Provincia di Teramo, 
-                            che ci ha gentilmente fornito le misure della lastra.</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">SAVINI F. 1881, pp. 130-133; SAVINI 1907, p. 25; CASINI 1907, pp. 629-630, n. 34, ristampa 1984, pp. 43-44; 
-                            GAVINI 1927-1928, II, p. 136-138, in part. p. 136; SGATTONI 1973, pp. 32-35; SABATINI 1996c, pp. 599-601.</ns0:p>
-                        <ns0:p xml:id="other" />
-                        <ns0:p xml:id="images">SAVINI F. 1881, tav. III; SAVINI 1907, TAV. LXII; GAVINI 1927-1928, II, p. 136, fig. 695 A; SABATINI 1996c, tav. XIII, foto 6.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+                            informa che, secondo letture fatte nell’Ottocento da storici locali, questa epigrafe riportava l’artefice della lastra e la data: <title>Bartolomeus 
+                                magistri Iocundi me fecit a. MCCCLXXII</title>. (SABATINI 1996c, p. 600-601).</p>
+                            <p>Desideriamo ringraziare Elisa Amorosi, Funzionario Delegato alla Tutela dei Beni Storici Artistici della Provincia di Teramo, 
+                            che ci ha gentilmente fornito le misure della lastra.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">SAVINI F. 1881, pp. 130-133; SAVINI 1907, p. 25; CASINI 1907, pp. 629-630, n. 34, ristampa 1984, pp. 43-44; 
+                            GAVINI 1927-1928, II, p. 136-138, in part. p. 136; SGATTONI 1973, pp. 32-35; SABATINI 1996c, pp. 599-601.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">SAVINI F. 1881, tav. III; SAVINI 1907, TAV. LXII; GAVINI 1927-1928, II, p. 136, fig. 695 A; SABATINI 1996c, tav. XIII, foto 6.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

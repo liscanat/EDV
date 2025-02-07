@@ -1,115 +1,117 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Iscrizione di Via Fontanella</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">11.19</ns0:idno>
-                        <ns0:date when="2020-03-08" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Tuscania</ns0:placeName>
-                                <ns0:district ref="#VT">VT</ns0:district>
-                                <ns0:repository>Via della Fontanella</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#admonition">Monito</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed">Volgare mediano</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#stone">Pietra</ns0:material>
-                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
-                                            <ns0:dimensions><ns0:width>120</ns0:width><ns0:depth /><ns0:height>23</ns0:height></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1460">XV metà</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" when="2016-06" resp="Luna Cacchioli" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="11.19.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />+ Biato <ns0:m type="essere" subtype="fut3ps">serà</ns0:m> co
-                            <ns0:lb n="2" />lui che <ns0:seg type="phoneme" subtype="j_initial">i</ns0:seg>udic<ns0:m type="desinence" subtype="fut3ps">arà</ns0:m>
-                            <ns0:lb n="3" />più esso che altrui 1460
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />+ BIATO · 					SERA · CO
-                            <ns0:lb n="2" />LVI · CHE                     IVdICARA
-                            <ns0:lb n="3" />·PIV·ESSO·CHE   		      ALTRVI · 1460
-                            <ns0:lb n="4" />[al centro un sole contornato da grappoli d'uva]
-                        </ns0:ab>                                             
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p>Il testo presenta forme linguistiche bene attestate in area mediana: la chiusura di /e/ protonica in iato; 
-                            la conservazione di /j/ in posizione iniziale (cfr., sempre in EDV, V., <ns0:ref target="edv11_02">11.02</ns0:ref>, 
-                            <ns0:ref target="edv11_04">11.04</ns0:ref>, <ns0:ref target="edv11_15">11.15</ns0:ref>, <ns0:ref target="edv11_17">11.17</ns0:ref>, <ns0:ref target="edv11_26">11.26</ns0:ref>,
-                            <ns0:ref target="edv12_09">12.09</ns0:ref>, <ns0:ref target="edv12_10">12.10</ns0:ref>, <ns0:ref target="edv12_12">12.12</ns0:ref>, <ns0:ref target="edv12_17">12.17</ns0:ref>); 
-                            <ns0:ref target="edv12_17">12.17</ns0:ref>,  
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione di Via Fontanella</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.19</idno>
+                        <date when="2020-03-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Tuscania</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>Via della Fontanella</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width>120</width><depth/><height>23</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1460">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed" when="2016-06" resp="Luna Cacchioli"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ Biato <m type="essere" subtype="fut3ps">serà</m> co
+                            <lb n="2"/>lui che <seg type="phoneme" subtype="j_initial">i</seg>udic<m type="desinence" subtype="fut3ps">arà</m>
+                            <lb n="3"/>più esso che altrui 1460
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ BIATO · 					SERA · CO
+                            <lb n="2"/>LVI · CHE                     IVdICARA
+                            <lb n="3"/>·PIV·ESSO·CHE   		      ALTRVI · 1460
+                            <lb n="4"/>[al centro un sole contornato da grappoli d'uva]
+                        </ab>                                             
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il testo presenta forme linguistiche bene attestate in area mediana: la chiusura di /e/ protonica in iato; 
+                            la conservazione di /j/ in posizione iniziale (cfr., sempre in EDV, V., <ref target="edv11_02">11.02</ref>, 
+                            <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_17">12.17</ref>); 
+                            <ref target="edv12_17">12.17</ref>,  
                             il mantenimento di -ar- intertonico; la forma di 3a persona singolare del futuro 
-                            indicativo 'serà' frequente nei testi sia dell’Alto Viterbese sia toscani. (cfr le diverse redazioni dello <ns0:title>Statuto dei Disciplinati di 
-                            San Lorenzo</ns0:title> in cui prevalgono le forme 'serà/serane' (con -ne paragogico) e nello <ns0:title>Statuto dell’arte del macello</ns0:title>, 
-                            entrambi testi di area viterbese (CIMARRA 2014, p. 124; SGRILLI 2003, pp. 7-184; BIANCONI 1962, p.  114); 'esso' con valore riflessivo 
-                            corrispondente al latino 'ipsu'; 'altrui' usato in questa forma come oggetto diretto.</ns0:p>
-                        <ns0:p> La collocazione a inizio frase dell’aggettivo 'biato' ricorda l’incipit delle beatitudini evangeliche e compare non di rado 
-                            nei testi medievali. V., ad esempio, nei <ns0:title>Disticha Catonis</ns0:title> di Catenaccio d’Anagni: «beatu è l’omo che fina i(n) co(r)tesia e franchezza» 526, e «beatu chi de altrui guay se fa saiu» 551 (PARADISI 2005, I, p. 335 e 335, CIMARRA 2014, p. 123).</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="note">
-                        <ns0:p>L’architrave che conserva l’iscrizione doveva essere quello di una piccola finestra o di una nicchia. 
+                            indicativo 'serà' frequente nei testi sia dell’Alto Viterbese sia toscani. (cfr le diverse redazioni dello <title>Statuto dei Disciplinati di 
+                            San Lorenzo</title> in cui prevalgono le forme &apos;serà/serane&apos; (con -ne paragogico) e nello <title>Statuto dell’arte del macello</title>, 
+                            entrambi testi di area viterbese (CIMARRA 2014, p. 124; SGRILLI 2003, pp. 7-184; BIANCONI 1962, p.  114); &apos;esso&apos; con valore riflessivo 
+                            corrispondente al latino &apos;ipsu&apos;; &apos;altrui&apos; usato in questa forma come oggetto diretto.</p>
+                        <p> La collocazione a inizio frase dell’aggettivo &apos;biato&apos; ricorda l’incipit delle beatitudini evangeliche e compare non di rado 
+                            nei testi medievali. V., ad esempio, nei <title>Disticha Catonis</title> di Catenaccio d’Anagni: «beatu è l’omo che fina i(n) co(r)tesia e franchezza» 526, e «beatu chi de altrui guay se fa saiu» 551 (PARADISI 2005, I, p. 335 e 335, CIMARRA 2014, p. 123).</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’architrave che conserva l’iscrizione doveva essere quello di una piccola finestra o di una nicchia. 
                            L'iscrizione è incisa su di un blocco di nenfro a base rettangolare con doppio spiovente di sagoma irregolare. 
                            Il testo si sviluppa su tre righe ed è interrotto al centro da elementi figurativi: un sole raggiante con il trigramma yhs 
                            in caratteri gotici e, ai lati del sole, due grappoli d’uva con pampini. 
                            Se l’immagine che campeggia al centro si può ricollegare al sacramento dell’eucarestia, 
-                           il testo dell’iscrizione richiama invece il principio evangelico "noli iudicare et non iudicaberis", Luca, 6.37 (CIMARRA 2014, p. 123).
-                            </ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">CIMARRA 2014, pp. 123-124.</ns0:p>
-                        <ns0:p xml:id="other" />
-                        <ns0:p xml:id="images">Riproduzioni: CIMARRA 2014, fig. 1.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+                           il testo dell’iscrizione richiama invece il principio evangelico &quot;noli iudicare et non iudicaberis&quot;, Luca, 6.37 (CIMARRA 2014, p. 123).
+                            <!-- Immagine: SI. pubblicabile fatta da Luna--></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">CIMARRA 2014, pp. 123-124.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">Riproduzioni: CIMARRA 2014, fig. 1.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

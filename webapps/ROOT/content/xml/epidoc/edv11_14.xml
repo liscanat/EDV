@@ -1,108 +1,110 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Giudizio Universale, Cori</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">11.14</ns0:idno>
-                        <ns0:date when="2020-03-06" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Cori</ns0:placeName>
-                                <ns0:district ref="#LT">LT</ns0:district>
-                                <ns0:repository>Oratorio dell’Annunziata</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#narrative">Narrativa</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed" otherLangs="la">Volgare mediano</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#plaster">Intonaco</ns0:material>
-                                            <ns0:objectType ref="#fresco">Affresco</ns0:objectType>
-                                            <ns0:dimensions><ns0:width /><ns0:depth /><ns0:height /></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#gothic">Gotica</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
-                                    <ns0:origDate notBefore="1440" notAfter="1445" precision="medium">XV in.</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="11.14.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                             <ns0:lb n="0" /><ns0:rs>Surgite mortui 
-                                 <ns0:lb n="0" />ad iudicium</ns0:rs>
-                            <ns0:lb n="1" />lu compare et la co(m)mare
-                            <ns0:lb n="2" />p(re)ite puctanero
-                            <ns0:lb n="3" />macell<ns0:m type="desinence" subtype="ARIUM">aro</ns0:m>
-                            <ns0:lb n="4" />bistrimatore de Dio
-                            <ns0:lb n="5" /><ns0:w>afacctochiara</ns0:w>
-                            <ns0:lb n="6" />i&lt;m&gt;perator
-                            <ns0:lb n="7" />ruffiana
-                            <ns0:lb n="8" />traditor
-                            <ns0:lb n="9" />tavern<ns0:m type="desinence" subtype="ARIUM">aro</ns0:m>
-                            <ns0:lb n="10" />queste so' q(ue)lle ch(e) fallo alli mariti
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                <ns0:p> </ns0:p>
-                        <ns0:p>L'esito -RJ- &gt; /r/ del suffisso -ARĬUS e 'lu' articolo singolare maschile sono entrambi normali in area mediana.</ns0:p>
-                        <ns0:p>Si noti 'afacctochiara' 'fattucchiera' con prostesi di a- e uso del trigramma &lt;cct&gt; per rendere la dentale sorda 
-                            intensa /tt/. V. invece 'fatuc[hi]ara' nelle didascalie del <ns0:title>Giudizio Universale</ns0:title> di Pofi, <ns0:ref target="edv11_28">11.28</ns0:ref>. 
-                            V. anche forme 'fattuchiari' e 'factuchiari' nei due manoscritti dei <ns0:title>Tractati della vita di s. Francesca Romana</ns0:title></ns0:p>
-                        <ns0:p>'bistrimatore' 'bestemmiatore' il termine ricorre in altri cicli affrescati di area Sabina nelle forme &amp;biastimaturi' 
-                            (Montebuono. <ns0:ref target="edv11_17">11.17</ns0:ref>) e 'biastimatore' (Fianello, <ns0:ref target="edv11_16">11.16</ns0:ref>). 
-                            V. anche i «Tractati sulla vita di S. Francesca Romana» di Giovanni Mattiotti in cui compare la forma 'blasfematori'. 
-                            (cfr. per entrambe le forme PELAEZ 1891-1892, p. 377 e 380; VIGNUZZI 1992, p. 64 e 67; INCARBONE GIORNETTI 2006, p. 47 e 77; D’ACHILLE 2012c, p. 75, note 30-31).</ns0:p>
-                    <ns0:p>Si noti, per la sintassi, l'uso di doppia deissi ad inizio frase (Queste so' quelle l. 10) in riferimento alle immagini rappresentate nell’affresco.</ns0:p>
-                    </ns0:div>           
-                        <ns0:div type="commentary" subtype="note">
-                        <ns0:p>Le didascalie sono contenute in cartigli, eccetto l'ultima.</ns0:p>
-                    </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">D’ACHILLE 1997, pp. 227-228; D’ACHILLE 2012c, pp. 74-76.</ns0:p>
-                        <ns0:p xml:id="other">VAN MARLE 1923-1938, vol. VIII, pp. 396 e 401; ROMANO 1992, p. 395 n. 51, e 448-452a.</ns0:p>
-                        <ns0:p xml:id="images">D’ACHILLE 1997, fig. 59; D’ACHILLE 2012c, p. 74, fig. 1.</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Giudizio Universale, Cori</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.14</idno>
+                        <date when="2020-03-06"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Cori</placeName>
+                                <district ref="#LT">LT</district>
+                                <repository>Oratorio dell’Annunziata</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano<!-- , Latino (?) --></textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1440" notAfter="1445" precision="medium">XV in.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                             <lb n="0"/><rs>Surgite mortui 
+                                 <lb n="0"/>ad iudicium</rs>
+                            <lb n="1"/>lu compare et la co(m)mare
+                            <lb n="2"/>p(re)ite puctanero
+                            <lb n="3"/>macell<m type="desinence" subtype="ARIUM">aro</m>
+                            <lb n="4"/>bistrimatore de Dio
+                            <lb n="5"/><w>afacctochiara</w>
+                            <lb n="6"/>i&lt;m&gt;perator
+                            <lb n="7"/>ruffiana
+                            <lb n="8"/>traditor
+                            <lb n="9"/>tavern<m type="desinence" subtype="ARIUM">aro</m>
+                            <lb n="10"/>queste so' q(ue)lle ch(e) fallo alli mariti
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                <p> </p>
+                        <p>L'esito -RJ- &gt; /r/ del suffisso -ARĬUS e &apos;lu&apos; articolo singolare maschile sono entrambi normali in area mediana.</p>
+                        <p>Si noti &apos;afacctochiara&apos; &apos;fattucchiera&apos; con prostesi di a- e uso del trigramma &lt;cct&gt; per rendere la dentale sorda 
+                            intensa /tt/. V. invece &apos;fatuc[hi]ara&apos; nelle didascalie del <title>Giudizio Universale</title> di Pofi, <ref target="edv11_28">11.28</ref>. 
+                            V. anche forme &apos;fattuchiari&apos; e &apos;factuchiari&apos; nei due manoscritti dei <title>Tractati della vita di s. Francesca Romana</title></p>
+                        <p>&apos;bistrimatore&apos; &apos;bestemmiatore&apos; il termine ricorre in altri cicli affrescati di area Sabina nelle forme &amp;biastimaturi&apos; 
+                            (Montebuono. <ref target="edv11_17">11.17</ref>) e &apos;biastimatore&apos; (Fianello, <ref target="edv11_16">11.16</ref>). 
+                            V. anche i «Tractati sulla vita di S. Francesca Romana» di Giovanni Mattiotti in cui compare la forma &apos;blasfematori&apos;. 
+                            (cfr. per entrambe le forme PELAEZ 1891-1892, p. 377 e 380; VIGNUZZI 1992, p. 64 e 67; INCARBONE GIORNETTI 2006, p. 47 e 77; D’ACHILLE 2012c, p. 75, note 30-31).</p>
+                    <p>Si noti, per la sintassi, l'uso di doppia deissi ad inizio frase (Queste so' quelle l. 10) in riferimento alle immagini rappresentate nell’affresco.</p>
+                    </div>           
+                        <div type="commentary" subtype="note">
+                        <p>Le didascalie sono contenute in cartigli, eccetto l'ultima.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">D’ACHILLE 1997, pp. 227-228; D’ACHILLE 2012c, pp. 74-76.</p>
+                        <p xml:id="other">VAN MARLE 1923-1938, vol. VIII, pp. 396 e 401; ROMANO 1992, p. 395 n. 51, e 448-452a.</p>
+                        <p xml:id="images">D’ACHILLE 1997, fig. 59; D’ACHILLE 2012c, p. 74, fig. 1.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

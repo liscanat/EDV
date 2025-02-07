@@ -1,111 +1,113 @@
-<?xml version='1.0' encoding='utf-8'?>
-<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <ns0:teiHeader>
-                <ns0:fileDesc>
-                    <ns0:titleStmt>
-                        <ns0:title>Iscrizione di via Campanari</ns0:title>
-                        <ns0:editor role="data_collection"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="edition"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="commentary"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                        <ns0:editor role="encoding"><ns0:persName>Nadia Cannata</ns0:persName></ns0:editor>
-                        <ns0:editor role="images"><ns0:persName>Luna Cacchioli</ns0:persName></ns0:editor>
-                    </ns0:titleStmt>
-                    <ns0:publicationStmt>
-                        <ns0:authority>Epigraphic Database Vernacular</ns0:authority>
-                        <ns0:idno type="filename">11.18</ns0:idno>
-                        <ns0:date when="2020-03-08" />
-                        <ns0:availability>
-                            <ns0:licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</ns0:licence>
-                        </ns0:availability>
-                    </ns0:publicationStmt>
-                    <ns0:sourceDesc>
-                        <ns0:msDesc>
-                            <ns0:msIdentifier>
-                                <ns0:placeName>Tuscania</ns0:placeName>
-                                <ns0:district ref="#VT">VT</ns0:district>
-                                <ns0:repository>via Campanari 35</ns0:repository>
-                                <ns0:idno type="invNo" />
-                            </ns0:msIdentifier>
-                            <ns0:msContents>
-                                <ns0:summary>
-                                    <ns0:term type="textFunction" ref="#D">Didascalia</ns0:term>
-                                    <ns0:term type="textType" ref="#admonition">Monito</ns0:term>
-                                </ns0:summary>
-                                <ns0:textLang mainLang="xmed">Volgare mediano</ns0:textLang>
-                            </ns0:msContents>
-                            <ns0:physDesc>
-                                <ns0:objectDesc>
-                                    <ns0:supportDesc>
-                                        <ns0:support>    
-                                            <ns0:material ref="#stone">Pietra</ns0:material>
-                                            <ns0:objectType ref="#slab">Lastra</ns0:objectType>
-                                            <ns0:dimensions><ns0:width>70</ns0:width><ns0:depth /><ns0:height>45</ns0:height></ns0:dimensions>
-                                        </ns0:support>
-                                    </ns0:supportDesc>
-                                </ns0:objectDesc>
-                                <ns0:handDesc>
-                                    <ns0:handNote><ns0:term ref="#capital">Capitale</ns0:term></ns0:handNote>
-                                </ns0:handDesc>
-                            </ns0:physDesc>
-                            <ns0:history>
-                                <ns0:origin>
-                                    <ns0:origPlace><ns0:region ref="#lazio">Lazio</ns0:region></ns0:origPlace>
-                                    <ns0:origDate when="1459">XV metà</ns0:origDate>
-                                </ns0:origin>
-                                <ns0:provenance type="observed" when="2016-06" resp="Luna Cacchioli" />
-                            </ns0:history>
-                        </ns0:msDesc>
-                    </ns0:sourceDesc>
-                </ns0:fileDesc>
-            </ns0:teiHeader>
-            <ns0:facsimile>
-                <ns0:graphic url="11.18.jpg">
-                    <ns0:desc />
-                </ns0:graphic>
-            </ns0:facsimile>
-            <ns0:text>
-                <ns0:body>
-                    <ns0:div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ns0:ab>
-                            <ns0:lb n="1" />+ Ci è stato fato
-                            <ns0:lb n="2" />quello ch’<ns0:m type="essere" subtype="pres5ps">ede</ns0:m> p
-                            <ns0:lb n="3" />otuto ed iio ho f		
-                            <ns0:lb n="4" />atto quello che
-                            <ns0:lb n="5" />ho voluto 1459
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ns0:ab>   
-                            <ns0:lb n="1" />+ CIE · STATO · FATO ·
-                            <ns0:lb n="2" />QVELLO · CHE · DE · P
-                            <ns0:lb n="3" />OTVTO · ED IIO · HO · F
-                            <ns0:lb n="4" />ATTO · QVELLO · CHE
-                            <ns0:lb n="5" />· HO · VOLVTO ·1459
-                        </ns0:ab>
-                    </ns0:div>
-                    <ns0:div type="apparatus">
-                        <ns0:p />
-                    </ns0:div>
-                    <ns0:div type="commentary" subtype="linguistic_analysis">
-                        <ns0:p>r. 2 'ch’ede' 'che (av)ete'. La lenizione della dentale sorda /t/  è fenomeno ben attestato nel Lazio.</ns0:p>
-                        <ns0:p>r. 3 'iio': forma non comune del pronome personale soggetto io con epentesi di /j/ (CIMARRA 2014, p. 128). La forma 'igo', in cui &lt;g&gt; sta per /j/, 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione di via Campanari</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.18</idno>
+                        <date when="2020-03-08"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Tuscania</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>via Campanari 35</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#admonition">Monito</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width>70</width><depth/><height>45</height></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate when="1459">XV metà</origDate>
+                                </origin>
+                                <provenance type="observed" when="2016-06" resp="Luna Cacchioli"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>+ Ci è stato fato
+                            <lb n="2"/>quello ch’<m type="essere" subtype="pres5ps">ede</m> p
+                            <lb n="3"/>otuto ed iio ho f		
+                            <lb n="4"/>atto quello che
+                            <lb n="5"/>ho voluto 1459
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>   
+                            <lb n="1"/>+ CIE · STATO · FATO ·
+                            <lb n="2"/>QVELLO · CHE · DE · P
+                            <lb n="3"/>OTVTO · ED IIO · HO · F
+                            <lb n="4"/>ATTO · QVELLO · CHE
+                            <lb n="5"/>· HO · VOLVTO ·1459
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>r. 2 &apos;ch’ede&apos; &apos;che (av)ete&apos;. La lenizione della dentale sorda /t/  è fenomeno ben attestato nel Lazio.</p>
+                        <p>r. 3 &apos;iio&apos;: forma non comune del pronome personale soggetto io con epentesi di /j/ (CIMARRA 2014, p. 128). La forma &apos;igo&apos;, in cui &lt;g&gt; sta per /j/, 
                             secondo un’abitudine scrittoria medievale di area mediana, è attestato nell’alto Lazio in una lettera inviata da Andreuzzo di Spirito da Viterbo
                             al fratello Lorenzo nel 1386. Non sono stati rintracciati altri esempi di epentesi di /j/ in area viterbese mentre diverse attestazioni
-                            esistono in area orvietana ('Matteio', 'rendeio', 'cioiè'). Nel <ns0:title>Memoriale orvietano</ns0:title>
-                            redatto da Agniluzzo di Pietro sono attestate 9 occorrenze della forma 'iio' per 'io'. V. anche, 
-                            nell’abruzzese 'Pianto delle Marie', la forma 'eio' 218, e quella apocopata 'ei' 233 
+                            esistono in area orvietana (&apos;Matteio&apos;, &apos;rendeio&apos;, &apos;cioiè&apos;). Nel <title>Memoriale orvietano</title>
+                            redatto da Agniluzzo di Pietro sono attestate 9 occorrenze della forma &apos;iio&apos; per &apos;io&apos;. V. anche, 
+                            nell’abruzzese &apos;Pianto delle Marie&apos;, la forma &apos;eio&apos; 218, e quella apocopata &apos;ei&apos; 233 
                             (CIMARRA 2014, pp. 126-127; BIANCONI 1962, pp. 94-95; UGOLINI 1959, pp. 125-126). 
-                            Il pronome 'iho' è attestato in due epigrafi di Carpineto Romano della prima metà del XVI secolo. Potrebbe esprimere una intensa pronuncia iatale di 'io': esso compare due volte nell’iscrizione collocata in 
-                            Via Cavour 63: «Iho so' bove / no(n) me fa' rar/e quano p&lt;i&gt;ove se vo’ che t/e mecta le maisi / bone» e «Iho so’ por/co no(n) me lassare né / bivo né mo/rto»; e ancora una volta nell’epigrafe di Via Castello 63: «[…] quess/ta gra(n) casa co(m)pos/si al mu(n)no iho / sol Paolo Cacciotto» (CIMARRA 2014, p. 128; SABATINI 1996, pp. 198-200). </ns0:p>
-                         </ns0:div>
-                    <ns0:div type="commentary" subtype="note"><ns0:p>Il senso del motto sarebbe 'ci avete [ede] fatto quello che avete potuto ed io ho fatto quello che ho voluto'.
-                        Secondo la tradizione locale, il motto dell’iscrizione sarebbe da collegare ad una contesa avvenuta al tempo tra un facoltoso privato cittadino ed il Comune che gli aveva impedito di ampliare il proprio palazzo o di rafforzarlo con un contrafforte, adducendo a motivo del divieto la conseguente riduzione dello spazio stradale. Il cittadino, noncurante del divieto, avrebbe eseguito l’intervento in una sola notte, azione che oltre ad impedire l’abbattimento, lo avrebbe esonerato dal pagamento di sanzioni (CIMARRA 2014, p. 124-125)</ns0:p>                                    
-                         </ns0:div>
-                    <ns0:div type="bibliography">
-                        <ns0:p xml:id="editions">CIMARRA 2014, pp. 124-129.</ns0:p>
-                        <ns0:p xml:id="other" />
-                        <ns0:p xml:id="images">CIMARRA 2014, fig. 2</ns0:p>
-                    </ns0:div>
-                </ns0:body>
-            </ns0:text>
-        </ns0:TEI>
+                            Il pronome &apos;iho&apos; è attestato in due epigrafi di Carpineto Romano della prima metà del XVI secolo. Potrebbe esprimere una intensa pronuncia iatale di &apos;io&apos;: esso compare due volte nell’iscrizione collocata in 
+                            Via Cavour 63: «Iho so&apos; bove / no(n) me fa&apos; rar/e quano p&lt;i&gt;ove se vo’ che t/e mecta le maisi / bone» e «Iho so’ por/co no(n) me lassare né / bivo né mo/rto»; e ancora una volta nell’epigrafe di Via Castello 63: «[…] quess/ta gra(n) casa co(m)pos/si al mu(n)no iho / sol Paolo Cacciotto» (CIMARRA 2014, p. 128; SABATINI 1996, pp. 198-200). </p>
+                         </div>
+                    <div type="commentary" subtype="note"><p>Il senso del motto sarebbe 'ci avete [ede] fatto quello che avete potuto ed io ho fatto quello che ho voluto'.
+                        Secondo la tradizione locale, il motto dell’iscrizione sarebbe da collegare ad una contesa avvenuta al tempo tra un facoltoso privato cittadino ed il Comune che gli aveva impedito di ampliare il proprio palazzo o di rafforzarlo con un contrafforte, adducendo a motivo del divieto la conseguente riduzione dello spazio stradale. Il cittadino, noncurante del divieto, avrebbe eseguito l’intervento in una sola notte, azione che oltre ad impedire l’abbattimento, lo avrebbe esonerato dal pagamento di sanzioni (CIMARRA 2014, p. 124-125)</p>                                    
+                         </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">CIMARRA 2014, pp. 124-129.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">CIMARRA 2014, fig. 2</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
