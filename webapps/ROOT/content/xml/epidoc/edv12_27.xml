@@ -68,28 +68,19 @@
              </graphic>
      </facsimile>
     <text>
-        <body>
-                 <div type="edition" subtype="interpretive" xml:space="preserve">
+      <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>Qui gia<seg type="grapheme" corresp="/z/">s</seg> <w type="scempiamento">madona</w>
-                    <lb n="2"/>a Doratea da <w type="assibilation">Verzeli
-                    <lb n="3"/>zeli</w> hospitaler
-                    <lb n="4"/>a <w type="scempiamento">delo</w> ispetale de 
-                            <lb n="5"/>santa Cicilia de se
-                            <lb n="6"/>tebre die XXVI MCCCC
-                            <lb n="7"/>LXXXX
+                    <lb n="1"/>...
                 </ab>
             </div>
-                <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab><lb n="1"/>QVI GIASE MADON
-                            <lb n="2"/>A DORATEA DA VER
-                            <lb n="3"/>ZELI HOSPITALER
-                            <lb n="4"/>A DELO ISPETALE DE
-                            <lb n="5"/>SANTA CICILIA DE SE
-                            <lb n="6"/>TEBRE DIE XXVI MCCCC
-                            <lb n="7"/>LXXXX
-                        </ab>
-                    </div> <div type="apparatus">
+             <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>...
+                </ab>
+            </div>
+            <div type="apparatus">
+                      </div> <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
