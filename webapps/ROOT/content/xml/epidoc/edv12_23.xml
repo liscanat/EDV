@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Gismunda</title>
-                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
-                        <editor role="edition"><persName>D'ACHILLE 1987</persName></editor>
-                        <editor role="commentary"><persName>D'ACHILLE 1987</persName></editor>
+                        <title>Iacobello Rocchino</title>
+                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
+                        <editor role="images"><persName>GARMS-SOMMERLECHNER 2009, p. 162, fig. 21</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">12.23</idno>
-                        <date when="2024-03-04"/>
+                        <date when="2020-04-23"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -25,7 +25,7 @@
                             <msIdentifier>
                                 <placeName>Roma</placeName>
                                 <district ref="#RM">RM</district>
-                                <repository>Pantheon (Chiesa di santa Maria ad Martyres)</repository>
+                                <repository>Palazzo della Cancelleria</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -41,7 +41,7 @@
                                         <support>    
                                             <material ref="#stone">Pietra</material>
                                             <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width/><depth/><height/></dimensions>
+                                            <dimensions><width>55</width><depth>8</depth><height>204</height></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate when="1476">XV ex.</origDate>
+                                    <origDate notBefore="1450" notAfter="1499" precision="low">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="0">
+                <graphic url="12.24.jpg">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -69,33 +69,36 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
-                             <lb n="1"/>+ Chi <seg type="phoneme" subtype="j_initial">i</seg>iace Gism
-                            <lb n="2"/>vnda [...] figli. de Antea. Foigolio, De G
-                            <lb n="3"/>gingillo. MCCCC
-                            <lb n="4"/>LXXVI. X.IVNII.
+                            <lb n="1"/>De <w><seg type="phoneme" subtype="j_initial">I</seg>acobelli</w>
+                            <lb n="2"/>Rocchini
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
-                            <lb n="1"/>+ CHI IACE. GISM
-                            <lb n="2"/>VNDA [...] FIGLI. DEANTEA. FOIGOLIO. DEG.
-                            <lb n="3"/>GINILLO. MCCCC
-                            <lb n="4"/>LXXVI. X.IVNII.
+                            <lb n="1"/>DE IACOBELLI
+                            <lb n="2"/>ROCCHINI
                         </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>chi ‘qui’ con perdita dell’elemento labiale nella labiovelare secondaria e &apos;iace&apos; con conservazione di /j/ in posizione iniziale <ref target="edv12_12">12.12</ref>Chi <ref target="edv12_12">12.12</ref>. Il pessimo stato di conservazione della lastra non consente un'analisi linguistica approfondita, D'Achille 1987 nota tuttavia il possibile raddoppiamento fonosintattico in Degginillo (Andrea figlio di Ginetto?)</p>
+                        <p>Si noti la conservazione di /j/ in posizione iniziale, comune negli antichi testi romaneschi e in area mediana (V., in EDV, 
+                            <ref target="edv11_02">11.02</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, 
+                            <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>, <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, 
+                            <ref target="edv12_17">12.17</ref>).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p>La lapide fa parte di un corpus di reperti provenienti dall’antica basilica romana di San Lorenzo in Damaso, nel rione Parione, oggi in Palazzo della Cancelleria (<ref target="edv12_07">12.07</ref>, 
+                            <ref target="edv12_18">12.18</ref>, <ref target="edv12_21">12.21</ref>, <ref target="edv12_25">12.25</ref>). Si tratta di una lastra incisa figurata, con ‘iscrizione-cornice’ e stemma, 
+                            ricavata dal fondo di un sarcofago antico. Risulta spezzata orizzontalmente in due parti, lesionata ai margini e fortemente usurata: il contenuto 
+                            dello stemma in alto a sinistra non è più identificabile e della figura maschile incisa si possono riconoscere ormai soltanto alcune linee del 
+                            contorno (piedi, gamba, bordo inferiore dell’abito).</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">D'ACHILLE 1987</p>
+                        <p xml:id="editions">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
                         <p xml:id="other"/>
-                        <p xml:id="images"/>
+                        <p xml:id="images">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
                     </div>
                 </body>
             </text>
