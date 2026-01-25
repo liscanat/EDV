@@ -54,7 +54,7 @@
                             <origPlace>
                                 <region ref="#roma">Roma</region> 
                             </origPlace>
-                            <origDate when="1490">XV ex.</origDate>
+                            <origDate when="1485">XV ex.</origDate>
                         </origin>
                         <provenance type="observed"/>
                       </history>
@@ -87,11 +87,12 @@
                 <p></p>
             </div>
             <div type="commentary" subtype="note">
-                <p/>
+                <p>I due cicli di affreschi, dipinti nel 1468 e nel 1485, contengono, rispettivamente, 26 e 10 scene della vita della santa, ciascuna corredata da una didascalia in volgare. Il ciclo più antico occupa le quattro pareti della cappella oratoriale, è stato attribuito ad Antoniazzo Romano o comunque alla sua scuola ed è dipinto in colori accesi; il secondo, monocromo, decora una sala attigua, originariamente adibita a refettorio. I dipinti sono aperti per la visita unicamente il 10 marzo, giorno natale di Francesca.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions"></p>
-                <p xml:id="images"></p>
+                <p xml:id="editions">ROSSI 1907, VENTURI 1913, UGOLINI, 1932, pp. 24-25, UGOLINI 1936, p. 790; LUGANO 1933 e 1934, D'ACHILLE 1987b, pp. 107-183</p>
+                 <p xml:id="other">ERNST 1970, p. 15, D'ACHILLE-GIOVANARDI 1984, br, 30</p>
+                        <p xml:id="images"/>
             </div>
         </body>
     </text>
