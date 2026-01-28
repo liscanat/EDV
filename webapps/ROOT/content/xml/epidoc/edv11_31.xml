@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Antonio Tebaldeo, Versi dall'ecloga di Tirsi e Damone</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Miriam Di Carlo</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">11.31</idno>
+                        <date when="2026-01-28"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Fabrica di Roma</placeName>
+                                <district ref="#VT">VT</district>
+                                <repository>Rocca Farnese</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xmed">Volgare settentrionale</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#lazio">Lazio</region></origPlace>
+                                    <origDate notBefore="1450" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"></provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="0" >
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>Che te varà se sè stato scelente in piantare vite e sementar le biade se in uno sol
+ponto ài le toe laude spente i[...]e ec[...]</ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>CHE  TE VARA SESE STATO SCELENTE IN PIA(N)TARE VITE ESEMENTARE LEBIADE SE INVNO SOLPONTO AI LETOE
+LAVDE SPENTE I[...]E EC[...]
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafie e fonologia:</title></p>
+                        <p> </p>
+                        <p>Si noti il pronome atono <m type="pronoun" subtype="masculine">te</m> senza chiusura, la scempiatura della &apos;r&apos; in &apos;varrà&apos;, l'assenza di h- etimologica in &apos;ài&apos;, l'assenza di anafonesi in &apos;ponto&apos; e la mancata chiusira in iato di &apos;toe&apos;, tratti che denunciano un'aderenza alla scripta settentrionale del cosiddetto primo Tebaldeo, probabilmente in qualche misura sostenuta anche dal volgare mediano locale.</p>
+                    <p><title>Lessico</title></p>
+                        <p>Interessante <w>scelente</w> per &apos;eccellente&apos; e <w>sementare</w>, registrato in TLIO e GDLI soprattutto in area mediana, nei quali cui si potrebbe ravvisare nuovamente il fenomeno illustrato sopra.</p>
+                        <p>Le caratteristiche linguistiche dell'iscrizione suggeriscono una datazione anteriore al 1501, in base alla patina decisamente settentrionale del testo, tipica del primo Tebaldeo, abbandonata dopo la pubblicazione a partire dal 1501 da parte dell'amico Bembo delle prime edizioni dei classici in volgare.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>La Rocca all'epoca delle pitture apparteneva a Lucrezia della Rovere, nipote del cardinale Della Rovere, futuro papa Giulio II, e madre del poeta Francesco Della Rovere, detto il Quercente, un autore vicinissimo al Tebaldeo, l'autore dei versi di cui qui si tratta. Il ciclo pittorico, certamente commissionato dai Della Rovere (DI CARLO 2025), è datato alla fine del Quattrocento, e si conforma allo stile vicino al Pinturicchio, riscontrabile anche negli affreschi nel castello di Santa Severa, sul litorale romano. </p>
+                  </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI CARLO 2025</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>
