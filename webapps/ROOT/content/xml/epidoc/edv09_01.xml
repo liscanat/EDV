@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title>EPIGRAFI SEMIVOLGARI DELLA CHIESA DI SAN CRISTOFORO</title>
-                <editor role="data_collection"><persName /></editor>
-                <editor role="edition"><persName /></editor>
+                <editor role="data_collection"><persName />Alessandra Tiburzi</editor>
+                <editor role="edition"><persName />Alessandra Tiburzi</editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
@@ -49,7 +49,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origPlace><region ref="#umbria">Umbria</region></origPlace>
                             <origDate when="1000">1189</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
