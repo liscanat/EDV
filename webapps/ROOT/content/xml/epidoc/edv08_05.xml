@@ -22,7 +22,7 @@
                 <msDesc>
                     <msIdentifier>
                         <placeName>Firenze</placeName>
-                        <district ref="#" >#FI</district>
+                        <district ref="#" >FI</district>
                         <repository>Museo Nazionale del Bargello</repository>
                         <idno type="invNo" />
                     </msIdentifier>

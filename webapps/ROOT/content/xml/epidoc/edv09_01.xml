@@ -22,7 +22,7 @@
                 <msDesc>
                     <msIdentifier>
                         <placeName>Civitella d'Arna di Perugia</placeName>
-                        <district ref="#">#PG</district>
+                        <district ref="#">PG</district>
                         <repository>Chiesa di San Cristoforo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
