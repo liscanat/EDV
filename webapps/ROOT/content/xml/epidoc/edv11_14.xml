@@ -14,7 +14,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">11.14</idno>
-                        <date when="2020-03-06"/>
+                        <date when="2026-01-06"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -60,7 +60,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="0">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -98,7 +98,7 @@
                     <p>Si noti, per la sintassi, l'uso di doppia deissi ad inizio frase (Queste so' quelle l. 10) in riferimento alle immagini rappresentate nell’affresco.</p>
                     </div>           
                         <div type="commentary" subtype="note">
-                        <p>Le didascalie sono contenute in cartigli, eccetto l'ultima.</p>
+                        <p>L’affresco è conservato sulla controfacciata dell’Oratorio della Santissima Annunziata e contiene, all’interno di piccoli cartigli, brevi didascalie identificative dei peccatori, come da tradizione (cfr. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv08_74">08.74</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv12_27">12.27</ref>,<ref target="edv14_02">14.02</ref>,<ref target="edv14_09">14.09</ref>, <ref target="edv16_06">16.06</ref>). Il testo latino era tradizionalmente attribuito a san Girolamo.</p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">D’ACHILLE 1997, pp. 227-228; D’ACHILLE 2012c, pp. 74-76.</p>
