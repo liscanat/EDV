@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>FIRMA DI FUCCIO</title>
+                <title>EPIGRAFI SEMIVOLGARI DELLA CHIESA DI SAN CRISTOFORO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -12,8 +12,8 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">08.05</idno>
-                <date when="2020-02-21" />
+                <idno type="filename">09.01</idno>
+                <date when="2026-01-27" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -21,9 +21,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#" />
-                        <repository>Museo Nazionale del Bargello</repository>
+                        <placeName>Civitella d'Arna di Perugia</placeName>
+                        <district ref="#">#PG</district>
+                        <repository>Chiesa di San Cristoforo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -31,7 +31,7 @@
                             <term type="textFunction" ref="#">Didascalia</term>
                             <term type="textType" ref="#">Firma</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
                         <physDesc>
                         <objectDesc>
@@ -49,8 +49,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                            <origDate when="1000">1229</origDate>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1000">1189</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                       </history>
@@ -66,12 +66,12 @@
     <text>
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
-                <ab>
+                <ab>ABC
                     <lb n="1" />
                 </ab>
             </div>
              <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <ab>
+                <ab>ABC
                     <lb n="1" />
                 </ab>
             </div>
@@ -81,13 +81,12 @@
             <div type="commentary" subtype="linguistic_analysis">
                 <p />
             </div>
-            <div type="commentary" subtype="note">
-                <p>La lunetta ad intarsio, abrasa, riporta una data e il nome dell’artefice o del restauratore Fuccio. Era un tempo collocata sulla porta della casa presbiteriale della chiesa di Santa Maria Sopr’Arno e si trova oggi nella ex sala della scultura medievale del Museo del Bargello (inv. 158/S, inv. gen. 18411).</p>
+            <div type="commentary" subtype="note">Le due iscrizioni, con elementi di volgare, riguardano la costruzione o l’ampliamento della chiesa di san Cristoforo si trovano ad oggi murate nella parete esterna dell’edificio.<p />
             </div>
             <div type="bibliography">
-                <p xml:id="editions">Sepoltuario Fiorentino ASF, vol. I, p. 207; VASARI 1962-1987, vol. II, p. 60; vol. III, p. 206; CASOTTI 1714, pp. 61-62; BROCCHI 1748, p. 197; RICHA 1754-1762, vol. X, pp. 306-307, 316-318; BIADI 1824, p. 188; GALLETTI 1873, p. 8; CAMPANI 1884, pp. 58-59; SUPINO 1898, p. 49; LOPES PEGNA 1972, pp. 40; GRAMIGNI 2012, pp. 214-216, n. 28.</p>
-                <p xml:id="other">MANNI 1737, p. 137; ROSSI 1932, p. 16; GARZELLI 2002, pp. 335, 341, p. 350, nota 24.</p>
-                <p xml:id="images">GARZELLI 2002, fig. 32; GRAMIGNI 2012, p. 214, fig. 71.</p>
+                <p xml:id="editions">VERMIGLIOLI 1800, p. 166, nota 1; GUERRIERI 1796 (trascrive l’ed. Vermiglioli); FILLANTI 2008, p. 167; CIMARRA 2009, p. 139.</p>
+                <p xml:id="other">FILLANTI 2008 con numerose notizie storiche sulla cittadina (alle pp. 165-171 si parla in particolare delle vicende della chiesa di San Cristoforo). Riproduzioni: FILLANTI 2008, p. 167; DIETL 2009, IV, p. 2206, Abb. 426; CIMARRA 2009, pp. 143-144.</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>
