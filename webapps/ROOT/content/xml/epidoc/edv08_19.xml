@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SIMONE MARTINI, MAESTÀ</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.19</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Siena</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Palazzo Pubblico</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate notBefore="1315" notAfter="1321">1315-1321</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.19.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>La Maestà di Simone Martini è dipinta sull’intera parete Nord della cosiddetta Sala del Mappamondo (o del Consiglio, o delle Balestre) del Palazzo Pubblico di Siena ed è corredata da didascalie volgari in versi: due risposte della Vergine ai dicta santorum di sette endecasillabi ciascuna concatenati in due terzine e con un verso di chiusura, una terzina mutila con l’indicazione della data, e un’ultima epigrafe fortemente danneggiata con l’indicazione del pittore Symone.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">VON RUMOHR 1827, p. 96; ROMAGNOLI 1835, I, p. 338; MILANESI 1854-56, I, p. 221; MILANESI 1873, p. 131; CAVALCASELLE-CROWE 1885, III, p. 42; MAZZONI 1936, pp. 151-154; MAZZONI 1941, pp. 337-339; CAIROLA-CARLI 1963, pp. 76-79; VALERIO 1986, pp. 147-162; BRUGNOLO 1987, pp. 135-154; BRUGNOLO 1997, p. 307; MARTINDALE 1988, n° 35, pp. 204-209, pp. 14-17; CARLI 1996, pp. 9-12; BAGNOLI 1999, p. 66, 78-87, 158.</p>
+                <p xml:id="other">MAZZONI 1936, pp. 144-162; MAZZONI 1941, pp. 333-348; RUBINSTEIN 1958, pp. 179-82; CONTINI 1970, pp. 5-6; SOUTHARD 1979, pp. 216-228; GORNI 1981, pp. 207-209; BRANDI 1983, pp. 266-267; FRUGONI 1983, pp. 141, 153, 160; VALERIO 1985, p. 18; BOWSKY 1986, pp. 389-391; CIOCIOLA 1992, pp. 60-61; BRUGNOLO 1997, pp. 307; PETRUCCI A. 1997, pp. 52-53; CASAPULLO 1999, p. 196.</p>
+                <p xml:id="images">CAIROLA-CARLI 1963, tavv. IX, XII MARTINDALE 1988, pl. 1-5, 7-8; CARLI 1996, pp. 25-26, 158 BAGNOLI 1999, figg. 4, 17, 44, 54, 66-67, 97, 102, 104-106, 107-108; Appendici: figf. 2-3, 5.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

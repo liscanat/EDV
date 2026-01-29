@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GENTILE DA FABRIANO, LE ORIGINI DI ROMA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">09.14</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Foligno</placeName>
+                        <district ref="#PG">PG</district>
+                        <repository>Palazzo Trinci</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                            <origDate notBefore="1411" notAfter="1412">1411-1412</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="09.14.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le didascalie corredano gli affreschi rappresentanti le vicende di Romolo e Remo dalla nascita fino alla fondazione di Roma.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">FALOCI PULIGNANI 1888, pp. 123-129; SALMI 1919, pp. 173-176; GALASSI 1993, pp. 57-58; CASAGNI 1998, pp. 223-224 (esclusivamente le quartine [1] e [4] sulla base di Iacobilli); CACIORGNA 2001, pp. 402-406; LAI 2001, p. 198 (quartine [3] e [9]). Copie manoscritte: IACOBILLI, fol. 205 sgg.</p>
+                <p xml:id="other">SALMI 1919, pp. 173-176; GALASSI 1993, pp. 53-72; CACIORGNA 2001, pp. 401- 406; GABURRI-LUCCHI 2001, pp. 105-140; GALASSI 2001, pp. 269-298; LAI 2001, p. 198-216; LAMETTI 2001, p. 51-104.</p>
+                <p xml:id="images">CACIORGNA 2001, p. 403 (fig. 1).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

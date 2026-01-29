@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>RICORDO D’IMPRESE PISANE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.06</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Lapidario dell'Opera della Primaziale</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate>post 1246</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.06.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’epigrafe, originariamente collocata sulla facciata del Palazzo detto delle Vele, sul Lungarno, si trova oggi presso il lapidario del Museo della Primaziale di Pisa. L’iscrizione, commissionata dal dominus Dodo, ricorda le incursioni della flotta pisana contro Portovenere e Genova, non andate a buon fine a causa, rispettivamente, il tradimento del conte Pandolfo di Fasanella, e il maltempo.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">FONTANINI 1736, pp. 120-121 (trascrizione piena di errori); DAL BORGO 1761-1768, I, I, pp. 222-225 (facsimile del documento con utili postille); DA MORRONA 1787-1793, III, pp. 484-486; DA MORRONA 1812, II, pp. 343, III, pp. 491-492; CASTELLANI 1982, I, pp. 163-168 (con puntuale commento storico); BANTI-CASINI 1993, pp. 349-350, scheda n. IV; BANTI 1995b, pp. 204-205, n. 4; BANTI 2000, pp. 63-64, n. 77; PETRUCCI L. 2000, pp. 24-27; BANTI 2007, pp. 257-269, a p. 265; PETRUCCI L. 2010, pp. 113-118, n. [19].</p>
+                <p xml:id="other" />
+                <p xml:id="images">CASTELLANI 1982, II, tav. 111; BANTI-CASINI 1993, p. 350, n. IV; BANTI 1995b, p. 563, fig. 59; BANTI 2000, fig. 77; BANTI 2007, p. 269, fig. 2; PETRUCCI L. 2010, tav. XIV.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

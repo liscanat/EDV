@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SPINELLO ARETINO, NICCOLÒ DI PIETRO GERINI E LORENZO DI NICCOLÒ GERINI, INCORONAZIONE DELLA VERGINE E SANTI</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.88</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Galleria dell'Accademia</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, Latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1401">1401</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.88.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’iscrizione corre nella cornice tra il pannello centrale e la predella e ricorda la committenza del Capitolo del Convento del Monastero di Santa Felicita. Conservato oggi nell’Accademia (n. 8468), si trovava in origine ad ornamento dell’altare della chiesa di Santa Felicita.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">VAN MARLE 1923-1938, III, pp. 598-599; PROCACCI 1936, pp. 32-33; COVI 1986, n. 435a app., p. 676, fig. 36. Altri studi: MILANESI 1901, p. 70 n. 88.</p>
+                <p xml:id="other" />
+                <p xml:id="images">VAN MARLE 1923-1938, III, fig. 336; PROCACCI 1936, fig. p. 83; COVI 1986, fig. 36.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

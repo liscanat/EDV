@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SANO DI PIETRO, INCORONAZIONE DELLA VERGINE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.117</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Siena</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Palazzo Pubblico</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative #signature">Narrativa, Firma</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1445">1445</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.117.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Il grande affresco fu realizzato da Sano di Pietro nel 1445 sopra un precedente dipinto di Lippo Vanni del 1352 con lo stesso soggetto. L’opera è corredata da una lunga iscrizione in volgare contenuta in un cartiglio sorretto da due angeli al di sotto del trono: si tratta di una preghiera in dieci versi alla Madonna seguita dall’indicazione dei nomi del Camerlengo di Biccherna e degli altri ufficiali. Seguono in basso, in latino, la data e la firma dell’artista Sano di Pietro e, sotto, la precedente sottoscrizione di Lippo Vanni.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">CAIROLA 1962, pp. 36-38; SOUTHARD 1979, pp. 165-171; BRANDI 1983, pp. 162-163; BRUGNOLO 1995, p. 389 (solo la parte in versi).</p>
+                <p xml:id="other">Siena 1913, pp. 16-18; CAIROLA-CARLI 1963, pp. 198-203.</p>
+                <p xml:id="images">Siena 1913, p. 18; CAIROLA 1962, p. 37; CAIROLA-CARLI 1963, tav. XLIII; SOUTHARD 1979, pl. 14; BRANDI 1983, fig. 178-180.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MAESTRO DELLA NATIVITÀ DI CASTELLO, MADONNA DEL PARTO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.136</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Livorno</placeName>
+                        <district ref="#LI">LI</district>
+                        <repository>Museo Civico Giovanni Fattori</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate notBefore="1465" notAfter="1470">1465-1470</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.136.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Nei due risvolti dell’orlo dorato del tendaggio che incornicia come un sipario la scena dell’Adorazione sono inseriti i primi versi del canto XXXIII del Paradiso dantesco: le lettere d’oro corrispondono infatti all’inizio delle parole più significative del passo. La tavola proviene dalla chiesa agostiniana di San Giovanni a Livorno</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">CARMICHAEL 1910, pp. 17-19; CARMICHAEL 1929, pp. 265-268; SALMI 1938, p. 254, nota 1; COVI 1986, n. 409a app., p. 650 (parziale); CIOCIOLA 1992, p. 99 (parziale).</p>
+                <p xml:id="other">PIOMBANTI 1903, p. 185; VIGO 1915, pp. 47-49; Livorno 1935, pp. 49-51; SALMI 1938, pp. 217-256.</p>
+                <p xml:id="images">VIGO 1915, p. 47; SALMI 1938, figg. 1-4.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

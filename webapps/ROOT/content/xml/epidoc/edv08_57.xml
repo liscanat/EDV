@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TADDEO DI BARTOLO, MADONNA CON BAMBINO E SANTI</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.57</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Collocazione ignota</placeName>
+                        <district ref="#unknown">unknown</district>
+                        <repository />
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1389">1389</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.57.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Il polittico fu realizzato da Taddeo di Bartolo per la cappella della chiesa di San Paolo a Collegarli (San Miniato, SI) nella quale era un tempo collocato. L’iscrizione – una preghiera alla Vergine in versi – si trova in basso, ai piedi della Madonna e, oltre a riportare la data e i nomi del pittore e del committente, riecheggia nell’incipit il verso 109 del XVIII canto del Paradiso. Il dipinto è riemerso ad un’asta Sotheby’s di Londra il 3 dicembre 1997 (Old Master Paintings, catalogo Sotheby’s, 3-4 dicembre 1993, p. 114).</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">SYMEONIDES 1965, pp. 195-196; VAN OS 1990, p. 65; SOLBERG 1992, pp. 1182-1194; CIOCIOLA 2002, p.223; PISANI 2010, p. 135.</p>
+                <p xml:id="other">PISANI 2010.</p>
+                <p xml:id="images">SYMEONIDES 1965, pl. I; VAN OS 1990, fig. 49; PISANI 2010, p. 147, nrr. 5-6.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

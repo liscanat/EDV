@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GUIDOCCIO COZZARELLI, STORIE DELLA BEATA ALDOBRANDESCA PONZIA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.147</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Siena</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Pinacoteca Nazionale</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate>post 1489</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.147.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Il frammento di affresco monocromo di Guidoccio Cozzarelli (1450-1516/17) proviene dalla soppressa chiesa di San Tommaso degli Umiliati a Siena e riporta, accanto all’immagine della beata corredata da un’iscrizione in latino, due episodi della vita della santa con didascalie in volgare.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">DBDI, s.v. Ponzi, Aldobrandesca (Alda), beata; TORRITI 1980, n. 304, p. 378.</p>
+                <p xml:id="other">BRANDI 1933, p. 57; BERENSON 1936, p. 137; VAN MARLE 1924-1938, XVI, p. 386; BERENSON 1968, p. 99.</p>
+                <p xml:id="images">TORRITI 1980, n. 304, fig. 460.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

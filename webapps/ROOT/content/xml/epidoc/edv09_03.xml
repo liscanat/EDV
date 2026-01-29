@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ARCHITRAVE DEL PALAZZO DEI PRIORI, PERUGIA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">09.03</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Perugia</placeName>
+                        <district ref="#PG">PG</district>
+                        <repository>Palazzo dei Priori</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#admonition">Monito</term>
+                        </summary>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#architectural_element">Elemento architettonico</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                            <origDate notBefore="1316" notAfter="1336" precision="low">1326 ca.</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="09.03.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le due iscrizioni in volgare (Alegreça; Entra puro movi securo) sono collocate sul portale del Palazzo dei Priori di Perugia Nel portale sono presenti, insieme all’Alegreça, altre cinque figure retoriche: Umiltà, Superbia, Fecondità, Virginità e Magnanimità, tre delle quali accompagnate da didascalie latine. Il motto è di certo riferibile, come rilevato anche da TOMASIN 2016, alla giustizia che veniva amministrata nel Palazzo.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">GARIBALDI 2006, p. 46, n. 16; TOMASIN 2016, p. 512.</p>
+                <p xml:id="other">ROSSI 1864; BELLUCCI 1899; GUARDABASSI-SANTI 1953; FAINA 1957, pp. 26-36; MARTINI 1970, pp.39-71; MANCINI 1997 (in particolare SILVESTRELLI 1997, pp. 19-49); GARIBALDI 2006, (a cui si rimanda per la bibliografia precedente); TOMASIN 2016, pp. 512-513.</p>
+                <p xml:id="images">GARIBALDI 2006, 57, n. 16 e p.75, tav. 16 (ingrandimento) [1]; p. 52, n. 62 [2].</p>
+            </div>
+        </body>
+    </text>
+</TEI>

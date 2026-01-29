@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FRANCESCO DI SER CENNI, SCENE DELLA VITA DI MARIA E STORIE DELLA VERA CROCE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.92</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Volterra</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Chiesa di san Francesco</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1410">1410</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.92.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Sopra la scena della Strage degli Innocenti, in alto a sinistra, si legge in un cartiglio retto da una mano che spunta dal cielo un’iscrizione che ricorda come tutte le storie furono commissionate dalla Compagnia della Santa Croce a Cenni di Francesco di Ser Cenni, eccetto per i quattro evangelisti che spettavano invece a Jacopo da Firenze.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">CARLI 1978, p. 72 (parziale); COVI 1986, n. 436b app., p.680; FURIESI-GUELFI 1997, pp. 431-437.</p>
+                <p xml:id="other">BURRESI-CALECA-LESSI 1991.</p>
+                <p xml:id="images">BURRESI-CALECA-LESSI 1991, p. 19, 72; CARLI 1978, fig. 101.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,11 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>EPIGRAFI SEMIVOLGARI DELLA CHIESA DI SAN CRISTOFORO</title>
-                <editor role="data_collection"><persName />Alessandra Tiburzi</editor>
-                <editor role="edition"><persName />Alessandra Tiburzi</editor>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
@@ -13,16 +15,16 @@
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
                 <idno type="filename">09.01</idno>
-                <date when="2026-01-27" />
+                <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <placeName>Civitella d'Arna di Perugia</placeName>
-                        <district ref="#">PG</district>
+                        <district ref="#PG">PG</district>
                         <repository>Chiesa di San Cristoforo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
@@ -31,9 +33,9 @@
                             <term type="textFunction" ref="#">Didascalia</term>
                             <term type="textType" ref="#">Firma</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
+                        <textLang mainLang="x-volg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
-                        <physDesc>
+                    <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
@@ -50,28 +52,28 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                            <origDate when="1000">1189</origDate>
+                            <origDate when="1189">1189</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
-                      </history>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-     <facsimile>
-         <graphic url="00.00.jpg">
-                 <desc />
-             </graphic>
-     </facsimile>
+    <facsimile>
+         <graphic url="09.01.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
     <text>
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
-                <ab>ABC
+                <ab>
                     <lb n="1" />
                 </ab>
             </div>
-             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <ab>ABC
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
                     <lb n="1" />
                 </ab>
             </div>
@@ -81,10 +83,11 @@
             <div type="commentary" subtype="linguistic_analysis">
                 <p />
             </div>
-            <div type="commentary" subtype="note">Le due iscrizioni, con elementi di volgare, riguardano la costruzione o l’ampliamento della chiesa di san Cristoforo si trovano ad oggi murate nella parete esterna dell’edificio.<p />
+            <div type="commentary" subtype="note">
+                <p>Le due iscrizioni, con elementi di volgare, riguardano la costruzione o l’ampliamento della chiesa di san Cristoforo si trovano ad oggi murate nella parete esterna dell’edificio.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">VERMIGLIOLI 1800, p. 166, nota 1; GUERRIERI 1796 (trascrive l’ed. Vermiglioli); FILLANTI 2008, p. 167; CIMARRA 2009, p. 139.</p>
+                <p xml:id="editions">VERMIGLIOLI 1800, p. 166, nota 1; GURRIERI 1796 (trascrive l’ed. Vermiglioli); FILLANTI 2008, p. 167; CIMARRA 2009, p. 139.</p>
                 <p xml:id="other">FILLANTI 2008 con numerose notizie storiche sulla cittadina (alle pp. 165-171 si parla in particolare delle vicende della chiesa di San Cristoforo). Riproduzioni: FILLANTI 2008, p. 167; DIETL 2009, IV, p. 2206, Abb. 426; CIMARRA 2009, pp. 143-144.</p>
                 <p xml:id="images" />
             </div>

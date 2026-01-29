@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>BENEDETTO BONFIGLIO, ANGELI CON STRUMENTI DELLA PASSIONE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">09.37</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Perugia</placeName>
+                        <district ref="#PG">PG</district>
+                        <repository>Galleria Nazionale dell'Umbria (inv. 160 e 163)</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#admonition">Monito</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#umbria">Umbria</region></origPlace>
+                            <origDate>1470-80</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="09.37.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le iscrizioni sono dipinte all’interno di due cartigli, provenienti dalla chiesa di San Francesco al Prato.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">SANTI 1985, p. 56 [1] e p. 57 [2]; SARGENTI 1985-1986, p. 72, nn. 160-163; MERCURELLI SALARI 2003a, p. 21; MERCURELLI SALARI 1996, p. 156, scheda n. 21; GARIBALDI 2015, pp. 442, 444.</p>
+                <p xml:id="other">BOMBE 1904, p. 16; BOMBE 1909, pp. 104-105; SANTI 1985, pp. 56-58, scheda n. 39 (con bibliografia precedente); MANCINI 1992, p. 146, scheda nn. 33-36; MERCURELLI SALARI 1996, pp. 156-157, scheda n. 21; MERCURELLI SALARI 2003a, pp.19-24; GARIBALDI 2015, pp. 441-444, scheda n. 159, in particolare 149a e 159c (con ampia bibliografia precedente).</p>
+                <p xml:id="images">MANCINI 1992, p. 146, nn. 33-36; MERCURELLI SALARI 1996, p. 157; MERCURELLI SALARI 2003a, pp. 20, 23; GARIBALDI 2015, pp. 442-443.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

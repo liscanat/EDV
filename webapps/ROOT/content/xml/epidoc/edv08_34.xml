@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>AMBROGIO LORENZETTI, BUONO E CATTIVO GOVERNO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">08.34</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Siena</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Palazzo Pubblico</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#toscana">Toscana</region></origPlace>
+                            <origDate when="1339">1339</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="08.34.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Il ciclo di affreschi del Buono e Cattivo Governo di Ambrogio Lorenzetti conservato nella Sala della Pace (o sala dei Nove) è accompagnato da didascalie in volgare suddivise in sei gruppi che corrispondono a quattro stanze di canzone di tredici versi ciascuna con due congedi di cinque versi.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">ROWLEY 1958, I, pp. 99-122; BRANDI 1983, pp. 193-210; FRUGONI 1983, pp. 136-210; SUITNER 1983, pp. 193-194; CIOCIOLA 1992, p. VII; STARN 1992, pp. 11-59, 261-266; STARN 1994; CASTELNUOVO 1995; PETRUCCI 1997, p. 53; CASAPULLO 1999, p. 169.</p>
+                <p xml:id="images">ROWLEY 1958, II, figg. 153-160, 173-174, 206-209, 222-224, 233-234; CAIROLA-CARLI 1963, fig. 41-90; BRANDI 1983, fig. 242-255; FRUGONI 1983, figg. 69-74; STARN 1992, figg. 5-7, 14, 21, 24-25; STARN 1994, fig. 7, tavv. 1-6, p. 43, 49, 71, 94; CASTELNUOVO 1995, pp. 45, 47, 145, 146-147, 245, 246, 313, 314-315; BRUGNOLO 1995, pp. 382-383.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
