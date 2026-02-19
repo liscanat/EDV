@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Iscrizione di Giovanni dalle Palle</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>http://foto.inabruzzo.it/</persName></editor>
+                        <title>ANDREA DELITIO, STORIE DI MARIA</title>
+                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">13.09</idno>
-                        <date when="2020-04-13"/>
+                        <date when="2020-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,15 +23,15 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Sulmona</placeName>
-                                <district ref="#AQ">AQ</district>
-                                <repository>Piazza XX settembre</repository>
+                                <placeName>Atri</placeName>
+                                <district ref="#TE">TE</district>
+                                <repository>Basilica di Santa Maria Assunta</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#patronage">Committenza</term>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
                                 <textLang mainLang="xmed">Volgare mediano</textLang>
                             </msContents>
@@ -39,8 +39,8 @@
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#slab">Lastra</objectType>
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
-                                    <origDate when="1484">XV ex.</origDate>
+                                    <origDate notBefore="1460" notAfter="1481">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="13_09.jpg">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -69,42 +69,26 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
-                            <lb n="1"/><persName key="Giovanni dalle Palle">Giovanni dal
-                                <lb n="2"/>Le Palle</persName> viniziano de <placeName key="Sermona">Ser
-                            <lb n="3"/>mona</placeName> fece fare <seg type="grapheme" corresp="/kw/">chu</seg>esto
-                            <lb n="4"/>di&lt;f&gt;{e}itio et casa prin
-                            <lb n="5"/>cipiati anno MCCCCLXXXIIII
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab><lb n="1"/>MAESTRO∙GIOVANNI∙DAL
-                            <lb n="2"/>LE∙PALLE∙VINIZIANO∙DESER
-                            <lb n="3"/>MONA∙FECE∙FARE∙CHVESTO∙
-                            <lb n="4"/>DIEITIO ∙ET∙ CASA ∙ PRIN
-                            <lb n="5"/>CIPIATI∙ANNO∙MCCCCLXXXIIII
+                        <ab>
                         </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si noti l'uso di &lt;z&gt;, r. 2 per /ts/ (cfr. invece difitio r. 4 con &lt;ti&gt;); &lt;chu&gt; per la labiovelare /kw/; 'Sermona' 
-                            dal tardo Sulmona-ae con caratteristici passaggi di /u/ ad /e/ neutra in posizione protonica, e di -LM- > /rm/.</p> 
-                         <p>'difitio'V. anche 'difizio' nel <title>Laudario Urbinate</title> di Jacopone: «contra rasone non me vale intença / contra potença né mur 
-                             né difizio» XIII, 8.68 (BETTARINI 1969, p. 513), e 'dificia' nelle <title>Storie de Troia e de Roma</title>: «Lo quale Dioclitiano in Roma 
-                             edificao molte dificia et therme» 17 (MONACI 1920, p. 320).</p>
+                        <p/>
                     </div>
-                    <div type="commentary" subtype="note">
-                        <p>L’iscrizione, realizzata su un concio di pietra rettangolare, risulta abrasa nella parte terminale dell’angolo in basso a destra.
-                            Il Palazzo di Giovanni dalle Palle, fatto costruire nel 1484 dall’omonimo mercante veneziano, si trova in posizione d’angolo tra Piazza XX 
-                            Settembre e Corso Ovidio. MATTIOCCO 2000 ipotizza che a curare la progettazione dell’edificio sia stato un certo Simone architetto 
-                            veneziano che risulta attivo a Sulmona in quel periodo (p. 43).</p>
+                    <div type="commentary" subtype="note"><p>Le didascalie accompagnano alcune scene delle Storie di Maria affrescate nel Coro della cattedrale di Atri: [1] La cacciata di Gioacchino dal Tempio; [2] Il ritiro e il ritorno di Gioacchino a Gerusalemme; [3] L’incontro di Gioacchino e Anna alla Porta Aurea; [4] La Natività; [5] La Presentazione al Tempio; [6] L’educazione nel Tempio; [7] Lo Sposalizio; [8] L’annunciazione; [9 La Visitazione; [10] La Natività di Gesù; [11] L’Adorazione dei Magi; [12] La fuga in Egitto; [13] La Strage degli Innocenti. Gli episodi sono accompagnati in alcuni casi da didascalie in volgare che descrivono le scene rappresentate. </p>
+                        <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">PICCIRILLI 1899, p. 131; MATTIOCCO 2000, p. 43; ESPOSITO 1998, p. 75.</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images"/>
-                    </div>
+                            <p xml:id="editions">MATTHIAE 1965, p. 23; TRUBIANI 1969, pp. 112 e ss.; MATTHIAE-TRUBIANI 1976, pp. 12-14.</p>
+                <p xml:id="other">RAPINO 2013, BONOMO ET AL 2019.</p>
+                <p xml:id="images">MATTHIAE 1965, figg. 5-6, 8; tavv. 6, 8, 11, 15, 19, 24; TRUBIANI 1969, figg. 58-66; MATTHIAE-TRUBIANI 1976, tavv. XXXVIII-XLIV; XLVI-LI; RAPINO 2013, p. 15, 18, 23, BONOMO ET AL 2019.</p>
+            </div>
                 </body>
             </text>
         </TEI>

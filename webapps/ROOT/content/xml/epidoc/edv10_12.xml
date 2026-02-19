@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LORENZO SALIMBENI, STORIE DALLA VITA DI SAN BIAGIO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.12</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>San Ginesio</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Oratorio di San Biagio (annesso alla Collegiata)</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate when="1406">1406</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.12.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le storie della Vita di San Biagio sono corredate di tituli in volgare: [1] Miracolo del maiale resuscitato; [2] Rifiuto di adorare gli idoli; [3] Martirio delle sette donne devote a San Biagio; [4] Il Supplizio di San Biagio. In situ.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">MARCHINI 1966, pp. 282-289, a p. 289 (episodi qui indicati con 3, 2 e 4); ROSSI 1976, pp. 87-89 (limitatamente agli episodi qui come 2 e 3), 215, n. 6, passim; BOSKOVITS 1977, ed. 1994, p. 238, fig. 162; RIGHI 1987, p. 749; SCARPELLINI 1996, pp. 618-619; CIARDI DUPRÈ DAL POGGETTO 1997, pp. 68, 70; CIARDI DUPRÈ DAL POGGETTO 1998, pp. 20-21, 24; CIARDI DUPRÈ DAL POGGETTO 1999, pp. 112-116; PACIARONI 1996, p. 75; ARMELLINI 2000, pp. 66-70, figg. 28-29, 31-32; MINARDI 2003-2004, pp. 63-71, 203-208; MINARDI 2008, pp. 158-161, scheda n. 8, ed. a p. 158; FRAPICCINI 2012, pp. 160-181, a p. 171. Altri studi: BERENSON 1968, I, p. 370; ZAMPETTI [1969], pp. 134, 136, 144, 152, nota 3, tav. XVIII, figg. 99-100; ROSSI 1971, pp, 216-220; BOSKOVITS 1975, p. 114; BATTISTINI 1987, pp. 386-387; ZAMPETTI 1988, pp. 242, 245, 246, fig. 25; CIARDI DUPRÈ DAL POGGETTO 1999, pp. 31-32; ARMELLINI 20003, pp. 65-70. Riproduzioni: ROSSI 1976, fig. 99-116; ZAMPETTI 1988, p. 267, fig. 25 è possibile leggere la didascalia [2]: CORBO 1992, pp. 21-22; MINARDI 2008, tavv. XXXI-XXXVII; CIARDI DUPRÈ DAL POGGETTO 1999, pp. 113-115; ARMELLINI 20003, p. 68, fig. 29; FRAPICCINI 2012, tavv. XXXIII-XL.</p>
+                <p xml:id="other" />
+                <p xml:id="images" />
+            </div>
+        </body>
+    </text>
+</TEI>

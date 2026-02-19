@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Cola di Pietro da Camerino, Processione dei Bianchi</title>
+                       <title>MARIANO D’ANTONIO (?), STORIE DEL BEATO EGIDIO</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
                         <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera/</persName></editor>
+                        <editor role="images"><persName>GARIBALDI 2015</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.13</idno>
-                        <date when="2020-11-23"/>
+                        <date when="2025-11-25"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,15 +23,15 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Vallo Di Nera</placeName>
+                                <placeName>Perugia</placeName>
                                 <district ref="#PG">PG</district>
-                                <repository>Chiesa di Santa Maria Assunta (già chiesa di San Francesco)</repository>
+                                <repository>Galleria Nazionale delll’Umbria, già Perugia, chiesa di San Francesco al Prato</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#AP #D">Avviso pubblico, Didascalia</term>
-                                    <term type="textType" ref="#patronage #signature">Committenza, Firma</term>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
                                 <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
                             </msContents>
@@ -39,8 +39,8 @@
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#plaster">Intonaco</material>
-                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <material ref="#wood">Legno</material>
+                                            <objectType ref="#painting">Dipinto</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                                    <origDate when="1401">XV in.</origDate>
+                                    <origDate notBefore="1410" notAfter="1468">XV in.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,100 +61,84 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                  <graphic url="09.13a.jpg">
-            <desc/>
-        </graphic>
-        <graphic url="09.13b.jpg">
-            <desc/>
-        </graphic>
+                <graphic url="09.16.jpeg">
+                    <desc/>
+                </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
+                    <div type="textpart" subtype="section" n="A">
 <ab>
-<lb n="1"/>&lt;An&gt;no d(omi)ni MCCCCI de mese
-<lb n="2"/>iu&lt;l&gt;ii Cola maiestri Petri
-<lb n="3"/>de Cammerino me pi&lt;n&gt;sit
+<lb n="0"/>[<title>Colloquio con Gregorio IX</title>]
+<lb n="1"/>Facto i(n) (con)templatione el b(ea)to nel suo colloq(ui)o el papa fo p(ri)vato.
 </ab>
 </div>
-<div type="textpart" subtype="section" n="B">
+    <div type="textpart" subtype="section" n="B">
 <ab>
-<lb n="1"/>hoc opu(s) fe&lt;cit fieri?&gt; 
-<lb n="2"/>Iuhannoni a&lt;llu quale Deio?&gt;
-<lb n="3"/>li dia pace.
+    <lb n="0"/>[Il rigo è ritenuto posticcio da GARIBALDI 2015. Si trascrive ugualmente al solo scopo di mantenere l’unitarietà del testo.]
+    <title>Resurrezione della fanciulla di Monte San Savino.</title>]
+    <lb n="1"/><title>Puella mortua resuscitatur ad votum materterae.</title>
 </ab>
-</div>
+    </div>
 <div type="textpart" subtype="section" n="C">
 <ab>
-<lb n="1"/>mise
-    <lb n="2"/>recordia 
-<lb n="3"/>o Vergine [...] 
+    <lb n="0"/>[<title>Visita di san Luigi IX di Francia</title>]
+    <lb n="1"/>[Testo interamente ricostruito in GARIBALDI 2015: <title>S. Ludovicus francorum rex, et beatus mutuo abeque ver</title>].
+<lb n="2"/>[<title>[bis sua sensa communicant]</title> 
 </ab>
 </div>
 <div type="textpart" subtype="section" n="D">
 <ab>
-<lb n="1"/>misericor-
-<lb n="2"/>dia o Verg(en)e
-<lb n="3"/>pia,  pace 
-<lb n="4"/>o Vergene
-<lb n="5"/>Maria [...]
+    <lb n="0"/>[<title>Estasi del beato Egidio</title>]
+    <lb n="1"/>in or(ati)one levato sta (con)te(m)p(e)l(an)do in (con)specto del p&lt;apa?&gt;.
 </ab>
-</div>                        
-                   </div>
+</div>
+               <div type="textpart" subtype="section" n="E">
+<ab>
+    <lb n="0"/>[<title>Miracolo del latte</title>]
+<lb n="1"/>quando 
+<lb n="2"/>pron
+<lb n="3"/>appar
+<lb n="4"/>mulier lacte caren&lt;s&gt; pectusque adplicans loco ubi
+<lb n="5"/>beatus steterat fit voti compos
+</ab>
+               </div>
+              <div type="textpart" subtype="section" n="F">
+<ab>
+<lb n="0"/>[<title>Transito</title>]
+<lb n="1"/>singularis raptus beati
+</ab>
+</div></div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                         <div type="textpart" subtype="section" n="A">
-<ab>
-<lb n="1"/>[.]NO · DN ̅I · M · CCCCI · DEMESE ·
-<lb n="2"/>IV[.]II · COLA · MAIESTRI · PETRI
-<lb n="3"/>DE CAMMERINO · MEPISIT
-</ab>
-</div>
-<div type="textpart" subtype="section" n="B">
-<ab>
-<lb n="1"/>[accanto al crocifisso] HOC OPV · FE[...] 
-<lb n="2"/>·IVHANNONI· A[...]
-<lb n="3"/>· LIDIA · PACE
-</ab>
-</div>
-<div type="textpart" subtype="section" n="C">
-<ab>
-<lb n="0"/>[sul rotolo, sotto alla precedente]
-    indictione VI de me(n)-
-<lb n="1"/>mise-
-    <lb n="2"/>recordia
-<lb n="3"/>ouirgo (?)
-</ab>
-</div>
-<div type="textpart" subtype="section" n="D">
-<ab>
-<lb n="0"/>[sul rotolo]
-    <lb n="1"/>misericor-
-    <lb n="2"/>dia o vergē
-<lb n="3"/>pia . pace 
-<lb n="4"/>o vergene
-<lb n="5"/>maria ...
-</ab>
-</div>                        
+                        <ab>
+                        </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
+                        <p>Le iscrizioni commentano le storie della vita del beato Egidio e in particolare, da sinistra e a partire dall’alto: [1] il colloquio con Gregorio IX, [2] la resurrezione della fanciulla di Monte San Savino, [3] la visita di san Luigi IX di Francia; [4] l’estasi del beato Egidio; [5] il miracolo del latte e infine il transito [5]. Il manufatto proviene dalla chiesa perugina di San Francesco al Prato ed è conservato nella Galleria Nazionale dell’Umbria con il numero di inventario 15.</p>
+                            <p>Nell’impossibilità di vedere personalmente il manufatto abbiamo messo a testo la sola edizione critico-interpretativa sulla base della lettura di GARIBALDI 2015, tranne 
+                            per la resa di «fo’» della prima didascalia, che abbiamo reso con «fo». 
+                            Ricaviamo inoltre da GARIBALDI 2015 il nome dell’opera, nonché degli episodi della vita del santo di cui si parla nel testo. </p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --></p>
-                        <p>La firma d’artista si trova nella navata destra della chiesa di Santa Maria Assunta. Le altre didascalie riguardano il nome del committente e la richiesta di grazia e l’ incipit della lauda dei Bianchi [3] e [4] trascritti rispettivamente su un libro e un cartiglio. L’affresco è stato commissionato da Giovannuccio di Vallo ed eseguito da Cola di Petro da Camerino nel 1401 per commemorare la pubblica pacificazione legata al Movimento dei Bianchi (v. anche SANTUCCI 2001). La scena raffigura la processione dei Bianchi segnati con la croce e suddivisi per categorie, ognuna identificabile dalla propria insegna: rose, gigli e rami di ulivo. In primo piano è rappresentata la pacificazione tra due uomini inginocchiati in atto di scambiarsi la pace, cui assistono come testimoni tre uomini. In posizione centrale si trova l’Angelo della pace che rimanda al giuramento di fedeltà che i duchi longobardi solevano scambiarsi sotto l’immagine di s. Michele, l’angelo per eccellenza (SENSI 2001, pp. 254-255). Proseguendo verso destra, la rappresentazione continua con un gruppo di cinque Bianchi col capo scoperto a mostrare la tonsura; uno di questi legge su di un cartiglio i primi versi della lode alla Vergine. Ancora a destra altri Bianchi, inginocchiati sostengono il gonfalone raffigurante la Madonna col Bambino, tra di loro anche un flagellante. Proseguendo nella stessa direzione, un personaggio che si affaccia dalla porta di una chiesa e un altro gruppo di penitenti alza un Crocifisso e due leggono le parole della preghiera [4]. In alto, in un cartiglio ormai mutilo della parte destra, vi è l’indicazione del committente con una probabile richiesta di grazie.
-Nelle sequenze di preghiera appena visibili dalle riproduzioni sembrano potersi leggere gli incipit di una lauda cantata dai 
-Bianchi assisiati e riportata da Fortini: «Misericordia al peccatore, / misericordia, virgo pia, / pace, o vergene Maria, 
-non guadare al nostro errore» (FORTINI 1961, pp. 45-47; la lauda proviene dal codice 506 della Biblioteca del Sacro Convento di Assisi. Cfr. BLIERSBACH 2001, p. 389).
+                        <p>Le iscrizioni commentano le storie della vita del beato Egidio e in particolare, da sinistra e a partire dall’alto: [A] il colloquio con Gregorio IX, 
+                            [B] la resurrezione della fanciulla di Monte San Savino, [C] la visita di san Luigi IX di Francia; [D] l’estasi del beato Egidio; [E] il miracolo 
+                            del latte e infine il transito [F].</p>
+<p>Il manufatto proviene dalla chiesa perugina di San Francesco al Prato ed è conservato nella Galleria Nazionale dell’Umbria (inv. 15). 
+    Le iscrizioni, in latino e in volgare, si presentano in un pessimo stato conservativo che rende malagevole la lettura, soprattutto della didascalia [4]. 
+    È inoltre presente la riscrittura dell’intera riga nel segmento [2]. Il volgare, se si esclude la frammentaria didascalia [5], è impiegato soltanto nel primo episodio.
+Il manufatto fu segnalato per la prima volta nel 1784 da Orsini che ricorda nella Sagrestia «il feretro del B. Egidio. Esso è di tavole, su cui fu di poi dipinto il Beato 
+con diverse gesta della vita». Esso è stato con ogni probabilità realizzato dopo il 1439 o dopo la metà del XV secolo ed è generalmente è attribuito a Mariano d’Antonio per alcune affinità con le sue opere più mature
 </p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">PIRRI 1918, pp.11 [4], 12 [1], 15 [2]; VAN MARLE 1925, V, p. 196; VITALINI SACCONI 1968, p. 223, nota 101 [1]; %manca in biblioCORDELLA 1982, pp. 39 [1], 41 [2] e [4]; TODINI 1989, I, p. 57 [1]; SENSI 2001, p. 254 [1], p. 255 [2]; CORDELLA 2003, p. 663.</p>
-                        <p xml:id="other">SCARPELLINI 1976, pp. 18, 26, 70-71; %manca in biblioCECCARONI 1982, pp. 39-44; SANTUCCI 2001.</p>
-                        <p xml:id="images">VITALINI SACCONI 1968, fig. 21; SCARPELLINI 1976, pp. 147, n. 11; CECCARONI 1982, p. 40 (part.); TODINI 1989, II, p. 232, n. 504; [1]; BLIERSBACH 2001, p. 423, figg. 19 -20; p. 424 figg. 21-22, p. 245, fig. 23 (part. del gonfalone processionale) e fig. 14 (part. del flagello); altri particolari a p. 426 (fig. 26), p. 427 (figg. 27 e 28) e p. 428 (fig. 29); http://www.lavalnerina.it/dett_luogo.php?id_item=95, https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera;  (entrambi consultati 23/11/2020).</p>
+                        <p xml:id="editions">MANCINI 1992, p. 146, n. 31; GARIBALDI 2015, p. 346 n. 130.</p>
+                        <p xml:id="other">GUADABASSI 1872, n. 304; TODINI 1989, I, p. 127.</p>
+                        <p xml:id="images">TODINI 1989, II, figg. 764-767; GARIBALDI 2015, p. 223, n. 51.</p>
                     </div>
                 </body>
             </text>

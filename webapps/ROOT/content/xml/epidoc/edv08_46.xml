@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI BINDO RICCIOLETTI</title>
+                <title>GIOVANNI DA MILANO, MADONNA CON BAMBINO (POLITTICO DI PRATO)</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <placeName>Prato</placeName>
+                        <district ref="#PO">PO</district>
+                        <repository>Museo di Palazzo Pretorio</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1360">1360</origDate>
+                            <origDate>1355-60</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio sud (fila 16 b) del Camposanto di Pisa.</p>
+                <p>L'opera fu commissionata dal frate francesco Tieri per lo Spedale della Misericordia di Prato, dove è documentata dal 1367.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 93.</p>
+                <p xml:id="images">catalogo.fondazionezeri.unibo.it,</p>
             </div>
         </body>
     </text>

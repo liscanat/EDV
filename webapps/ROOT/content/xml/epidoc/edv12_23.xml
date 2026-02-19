@@ -1,105 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Iacobello Rocchino</title>
-                        <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>GARMS-SOMMERLECHNER 2009, p. 162, fig. 21</persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">12.23</idno>
-                        <date when="2020-04-23"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>Roma</placeName>
-                                <district ref="#RM">RM</district>
-                                <repository>Palazzo della Cancelleria</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
-                                </summary>
-                                <textLang mainLang="xvolg">Volgare</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width>55</width><depth>8</depth><height>204</height></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#capital">Capitale</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate notBefore="1450" notAfter="1499" precision="low">XV ex.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="12.24.jpg">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>De <w><seg type="phoneme" subtype="j_initial">I</seg>acobelli</w>
-                            <lb n="2"/>Rocchini
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>DE IACOBELLI
-                            <lb n="2"/>ROCCHINI
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p/>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si noti la conservazione di /j/ in posizione iniziale, comune negli antichi testi romaneschi e in area mediana (V., in EDV, 
-                            <ref target="edv11_02">11.02</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, 
-                            <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>, <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, 
-                            <ref target="edv12_17">12.17</ref>).</p>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p>La lapide fa parte di un corpus di reperti provenienti dall’antica basilica romana di San Lorenzo in Damaso, nel rione Parione, oggi in Palazzo della Cancelleria (<ref target="edv12_07">12.07</ref>, 
-                            <ref target="edv12_18">12.18</ref>, <ref target="edv12_21">12.21</ref>, <ref target="edv12_24">12.24</ref>). Si tratta di una lastra incisa figurata, con ‘iscrizione-cornice’ e stemma, 
-                            ricavata dal fondo di un sarcofago antico. Risulta spezzata orizzontalmente in due parti, lesionata ai margini e fortemente usurata: il contenuto 
-                            dello stemma in alto a sinistra non è più identificabile e della figura maschile incisa si possono riconoscere ormai soltanto alcune linee del 
-                            contorno (piedi, gamba, bordo inferiore dell’abito).</p>
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SANTA FRANCESCA ROMANA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">12.23</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Roma</placeName>
+                        <district ref="#RM">RM</district>
+                        <repository>Monastero delle Oblate</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xrom" otherLangs="">Volgare romanesco</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#" />
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#roma">Roma</region></origPlace>
+                            <origDate>1468, 1485</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="12.23.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>I due cicli di affreschi, dipinti nel 1468 e nel 1485, contengono, rispettivamente, 26 e 10 scene della vita della santa, ciascuna corredata da una didascalia in volgare. Il ciclo più antico occupa le quattro pareti della cappella oratoriale, è stato attribuito ad Antoniazzo Romano o comunque alla sua scuola ed è dipinto in colori accesi; il secondo, monocromo, decora una sala attigua, originariamente adibita a refettorio. I dipinti sono aperti per la visita unicamente il 10 marzo, giorno natale di Francesca.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">ROSSI 1907, VENTURI 1913, UGOLINI, 1932, pp. 24-25, UGOLINI 1936, p. 790; LUGANO 1933 e 1934, D'ACHILLE 1987b, pp. 107-183</p>
+                <p xml:id="other">ERNST 1970, p. 15, D'ACHILLE-GIOVANARDI 1984, n. 30</p>
+                <p xml:id="images" />
+            </div>
+        </body>
+    </text>
+</TEI>

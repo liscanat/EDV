@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Storie di san Francesco</title>
+                        <title>STORIE DI SAN FRANCESCO</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>DE RUBEIS 1991</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -109,10 +109,8 @@
                         <p>'li frati soi', 8 con il possessivo senza dittongamengto e posposto, come normale in area centrale (cfr. anche <ref target="edv11_20">11.20</ref>). </p>
                        </div>
                     <div type="commentary" subtype="note">
-                        <p>Data l’impossibilità di una ricognizione diretta, la presente edizione critico-interpretativa segue la trascrizione diplomatica di DE RUBEIS 1991, pp. 351-353. 
-                            Larga parte delle didascalie era già compromessa all'epoca della sua trascrizione a causa di opere murarie quali aperture di monofore o archi d’ingresso. 
-                            Numerosi interventi di scialbatura e ritocco avevano inoltre reso di difficile lettura anche le parti di testo conservate.</p>
-                       
+                        <p>Le didascalie sono gravemente compromesse, a causa di numerosi interventi di scialbatura e ritocco, e di opere murarie quali aperture di monofore o archi d’ingresso. Data l’impossibilità di una ricognizione diretta, la presente edizione critico-interpretativa segue la trascrizione diplomatica di DE RUBEIS 1991, pp. 351-353. 
+                            </p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">DE RUBEIS 1991, pp. 339-353.</p>

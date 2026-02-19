@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>NARDO DI CIONE, INFERNO</title>
+                <title>ISCRIZIONE DEL CHIOSTRO SUPERIORE DI SAN LORENZO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,22 +25,22 @@
                     <msIdentifier>
                         <placeName>Firenze</placeName>
                         <district ref="#FI">FI</district>
-                        <repository>Santa Maria Novella</repository>
+                        <repository>Basilica di san Lorenzo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate>1354-57</origDate>
+                            <origDate when="1352">1352</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Nardo di Cione era fratello di Andrea Orcagna. Le pitture della Cappella Strozzi si devono ad entrambi: Andrea dipinse la pala d’altare, Nardo gli affreschi del Giudizio Universale, Inferno e Paradiso. L’Inferno costituisce la prima rappresentazione nota del testo dantesco in forma monumentale e le forme della sua rappresentazione non richiamano quelle delle raffigurazioni raffigurazioni dell’Inferno e del Giudizo Universale sparse lungo tutta la penisola (cfr. nn. 02.12, 02.13, 08.74, 09.32, 10.44, 11.14, 11.16, 11.17, 11.28, 11.29, 12.27, 14.02, 14.09, 16.06).</p>
+                <p>L’iscrizione è conservata su di una lastra attualmente fissata alla parete settentrionale del chiostro superiore di San Lorenzo, vicino alla scala principale, e ricorda la costruzione di una tettoia da parte di un tale Agnolo di Vanno dal Canto.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions">LARSON 1999, p. 370-371.</p>
+                <p xml:id="other">LARSON 1993, pp. 51-52.</p>
+                <p xml:id="images">LARSON1993, p. 53.</p>
             </div>
         </body>
     </text>

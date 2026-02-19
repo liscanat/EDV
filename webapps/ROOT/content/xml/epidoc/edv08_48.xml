@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI NERONE DI BACCIO DEI CAVALCANTI</title>
+                <title>GIOVANNI DA MILANO, CRISTO IN PIETÀ E DOLENTI</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Galleria dell'Accademia</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1368">1368</origDate>
+                            <origDate when="1365">1365</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 18 c) del Camposanto di Pisa.</p>
+                <p>L’opera, proveniente dal convento fiorentino di San Girolamo sulla Costa è firmata e datata alla sua base da Giovanni da Milano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 79, n. 106.</p>
+                <p xml:id="editions">PROCACCI 1936, p. 24; GREGORI 1994, n. 51, p. 53.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 106.</p>
+                <p xml:id="images">GREGORI 1994, n. 51, p. 53.</p>
             </div>
         </body>
     </text>

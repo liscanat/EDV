@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PAOLO DA VISSO, MADONNA DEL VOTO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.23</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Visso</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Museo Civico Diocesano</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate notBefore="1440" notAfter="1460">1440-1460</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.23.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>La Madonna dell’Umiltà di Paolo da Visso conserva traccia, sulla ghiera del padiglione e all’interno di due cartigli ai lati della Vergine, di un testo laudistico.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">FABBI 1967, pp. 144-145; FABBI 1971, pp. 318-319; VENANZANGELI 1984, p. 56; VENANZANGELI 1988, pp. 202, 204 (ripropone l’edizione 1984); VENANZANGELI 1993, p. 74 (ripropone l’edizione 1984); CAPRIOTTI 2010, p. 81.</p>
+                <p xml:id="other">VENANZANGELI 1984, n. 5 pp. 54-60; VENANZANGELI 1988, n. 5, pp. 202-205; VENANZANGELI 1993, pp. 73-77; CAPRIOTTI 2010, pp. 75-88.</p>
+                <p xml:id="images">VENANZANGELI 1984, p. 55 e p. 57 (particolare); VENANZANGELI 1988, p. 203; VENANZANGELI 1993, p. 75 n. 26 e p. 76 v. 27 (particolare); CAPRIOTTI 2010 p. 76 n. 1, p. 77 n. 2.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

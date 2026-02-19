@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DEL CHIOSTRO SUPERIORE DI SAN LORENZO</title>
+                <title>ISCRIZIONE DELLA FONDAZIONE DELLA CAPPELLA DI SAN JACOPO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,13 +25,13 @@
                     <msIdentifier>
                         <placeName>Firenze</placeName>
                         <district ref="#FI">FI</district>
-                        <repository>Basilica di san Lorenzo</repository>
+                        <repository>Auditorium Corbolini</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#patronage">Committenza</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1352">1352</origDate>
+                            <origDate when="1351">1351</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su di una lastra attualmente fissata alla parete settentrionale del chiostro superiore di San Lorenzo, vicino alla scala principale, e ricorda la costruzione di una tettoia da parte di un tale Agnolo di Vanno dal Canto.</p>
+                <p>La lapide ricorda la fondazione della prima cappella di san Jacopo nel 1351 da parte della confraternita di Santa Maria del Giglio</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">LARSON 1999, p. 370-371.</p>
-                <p xml:id="other">LARSON 1993, pp. 51-52.</p>
-                <p xml:id="images">LARSON1993, p. 53.</p>
+                <p xml:id="editions" />
+                <p xml:id="other" />
+                <p xml:id="images" />
             </div>
         </body>
     </text>

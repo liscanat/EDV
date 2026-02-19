@@ -30,10 +30,10 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#">Didascalia</term>
-                            <term type="textType" ref="#">Firma</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="x-volg" otherLangs="la">Volgare, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>

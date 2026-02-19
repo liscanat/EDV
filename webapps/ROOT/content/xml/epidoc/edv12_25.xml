@@ -1,106 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dorathea da Verzeli</title>
-                <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
-                <editor role="edition"><persName>Nadia Cannata</persName></editor>
-                <editor role="commentary"><persName>Nadia Cannata</persName></editor>
-                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                <editor role="images"><persName>Nadia Cannata</persName></editor>
+                <title>IACOBELLO ROCCHINO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">12.26</idno>
-                <date when="2024-03-09"/>
+                <idno type="filename">12.25</idno>
+                <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <placeName>Roma</placeName>
                         <district ref="#RM">RM</district>
-                        <repository>Basilica di santa Cecilia in Trastevere (atrio)</repository>
-                        <idno type="invNo"/>
+                        <repository>Palazzo della Cancelleria</repository>
+                        <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#funerary">Iscrizione funeraria</term>
-                        </summary> 
-                        <textLang mainLang="xset">Volgare settentrionale</textLang>
+                        </summary>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
-                        <physDesc>
+                    <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
+                                    <material ref="#" />
                                     <objectType ref="#slab">Lastra</objectType>
-                                    <dimensions><height>83</height> <width>59</width></dimensions>
+                                    <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#capital">capitale</term></handNote>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>
-                                <region ref="#roma">Roma</region> 
-                            </origPlace>
-                            <origDate when="1490">XV ex.</origDate>
+                            <origPlace><region ref="#roma">Roma</region></origPlace>
+                            <origDate notBefore="1451" notAfter="1500">XV ex.</origDate>
                         </origin>
-                        <provenance type="observed"/>
-                      </history>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <facsimile>
-             <graphic url="12.26.jpg">
-                 <desc/>
-             </graphic>
-     </facsimile>
+         <graphic url="12.25.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
     <text>
         <body>
-                 <div type="edition" subtype="interpretive" xml:space="preserve">
+            <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>Qui gia<seg type="grapheme" corresp="/z/">s</seg> <w type="scempiamento">madona</w>
-                    <lb n="2"/>a Doratea da <w type="assibilation">Verzeli
-                    <lb n="3"/>zeli</w> hospitaler
-                    <lb n="4"/>a <w type="scempiamento">delo</w> ispetale de 
-                            <lb n="5"/>santa Cicilia de se
-                            <lb n="6"/>tebre die XXVI MCCCC
-                            <lb n="7"/>LXXXX
-                </ab>
-            </div>
-                <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab><lb n="1"/>QVI GIASE MADON
-                            <lb n="2"/>A DORATEA DA VER
-                            <lb n="3"/>ZELI HOSPITALER
-                            <lb n="4"/>A DELO ISPETALE DE
-                            <lb n="5"/>SANTA CICILIA DE SE
-                            <lb n="6"/>TEBRE DIE XXVI MCCCC
-                            <lb n="7"/>LXXXX
+                            <lb n="1"/>De <w><seg type="phoneme" subtype="j_initial">I</seg>acobelli</w>
+                            <lb n="2"/>Rocchini
                         </ab>
-                    </div> <div type="apparatus">
-                <p/>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>DE IACOBELLI
+                            <lb n="2"/>ROCCHINI
+                        </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
-                <p>La lingua dell'iscrizione conserva tratti tipici dei volgari settentrionali: la sibilante o l'assibilata che sostituiscono l'affricata in &apos;giase&apos; e &apos;Verzeli&apos;, lo scempiamento delle geminate in &apos;madona&apos;, &apos;delo&apos; &apos;setembre&apos; l'agentivo &apos;hospitalera&apos; senza dittongamento, l'apertura della &apos;a&apos; in &apos;Doratea&apos;.</p>
+             <p>Si noti la conservazione di /j/ in posizione iniziale, comune negli antichi testi romaneschi e in area mediana (V., in EDV, 
+                            <ref target="edv11_02">11.02</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, 
+                            <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>, <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, 
+                            <ref target="edv12_17">12.17</ref>).</p>
+
             </div>
             <div type="commentary" subtype="note">
-                <p>La donna, vercellese, si trovò a morire nello spedale di Santa Cecilia, ed è possibile - vista la patina linguistica - che i suoi familiari abbiano dettato il testo commemorativo al lapicida. Nella Basilica di santa Cecilia è sepolto anche il vescovo di Londra, Adam Easton, morto nel 1348 a Trastevere, dove si trovava una casa per pellegrini inglesi, poi spostata a via Monserrato.</p>
+              <p>La lapide fa parte di un corpus di reperti provenienti dall’antica basilica romana di San Lorenzo in Damaso, nel rione Parione, oggi in Palazzo della Cancelleria (<ref target="edv12_07">12.07</ref>, 
+                            <ref target="edv12_18">12.18</ref>, <ref target="edv12_21">12.21</ref>, <ref target="edv12_24">12.24</ref>). Si tratta di una lastra incisa figurata, con ‘iscrizione-cornice’ e stemma, 
+                            ricavata dal fondo di un sarcofago antico. Risulta spezzata orizzontalmente in due parti, lesionata ai margini e fortemente usurata: il contenuto 
+                            dello stemma in alto a sinistra non è più identificabile e della figura maschile incisa si possono riconoscere ormai soltanto alcune linee del 
+                            contorno (piedi, gamba, bordo inferiore dell’abito).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions"></p>
-                <p xml:id="images">D’ACHILLE 1987,  Tav. X n.22 , pp. 73 n. 13.</p>
+                <p xml:id="editions">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
+                <p xml:id="other" />
+                <p xml:id="images">GARMS-SOMMERLECHNER 2009, p. 161, n. 15, fig. 21</p>
             </div>
         </body>
     </text>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PALA DORATA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">06.02</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Grado</placeName>
+                        <district ref="#GO">GO</district>
+                        <repository>Basilica di sant'Eufemia</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
+                        </summary>
+                        <textLang mainLang="xvnz" otherLangs="">Volgare veneziano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#gold">Oro</material>
+                                    <objectType ref="#artifact">Artefatto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#friuli venezia giulia">Friuli Venezia Giulia</region></origPlace>
+                            <origDate when="1500">1500</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="06.02.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’iscrizione volgare si trova su di una placchetta apposta nella parte centrale del bordo inferiore di una pala d’oro in argento sbalzato e cesellato, donata nel 1372 alla Basilica di Sant’Eufemia dal nobile veneziano Donato Mazzalorsa. Il manufatto è suddiviso in tre registri; al centro si trovano rappresentati i soggetti principali della pala: San Marco e il Cristo Pantocrator assiso su un trono in atto di benedire con la mano destra e con la sinistra reggere un libro aperto sulle ginocchia che riporta il testo di Giovanni 8, 12 e 11, 26 in parte in volgare.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">CUSCITO 1966, pp. 28-80; CUSCITO 1992, pp. 98-107, alle pp. 106-107 (scheda III. 3, Pala d’argento dorato); PASTRES 2009, p. 250; TOMASIN 2012, pp. 39-43.</p>
+                <p xml:id="images">PASTRES 2009, p. 249; TOMASIN 2012, fig. 3. (per il testo qui segnalato con [1]).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

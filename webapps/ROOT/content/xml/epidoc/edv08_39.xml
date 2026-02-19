@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LASTRA TOMBALE DEI FIGLI DI SER LEOPARDI DEL FORNARIO</title>
+                <title>ARCHITRAVE DI SANTA MARIA VERGINE</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,15 +25,15 @@
                     <msIdentifier>
                         <placeName>Pisa</placeName>
                         <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <repository>Via Serafini 16</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#AP">Avviso Pubblico</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1350">1350</origDate>
+                            <origDate when="1346">1346</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 1 f.) del Camposanto pisano.</p>
+                <p>L’iscrizione, conservata sull’architrave della porta della chiesa sconsacrata di Santa Maria Vergine (o della Neve), ricorda la costruzione della chiesa e della piazza delle Biade al tempo del Capitano del Popolo Ranieri Conte di Donoratico.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions">MACCIONI 1771, II, p. 16; TANFANI CENTOFANTI 1897, p. 360; VILLANI 2012, p. 54; BANTI 2000, pp. 110, n. 161.</p>
+                <p xml:id="other">BELLINI PIETRI 1911, p. 110; DELLA TORRE 1985, p. 124; Livorno e Pisa 1980, p. 249</p>
+                <p xml:id="images">BANTI 2000, fig. 161; VILLANI 2012, p. 54.</p>
             </div>
         </body>
     </text>

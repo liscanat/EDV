@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>ARCHITRAVE DEL PALAZZO DEI PRIORI, PERUGIA</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -15,7 +15,7 @@
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
                 <idno type="filename">09.03</idno>
-                <date when="2020-02-21" />
+                <date when="2026-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                 </availability>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Le due iscrizioni in volgare (Alegreça; Entra puro movi securo) sono collocate sul portale del Palazzo dei Priori di Perugia Nel portale sono presenti, insieme all’Alegreça, altre cinque figure retoriche: Umiltà, Superbia, Fecondità, Virginità e Magnanimità, tre delle quali accompagnate da didascalie latine. Il motto è di certo riferibile, come rilevato anche da TOMASIN 2016, alla giustizia che veniva amministrata nel Palazzo.</p>
+                <p>Le due iscrizioni in volgare (Alegreça; Entra puro movi securo) sono collocate sul portale del Palazzo dei Priori di Perugia. Nel portale sono presenti, insieme all’Alegreça, altre cinque figure retoriche: Umiltà, Superbia, Fecondità, Virginità e Magnanimità, tre delle quali accompagnate da didascalie latine. Il motto è di certo riferibile, come rilevato anche da TOMASIN 2016, alla giustizia che veniva amministrata nel Palazzo.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">GARIBALDI 2006, p. 46, n. 16; TOMASIN 2016, p. 512.</p>

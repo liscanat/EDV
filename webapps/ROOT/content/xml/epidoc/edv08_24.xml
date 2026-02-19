@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EPIGRAFE DELLA FORTEZZA DI PISA</title>
+                <title>CAMPANILE DELLA CHIESA DI SAN SIMONE</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Castagneto Carducci</placeName>
-                        <district ref="#LI">LI</district>
-                        <repository>Castello della Gherardesca</repository>
+                        <placeName>Vecchiano</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Chiesa di san Simone</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1322">1322</origDate>
+                            <origDate when="1320">1320</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione, oggi conservata nel lato sud del ‘giardino dei lecci’ del Castello della Gherardesca a Castagneto, doveva trovarsi originariamente sopra una piccola porta della fortezza di Pisa. L’iscrizione in volgare ricorda</p>
+                <p>L’iscrizione, incisa su di una lastra murata sul campanile della chiesa di San Simone sul lato della facciata, ricorda l’edificazione del campanile ad opera di Caromo di Bernardo e Tone di Franco.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">MACCIONI 1771, II, p. 6; BEZZINI 1991, p. 32, n. 2; BANTI 2000, p. 101, n. 143.</p>
+                <p xml:id="editions">BANTI 1995a, p. 212, 214-215; BANTI 2000, p. 99, n. 140.</p>
                 <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="images">BANTI 1995a, fig. 67, p. 567; BANTI 2000, n. 140.</p>
             </div>
         </body>
     </text>

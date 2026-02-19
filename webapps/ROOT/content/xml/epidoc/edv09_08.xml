@@ -5,17 +5,18 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Decalogo orvietano</title>
+                        <title>>COLA DI PIETRO DA CAMERINO E FRANCESCO D'ANTONIO, TEORIA DI SANTI</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="images"><persName>https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera/</persName></editor>
+                        <editor role="images"><persName>http://www.lavalnerina.it/dett_luogo.php?id_item=95./</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">09.08</idno>
-                        <date when="2021-03-05"/>
+                        <idno type="filename">09.10</idno>
+                        <date when="2021-03-06"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,17 +24,17 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Orvieto</placeName>
-                                <district ref="#TR">TR</district>
-                                <repository>Chiesa di San Giovenale</repository>
+                                <placeName>Vallo Di Nera</placeName>
+                                <district ref="#PG">PG</district>
+                                <repository>Chiesa di Santa Maria Assunta (già chiesa di San Francesco)</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#admonition">Monito</term>
+                                    <term type="textFunction" ref="#D #AP">Didascalia, Avviso pubblico</term>
+                                    <term type="textType" ref="#narrative #patronage">Narrativa, Committenza</term>
                                 </summary>
-                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                                 <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
@@ -52,7 +53,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                                    <origDate notBefore="1360" notAfter="1370">XIV metà</origDate>
+                                    <origDate when="1383">XIV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,90 +62,58 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="09.08.jpeg">
+                <graphic url="09.10.jpeg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
-                           <lb n="1"/>&lt;non&gt; adorarae lidii haltrui :~
-<lb n="2"/>&lt;no&gt;n recetaerae <m type="article" subtype="masc_sing">lu</m> nome de ḷo segno(r)e Dio tuo,
-<lb n="3"/>&lt;si&gt;ati aricordam(en)to di &lt;santificare?&gt;care <m type="article" subtype="masc_sing">lu</m> sabato,
-<lb n="4"/>&lt;h&gt;onora <m type="article" subtype="masc_sing">lu</m> <phr type="syntagm" subtype="synt_inversion">patre tuo</phr> &lt;et la&gt; 
-                            <phr type="syntagm" subtype="synt_inversion">matre tua</phr>,
-<lb n="5"/>&lt;n&gt;on occidarae,
-<lb n="6"/>&lt;n&gt;on farai peccato car&lt;nale&gt;,
-<lb n="7"/>&lt;no&gt;n farae f&lt;ur&gt;to
-<lb n="8"/>&lt;non fara&gt;i falso testimoni(um) (con)t(ra) <phr type="syntagm" subtype="synt_inversion">pariare tuo</phr>
-<lb n="9"/>&lt;non&gt; desiderarae &lt;la&gt; &lt;m&gt;o<seg type="grapheme" corresp="/ʎ/">gl</seg>e&lt;r&gt;a <m type="article" subtype="masc_sing">lu</m> prosimo tuo
-<lb n="10"/>[. . .][. . . . . . . . .]ai{m} [...] [...]r[...]ṃo tuo : ~
-                        </ab>
-                    </div>
+                        <div type="textpart" subtype="section" n="A">
+<ab>
+<lb n="1"/>Nicolaus Petri de Ca-
+<lb n="2"/>mereno et Francis-
+<lb n="3"/>cus Antonii de An-
+<lb n="4"/>cona feceru(n)t hoc opu&lt;s&gt;
+<lb n="5"/>Anno domini MCCCLXXX&lt;III&gt;
+<lb n="6"/>tempore domini Urbani pape vi
+<lb n="7"/>indictione VI de me(n)-
+<lb n="5"/>se Agusti di(e) XIII
+</ab>
+</div>
+<div type="textpart" subtype="section" n="B">
+<ab>
+<lb n="1"/>&lt;hoc opus&gt; Giuhannone de L..v.se &lt;feci&gt;t fieri alli qualii Deio li dia pace MCCCLXXXIII
+</ab>
+</div>
+	                </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab> <lb n="1"/>[…] adorarae lidii haltrui :~
-<lb n="2"/>[...]n recetaerae lunome de ḷo segn(oe) ̅ dio tuo
-<lb n="3"/>[...]ati aricordam ̅to di [...]c̣are lu sabato : ~
-<lb n="4"/>[.]onora lu patre tuo [.] [...] matre tua : ~
-<lb n="5"/>[.]on occidarae :~
-<lb n="6"/>[.]ọn farai peccato car[. . . .]
-<lb n="7"/>[...]ṇ farae f[...]to:~
-<lb n="8"/>ṇon fạ[ra]i falso testimonī 9t’pariare tuo :~
-<lb n="9"/>[...]desiderarae [. .] [.]ọglẹ[.]a lprosimo tuo
-<lb n="10"/>[. . .][. . . . . . . . .]ai{m} [...] [...]r[...]ṃo tuo : ~
+                        <ab>
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p>1 li dii haltrui] Dii haltrui con omisssione di li PACETTI 1939, UBALDINI 2015
-2 recetaerae] recetarae PACETTI 1939, UBALDINI 2015; sancto invano PACETTI 1939, UBALDINI 2015
-3[si]ati aricordam(en)to] Fae PACETTI 1939, UBALDINI 2015; ariposare PACETTI 1939, UBALDINI 2015
-4 onora PACETTI 1939, UBALDINI 2015 
-6 farae PACETTI 1939; fare UBALDINI 2015
-7 furtu PACETTI 1939, UBALDINI 2015
-8 falsu testimoniu co lu PACETTI 1939, UBALDINI 2015
-9 mogliera PACETTI 1939, UBALDINI 2015
-10 verso estremamente lacunoso. Non desiderare la robba de lu prossimu tuo PACETTI 1939; Non desiderarae la robba de lu prosimu tuo UBALDINI 2015
-</p>
+                        <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p><title>Morfologia e sintassi</title>:</p> 
-                       <p>'adorarae' r. 1, 'recetaerae' r. 2, 'occidarae' r. 5, 'farae' r. 7 (ma 'farai' rr. 6, 8), 'desiderarae' r. 9, tutti
-                       futuri iussivi. Si notino inoltre (esiti comunque attesi nell'area) il passaggio della finale ad -e, ove occorra la conservazione della ‘e’ in posizione 
-                       protonica, e la conservazione del gruppo -ar- intertonico, per la quale cfr AGOSTINI 1968, p. 123 che segnala il tipo anche ad Arezzo, Cortona, 
-                       Sansepolcro, Città di Castello, Umbertide, Urbino, Gubbio, Todi, Orvieto, Viterbo, Spello e Siena.
-                       Interessante anche l'alternanza, nelle forme dell’articolo maschile, di chiusura e conservazione di -u finale; la posposizione dell’aggettivo possessivo di 
-                       seconda persona singolare in 'Dio tuo' (r. 2), 'patre tuo' e 'matre tua' (r. 4), 'pariare tuo' (r. 8), 'prosimo tuo' (r. 9), 
-                       tipo diffuso nei vogari mediani e in Italia meridionale (cfr. anche ROHLFS 1966-1969, § 431).</p>
-                      <p><title>Lessico:</title></p> 
-<p>'pariare' (r. 8) con il significato di ‘prossimo, vicino, pari’ dalla radice lat. PĂRE(M), forse con influsso dell’antico francese parier ‘socio’ (DELI 2 s. v. 'pari'. FEW, VII, 
-    p. 596, s. v. 'par'; interessante anche il derivato 'pariage' con prima attestazione nel 1290 per ‘parentela, famiglia’. La forma 'pariare' potrebbe anche essersi generata 
-    per diplografia della sillaba tonica /ar/ *parear con chiusura in iato /ea/ja/ ed epitesi di /e/. V. anche (a)pareare ‘uguagliare’ in CELLA 2003, p. 214.). 
-    Un forma verbale corrispondente nelle <title>Rappresentazioni sacre di Orvieto</title>: «Partete, Lucibello, / e ne la gloria più non dimorare, / dapoché si ribello e con 
-    Dio Patre ti vuo’ pariare! Non ti più enduziare, / mettete en colpa al nostro Patre Dio» I, v. 97 (DE BARTHOLOMAEIS 1943, I, p. 341).</p>
-<p>[si]ati aricordam(en)to (r. 9), v. in area umbra Jacopone da Todi: «Sìate recordamento, - frate, la guarda fare» 7, v. 61; nel testo della 
-    <title>Passione di Cristo</title> con ripresa del sintagma: «“quando verai a lo tuo regno, / de me non te sia desdegno; / anke te sia recordamento / d'averme en 
-    recordamento”. /Et lo Signore humilimente / respose a lui encontenente […]» (AGENO 1953, p. 24-7). Sempre in area mediana nella <title>Leggenda del Transito della Madonna abruzzese</title>
-    s. XIV: «Pur de Erode te sia recordamento, / cha per ti fece grande occidemento.» v. 413 (ELSHEIKH 1995, p. 33).
- </p>
+                        <p/>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>L’affresco, molto danneggiato è situato nel sottarco della campata ogivale di destra nella chiesa, 
-                            sotto alla rappresentazione di San Guglielmo Abate attribuita a Giovanni di Buccio Leonardelli. </p>
-                        <p>L’iscrizione è nota alla critica come <title>Decalogo orvietano</title> e contiene le dieci regole della legge mosaica in volgare. 
-                            Purtroppo essa versa in un pessimo stato di conservazione, e lacune evidenti interessano il lato sinistro e gran parte dell’ultimo rigo, 
-                            oggi ricostruibile solo sulla base di edizioni precedenti del testo. 
-                            L'iscrizione è riconducibile ad una serie di documenti simili che proliferarono in area italiana nel s. XVI come quella di 
-                            Campi salentino, in provincia di Lecce, che recita: <title>unum cole Deum nec vana jures per ipsum, sabbata santifices, habeas in honore parente, 
-                                non occisor eris, moechus fur testis iniqvus, non alterius nuptam nec rem cupies alienam</title>.</p>  
-                            <p>Si ringraziano Luigi Cimarra ed Emma Condello, per la segnalazione del pezzo e la sua datazione.</p>
                         <p><!-- Immagine: SI. --></p>
-                    </div>
+                        <p>L’iscrizione reca le firme d’artista di Nicola Pietro di Camerino e Francesco Antonio d’Ancona, la datazione dell’opera, e il nome del committente 
+                            in latino; e una breve preghiera in volgare, secondo una schema assai comune, seguendo il quale le parti formulari sono in latino e gli appelli 
+                            all’emotività dei lettori in volgare. L’iscrizione si trova all’interno della Chiesa di Santa Maria Assunta a Vallo di Nera, sopra ad un altro 
+                            affresco di Cola di Pietro da Camerino raffigurante la Processione dei Bianchi (anch’esso corredato di scrittura, v. <ref target="edv11_14">09.08</ref>).
+</p>
+                        <p>Nell’impossibilità di una ricognizione diretta o su base fotografica del reperto, la seguente trascrizione interpretativa segue quella di 
+                            CORDELLA 2003, p. 664, nota 27, adattata ai nostri criteri. Lo studioso sostiene di aver ricontrollato il testo sia sull’originale sia sulle 
+                            fotografie precedenti al restauro del 1994 (Archivio Fotografico della Coo.be.c. di Spoleto” e che trascrivo di seguito, senza nessun intervento 
+                            editoriale, per ulteriore confronto: NICOLAUS PETRI DE CA/MERENO ET FRANCIS/CUS ANTONII DE AN/CON FECERU(N)T 
+                            HOC OPU[S] // ANNO DOMINI MCCCLXXX[III] / TEMPORE DOMINI URBANI PAPE VI / INDICTIONE VI DE ME(N)/SE AGUSTI DI(E) XIII (...).</p>
+                                 </div>
                     <div type="bibliography">
-                        <p xml:id="editions">PACETTI 1939, p. 26; UBALDINI 2015, p. 86.</p>
-                        <p xml:id="other">DELLA FINA 2015a.</p>
-                        <p xml:id="images">DELLA FINA 2015a, p. 9, n. 3.</p>
+                        <p xml:id="editions">PIRRI 1918, p. 9 [1]; TODINI 1989, I, p. 57; MAZZALUPI 2002, p. 467, n. 1; CORDELLA 2003, p. 664.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">BLIERSBACH 2001, p. 423, n. 19.; https://www.iluoghidelsilenzio.it/chiesa-di-santa-maria-vallo-di-nera</p>
                     </div>
                 </body>
             </text>

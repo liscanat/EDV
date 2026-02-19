@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LORENZO SALIMBENI, STORIE DI SANT’ANDREA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.11</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>San Severino Marche</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Chiesa di San Lorenzo in Doliolo</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate notBefore="1395" notAfter="1415" precision="low">1405 ca.</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.11.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Storie del martirio e dei miracoli dell’apostolo Andrea: [1] presentazione del Santo in carcere; [2] Sant’Andrea condotto fuori dalla prigione e preparativi del martirio; [3] martirio; [4] il corpo viene calato dalla croce. Dello stesso ciclo di affreschi fanno parte i brani staccati [5] morte di Egeo; [6-7] tentazione di un vescovo devoto al santo, per i quali si veda la scheda nr. 359. L’affresco è stato staccato dalla sua sede originale e ha trovato diverse collocazioni nel corso del tempo. Oggi è conservato nella Pinacoteca comunale di San Severino Marche.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">MINARDI 2008, pp. 137-144, cat 2 (a-d, f-g).</p>
+                <p xml:id="other" />
+                <p xml:id="images">VAN MARLE 1927, figg. 137-140; SERRA 1934, figg. 326-328; ROTONDI 1936, figg. 29-33; GHERARDINI 1958, figg. 3, 24-26; BERENSON 1968, II, tav. 497; ROSSI 1976, figg. 34-38, 39-46, 51-55, 121, 124, 126, 129; SGARBI 1999, pp. 123-125.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -2,98 +2,100 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Santa Francesca Romana</title>
-                <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                <editor role="edition"><persName>Nadia Cannata</persName></editor>
-                <editor role="commentary"><persName>Nadia Cannata</persName></editor>
-                <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                <editor role="images"><persName>Nadia Cannata</persName></editor>
-            </titleStmt>
-            <publicationStmt>
-                <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">12.27</idno>
-                <date when="2024-03-09"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>SIMONE DE LUCHA</title>
+                        <editor role="data_collection"><persName></persName></editor>
+                        <editor role="edition"><persName></persName></editor>
+                        <editor role="commentary"><persName></persName></editor>
+                        <editor role="encoding"><persName></persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">12.26</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <placeName>Roma</placeName>
-                        <district ref="#RM">RM</district>
-                        <repository>Monastero delle Oblate</repository>
-                        <idno type="invNo"/>
-                    </msIdentifier>
-                    <msContents>
-                        <summary>
-                             <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#narrative">Narrativa</term>
-                                </summary> 
-                        <textLang mainLang="xset">Volgare romanesco</textLang>
-                    </msContents>
-                        <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                                <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                            <objectType ref="#fresco">Affresco</objectType>
-                                           <dimensions><height></height> <width></width></dimensions>
-                                </support>
-                            </supportDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote><term ref="#capital">capitale</term></handNote>
-                        </handDesc>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <origPlace>
-                                <region ref="#roma">Roma</region> 
-                            </origPlace>
-                            <origDate when="1485">XV ex.</origDate>
-                        </origin>
-                        <provenance type="observed"/>
-                      </history>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <facsimile>
-             <graphic url="00">
-                 <desc/>
-             </graphic>
-     </facsimile>
-    <text>
-      <body>
-            <div type="edition" subtype="interpretive" xml:space="preserve">
-                <ab>
-                    <lb n="1"/>...
-                </ab>
-            </div>
-             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <ab>
-                    <lb n="1"/>...
-                </ab>
-            </div>
-            <div type="apparatus">
-                      </div> <div type="apparatus">
-                <p/>
-            </div>
-            <div type="commentary" subtype="linguistic_analysis">
-                <p></p>
-            </div>
-            <div type="commentary" subtype="note">
-                <p>I due cicli di affreschi, dipinti nel 1468 e nel 1485, contengono, rispettivamente, 26 e 10 scene della vita della santa, ciascuna corredata da una didascalia in volgare. Il ciclo più antico occupa le quattro pareti della cappella oratoriale, è stato attribuito ad Antoniazzo Romano o comunque alla sua scuola ed è dipinto in colori accesi; il secondo, monocromo, decora una sala attigua, originariamente adibita a refettorio. I dipinti sono aperti per la visita unicamente il 10 marzo, giorno natale di Francesca.</p>
-            </div>
-            <div type="bibliography">
-                <p xml:id="editions">ROSSI 1907, VENTURI 1913, UGOLINI, 1932, pp. 24-25, UGOLINI 1936, p. 790; LUGANO 1933 e 1934, D'ACHILLE 1987b, pp. 107-183</p>
-                 <p xml:id="other">ERNST 1970, p. 15, D'ACHILLE-GIOVANARDI 1984, n. 30</p>
-                        <p xml:id="images"/>
-            </div>
-        </body>
-    </text>
-</TEI>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Roma</placeName>
+                                <district ref="#RM">RM</district>
+                                <repository>Palazzo della Cancelleria</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
+                                </summary>
+                                <textLang mainLang="xvolg">Volgare</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#roma">Roma</region></origPlace>
+                                    <origDate notBefore="1450" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="00">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><lb n="1"/>D(omi)ne Simone
+<lb n="2"/>de Lucha
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/>DNE ∙ SIMONE ∙
+<lb n="2"/>DE LVCHA ·
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Si noti la consueta conservazione di -e protonica nei documenti romani, e l'uso di &lt;ch&gt; per /k/ davanti a vocale non palatale (si vedano anche, p.es., <ref target="edv12_05">12.05</ref> e <ref target="edv12_08">12.08</ref>. Quanto a 'de Lucha'  potrebbe trattarsi del patronimico (de Luca), o indicare la città di origine del defunto (Lucca), in questo secondo caso si registrerebbe uno scempiamento almeno grafico della velare.  
+</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>La lapide fa parte di un <title>corpus</title> di reperti provenienti dall’antica basilica romana di San Lorenzo in Damaso, nel rione Parione, incorporata nel palazzo della Cancelleria (v. nn. <ref target="edv12_07">12.07</ref>, <ref target="edv12_18">12.18</ref>, <ref target="edv12_21">12.21)</ref> e <ref target="edv12_24">12.24</ref>.
+La lastra è incisa nella parte superiore con iscrizione e stemma, uno scudo a mandorla con rosa di cinque petali sormontata da uccello. Il fatto che l’iscrizione sia collocata in prossimità del bordo superiore induce a pensare che sia stata eseguita dopo l’incisione dello stemma. Nella metà inferiore, vuota, la lastra è spezzata in almeno sei frammenti. 
+Nel <title>Libro della confraternita ad Sancta Sanctorum</title> è menzionato nel 1490-95 un <title>Simone de Lucha</title> sepolto a San Lorenzo. Lucha potrebbe indicare sia il patronimico de Luca, sia Lucca quale luogo d’origine del defunto.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">GARMS-SOMMERLECHNER 2009, p. 168, n. 27.
+</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">GARMS-SOMMERLECHNER 2009, p. 168, n. 27, fig. 39-40.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

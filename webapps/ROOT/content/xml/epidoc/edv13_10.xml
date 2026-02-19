@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Affreschi della Madonna del Crognale</title>
+                        <title>ISCRIZIONE DI GIOVANNI DALLE PALLE</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>http://www.culturaitalia.it/opencms/museid/index_museid.jsp?language=it</persName></editor>
+                        <editor role="images"><persName>http://foto.inabruzzo.it/</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">13.10</idno>
-                        <date when="2020-04-14"/>
+                        <idno type="filename">13.09</idno>
+                        <date when="2020-04-13"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,15 +23,15 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Morro D’oro</placeName>
-                                <district ref="#TE">TE</district>
-                                <repository>Chiesa di santa Maria di Propezzano</repository>
+                                <placeName>Sulmona</placeName>
+                                <district ref="#AQ">AQ</district>
+                                <repository>Piazza XX settembre</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#patronage">Committenza</term>
                                 </summary>
                                 <textLang mainLang="xmed">Volgare mediano</textLang>
                             </msContents>
@@ -39,8 +39,8 @@
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#plaster">Intonaco</material>
-                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
-                                    <origDate when="1499">XV ex.</origDate>
+                                    <origDate when="1484">XV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,119 +61,47 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="13_10.jpg">
+                <graphic url="13_09.jpg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="1">
-                        <ab><lb n="1"/>Quando li tre <w type="metaphony">arciviscovi</w> venendo dal sepulecro appese
-                        <lb n="2"/>le besacce a le rame de lo cro<seg type="grapheme" corresp="/ɲ/">gi</seg>alo
-                        </ab>
-                        </div>
-                            <div type="textpart" subtype="section" n="2">
-                        <ab><lb n="1"/>Quando li <w>dicti</w> arciviscovi <m type="volere" subtype="perf6ps">volse</m> retollere
-                          <lb n="2"/>le besacce lo cro<seg type="grapheme" corresp="/ɲ/">gi</seg>alo <m type="crescere" subtype="perf6ps">cresciecto</m>
-                        </ab>
-                            </div>
-                            <div type="textpart" subtype="section" n="3">
-                        <ab><lb n="1"/>Quando <w type="metaphony">quilli</w> arciviscovi se adormí
-                               <lb n="2"/>et la Vergine Maria li apparsse.
-                        </ab>
-                            </div>
-                            <div type="textpart" subtype="section" n="4">
-                        <ab><lb n="1"/>Quando li dicti arciviscovi p(er) revelatione de
-                               <lb n="2"/>la Vergine Maria adifi<m type="desinence" subtype="perf3ps">eo</m> questa cappella
-                        </ab>
-                            </div>
-                        <div type="textpart" subtype="section" n="5">
-                        <ab><lb n="1"/>Quando apparse l’angilo ad Papa 
-                               <lb n="2"/>et reve{ve}logle lo dicto miraculo
-                        </ab>
-                        </div>
-                        <div type="textpart" subtype="section" n="6">
-                        <ab><lb n="1"/><title>Alla base del dipinto, nella cornice di un riquadro inferiore di contorno</title> 1499
+                        <ab>
+                            <lb n="1"/><persName key="Giovanni dalle Palle">Giovanni dal
+                                <lb n="2"/>Le Palle</persName> viniziano de <placeName key="Sermona">Ser
+                            <lb n="3"/>mona</placeName> fece fare <seg type="grapheme" corresp="/kw/">chu</seg>esto
+                            <lb n="4"/>di&lt;f&gt;{e}itio et casa prin
+                            <lb n="5"/>cipiati anno MCCCCLXXXIIII
                         </ab>
                     </div>
-                        </div>
-                   <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="1">
-                        <ab><lb n="1"/>QVANDO♦LITRE♦ARCIVISCOVI♦VENENDO♦DALSEPVLECRO♦APPESE♦
-                        <lb n="2"/>LEBESACCE♦ALERAME♦DE♦LOCROGIALO♦
-                        </ab>
-                        </div>
-                            <div type="textpart" subtype="section" n="2">
-                        <ab><lb n="1"/>QVANDO♦LIDICTI•ARCIVISCOVI•VOLSE•RETOLLERE•
-                          <lb n="2"/>LEBESACCE•LO•CROGIALO•CRESIECTO •
-                        </ab>
-                            </div>
-                            <div type="textpart" subtype="section" n="3">
-                        <ab><lb n="1"/>QVANDO•QVILLI•ARCIVISCOVI•SE•ADORMI♦
-                               <lb n="2"/>•ET•LAVERGINE•MARIA•LIAPPARSSE♦
-                        </ab>
-                            </div>
-                            <div type="textpart" subtype="section" n="4">
-                        <ab><lb n="1"/>QVANDO•LIDICTI•ARCIVISCOVI•P•REVELATIONE•DE•
-                               <lb n="2"/>LAVEGINE•MARIA•ADIFIEO•QVESTA•CAPPELLA•
-                        </ab>
-                            </div>
-                        <div type="textpart" subtype="section" n="5">
-                        <ab><lb n="1"/>QVANDO•APPARSE•LANGILO•AD•PAPA• 
-                               <lb n="2"/>•ET•REVEVELOGLE•LODICTO•MIRACVLO•
-                        </ab>
-                        </div>
-                        <div type="textpart" subtype="section" n="6">
-                        <ab><lb n="1"/>-1-4-9-9-
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>MAESTRO∙GIOVANNI∙DAL
+                            <lb n="2"/>LE∙PALLE∙VINIZIANO∙DESER
+                            <lb n="3"/>MONA∙FECE∙FARE∙CHVESTO∙
+                            <lb n="4"/>DIEITIO ∙ET∙ CASA ∙ PRIN
+                            <lb n="5"/>CIPIATI∙ANNO∙MCCCCLXXXIIII
                         </ab>
                     </div>
-                        </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p><title>Grafia e fonologia:</title></p>
-                        <p>‘sepulecro’ 1,1 con vocale anaptittica /e/, fenomeno tipico dell’area centromeridionale (ROHLFS 1966-1969, § 338); ‘besacce’ 1, 2, ‘miraculo’ 5, 2 presentano
-                            fenomeni che seguono lo scambio di e/i e o/u tipico dei dialetti meridionali (DE BLASI 1986b, p. 84); ‘crogialo’ ‘corniolo’ 1,2 e 2,2: &lt;gi&gt; dovrebbe 
-                            rendere /ɲ/;  –o potrebbe indicare un suono finale indistinto (DE BLASI 1986b, p. 83-84). Analogamente, la terminazione in –e in ‘le rame’ 1,2 e -o in 'cresiecto' 
-                            2,2 potrebbero indicare un suono finale indistinto. La grafia -ngi- per /ɲ/ è frequente nei testi antichi. V., ad esempio, nella <title>Lamentatio 
-                                Beate Marie de Filio</title>: «Soa piçula compangia» 94 (UGOLINI 1959, p. 93); ma anche le forme 'compangi', 'Spangia', 'Yspangia' dal <title>Liber 
-                                    Ystoriarum Romanorum</title> duecentesco (MONACI-ARESE 1955, pp. 157-159-166).</p>
-                        <p>'dicti' 2, r. 1; 4, r. 1, 'quilli' 3, r. 1, 'arciviscovi' 1, 2, 3, 4, r. 1: metafonesi /e/ > /i/.</p>
-                        <p>'cresiecto' 2, r. 2: &lt;si&gt; dovrebbe rendere la fricativa palatale /ʃ/. Si tratterebbe di grafia dovuta a retroscrizione, ossia di una forma 
-                            ipercorretta: in area abruzzese -si- ha subito in alcuni casi un’evoluzione fonetica in -sci-: lo scrivente avrebbe dunque, secondo le sue 
-                            abitudini fonetiche e scrittorie, scritto &lt;si&gt; per [ʃi] (DE BLASI 1986b, p. 83). V. nella <title>Lamentatio abruzzese</title>, 
-                            la presenza di forme quali ‘scì’ 46, 47, e ‘coscì’ 40 (UGOLINI 1959, pp. 43).</p>
-                        <p>'ad papa' 5,1: la grafia latineggiante ad indicherebbe in realtà il raddoppiamento fonosintattico 'a ppapa' 
-                            (DE BLASI 1986b, p. 84). V. nei <title>Proverbia abruzzesi</title>: ‘a mmonacu’ 49, ‘a ppelletteru’ 52, contro ‘ad theologu’ 51, ‘ad carpenteru’ 51,
-                            ‘ad medicu’ 52 (UGOLINI 1959, p. 72).</p>
-                        <p>reve{ve}logle 5, r. 2:  &lt;gl&gt; per la laterale palatale /ʎ/; la ripetizione della sillaba -ve- è probabilmente dovuta a diplografia.</p>
-                        <p><title>Morfologia e sintassi:</title></p>
-                        <p>'Appese' 1,1, 'Volse' 2,1, 'apparse' 5,1 perfetti forti sigmatici, che compare anche nella variante grafica 'apparsse' (3,2) con soggetto plurale, 
-                            dunque con coincidenza delle forme di 3 e 6 persona. Di contro, si vedano i perfetti deboli 'cresiecto' 2,2 con desinenza -ette, presente nei dialetti centro-meridionali e 
-                            meridionali e toscani; 'adifieo' ‘edificarono’ 4,2.</p>
-                        <p>In tutte le didascalie (ad eccezione della 2) la struttura sintattica genera dei periodi ellittici di proposizione reggente introdotti da 'quando'. 
-                            Si noti la presenza di elementi deittici che rimandano alle immagini rappresentate ed al contesto ('questa cappella', 4,2) e la scelta degli 
-                            articoli determinativi sin dalla prima didascalia: 'li tre arciviscovi', 'le besacce', 'lo crogialo'. (DE BLASI 1986b, pp. 86-89)</p>
-                        <p><title>Lessico:</title></p>
-                        <p>'crogialo', dal lat. CORNEUS con metatesi è nome dialettale per il 'corniolo', arbusto appartenente alla famiglia delle cornacee e caratteristico della zona. Ad esso
-                            è attribuita la funzione di attualizzare la leggenda a livello spaziale. Si confronti a proposito il toponimo 'Crognaleto' (TE), che si trova a pochi chilometri 
-                            da Propezzano (DE BLASI 1986b, pp. 81-83; DEI, vol. II, p. 1108).</p>
+                        <p>Si noti l'uso di &lt;z&gt;, r. 2 per /ts/ (cfr. invece difitio r. 4 con &lt;ti&gt;); &lt;chu&gt; per la labiovelare /kw/; 'Sermona' 
+                            dal tardo Sulmona-ae con caratteristici passaggi di /u/ ad /e/ neutra in posizione protonica, e di -LM- > /rm/.</p> 
+                         <p>'difitio'V. anche 'difizio' nel <title>Laudario Urbinate</title> di Jacopone: «contra rasone non me vale intença / contra potença né mur 
+                             né difizio» XIII, 8.68 (BETTARINI 1969, p. 513), e 'dificia' nelle <title>Storie de Troia e de Roma</title>: «Lo quale Dioclitiano in Roma 
+                             edificao molte dificia et therme» 17 (MONACI 1920, p. 320).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>La fondazione della chiesa di Santa Maria di Propezzano (VIII sec.) è legata ad una leggenda miracolosa tuttora presente nella memoria locale e nella tradizione orale, 
-                            ricordata dallo storico della diocesi teramana Nicola Palma. Si racconta che tre arcivescovi tedeschi, di ritorno da un pellegrinaggio in Terrasanta, avendo deciso 
-                            di fare una sosta presso le campagne di Propezzano per riposarsi, appendessero le loro bisacce ai rami di un albero di corniolo, addormentandosi subito dopo. 
-                            L’albero crebbe miracolosamente e ai tre pellegrini apparve la Madonna che ordinò loro di costruire una chiesa in quel luogo. 
-                            I tre arcivescovi costruirono dunque l’altare alla base 
-                            dell’albero. Si racconta poi che il 10 maggio del 715 Papa Gregorio II si recò a consacrare l’altare segnando così la fondazione della chiesa. Ancora oggi due feste, 
-                            una nel giorno dell’Ascensione e l’altra il 10 maggio, celebrano la fondazione della chiesa e il miracolo della Madonna del Crognale.</p>
+                        <p>L’iscrizione, realizzata su un concio di pietra rettangolare, risulta abrasa nella parte terminale. Il Palazzo di Giovanni dalle Palle, fatto costruire nel 1484 dall’omonimo mercante veneziano, si trova in posizione d’angolo tra Piazza XX Settembre e Corso Ovidio. MATTIOCCO 2000 ipotizza che a curare la progettazione dell’edificio sia stato un certo Simone architetto 
+                            veneziano che risulta attivo a Sulmona in quel periodo (p. 43).</p>
                     </div>
-                        <div type="bibliography">
-                        <p xml:id="editions">BALZANO 1908, p. 596; DE BLASI 1986b, pp. 80-89.</p>
-                        <p xml:id="other">BOLOGNA 1986, pp. 401-412; PAVONE 1986, pp. 415-429.</p>
-                        <p xml:id="images">DE BLASI 1986b, fig. 19; PAVONE 1986, figg. 267-273.</p>
+                    <div type="bibliography">
+                        <p xml:id="editions">PICCIRILLI 1899, p. 131; MATTIOCCO 2000, p. 43; ESPOSITO 1998, p. 75.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
                     </div>
                 </body>
             </text>

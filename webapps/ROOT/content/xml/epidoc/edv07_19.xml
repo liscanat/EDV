@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LUCA DA PERUGIA, MADONNA IN TRONO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">07.19</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Bologna</placeName>
+                        <district ref="#BO">BO</district>
+                        <repository>Basilica di san Petronio</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
+                        </summary>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
+                            <origDate when="1417">1417</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="07.19.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le iscrizioni si trovano all’interno del dipinto raffigurante una Madonna in trono attorniata da Santi e ricordano il comittente dell’opera – il maestro Bartolomeo di Milano merçarius – che nel 1417 fece realizzare l’opera dall’artista Luca da Perugia.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">LUCIOLI 1983; VOLPE 1983 (pp. 214-294); FANTI – ESPOSTI 1986 (sulla Basilica di San Petronio); GRANDI 1987, pp. 224-226; BREVEGLIERI 1997. novembre</p>
+                <p xml:id="images">Un’ottima riproduzione fotografica è consultabile online su Flickr (autore Andrea Carloni, scattata nel 2015) al seguente indirizzo: (https://www.flickr.com/photos/andrea_carloni/22977230692/in/photolist-auBLGt-ko61Mw-acxPxm-nFdwwu 4fwgP3-dY95hf-bv3hk8-4fshA6-icrybC-4fshJx-9Xqsvq-auE3K7-6piear-auCagZ-auE7vq-9XqrxL-auC1oz icqR7n-icraqg-auzpHp-auEbXE-auyJQg-94pa1m-bHHdwX-icqHx4-Ar3K4t-AZpNp9-icrr5R-icrgpF-icqF3K icrqMh-icrQc3-icqWBR-icrbqm-icqSVo-B1pk8L-A5HDGD-A5zgT5-B1qjaS-AJZ6vm-A5yWzA-A5GQUF/ ).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

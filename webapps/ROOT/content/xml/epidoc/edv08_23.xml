@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CAMPANILE DELLA CHIESA DI SAN SIMONE</title>
+                <title>AMBROGIO LORENZETTI, MADONNA DI VICO L'ABATE</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Vecchiano</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Chiesa di san Simone</repository>
+                        <placeName>San Casciano in Val di Pesa</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Museo di San Casciano (già nella chiesa di San Angiolo a Vico l’Abate</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#memorial">Commemorativa</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1320">1320</origDate>
+                            <origDate when="1319">1319</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Luogo di conservazione: Vecchiano (PI), Chiesa di san Simone</p>
+                <p>L’iscrizione occupa la parte inferiore del dipinto e ricorda la data di esecuzione ed il committente dell’opera, L’iscrizione corre su due righe in basso: mentre la prima riga è interna alla cornice, la seconda si trova sopra alla cornice stessa. L’opera è stata riconosciuta come prima opera certa di Ambrogio Lorenzetti (DE NICOLA 1922).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1995a, p. 212, 214-215; BANTI 2000, p. 99, n. 140.</p>
-                <p xml:id="other" />
-                <p xml:id="images">BANTI 1995a, fig. 67, p. 567; BANTI 2000, n. 140.</p>
+                <p xml:id="editions">DE NICOLA 1922, p. 58, nota 1; VAN MARLE 1924-1938, p. 379.</p>
+                <p xml:id="other">DE NICOLA 1922, pp. 49-58; ROWLEY 1958, I, pp. 27-32.</p>
+                <p xml:id="images">DE NICOLA 1922, p. 48; VAN MARLE 1924-1938, fig. 25; ROWLEY 1958, fig. 19.</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AMBROGIO LORENZETTI, MADONNA DI VICO L'ABATE</title>
+                <title>MAESTÀ DI LIPPO MEMMI, BARTOLO DI FREDI E BENOZZO GOZZOLI</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>San Casciano in Val di Pesa</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>Museo di San Casciano</repository>
+                        <placeName>San Gimignano</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Palazzo Comunale</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -33,26 +33,26 @@
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#wood">Legno</material>
-                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1319">1319</origDate>
+                            <origDate when="1317">1317</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Luogo di conservazione: San Casciano in Val di Pesa (FI), Museo di San Casciano</p>
+                <p>L’iscrizione corre alla base dell’affresco e ricorda, oltre alla data di esecuzione dell’opera, i nomi del pittore Lippo Memmi e del committente Nello di Mino Tolomei, allora podestà e capitano del popolo.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">DE NICOLA 1922, p. 58, nota 1; VAN MARLE 1924-1938, p. 379.</p>
-                <p xml:id="other">DE NICOLA 1922, pp. 49-58; ROWLEY 1958, I, pp. 27-32.</p>
-                <p xml:id="images">DE NICOLA 1922, p. 48; VAN MARLE 1924-1938, fig. 25; ROWLEY 1958, fig. 19.</p>
+                <p xml:id="editions">VAN MARLE 1924-1938, II, pp. 163-165; COVI 1986; BELLOSI 2006, p. 278.</p>
+                <p xml:id="other">BAGNOLI 1999, pp. 95-105; BELLOSI 2006, pp. 278- 284.</p>
+                <p xml:id="images">VAN MARLE 1924-1938, II, fig. 110; BAGNOLI 1999, fig. 118; BELLOSI 2006, figg. 1-9.</p>
             </div>
         </body>
     </text>

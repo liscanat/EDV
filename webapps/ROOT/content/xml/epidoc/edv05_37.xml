@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SAN MATTIA BENEDICENTE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">05.37</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Venezia</placeName>
+                        <district ref="#VE">VE</district>
+                        <repository>Seminario Patriarcale</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
+                        </summary>
+                        <textLang mainLang="xvnz" otherLangs="">Volgare veneziano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#veneto">Veneto</region></origPlace>
+                            <origDate when="1361">1361</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="05.37.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’iscrizione informa circa il trasferimento della Scuola di San Mattia da San Salvador alla chiesa di San Bartolomeo, avvenuto il 15 aprile 1361. L’iscrizione è ricordata dal Cicogna ed è collocata attualmente su una parete del corridoio del piano nobile del Seminario Patriarcale di Venezia.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">CORNER 1749, I, pp. 315-57; MOSCHINI1842, p. 91 (n. 16); LEVI 1895, pp. 10, 84-5; GUIDA 1912, p. 58 (n. 24); MOSCHINI V. 1940, p. 7; LORENZETTI 19562, p. 698; FRANZOI-DI STEFANO 1975, pp. 359-61; WOLTERS 1976, I, pp. 192-3 (cat.87); ENZO 1998-1999, scheda n. 9; VIO 2004, pp. 32, 405-408; NAPOLEONE E LA CHIESA, pp. 81, 88; DI LENARDO 2014, pp. 111-115 cat. 13; FERGUSON 2015, p. 57, scheda nr. 3.9.</p>
+                <p xml:id="images">GUIDA 1912, p. 51; WOLTERS1976, II, fig. 327; fotografie in ENZO 1998-1999, scheda n. 9, successivamente riedita da DI LENARDO 2014, fig. 22, p. 110; FERGUSON 2015, p. 102, fig. 19.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

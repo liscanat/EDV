@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Antonio e Luca Savelli</title>
+                        <title>DOMINA ANTONIA DELI CUNTI</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>D’ACHILLE 1987, foto nn. 15-16.</persName></editor>
+                        <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">12.19</idno>
-                        <date when="2020-04-22"/>
+                        <date when="2020-04-19"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -25,7 +25,7 @@
                             <msIdentifier>
                                 <placeName>Roma</placeName>
                                 <district ref="#RM">RM</district>
-                                <repository>Santa Maria in Aracoeli, Cappella di San Francesco (o dei Savelli)</repository>
+                                <repository>Deposito nord dell’area sacra Argentina</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -33,7 +33,7 @@
                                     <term type="textFunction" ref="#AP">Avviso pubblico</term>
                                     <term type="textType" ref="#funerary">Iscrizione funeraria</term>
                                 </summary>
-                                <textLang mainLang="xrom" otherLangs="la">Volgare romanesco, Latino</textLang>
+                                <textLang mainLang="xrom">Volgare romanesco</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
@@ -41,88 +41,75 @@
                                         <support>    
                                             <material ref="#stone">Pietra</material>
                                             <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width>19, 12</width><depth/><height>11, 17</height></dimensions>
+                                            <dimensions><width>135</width><depth/><height>74</height></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <handNote><term ref="#gothic #capital">Gotica, Capitale</term></handNote>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
                                 </handDesc>
                             </physDesc>
                             <history>
                                 <origin>
                                     <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate notBefore="1428" notAfter="1443">XV in.</origDate>
+                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
                                 </origin>
-                                <provenance type="observed">2018-04</provenance>
+                                <provenance type="observed"/>
                             </history>
                         </msDesc>
                     </sourceDesc>
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="12.19a.jpg">
-                    <desc/>
-                </graphic>
-                <graphic url="12.19b.jpg">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
-                        <ab>
-                        <lb n="1"/>Antonio <w type="metaphony" subtype="dipht">Saviello</w>
-                        </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="B">
-                        <ab>
-                            <lb n="1"/>Luca
-                            <lb n="2"/>Savi
-                            <lb n="3"/>ello
-                          </ab>                      
-                    </div>
+                        <ab><lb n="1"/>Domina Antonia de li
+                            <lb n="2"/><w type="metaphony">Cunti</w>
+                           </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
                         <ab>
-                         <lb n="1"/>ANTONIO SAVIELLO
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="B">
-                        <ab>
-                            <lb n="1"/>LUCA
-                            <lb n="2"/>SAVI
-                            <lb n="3"/>ELLO
-                          </ab>                      
+                            <lb n="1"/>DN ̅A ANTONIA DELI
+                            <lb n="2"/>CV ̅TI.
+                        </ab>
                     </div>
                     <div type="apparatus">
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si noti il dittongamento per metafonesi metafonetico di Ĕ in /jε/, proprio dell’antico romanesco. V. anche, sempre per Roma, 
-                            'Liello' <ref target="edv12_05">12.05</ref>, Liello, 'Oddariello' <ref target="edv12_08">12.08</ref>,
-                            'Rienço' e 'Iordaniello' in <ref target="edv12_09">12.09</ref> e <ref target="edv12_10">12.10</ref>.
-</p>
+                        <p><title>Grafia e fonologia:</title></p>
+                         <p>'Cu(n)ti' r. 2: chiusura per metafonesi di /o/, se proveniente da Conti; come osservato da Paolo D’Achille il fenomeno sembrerebbe estraneo 
+                             all’antico romanesco e andrebbe piuttosto ricollegato all’origine umbra della sepolta (D’ACHILLE 1987, p. 84 e note 72 e 73). Così anche  
+                             ERNST 1970, pp. 53 sgg., MACCIOCCA 1982, pp. 68-69. Sostengono invece la presenza 
+                             della metafonesi di /e/ ed /o/ anche nel romanesco di prima fase MERLO 1952, p. 47 e UGOLINI 1982, pp. 110-111, 118, 129, 175.</p>  
+                           <p><title>Morfologia e sintassi:</title></p>
+                           <p>‘de li Cunti’ si noti la preposizione articolata con laterale scempia e cfr. invece, sempre a Roma, 
+                               la trecentesca lapide di Liello Voccabella, <ref target="edv12_05">12.05</ref> r. 2 ‘dello mese’ 
+                               e <ref target="edv12_16">12.16</ref> r. 2 ‘delli Rofini’.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Le due iscrizioni, sono ancora leggibili nella Cappella di San Francesco (o dei Savelli) della chiesa di Santa Maria in Aracoeli, scolpite sul 
-                            sepolcro duecentesco realizzato per un altro Luca Savelli. Mentre il primo nome occupa la base del pinnacolo sinistro, il secondo occupa invece la 
-                            parte inferiore di quello di destra. Paolo D’Achille riprende da Vincenzo Forcella le date di morte dei due membri della famiglia, figli di un 
-                            Francesco: Antonio morì nel 1428, Luca nel 1443 (D’ACHILLE 1987, p. 84-85 e note, FORCELLA 1869-1884, I, p. 134 num. 488, p. 136 num. 499. Per la 
-                            famiglia dei Savelli cfr. AMAYDEN 1910-1914, II, pp. 188- 189 e HERKLOTZ 1983). Le due iscrizioni sono di grande interesse in ragione della loro 
-                            presenza su di un monumento funebre preesistente e già dotato di iscrizioni latine, e per la coesistenza nel medesimo monumento di due tipologie 
-                            grafiche diverse, gotica e capitale umanistica: «ad una distanza cronologica di un quindicennio, è un elemento da sottolineare come documento 
-                            degli anni di diffusione a Roma della nuova grafia umanistica». Medesima cooccorenza di tipologie grafiche a ridosso del nuovo secolo si registra 
-                            anche nelle iscrizioni del Santuario della Cona Passatora ad Amatrice, EDV <ref target="edv11_27">11.27</ref> fenomeno tanto più interessante 
-                            vista la zona di origine delle iscrizioni.</p>
+                        <p>La lapide, un tempo collocata presso la cappella di San Francesco della chiesa di Santa Maria in Aracoeli, andò dispersa durante i lavori di 
+                            restauro del 1727 e fu ritrovata mutila della parte inferiore. L’iscrizione volgare costituisce un’aggiunta di poco posteriore ad una iscrizione in 
+                            latino datata 1400 disposta lungo il perimetro:</p>
+                            <p>+ Hic iacet corp(us) magnifice et birtuosissime / mulieris d(omi)ne Marine de Tri(n)cis [uxoris quo(n)dam / magnifici Rentii de Sabello 
+                                quae obiit an(n)o d(omi)ni / mill(esimo) CCCC ind(ictionis) VIII me(n)sis m]aii die xvii cuius / a(n)i(m)a requiescat in celis. 
+                                (D’ACHILLE 1987a, p. 84 e nota 71, CASIMIRO 1736, p. 112, FORCELLA 1869-1884, I, p. 132, num. 480 (che dà l’epigrafe per scomparsa), 
+                                MARCHETTI LONGHI 1943-1945, p. 94, num XXV e foto num. 31, GRABMÄLER 1981, pp. 305-306, num. LXVII, 4 e foto num. 125 e 
+                                D’ACHILLE - GIOVANARDI 1984, num. 366.)</p>
+                               <p>Secondo Giuseppe Marchetti Longhi la defunta Antonia sarebbe stata parente della Marina Trinci ricordata nell’iscrizione latina, 
+                                   originaria di Foligno (MARCHETTI LONGHI 1943-1945, p. 94, D’ACHILLE 1987, p. 84).</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">CASIMIRO 1736, p. 111; GALLETTI 1760, III, CCCCXXIV, n. 97-98; FORCELLA 1869-1884, I, p. 134 n. 488; p. 136 n. 499; 
-                            Mostra 1884, p. 189; CLAUSSE 1897, pp. 290-292; CECCHELLI 1912, p. 301; D’ACHILLE - GIOVANARDI 1984, nn. 43 e 54; D’ACHILLE 1987, pp. 84-85, 
-                            nn. 11-12.</p>
+                        <p xml:id="editions">CASIMIRO 1736, p. 112; FORCELLA 1869-1884, I, p. 132 n. 480; MARCHETTI LONGHI 1943-1945, p. 94, n. XXV; foto n. 31; 
+                            GRABMÄLER 1981, pp. 305-306, n. LXVII, 4; foto n. 125; D’ACHILLE-GIOVANARDI 1984, n. 366; D’ACHILLE 1987, pp. 83-84, n. 9.
+</p>
                         <p xml:id="other"/>
-                        <p xml:id="images">D’ACHILLE 1987, pp. 84-85, nn. 11-12; foto 15 e 16.</p>
+                        <p xml:id="images">MARCHETTI LONGHI 1943-1945, n. 31; GRABMÄLER 1981, foto 125.</p>
                     </div>
                 </body>
             </text>

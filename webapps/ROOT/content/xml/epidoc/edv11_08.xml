@@ -60,7 +60,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -84,7 +84,7 @@
                     <div type="commentary" subtype="note">
                         <p>L’iscrizione è conservata sulla pietra frontale di un caminetto murato in una stanza del palazzo Venturini in Piazza Unità d’Italia a Civitella d’Agliano.</p>
                         <p>Diversi sono i problemi interpretativi posti dall'iscrizione, primo tra tutti la genuinità della datazione 1110. 
-                           Innanzitutto l’impiego dei numeri arabi per la data è sorprendente - ancor di più per un piccolo centro come Civitella - dal momento che nessuna epigrafe coeva presenta questa caratteristica; l’incisione 1110, staccata rispetto al corpo del testo, sembra piuttosto un elemento estraneo, «aggiuntivo o occasionale». Infine, la mancanza del signum crucis e dell’abbreviazione A(nno) D(omini) è di fatto inusuale per un’epigrafe religiosa.  Sulla base di tutti questi elementi, CIMARRA 2003 propone di datare l'epigrafe piuttosto al XIVex.-XVin.</p>
+                           Innanzitutto l’impiego dei numeri arabi per la data è sorprendente - ancor di più per un piccolo centro come Civitella - dal momento che nessuna epigrafe coeva presenta questa caratteristica; l’incisione 1110, staccata rispetto al corpo del testo, sembra piuttosto un elemento estraneo, «aggiuntivo o occasionale». Infine, la mancanza del <title>signum crucis</title> e dell’abbreviazione <title>A(nno) D(omini)</title> è di fatto inusuale per un’epigrafe religiosa.  Sulla base di tutti questi elementi, CIMARRA 2003 propone di datare l'epigrafe piuttosto al XIVex.-XVin.</p>
                                                 
                     </div>
                     <div type="bibliography">

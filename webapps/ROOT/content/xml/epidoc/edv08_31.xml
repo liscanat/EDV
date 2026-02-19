@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>RICCARDO DEI BARDI AI PIEDI DI SAN GREGORIO MAGNO</title>
+                <title>ISCRIZIONI DELLE CASE DI UGOLINO DA VIGNALE (1-2)</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>Santa Maria Novella</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>via S. Antonio 61</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -46,13 +46,13 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#unknown">?</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1336">1336</origDate>
+                            <origDate notBefore="1336" notAfter="1339">1336-1339</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Sul pilastro destro della Cappella, bassorilievo in pietra con Riccardo dei Bardi inginocchiato davanti a san Gregorio con didascalia in volgare.</p>
+                <p>Si tratta di due iscrizioni che ricordano il committente delle case.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

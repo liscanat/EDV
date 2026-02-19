@@ -5,12 +5,12 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Anello detto Tortora delli Rofini</title>
+                        <title>PIETRO TONPIERI E MADONNA GIUANNA MOGLIE</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
+                        <editor role="images"><persName>GRABMÄLER 1981, p. 195, num. XXVI, 9; foto num. 131</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
@@ -25,7 +25,7 @@
                             <msIdentifier>
                                 <placeName>Roma</placeName>
                                 <district ref="#RM">RM</district>
-                                <repository>Basilica di santa Maria in Trastevere</repository>
+                                <repository>Basilica di santa Francesca Romana</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#roma">Roma</region></origPlace>
-                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
+                                    <origDate when="1400">XV in.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,48 +61,62 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="12.16.jpg">
+                <graphic url="12.17.jpg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>Anello de Nuccio Nicolucca
-                            <lb n="2"/>dicto Tortora delli Rofini
+                        <ab>
+                            <lb n="1"/><w type="metaphony">Milli</w> CCCC Questa <m type="essere" subtype="pres3ps">ène</m> la sepultura
+                            <lb n="2"/>de Pietro Tonpieri e de madona <seg type="phoneme" subtype="j_initial">I</seg>uan
+                            <lb n="3"/>a <phr type="syntagm" subtype="synt_inversion">mo<seg type="grapheme" corresp="/ʎ/">li</seg>e sua</phr>.
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab><lb n="1"/>ANELLO ∙ DE ∙ NVCCIO. NICOLVCCA ∙
-                            <lb n="2"/>DICTO ∙ TORTORA ∙ DELLI ∙ ROFINI ∙
+                        <ab>
+                            <lb n="1"/> [aggiunto in interlineo]     LTV
+                            <lb n="2"/>+ MILLICCC ̅C·QVESTA·ENE·LASEPVRA·
+                            <lb n="3"/>DEPIETRO·TONPIERI·EDEMADONA·IVA ̅
+                            <lb n="4"/>A·MOLIE·SVA·
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p>1 Nello EROLI 1895</p>
-                        <p>2 Tontera EROLI 1895</p>
+                        <p>2-3 Iv(li)a/na GRABMÄLER 1981</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Fra i fenomeni grafico-fonetici si noti l’attesa conservazione di /e/ in protonia, la resa dell’affricata palatale con &lt;ci&gt; 
-                            (D’ACHILLE 1987, p. 79, ROHLFS 1966-1969, § 130, PORTA 1979, p. 545, MACCIOCCA 1982, p. 73) in ‘Nuccio’ di contro a &lt;cc&gt; in ‘Nicolucca’, 
-                            a meno che, in quest’ultimo caso, non debba leggersi 'Nicoluzza', con omissione di cediglia in &lt;çç&gt; per /tts/ 
-                            (D’ACHILLE 1987, p. 97, CASTELLANI 1952, I, p. 17).</p>
-                         <p>‘delli Rofini’ cfr. con 'dello mese' in EDV <ref target="edv12_05">12.05</ref> e con 'de li Cu(n)ti' <ref target="edv12_15">12.15</ref>.</p>
-                         <p>‘dicto Tortora’ con indicazione del soprannome del defunto, v. anche il sepolcro di Nerone di Baccio nel Camposanto di Pisa 
-                             <ref target="edv08.49">08.49</ref>; la Madonna di Priamo della Quercia (Volterra, Pinacoteca) firmata da Giusto di Iacopo ‘deto Graselino’
-                             <ref target="edv08.121">08.121</ref>, o il Sepolcro di Giovanni di Iacopo ‘chiamato çopeto’ nel Camposanto di Pisa 
-                             <ref target="edv08.151">08.151</ref>.
-</p>
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>'sepultura' con conservazione della Ŭ protonica (cfr. D’ACHILLE 1987, p. 93, PORTA 1976, p. 555). V. anche le <title>Miracole de Roma</title>:
+                        «Et mo in micina sepultura ene recluso» 1 (MONACI 1915, p. 562), e le <title>Storie de Troia e de Roma</title> : «lo quale vedendo l’arme de lo patre 
+                        fece pianto grandissimo sopre la soa sepultura» (MONACI 1920, p. 51); 'milli' r. 1 forse con pluralizzazione del numerale: si tratta di una forma molto 
+                        frequente nella <title>Cronica dell’Anonimo Romano</title>: p.es. cap. 10 «che milli muli ne fuoro fatigati a portare arme e aitro arnese»  
+                        (PORTA 1979, p. 80); cap. 14 «Puoi fu esso re de Boemia con milli Todeschi e quattro milia Franceschi e sio figlio Carlo appriesso» (PORTA 1979, p. 125)
+                        e cap. 27 «Li capitanii allora li dunaro milli fiorini» cap. 27 (PORTA 1979, p. 250). 'Iuana' con chiusura Ō > /u/ in iato e conservazione di /j/ in 
+                        posizione iniziale, comune negli antichi testi romaneschi e mediani (D’ACHILLE 1987, p. 83, MERLO 19592, pp. 55-56, ROHLFS 1966-1969 § 158, ERNST 1970, pp. 83-85,
+                        PORTA 1979, pp. 562-563, MACCIOCCA 1982, p. 82. Vedi, in EDV, <ref target="edv11_02">11.02</ref>, <ref target="edv11_04">11.04</ref>, 
+                            <ref target="edv11_15">11.15</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_19">11.19</ref>, <ref target="edv11_26">11.26</ref>,
+                            <ref target="edv12_09">12.09</ref>, <ref target="edv12_10">12.10</ref>, <ref target="edv12_12">12.12</ref>, <ref target="edv12_24">12.24</ref>.</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>'ène' r. 1: indicativo presente di 3a persona singolare del verbo essere con epitesi di -ne, fenomeno normale nel romanesco antico 
+                            (D’ACHILLE 1987, p. 93). V. anche ‘questa ène la cappella sova’ nel crocifisso reatino EDV <ref target="edv11_26">11.26</ref>, e 
+                            ‘In qesto ène la soboltura’ nell’Iscrizone di Gione tornere nel Palazzo della Cancelleria a Roma EDV <ref target="edv12_21">12.21</ref>.</p>
+                        <p>'molie sua' r. 3: ordinamento sostantivo + possessivo, in concorrenza nei testi medievali romaneschi con il meno popolare possessivo + sostantivo 
+                             (D’ACHILLE 1987, p. 93, ROHLFS 1966-1969, § 431, CASTELLANI POLLIDORI 1966-1970, VI, 18-19; VII, 45-47). V., EDV <ref target="edv11_20">11.20</ref>, <ref target="edv13_01">13.01</ref>, <ref target="edv13_03">13.03</ref>, e 
+                           a Roma, <ref target="edv12_18">12.18</ref>.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>La lapide che conserva l’iscrizione era originariamente collocata all’interno della chiesa di Santa Maria in Trastevere, sul pavimento della navata destra, davanti alla 
-                            terza cappella, ma oggi si trova su uno dei due pilastri del portico della stessa chiesa, a quasi due metri d’altezza. Il testo riporta nome, patronimico, 
-                            soprannome e cognome del defunto.</p> 
+                        <p>La lastra, oggi di forma pressoché quadrata ma sicuramente rettangolare in origine, si trova sul pavimento a sinistra dell’ingresso nella chiesa di 
+                            Santa Francesca Romana. L’iscrizione volgare è incisa al centro della lastra al di sopra di uno stemma e reca la data 1400.</p> 
+                        <p>Paolo D’Achille osserva che «un Pietro Tompieri del rione Parione figura come testimone in un documento del 1402 ed altri membri della famiglia 
+                            compaiono in carte dell’epoca» (D’ACHILLE 1987, p. 94 e nota 123, MONTENOVESI 1926, p. 269, ADINOLFI 1881-1882, I, p. 403, GRABMÄLER 1981, p. 195).</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">ALVERI 1664, II, 340; GALLETTI 1760, III, CCCCXXVII n. 112; FORCELLA 1869-1884, II, p. 340 n. 1043; EROLI 1895, p. 443 (imprecisa); 
-                            GRABMÄLER 1981, pp. 222-223, n. XLI, 3; D’ACHILLE-GIOVANARDI 1984, n. 128; D’ACHILLE 1987, pp. 97-98, n. 26.</p>
+                        <p xml:id="editions">GALLETTI 1760, III, CCCCXIV n. 53; FORCELLA 1869-1884, II, p. 7 n. 13; ADINOLFI 1881-1882, I, 403; 
+                            BUCHOWIECKI 1967-1974, III, p. 44; GRABMÄLER 1981, p. 195, n. XXVI, 9; foto n. 131; D’ACHILLE-GIOVANARDI 1984, n. 37; 
+                            D’ACHILLE 1987, pp, 92-94, n. 23; foto n. 19.</p>
                         <p xml:id="other"/>
-                        <p xml:id="images">D’ACHILLE 1987, pp. 97-98, n. 26; foto 20.</p>
+                        <p xml:id="images">GRABMÄLER 1981, foto 131; D’ACHILLE-GIOVANARDI 1984, n. 37; D’ACHILLE 1987, foto 19.</p>
                     </div>
                 </body>
             </text>

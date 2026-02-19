@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CIPPO CON INDICAZIONE STRADALE</title>
+                <title>SEPOLTURA DI AMBROGIO DI VANNI FORNAIO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,17 +23,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>Museo di San Marco</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Camposanto</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#normative">Normativa</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -46,7 +46,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#unknown">?</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il cippo era un tempo murato in una casa in via Romana ad indicare l’inizio della strada che conduceva all’antica contrada di Torri in Val di Pesa.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 30 a) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">SFRAMELI 1989c, p. 509, n. 642.</p>
-                <p xml:id="other">REPETTI 1833-1846, V, 1843, p. 543; GUARDUCCI 1904, pp. 285-299.</p>
-                <p xml:id="images">SFRAMELI 1989c, n. 642.</p>
+                <p xml:id="editions">BANTI 1998, p. 96, n. 175.</p>
+                <p xml:id="other" />
+                <p xml:id="images" />
             </div>
         </body>
     </text>

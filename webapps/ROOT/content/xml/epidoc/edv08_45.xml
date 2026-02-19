@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>GIOVANNI DA MILANO, MADONNA CON BAMBINO (POLITTICO DI PRATO)</title>
+                <title>NARDO DI CIONE, INFERNO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Prato</placeName>
-                        <district ref="#PO">PO</district>
-                        <repository>Museo di Palazzo Pretorio</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Santa Maria Novella</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#signature">Firma</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#wood">Legno</material>
-                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate>1355-60</origDate>
+                            <origDate>1354-57</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L'opera fu commissionata dal frate francesco Tieri per lo Spedale della Misericordia di Prato, dove è documentata dal 1367.</p>
+                <p>Nardo di Cione era fratello di Andrea Orcagna. Le pitture della Cappella Strozzi si devono ad entrambi: Andrea dipinse la pala d’altare, Nardo gli affreschi del <title>Giudizio Universale</title>, <title>Inferno</title> e <title>Paradiso</title>. L’Inferno costituisce la prima rappresentazione nota del testo dantesco in forma monumentale e le forme della sua rappresentazione non richiamano quelle delle raffigurazioni dell’Inferno e del Giudizo Universale sparse lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11_04</ref>, <ref target="edv11_06">11_06</ref>, <ref target="edv11_14">11_14</ref>, <ref target="edv11_16">11_16</ref>, <ref target="edv11_17">11_17</ref>, <ref target="edv11_28">11_28</ref>, <ref target="edv11_29">11_29</ref>, <ref target="edv14_01">14_01</ref>, <ref target="edv14_02">14_02</ref>, <ref target="edv14_09">14_09</ref>, <ref target="edv15_01">15_01</ref>, <ref target="edv16_03">16_03</ref>).</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
                 <p xml:id="other" />
-                <p xml:id="images">catalogo.fondazionezeri.unibo.it,</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>

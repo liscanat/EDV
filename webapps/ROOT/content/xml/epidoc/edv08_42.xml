@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE (1) AUDITORIUM CORBOLINI</title>
+                <title>MADONNA COL BAMBINO E DONNA MUCCIA</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>Auditorium Corbolini</repository>
+                        <placeName>Lucignano</placeName>
+                        <district ref="#AR">AR</district>
+                        <repository>Museo Comunale</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#memorial">Commemorativa</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1301" notAfter="1350">XIV in.</origDate>
+                            <origDate notBefore="1401" notAfter="1450">XV in.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Luogo di conservazione: Firenze, Auditorium Corbolini</p>
+                <p>La didascalia che corre sul gradino ai piedi della Vergine ricorda la committente Monna Muccia vedova di Guerrino Ciantari. La piccola figura inginocchiata in basso a destra nell’atto di pregare è la committente stessa che aveva donato la tavola alla Chiesa di San Francesco, sede originaria dell’opera.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions">LUCIGNANO 2008.</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

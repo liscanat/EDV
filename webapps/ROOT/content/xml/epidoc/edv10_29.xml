@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MARCO ZOPPO, MADONNA CON BAMBINO E SANTI</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.29</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Berlino</placeName>
+                        <district ref="#DE-BE">DE-BE</district>
+                        <repository>Staatliche Museen Gemäldegalerie</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
+                        </summary>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#canvas">Tela</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate when="1471">1471</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.29.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>La firma è collocata all’interno del cartellino posto ai piedi del trono della Vergine. L’opera, realizzata per l’altare di San Giovanni Battista dell’Osservanza a Pesaro, costituiva la tavola centrale di un polittico, successivamente smembrato. L’iscrizione posta ai piedi dell’altare ci informa che la grande tavola fu realizzata a Venezia, città in cui il pittore trascorse l’ultima parte della sua vita, fino alla morte occorsa nel 1478.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">VALAZZI 2000, p. 101.</p>
+                <p xml:id="other">RUHMER 1966, p. 85; ARMSTRONG 1976, pp. 82-110, pp. 371-73 (con bibliografia precedente); CASTELLI 1988, pp. 18-20, LUCCO 1990, pp. 439-340; VALAZZI 2000, pp. 101-102, cat. n. 2.</p>
+                <p xml:id="images">RUHMER 1966, figg. 154-158; tav. VIII; ARMSTRONG 1976, fig. 23; VALAZZI 2000, p. 102.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

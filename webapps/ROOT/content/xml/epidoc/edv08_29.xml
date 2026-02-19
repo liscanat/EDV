@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DELL’OSPEDALE DI SAN CRISTOFANO</title>
+                <title>LAPIDE DELLA PIENA DELL'ARNO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Carrara</placeName>
-                        <district ref="#MS">MS</district>
-                        <repository>Ospedale Civico</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>via san Remigio</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#normative">Normativa</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1335">1335</origDate>
+                            <origDate>dopo il 1333</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,11 +84,11 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione ricorda le indulgenze concesse da papa Giovanni XII ai visitatori dell’antico ospedale di S. Cristofano di Grazzano, annesso alla Chiesa adiacente dei Santi Giacomo e Cristoforo. La lapide, murata originariamente sulla facciata del campanile e poi spostata su una parete della stessa chiesa, fu definitivamente collocata nei primi anni del ’900 presso l’ospedale civico di Carrara.</p>
+                <p>L’iscrizione, in versi, ricorda l’alluvione che colpì la città di Firenze nel 1333 ed il livello raggiunto dall’acqua dell’Arno in quella occasione. La lapide che la conserva è murata presso Via San Remigio, angolo via Neri (Canto dei Soldani).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">ANDREI 1869, p. 435; LAZZONI 1880 (che riprende l’edizione Andrei); LARSON 1999, p. 372-373.</p>
-                <p xml:id="other">CECCHINI 1979.</p>
+                <p xml:id="editions">AIAZZI 1845, p. 3 nota 1; BIGAZZI 1886, p. 288; MORPURGO-LUCHAIRE 1910, p. 14; BARGELLINI-GUARNIERI 1977-78, p. 213; LARSON 1999, p. 369; NICCOLAI 1995, p. 14; MALQUORI 2005, n. 109, p. 148.</p>
+                <p xml:id="other" />
                 <p xml:id="images" />
             </div>
         </body>

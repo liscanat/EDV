@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Formelle della cattedra di san Pietro</title>
+                        <title>FORMELLE DELLA CATTEDRA DI SAN PIETRO</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -113,8 +113,7 @@
                     </div>
                     <div type="commentary" subtype="note">
                         <p>La Cattedra di San Pietro è, secondo la leggenda medievale, il trono ligneo appartenuto a San Pietro Apostolo. Quella attuale è però un rifacimento 
-                            della seconda metà del secolo IX ed è oggi conservata nell’abside della Basilica Vaticana, racchiusa nel monumento berniniano della Cattedra di san 
-                            Pietro (EUA, vol. II, p. 530). Nel rifacimento della seconda metà del IX secolo, la fronte del sedile è ornata da dodici formelle in avorio più 
+                            della seconda metà del secolo IX ed è oggi conservata nell’abside della Basilica Vaticana, racchiusa nel monumento berniniano della Cattedra. Nel rifacimento della seconda metà del IX secolo, la fronte del sedile è ornata da dodici formelle in avorio più 
                             antiche (forse del IV secolo) che rappresentano le fatiche di Ercole. I graffiti furono incisi sul retro delle formelle prima che queste venissero 
                             applicate al trono. Si tratta di «brevi messaggi, in parte “funzionali”, in parte scherzosi» realizzati con molta probabilità dagli artigiani 
                             addetti all’opera. Accanto a parole semivolgari si trovano anche semplici lettere e numeri ed alcune indicazioni in latino (ad esempio <title>imum 

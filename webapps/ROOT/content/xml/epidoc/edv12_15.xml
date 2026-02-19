@@ -5,12 +5,12 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Domina Antonia deli Cunti</title>
+                        <title>ANELLO DETTO TORTORA DELLI ROFINI</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
-                        <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
+                        <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName></persName></editor>
+                        <editor role="images"><persName>Luna Cacchioli</persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
@@ -25,7 +25,7 @@
                             <msIdentifier>
                                 <placeName>Roma</placeName>
                                 <district ref="#RM">RM</district>
-                                <repository>Deposito nord dell’area sacra Argentina</repository>
+                                <repository>Basilica di santa Maria in Trastevere</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -41,7 +41,7 @@
                                         <support>    
                                             <material ref="#stone">Pietra</material>
                                             <objectType ref="#slab">Lastra</objectType>
-                                            <dimensions><width>135</width><depth/><height>74</height></dimensions>
+                                            <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
@@ -61,55 +61,48 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="12.16.jpg">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>Domina Antonia de li
-                            <lb n="2"/><w type="metaphony">Cunti</w>
-                           </ab>
+                        <ab><lb n="1"/>Anello de Nuccio Nicolucca
+                            <lb n="2"/>dicto Tortora delli Rofini
+                        </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                            <lb n="1"/>DN ̅A ANTONIA DELI
-                            <lb n="2"/>CV ̅TI.
+                        <ab><lb n="1"/>ANELLO ∙ DE ∙ NVCCIO. NICOLVCCA ∙
+                            <lb n="2"/>DICTO ∙ TORTORA ∙ DELLI ∙ ROFINI ∙
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p/>
+                        <p>1 Nello EROLI 1895</p>
+                        <p>2 Tontera EROLI 1895</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p><title>Grafia e fonologia:</title></p>
-                         <p>'Cu(n)ti' r. 2: chiusura per metafonesi di /o/, se proveniente da Conti; come osservato da Paolo D’Achille il fenomeno sembrerebbe estraneo 
-                             all’antico romanesco e andrebbe piuttosto ricollegato all’origine umbra della sepolta (D’ACHILLE 1987, p. 84 e note 72 e 73). Così anche  
-                             ERNST 1970, pp. 53 sgg., MACCIOCCA 1982, pp. 68-69. Sostengono invece la presenza 
-                             della metafonesi di /e/ ed /o/ anche nel romanesco di prima fase MERLO 1952, p. 47 e UGOLINI 1982, pp. 110-111, 118, 129, 175.</p>  
-                           <p><title>Morfologia e sintassi:</title></p>
-                           <p>‘de li Cunti’ si noti la preposizione articolata con laterale scempia e cfr. invece, sempre a Roma, 
-                               la trecentesca lapide di Liello Voccabella, <ref target="edv12_05">12.05</ref> r. 2 ‘dello mese’ 
-                               e <ref target="edv12_16">12.16</ref> r. 2 ‘delli Rofini’.</p>
+                        <p>Fra i fenomeni grafico-fonetici si noti l’attesa conservazione di /e/ in protonia, la resa dell’affricata palatale con &lt;ci&gt; 
+                            (D’ACHILLE 1987, p. 79, ROHLFS 1966-1969, § 130, PORTA 1979, p. 545, MACCIOCCA 1982, p. 73) in ‘Nuccio’ di contro a &lt;cc&gt; in ‘Nicolucca’, 
+                            a meno che, in quest’ultimo caso, non debba leggersi 'Nicoluzza', con omissione di cediglia in &lt;çç&gt; per /tts/ 
+                            (D’ACHILLE 1987, p. 97, CASTELLANI 1952, I, p. 17).</p>
+                         <p>‘delli Rofini’ cfr. con 'dello mese' in EDV <ref target="edv12_05">12.05</ref> e con 'de li Cu(n)ti' <ref target="edv12_15">12.15</ref>.</p>
+                         <p>‘dicto Tortora’ con indicazione del soprannome del defunto, v. anche il sepolcro di Nerone di Baccio nel Camposanto di Pisa 
+                             <ref target="edv08.49">08.49</ref>; la Madonna di Priamo della Quercia (Volterra, Pinacoteca) firmata da Giusto di Iacopo ‘deto Graselino’
+                             <ref target="edv08.121">08.121</ref>, o il Sepolcro di Giovanni di Iacopo ‘chiamato çopeto’ nel Camposanto di Pisa 
+                             <ref target="edv08.151">08.151</ref>.
+</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>La lapide, un tempo collocata presso la cappella di San Francesco della chiesa di Santa Maria in Aracoeli, andò dispersa durante i lavori di 
-                            restauro del 1727 e fu ritrovata mutila della parte inferiore. L’iscrizione volgare costituisce un’aggiunta di poco posteriore ad una iscrizione in 
-                            latino datata 1400 disposta lungo il perimetro:</p>
-                            <p>+ Hic iacet corp(us) magnifice et birtuosissime / mulieris d(omi)ne Marine de Tri(n)cis [uxoris quo(n)dam / magnifici Rentii de Sabello 
-                                quae obiit an(n)o d(omi)ni / mill(esimo) CCCC ind(ictionis) VIII me(n)sis m]aii die xvii cuius / a(n)i(m)a requiescat in celis. 
-                                (D’ACHILLE 1987a, p. 84 e nota 71, CASIMIRO 1736, p. 112, FORCELLA 1869-1884, I, p. 132, num. 480 (che dà l’epigrafe per scomparsa), 
-                                MARCHETTI LONGHI 1943-1945, p. 94, num XXV e foto num. 31, GRABMÄLER 1981, pp. 305-306, num. LXVII, 4 e foto num. 125 e 
-                                D’ACHILLE - GIOVANARDI 1984, num. 366.)</p>
-                               <p>Secondo Giuseppe Marchetti Longhi la defunta Antonia sarebbe stata parente della Marina Trinci ricordata nell’iscrizione latina, 
-                                   originaria di Foligno (MARCHETTI LONGHI 1943-1945, p. 94, D’ACHILLE 1987, p. 84).</p>
+                        <p>La lapide che conserva l’iscrizione era originariamente collocata all’interno della chiesa di Santa Maria in Trastevere, sul pavimento della navata destra, davanti alla 
+                            terza cappella, ma oggi si trova su uno dei due pilastri del portico della stessa chiesa, a quasi due metri d’altezza. Il testo riporta nome, patronimico, 
+                            soprannome e cognome del defunto.</p> 
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">CASIMIRO 1736, p. 112; FORCELLA 1869-1884, I, p. 132 n. 480; MARCHETTI LONGHI 1943-1945, p. 94, n. XXV; foto n. 31; 
-                            GRABMÄLER 1981, pp. 305-306, n. LXVII, 4; foto n. 125; D’ACHILLE-GIOVANARDI 1984, n. 366; D’ACHILLE 1987, pp. 83-84, n. 9.
-</p>
+                        <p xml:id="editions">ALVERI 1664, II, 340; GALLETTI 1760, III, CCCCXXVII n. 112; FORCELLA 1869-1884, II, p. 340 n. 1043; EROLI 1895, p. 443 (imprecisa); 
+                            GRABMÄLER 1981, pp. 222-223, n. XLI, 3; D’ACHILLE-GIOVANARDI 1984, n. 128; D’ACHILLE 1987, pp. 97-98, n. 26.</p>
                         <p xml:id="other"/>
-                        <p xml:id="images">MARCHETTI LONGHI 1943-1945, n. 31; GRABMÄLER 1981, foto 125.</p>
+                        <p xml:id="images">D’ACHILLE 1987, pp. 97-98, n. 26; foto 20.</p>
                     </div>
                 </body>
             </text>

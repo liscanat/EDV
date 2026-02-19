@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LAPIDE DELLA PIENA DELL'ARNO</title>
+                <title>ISCRIZIONE DI ARRIGO DANDOLO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>via san Remigio</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Museo Nazionale di san Matteo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate>dopo il 1333</origDate>
+                            <origDate when="1332">1332</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione, in versi, ricorda l’alluvione che colpì la città di Firenze nel 1333 ed il livello raggiunto dall’acqua dell’Arno in quella occasione. La lapide che la conserva è murata presso Via San Remigio, angolo via Neri (Canto dei Soldani).</p>
+                <p>L’epigrafe, ricorda il veneziano Arrigo Dandolo, podestà nel 1311 e doveva essere stata collocata un tempo su una parete dell’antico Palazzo del Comune o del Podestà. Si trova oggi presso il deposito lapidario n. 1 del Museo Nazionale di San Matteo.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">AIAZZI 1845, p. 3 nota 1; BIGAZZI 1886, p. 288; MORPURGO-LUCHAIRE 1910, p. 14; BARGELLINI-GUARNIERI 1977-78, p. 213; LARSON 1999, p. 369; NICCOLAI 1995, p. 14; MALQUORI 2005, n. 109, p. 148.</p>
+                <p xml:id="editions">BANTI-MARTELLI 1986, n. 8, pp. 207-208; BANTI 1963, p. 85; BANTI 1995c, pp. 192-193, n. 11; BANTI 2000, p. 106, n. 153</p>
                 <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="images">BANTI 1995c, n. 47, p. 559; BANTI 2000, fig. 153.</p>
             </div>
         </body>
     </text>

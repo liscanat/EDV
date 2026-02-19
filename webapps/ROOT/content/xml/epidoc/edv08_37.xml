@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DEL CASSERO DI GROSSETO</title>
+                <title>ISCRIZIONE DI PONTE VECCHIO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Grosseto</placeName>
-                        <district ref="#GR">GR</district>
-                        <repository>Fortezza Medicea</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Ponte Vecchio</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione ricorda datazione e committenza della costruzione del Cassero.</p>
+                <p>L’iscrizione, in versi, ricorda la ricostruzione del ponte a dodici anni dalla distruzione dovuta alla rovinosa alluvione del 1333. La lastra è murata alla destra del busto di Benvenuto Cellini.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">VENEROSI PESCIOLINI 1925, p. 19; MAZZOLAI 1963, p. 14; GARZELLI 1967, p. 121; GUADAGNI 1976, p. 83; MAZZOLAI 1980, pp. 153-154; GELICHI 1980, pp. 54-56; CALABRESI 1991, pp. 87-91. Altri studi: STUSSI 1997, p. 155. Riproduzioni: CALABRESI 1991, tav. V.</p>
+                <p xml:id="editions">MANNI 1763, p. 16; nota 4; AIAZZI 1845, p. 4, nota 4; BIGAZZI 1886, p. 152; MORPURGO-LUCHAIRE 1910, p. 13; BARGELLINI-GUARNIERI 1977-78, III, p. 307; LARSON 1999, p. 369-370; MALQUORI 2005, n. 49, pp. 77-78.</p>
                 <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="images">MORPURGO-LUCHAIRE 1910, p. 7.</p>
             </div>
         </body>
     </text>

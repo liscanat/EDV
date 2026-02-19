@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MADONNA COL BAMBINO E DONNA MUCCIA</title>
+                <title>ANDREA ORCAGNA, TRIONFO DELLA MORTE</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Lucignano</placeName>
-                        <district ref="#AR">AR</district>
-                        <repository>Museo Comunale</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Museo dell'Opera di santa Croce</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#patronage">Committenza</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#wood">Legno</material>
-                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1401" notAfter="1450">XV in.</origDate>
+                            <origDate notBefore="1330" notAfter="1370">XIV metà</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La didascalia che corre sul gradino ai piedi della Vergine ricorda la committente Monna Muccia vedova di Guerrino Ciantari. La piccola figura inginocchiata in basso a destra nell’atto di pregare è la committente stessa che aveva donato la tavola alla Chiesa di San Francesco, sede originaria dell’opera.</p>
+                <p>Del ciclo d’affreschi del Trionfo della morte, l'Inferno e il Giudizio finale di Andrea Orcagna, originariamente collocato sulla parete destra in Santa Croce, restano pochi frammenti oggi conservati al Museo dell’Opera di Santa Croce. Il frammento d’affresco che raffigura I mendichi che invocano la morte conserva una didascalia in volgare, ormai quasi completamente evanita. La fonte sembrerebbe (Bellosi 1974) la medesima del cartiglio degli storpi del Trionfo della Morte di Buffalmacco del Camposanto pisano (v. <ref target="edv08_03">08.033</ref>) (v. 08.033). Il tema è rappresentato variamente con corredo di testi lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11_04</ref>, <ref target="edv11_06">11_06</ref>, <ref target="edv11_14">11_14</ref>, <ref target="edv11_16">11_16</ref>, <ref target="edv11_17">11_17</ref>, <ref target="edv11_28">11_28</ref>, <ref target="edv11_29">11_29</ref>, <ref target="edv14_01">14_01</ref>, <ref target="edv14_02">14_02</ref>, <ref target="edv14_09">14_09</ref>, <ref target="edv15_01">15_01</ref>, <ref target="edv16_03">16_03</ref>).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">LUCIGNANO 2008.</p>
+                <p xml:id="editions" />
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

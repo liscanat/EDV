@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GIOVANNI ANGELO D'ANTONIO (?), MADONNA IN TRONO COL BAMBINO TRA I SANTI NICOLA DA TOLENTINO E ANTONIO ABATE</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.24</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Camerino</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Pinacoteca e Musei Civici (già chiesa di Sant’Agostino)</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="">Volgare mediano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate when="1449">1449</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.24.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’iscrizione informa circa la committenza della cappella da parte di tale Catarina moglie del macellaio Venanzo e dell’opera, fatta dipingere come ex-voto da Salvo e Arcangilu. L’affresco è stato staccato e trasferito su tela.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">FELICIANGELI 1910, p. 8; DE MARCHI 2002, p. 303, MAZZALUPI 2002a, p. 467.</p>
+                <p xml:id="other">CONTI 1872, p. 65; CALZINI 1904; BERENSON 1907, pp. 131-134; FELICIANGELI 1910, pp. 8-9; VENTURI 1915, p. 188; VAN MARLE 1923-1938, XV (1934), pp. 20-24; BERENSON 1968, I, p. 193; DE MARCHI 2002, pp. 303-306, cat. n. 2 (che segnala la ricca bibliografia precedente); MAZZALUPI 2002a, p. 467, n. 9.</p>
+                <p xml:id="images">DE MARCHI 2002, p. 304, fig. 2 (figura a piena pagina con la didascalia del basamento ben visibile), p. 305, fig. 2A (part.).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

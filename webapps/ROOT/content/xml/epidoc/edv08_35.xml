@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AMBROGIO LORENZETTI, ANNUNCIAZIONE</title>
+                <title>AMBROGIO LORENZETTI, BUONO E CATTIVO GOVERNO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,22 +25,22 @@
                     <msIdentifier>
                         <placeName>Siena</placeName>
                         <district ref="#SI">SI</district>
-                        <repository>Pinacoteca Nazionale</repository>
+                        <repository>Palazzo Pubblico</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#signature">Firma</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#wood">Legno</material>
-                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1344">1344</origDate>
+                            <origDate when="1339">1339</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’opera era originariamente collocata nella Sala del Concistoro del Palazzo Pubblico di Siena. La sottoscrizione riporta, oltre al nome dell’artista e alla datazione, i nomi dei committenti. All’interno della scena sono conservate anche tre didascalie in latino.</p>
+                <p>Il ciclo di affreschi del Buono e Cattivo Governo di Ambrogio Lorenzetti conservato nella Sala della Pace (o sala dei Nove) è accompagnato da didascalie in volgare suddivise in sei gruppi che corrispondono a quattro stanze di canzone di tredici versi ciascuna con due congedi di cinque versi.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">ROWLEY 1958, I, pp. 8-17; MULLER 1977, pp. 1-12; TORRITI 1978, pp. 78-79, n. 88; TORRITI 1980, n. 88, fig. 124, p. 124-125.</p>
-                <p xml:id="other" />
-                <p xml:id="images">ROWLEY 1958, II, fig. 1-3 (che taglia la sottoscrizione); TORRITI 1978, fig. 90; TORRITI 1980, n. 88, fig. 124; STARN 1994, fig. 9.</p>
+                <p xml:id="editions" />
+                <p xml:id="other">ROWLEY 1958, I, pp. 99-122; BRANDI 1983, pp. 193-210; FRUGONI 1983, pp. 136-210; SUITNER 1983, pp. 193-194; CIOCIOLA 1992, p. VII; STARN 1992, pp. 11-59, 261-266; STARN 1994; CASTELNUOVO 1995; PETRUCCI 1997, p. 53; CASAPULLO 1999, p. 169.</p>
+                <p xml:id="images">ROWLEY 1958, II, figg. 153-160, 173-174, 206-209, 222-224, 233-234; CAIROLA-CARLI 1963, fig. 41-90; BRANDI 1983, fig. 242-255; FRUGONI 1983, figg. 69-74; STARN 1992, figg. 5-7, 14, 21, 24-25; STARN 1994, fig. 7, tavv. 1-6, p. 43, 49, 71, 94; CASTELNUOVO 1995, pp. 45, 47, 145, 146-147, 245, 246, 313, 314-315; BRUGNOLO 1995, pp. 382-383.</p>
             </div>
         </body>
     </text>

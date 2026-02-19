@@ -5,17 +5,17 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Bassorilievo Aldemoresco</title>
+                        <title>STORIE DELLA VERGINE</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
-                        <editor role="edition"><persName>Sabatini 1975</persName></editor>
-                        <editor role="commentary"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>DE BLASI 1997, pp. 272-273</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata, Alessandra Tiburzi</persName></editor>
                         <editor role="encoding"><persName>Nadia Cannata</persName></editor>
-                        <editor role="images"><persName>http://www.rialfri.eu/rialfriPHP/public/testo/testo/codice/iscrizioneNapoli.html</persName></editor>
+                        <editor role="images"><persName></persName></editor>
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">14.05</idno>
-                        <date when="2020-11-20"/>
+                        <date when="2020-10-07"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,9 +23,9 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Napoli</placeName>
-                                <district ref="#NA">NA</district>
-                                <repository>Chiesa di San Lorenzo Maggiore</repository>
+                                <placeName>Casapozzano, Fraz. Di Orta Di Atella</placeName>
+                                <district ref="#CE">CE</district>
+                                <repository>Chiesa di san Michele</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -33,26 +33,26 @@
                                     <term type="textFunction" ref="#D">Didascalia</term>
                                     <term type="textType" ref="#narrative">Narrativa</term>
                                 </summary>
-                                <textLang mainLang="xfr">Francese</textLang>
+                                <textLang mainLang="xmer">Volgare meridionale</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#stone">Pietra</material>
-                                            <objectType ref="#funerary_memorial">Monumento funebre</objectType>
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <handNote><term ref="#gothic">Gotica</term></handNote>
+                                    <handNote><term ref="#unknown">?</term></handNote>
                                 </handDesc>
                             </physDesc>
                             <history>
                                 <origin>
                                     <origPlace><region ref="#campania">Campania</region></origPlace>
-                                    <origDate when="1421">XV in.</origDate>
+                                    <origDate notBefore="1400" notAfter="1449" precision="low">XV in.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,20 +61,16 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="http://www.rialfri.eu/rialfriWP/opere/iscrizioni-nel-bassorilievo-aldemoresco-della-chiesa-di-san-lorenzo-maggiore-a-napoli">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab><lb n="1"/>[1 Morte di Ludovico]
-                           Ci demostre [coma]nt [...ar]dit e nobles ciavalier miser Lois Moriske lassa sa gens tutte disconforté et ale con l’anglies de Diu e li montre la 
-                           gloria de le s. Paradis.
-                         <lb n="2"/>[2 l’Ingresso in Paradiso]
-                           Ci v[oit] comman[t san]t Aymé et s. Anton portent le n[obles] princes et posciant roy Landislaus de Duras et port[et] a soy les ardis et 
-                           preus ciavaliers miser Lois Morisk[e] li presentent a la virgo Maria et son fis Ihesu Christe innel gloria del Paradis ou le sant cecile et 
-                           Kterin demore[nt].
+                        <ab><lb n="1"/>&lt;Como Ioachi&gt;m <m type="avere" subtype="perf3ps">abe</m> a coma(n)dam(en)to da l’a(n)gelo ch(e) to(r)nasse a ssua pat(ri)a a S(an)c(t)a Anna.
+          <lb n="2"/>Como <seg type="phoneme" subtype="j_initial">I</seg>oachim and<m type="desinence" subtype="perf3ps">ao</m> a ssua patria fece pace 
+                            co S(an)c(t)a A(n)na sua mu<seg type="grapheme" corresp="/ʎ/">ll</seg>er&lt;e&gt;
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -82,28 +78,31 @@
                         </ab>
                     </div>
                     <div type="apparatus">
-                        <p>1. coment ardit, montrer DE LA VILLE SUR-YLLON 1892</p>
-                        <p>2. comant, n., lois de moriske, fius, Xpiste in nel, katerini DE LA VILLE SUR-YLLON 1892</p>
+                        <p>Nell’impossibilità di vedere l’originale riproduco la trascrizione interpretativa di DE BLASI 1997, p. 273.</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Il sepolcro è stato riconosciuto dalla critica come l’ultima opera realizzata dal napoletano Antonio Baboccio da Piperno a commemorazione di Ludovico Aldemoresco, 
-                            consigliere di re Ladislao di Durazzo nonché ammiraglio del Regno. L’iscrizione funebre, 'in un francese fortemente mescolato con l’italiano, testimonianza della francofilia dell’alta società napoletana' (SABATINI, 1975, p. 204), è inserita in cartigli all’interno di un bassorilievo che correda 
-                            il monumento funebre di Ludovico Aldemoresco, realizzato da Antonio Baboccio da Piperno nel 1421. Il bassorilievo è corredato anche di scritture in latino: «HEC EST 
-                            SEPULTURA MAGNIFICI MILITIS LUDOVICI ALDMARISCO DE NEAPOLI HUJUS REGNI MENESCALLUS ET FIDELISSIMUS CONSILIARIUS ET DELECTUS SERENISSIMI REGIS LANDISLAI NEC NON DUX MARIS 
-                            ARMATE STRENUUS ET PRUDENS SENSU ROBUSTUS IN ARMIS INTEGER ATQUE PUGIL IIUSTO PRO REGE FIDELIS NEC NON EX PARTE REGIS OFFICIUM AMMIRANTIAE ITA ET TALITER QUOD NAVIGIA 
-                            GEREBANT VESSILLUM EJUS ET IN HIIS OFFICIIS SUA VITA CLAUSIT EXTREMUM» (v. ALOE, 1835, il quale leggeva inoltre: «Anno domini 1414 quam hic veram cernis inscriptionem eam in hac 
-                            Ludovici sepoltura gallicis scripta etiam inueberis Robertus Aldemoriscus continuus suae maiestatis», p. 163; v. anche De BLASI, 1997, p. 270).</p>
+                        <p><title>Grafia e fonologia:</title></p> 
+                      <p>Si noti la rappresentazione grafica del rafforzamento sintattico in &apos;a ssua&apos; 1, 2 e la resa di /ʎ/ con &lt;ll&gt;. 
+                      Cfr. il <title>Libro de la destructione de Troya</title>: «Lo quale, insembla co la regina Tarase soa <title>mollere</title>, lo receppe voluntiary, non obstante 
+                          che fosse a lloro assay remoto de parentato» (DE BLASI 1986, p. 275.12).</p>
+                     <p><title>Morfologia e sintassi:</title></p> 
+                   <p>&apos;abe&apos; 1, &apos;andao&apos; 2 sono forme di terza persona singolare del passato remoto con desinenza comune in area meridionale. 
+                       Per &apos;abe&apos; degeminato cfr. GENTILE 1961, p. 16 che parla di alternanza tra le forme di perfetto &apos;abbe&apos; e &apos;appe&apos;, 
+                       quest’ultima impiegata soprattutto nei testi napoletani trecenteschi. V. inoltre DE BLASI 1986a, pp. 384-386. 
+                       A proposito di entrambe le forme cfr. il <title>Libro de la destructione de Troya</title>: «La quale, commo Iasone l' abe sentuta subitamente se levao da 
+                           lo liecto, e co lliente pedate in compagna de quella domestica per li obscuri luochi de lo palazo sì pervenne a la camera de Medea, la quale 
+                           la trovao in bocha la porta et aspectavalo e, poy che se appero salutati insembla, intrao Iasone allegramenti la camera e la domestica se nde 
+                           andao.» (DE BLASI 1986a, p. 61.18).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
+                        <p>Le didascalie appartengono ai resti di un ciclo delle storie della Vergine. L’ affresco è forse databile al XV in. 
+                            e si conserva nella parte più antica della chiesa, in un vano laterale, vicino alle scale che conducono al piano alto.</p>
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">ALOE 1835, p. 163 (che riporta solo le iscrizioni in latino) DE LA VILLE SUR-YLLON 1892, p. 69; SABATINI 1975, p. 204; BLASI 1997, p. 274
-                            (riporta l’ed. DE LA VILLE SUR-YLLON 1892); RIALFri, Iscrizioni ella Chiesa di San Lorenzo maggiore a Napoli:  
-                            http://www.rialfri.eu/rialfriPHP/public/testo/testo/codice/iscrizioneNapoli.html (ed. del testo SABATINI 1975, p. 204; ed. e marcatura digitale a cura di Serena Modena)</p>
-                        <p xml:id="other"/>
-                        <p xml:id="images">SABATINI 1975, fig. 49; RIALFri, Iscrizioni ella Chiesa di San Lorenzo maggiore a Napoli:  
-                            http://www.rialfri.eu/rialfriWP/opere/iscrizioni-nel-bassorilievo-aldemoresco-della-chiesa-di-san-lorenzo-maggiore-a-napoli</p>
+                        <p xml:id="editions">DE BLASI 1997, pp. 272-273</p>
+                        <p xml:id="other">CIOCIOLA 1992, p. 51 (per le analogie testuali con le didascalie del ciclo di Benozzo Gozzoli in Castelfiorentino
+                            <ref target="edv00_00">00.00</ref></p>
+                        <p xml:id="images">Archivio fotografico della Soprintendenza ai Beni artistici, Reggia di Capodimonte, Napoli.</p>
                     </div>
                 </body>
             </text>

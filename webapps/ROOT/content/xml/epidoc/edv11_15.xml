@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Iscrizione della via Velletrana</title>
+                        <title>ISCRIZIONE PER LE CASE DELLA VIA VELLETRANA</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Nadia Cannata</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -60,7 +60,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -99,7 +99,7 @@
                         </p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Nell'impossibilità di una ricognizione diretta o fotografica lapresente edizione si basa unicamente sul testo stabilito in D’ACHILLE-GIOVANARDI 1984, n. 335, p. 121.</p>
+                        <p>L’iscrizione ricorda committente, operaio e data di costruzione degli edifici. Nell'impossibilità di una ricognizione diretta o fotografica lapresente edizione si basa unicamente sul testo stabilito in D’ACHILLE-GIOVANARDI 1984, n. 335, p. 121.</p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">PALUMBO 1930, p. 575; D’ACHILLE-GIOVANARDI 1984, n. 335, p. 121.</p>

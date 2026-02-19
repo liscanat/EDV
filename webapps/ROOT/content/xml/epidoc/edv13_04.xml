@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Reliquiario (già Ostensorio)</title>
+                        <title>RELIQUIARIO (GIÀ OSTENSORIO)</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -84,9 +84,7 @@
                         <p>Il digramma &lt;ci&gt; davanti a vocale palatale /e/ per /ʧ/, è un un uso grafico attestato anche nei testi toscani. V., in EDV, 08.72, 08.103, 08.111. </p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Conservato presso il Museo Nazionale d’Abruzzo (inv. 666), è probabile che il manufatto in rame dorato fosse in origine un ostensorio, 
-                            utilizzato in un secondo momento come reliquiario. Appartiene alla tipologia con teca architettonica su piede slanciato, tipica dei primi vasi sacri utilizzati nel 
-                            corso del Trecento per tale funzione. Il piede esagonale è unito al fusto da un rocchetto lungo il quale corre la firma degli artisti (DONATO 2014).</p>
+                        <p>Conservato presso il Museo Nazionale d’Abruzzo (inv. 666), è probabile che il manufatto, in rame dorato, fosse in origine un ostensorio, utilizzato in un secondo momento come reliquiario. Appartiene alla tipologia con teca architettonica su piede slanciato, tipica dei primi vasi sacri utilizzati nel corso del Trecento per tale funzione. Il piede esagonale è unito al fusto da un rocchetto lungo il quale corre la firma degli artisti.</p>
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">PICCIRILLI 1916, pp. 142-143; GABBRIELLI 1934, p. 9; DONATO 2014, scheda n. 25.S.1.</p>

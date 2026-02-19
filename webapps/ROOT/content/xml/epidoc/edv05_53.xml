@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PONTE NAVI</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">05.53</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Verona</placeName>
+                        <district ref="#VR">VR</district>
+                        <repository>Museo Lapidario</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
+                        </summary>
+                        <textLang mainLang="xvnz" otherLangs="">Volgare veneziano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#veneto">Veneto</region></origPlace>
+                            <origDate when="1375">1375</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="05.53.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>La lastra era affissa sulla facciata orientale della torre che si ergeva al centro del Ponte Navi, e la si poteva osservare con la sua controparte, in lingua latina, posta nella parte occidentale della stessa torre. In seguito al rifacimento in marmo del Ponte Navi, Scipione Maffei la fece trasferire al lapidario, dove si trova ancora oggi, collocata accanto alla porta del Morbio. Considerata una delle più antiche testimonianze del volgare d’uso epigrafico a Verona, l’iscrizione ricorda l’edificazione del Ponte, avvenuta in soli due anni tra il 1373 e 1375. Il testo si compone di tre quartine di endecasillabi e settenari secondo lo schema rimico ABbA ABbA AbbA assimilato dal Maffei alla Prima maniera della ballata Brande secondo la teorizzazione di Gidino da Sommacampagna. Non si conosce l’autore del testo, che da molti è attribuito allo stesso Gidino sulla base di dati linguistici.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">MAFFEI 1732, III, coll. 76-77; MAFFEI 1749, CLXXXIV, 2; CIPOLLA 1876, pp. 277-356; GIULIARI 1880, p. 6; GAITER 1877; MIGLIORINI-FOLENA 1952, p. 49; RIVA 1979; STUSSI 1997, p. 173, nota 41 (solo segnalazione); MODONESI 1988, pp. 567-577; GRAZIANI 2012-2013, scheda VIII, pp. 64-73 (con bibliografia precedente).</p>
+                <p xml:id="images">MODONESI 1988, p. 574, n. 8; GRAZIANI 2012-2013, p. 64.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>TRIONFO DELLA MORTE</title>
+                <title>SEPOLTURA DI PIERO DI VANNI TINTORE</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Lucignano</placeName>
-                        <district ref="#AR">AR</district>
-                        <repository>Chiesa di San Francesco 1380 ca.</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Camposanto</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,20 +39,20 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#unknown">?</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1370" notAfter="1390" precision="low">1380 ca.</origDate>
+                            <origDate when="1375">1375</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’affresco si trova sulla parete destra della navata della Chiesa di San Francesco a Lucignano, ed  è corredato da cinque didascalie in volgare che corrispondono alle parole pronunciate dai personaggi raffigurati sulla scena: un gruppo di poveri sulla sinistra [1]; la Morte a cavallo al centro [2], due giovani riccamente abbigliati sulla destra [3-4], ed il Cristo, in alto a sinistra [5].</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 30 b) del Camposanto.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other">VAN MARLE 1931-1932, II, p. 369; BERENSON 1932, p. 45; VAN MARLE 1923-1938, II, pp. 505-506; BRION-GUERRY 1950, p. 142.</p>
-                <p xml:id="images">PANTANI 1997, fig. 1-2-3, pp. 155-156.</p>
+                <p xml:id="editions">BANTI 1998, p. 96, n. 176.</p>
+                <p xml:id="other" />
+                <p xml:id="images" />
             </div>
         </body>
     </text>

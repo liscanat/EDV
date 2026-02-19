@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Nicola da Guardiagrele, Paliotto</title>
+                        <title>GUALTIERO D’ALEMAGNA, MONUMENTO CAMPONESCHI</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">13.06</idno>
-                        <date when="2020-04-14"/>
+                        <date when="2020-04-13"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -23,24 +23,24 @@
                     <sourceDesc>
                         <msDesc>
                             <msIdentifier>
-                                <placeName>Atri</placeName>
-                                <district ref="#TE">TE</district>
-                                <repository>Cattedrale di santa Maria Assunta</repository>
+                                <placeName>L’Aquila</placeName>
+                                <district ref="#AQ">AQ</district>
+                                <repository>Basilica di san Giuseppe artigiano</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#narrative #signature">Narrativa, Firma</term>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#funerary">Iscrizione funeraria</term>
                                 </summary>
-                                <textLang mainLang="xmed" otherLangs="la">Volgare mediano, Latino</textLang>
+                                <textLang mainLang="xvnz" otherLangs="xvolg xvlat la">Volgare mediano, Latino</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#silver">Argento</material>
-                                            <objectType ref="#artifact">Artefatto</objectType>
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#funerary_memorial">Monumento funebre</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
-                                    <origDate notBefore="1433" notAfter="1448">XV in.</origDate>
+                                    <origDate when="1432">XV in.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>
@@ -61,218 +61,59 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
                         <ab>
-                        <lb n="0"/><title>Primo registro, primo quadrato, Annunciazione</title>
-                        <lb n="1"/>Ave gratia plena dominus tecum
-                        <lb n="2"/>anno domini M CCCC XXXIII
-                         </ab>
-                         </div>                        
-                         <div type="textpart" subtype="section" n="B">
-                          <ab>
-                        <lb n="0"/><title>Primo registro, quarto quadrato, san Giovanni Evangelista</title>
-                        <lb n="1"/>In principio erat verbum.
-                         </ab>
-                         </div>                        
-                        <div type="textpart" subtype="section" n="C">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, quinto quadrato, Presentazione al Tempio</title>
-                        <lb n="1"/>Quan(d)o Chr(ist)o f
-                        <lb n="2"/>o presentat
-                        <lb n="3"/>o a lo tenplo.    
-                         </ab>
-                         </div>
-                            <div type="textpart" subtype="section" n="D">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, primo quadrato, Tentazioni del deserto</title>
-                        <lb n="1"/>Vade retro Satan
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="E">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, quarto quadrato, Matteo</title>
-                        <lb n="1"/>Liber generazioni(s) J(esu) Ch(risti).
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="F">
-                        <ab>
-                        <lb n="0"/><title>Secondo registro, quadrato centrale, Redentore</title>
-                        <lb n="1"/>Ego
-                        <lb n="2"/>sum
-                        <lb n="3"/>lux    
-                        <lb n="4"/>mun
-                        <lb n="5"/>di via 
-                        <lb n="6"/>verit
-                        <lb n="7"/>as et
-                        <lb n="8"/>vita<quote type="accurate" source="#Io" n="08.12" ></quote>
+                            <lb n="1"/>Canponisce domus vivus mostratur in alto
+                            <lb n="2"/>Ludovicus miles vides sopore iacentem
+                            <lb n="3"/>Baptiste gentum Gallioffi clareq(ue) natum						
+                            <lb n="4"/>Intempestive rediit se(d) vivet in evum
+                            <lb n="5"/>et qui si &lt;legge se tu ben rimembri di conte&gt; Lalle <m type="delu" subtype="prep_artmsing_contr">du</m> fi<seg type="grapheme" corresp="/ʎ/">lli</seg>o e <m type="della" subtype="prep_artfsing_contr">da</m> &lt;nipote&gt;
+                            <lb n="6"/>sono &lt;rechiuse tutte&gt; loro membri							
+                            <lb n="7"/>A(nno) ∙ D(omini) ∙ M(illesimo)
+                            <lb n="8"/>CCCC ∙ XXX ∙
+                            <lb n="9"/>II ∙											
                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="G">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, settimo quadrato, Orazione nell’orto</title>
-                        <lb n="1"/>Pater si fieri p(otest) t(ranseat) a m(e) c(alix) i(ste).
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="H">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, secondo quadrato, Flagellazione</title>
-                        <lb n="1"/>Quando Chr(ist)o <m type="essere" subtype="perf3ps">fo</m> bactuto a la colonda
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="I">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, quinto quadrato, Sant’mbrogio</title>
-                        <lb n="1"/>Cui(us) op(er)a q(ui)s q(uam) facit [...]
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="L">
-                          <ab>
-                         <lb n="0"/><title>Terzo registro, sesto quadrato, Cristo deriso</title>
-                        <lb n="1"/>Profitia q(ui) te p(ercussit)
-                         </ab>
-                         </div>
-                       <div type="textpart" subtype="section" n="M">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, primo quadrato, Deposizione di Cristo</title>
-                        <lb n="1"/>Opus Nicolai de Guardia Gr
-                         <lb n="2"/>elis Anno Domini M CCCCXXXX
-                          <lb n="3"/>VIII. Undecime indetionis m(ense) i[...]
-                                      </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="N">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, quarto quadrato, San Marco</title>
-                        <lb n="1"/>Fuit Ioh(ann)es in deserto
-                          </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="O">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, sesto quadrato, San Girolamo</title>
-                        <lb n="1"/>Ego sum tra(n)salator heb[...]
-                          </ab>
-                         </div>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <div type="textpart" subtype="section" n="A">
                         <ab>
-                        <lb n="0"/><title>Primo registro, primo quadrato, Annunciazione</title>
-                        <lb n="1"/>♦ AVE GRATIA PLENA DOMINUS TECUM ♦
-                        <lb n="2"/>♦ ANNO ♦DOMINI ♦M♦CCCC♦XXXIII♦
-                         </ab>
-                         </div>                        
-                         <div type="textpart" subtype="section" n="B">
-                          <ab>
-                        <lb n="0"/><title>Primo registro, quarto quadrato, san Giovanni Evangelista</title>
-                        <lb n="1"/>in principio∙erat∙verbum
-                         </ab>
-                         </div>                        
-                        <div type="textpart" subtype="section" n="C">
-                        <ab>
-                        <lb n="0"/><title>Primo registro, quinto quadrato, Presentazione al Tempio</title>
-                        <lb n="1"/>QUANO∙XP ̅O∙F
-                        <lb n="2"/>O PRESENTAT
-                        <lb n="3"/>O ALOTENPLO    
-                         </ab>
-                         </div>
-                            <div type="textpart" subtype="section" n="D">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, primo quadrato, Tentazioni del deserto</title>
-                        <lb n="1"/>VADE RETRO SATAN
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="E">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, quarto quadrato, Matteo</title>
-                        <lb n="1"/>liber∙generazioni∙j∙x
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="F">
-                        <ab>
-                        <lb n="0"/><title>Secondo registro, quadrato centrale, Redentore</title>
-                        <lb n="1"/>EGO
-                        <lb n="2"/>SUM
-                        <lb n="3"/>LUX    
-                        <lb n="4"/>MUN
-                        <lb n="5"/>DI VIA 
-                        <lb n="6"/>VERIT
-                        <lb n="7"/>AS ET
-                        <lb n="8"/>VITA
+                            <lb n="1"/>Canponisce domus vivus mostratur in alto
+                            <lb n="2"/>Ludovicus miles ∙ vides sopore ∙ iacentem    
+                            <lb n="3"/>Baptiste gentuȝ Gallioffi clareqȝ natuȝ   
+                            <lb n="4"/>Intempestive redijt ∙ sȝ  viuet in euuȝ             
+                            <lb n="5"/>et qui si [. . . . . . . . . . . . . . . . . . . .] ∙ di conte lalle du fillio e da [. . . . . . ]
+                            <lb n="6"/>sono [. . . . . . . . . . . . .] loro membri
+                            <lb n="7"/>A°∙ D° ∙ M°
+                            <lb n="8"/>∙ CCCC ∙ XXX ∙
+                            <lb n="9"/> II ∙
                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="G">
-                          <ab>
-                        <lb n="0"/><title>Secondo registro, settimo quadrato, Orazione nell’orto</title>
-                        <lb n="1"/>PATER SI FIERI P∙T∙A∙M∙C∙I
-                         </ab>
-                         </div>
-                        <div type="textpart" subtype="section" n="H">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, secondo quadrato, Flagellazione</title>
-                        <lb n="1"/>QVANDO∙XP ̅O∙FO BACTVTO∙ALACOLONDA
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="I">
-                          <ab>
-                        <lb n="0"/><title>Terzo registro, quinto quadrato, Sant’Ambrogio</title>
-                        <lb n="1"/>cui∙opa∙qs∙q ̅∙facit∙[...]
-                         </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="L">
-                          <ab>
-                         <lb n="0"/><title>Terzo registro, sesto quadrato, Cristo deriso</title>
-                        <lb n="1"/>profitia∙q.te∙p
-                         </ab>
-                         </div>
-                       <div type="textpart" subtype="section" n="M">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, primo quadrato, Deposizione di Cristo</title>
-                        <lb n="1"/>OPVS*NICOLAI*DE**GVARDIA*GR
-                         <lb n="2"/>ELIS*ANNO*DOMINI*M*CCCCXXXX
-                          <lb n="3"/>VIII*VNDECIME*INDETIONIS*M*I
-                                      </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="N">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, quarto quadrato, San Marco</title>
-                        <lb n="1"/>Fuit Ioh(ann)es in deserto
-                          </ab>
-                         </div>
-                         <div type="textpart" subtype="section" n="O">
-                          <ab>
-                         <lb n="0"/><title>Quarto registro, sesto quadrato, San Girolamo</title>
-                        <lb n="1"/>Ego sum tra(n)salator heb[...]
-                          </ab>
-                         </div>
                     </div>
                     <div type="apparatus">
-                        <p>C, 3 templo CASINI 1907</p>
-                         <p>O, 1 translator CASINI 1907; tr(n)salator MATTIOCCO 2008</p>
+                        <p>1 Camponisce, mastratur MORETTI 1971</p>
+                        <p>2 jacentem MORETTI 1971</p>
+                        <p>4 redit MORETTI 1971</p>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>Si notino gli ipercorrettismi in 'bactuto' e 'colonda; il perfetto forte 'fo' comunissimo in area mediana (v. Indici),  </p>
-                    </div>
+                    <p>'du', 'da', r. 5: forme per 'de lu' e 'de la', comuni per le preposizioni articolate dei testi abruzzesi; cfr. 'na' per 'nella' in <ref target="edv11_27a">11.27a</ref> 
+                    V. anche le forme contratte 'nu' ‘ne lu’ e 'na' ‘ne la’ nei <title>Proverbia</title> 28, 196, e nella <title>Lamentatio</title>, 113, 26, 65, 91 
+                    (UGOLINI 1959, pp. 33, 61). </p>
+                    <p>'membri... rechiuse tutte': si tratta o di un livellamento analogico oppure del frequente fenomeno della reintegrazione della vocale finale indistinta 
+                        che risulta in apparenza non in accordo con il participio, benché si tratti di un fenomeno che interessa unicamente la scrittura.</p></div>
                     <div type="commentary" subtype="note">
-                        <p>Mastro Nicola da Guardiagrele (XIV ex. - 1461) fu il più importante orafo ed argentiere abruzzese del suo tempo. Il suo celebre paliotto, di forma 
-                            rettangolare, realizzato per ll’altare maggiore della Cattedrale di Teramo, è formato da trentacinque lamine d’argento fissate su un supporto in 
-                            legno che formano quattro file orizzontali, la superiore e la inferiore formate da nove riquadri e le due intermedie da otto. Al centro una formella 
-                            più grande ospita la figura di Cristo Redentore. Gli Evangelisti e i Dottori della Chiesa occupano le formelle intorno al Cristo mentre gli altri 
-                            riquadri narrano scene della Vita di Gesù, ad eccezione dell’ultima in cui è rappresentato San Francesco che riceve le stimmate. Mentre la data 
-                            d’inizio dell’opera, 1433, è riportata sulla prima formella, quella dell’Annunciazione, la data finale di esecuzione, 1448, insieme alla firma 
-                            dell’artista compaiono sulla formella del Sepolcro, la prima in basso a sinistra. Il paliotto, restaurato nel 1734, era stato spostato in 
-                            quell’occasione nella sacrestia della Cattedrale dove rimase fino agli anni Sessanta del Novecento, quando venne nuovamente collocato di nuovo 
-                            riposizionato sull’altare maggiore (CASINI 1907, p. 635; ADORANTE 2000, p. 58, MATTIOCCO 2008, p. 323), dove si trova a tutt’oggi.</p>
+                        <p>La basilica di San Giuseppe Artigiano, ex chiesa di San Biagio, conserva al suo interno il monumento equestre dedicato a Pietro Lalle, membro della storica famiglia aquilana dei Camponeschi. Realizzato nel 1432 dal maestro Gualtiero di Alemagna in stile gotico tardo, il mausoleo è composto da un’arca sorretta da colonnine tortili che poggiano su leoni. L’arca è sovrastata da un’edicola cuspidata ad arco ogivale che racchiude la statua equestre di Ludovico Camponeschi e il giovane Lalle giacente tra due angeli. Nella lastra frontale sono rappresentati gli Apostoli e la scena dell’Incoronazione di Maria. In basso al centro, insieme allo stemma è conservata l’iscrizione funebre, le cui ultime due righe sono in volgare, che riporta anche la data 1432, posta in un riquadro sulla destra della lastra.</p> 
+                        <p>Data la parziale leggibilità della foto a nostra disposizione, le integrazioni avvengono sulla base di MORETTI 1971; tuttavia per le parti ancora leggibili in apparato sono evidenziati
+                            tutti i casi in cui la lettura del Moretti non coincide con la nostra.</p>
+                       
                     </div>
                     <div type="bibliography">
-                        <p xml:id="editions">PANNELLA 1890, pp. 44-47; PANNELLA 1910; CASINI 1907, pp. 635-636, n. 40 MATTIOCCO 2008, p. 323.</p>
-                        <p xml:id="other">ADORANTE 2000, pp. 54-63, GUIDO 2008, pp. 10-11; GUIDO-MANTELLA 2008, pp. 223-248.</p>
-                        <p xml:id="images">ADORANTE 2000, pp. 54-55; GUIDO 2008, fig. 11; GUIDO-MANTELLA 2008, fig. 10; MATTIOCCO 2008, pp. 312-313, 317, 318, 325-367.</p>
+                        <p xml:id="editions">MORETTI 1971, pp. 620-623.</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images">MORETTI 1971, pp. 620-623, II, fig. 3, p. 623.</p>
                     </div>
                 </body>
             </text>

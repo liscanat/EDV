@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EPITAFFIO DI ROSSELLINO DI GHINO</title>
+                <title>TRIONFO DELLA MORTE, INCONTRO DEI VIVI E DEI MORTI, GIUDIZIO FINALE, INFERNO DI BONAMICO BUFFALMACCO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Mulazzo</placeName>
-                        <district ref="#MS">MS</district>
-                        <repository>Via A. Malaspina 3</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Camposanto</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1338">1338</origDate>
+                            <origDate>1336-41</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione funeraria, di cui si ignora la collocazione originaria, si trova oggi murata sulla parete di una casa privata</p>
+                <p>Il maestoso affresco del <title>Trionfo della Morte</title> con didascalie in volgare di Bonamico Buffalmacco proviene dall’estremità orientale del corridoio sud del Camposanto ed è oggi conservato nel Salone degli Affreschi, nello stesso Camposanto. Già nel 1899 Salomone Morpurgo lamentava la conservazione di sei frammenti di didascalie soltanto, rispetto alle numerose iscrizioni che un tempo accompagnavano i tre grandi affreschi (<title>Trionfo della Morte</title>, <title>Giudizio Universale</title> e <title>Inferno</title>, <title>Anacoreti</title>) originariamente e tradizionalmente attribuiti ad Andrea Orcagna e a Piero Lorenzetti e oggi attribuiti a Bonamico Buffalmacco. Le sei didascalie superstiti sono relative all’affresco del <title>Trionfo della Morte</title>. Il ciclo di affreschi è composto da tre parti principali: la prima parte vede rappresentato un <title>Trionfo della Morte</title>; <title>Giudizio universale</title>, <title>Anacoreti</title>; <title>Incontro dei Tre Vivi e Tre Morti</title>. Analoga struttura avevano gli affreschi con lo stesso tema e testi di Orcagna (v. 08.041). Queste iconografie con testi a corredo sono presenti lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11_04</ref>, <ref target="edv11_06">11_06</ref>, <ref target="edv11_14">11_14</ref>, <ref target="edv11_16">11_16</ref>, <ref target="edv11_17">11_17</ref>, <ref target="edv11_28">11_28</ref>, <ref target="edv11_29">11_29</ref>, <ref target="edv14_01">14_01</ref>, <ref target="edv14_02">14_02</ref>, <ref target="edv14_09">14_09</ref>, <ref target="edv15_01">15_01</ref>, <ref target="edv16_03">16_03</ref>).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">PARISET 1908, pp. 430-439; ZACCAGNINI 1908, pp. 178-184; FERRARI 1940, pp. 1-3; VECCHI 1992a, p. 302.</p>
-                <p xml:id="other" />
-                <p xml:id="images">VECCHI 1992a, foto nr. 94, p. 302.</p>
+                <p xml:id="editions">DA MORRONA 1787-1793, I, p. 357 (parziale); ROSINI 1816, p. 23 (parziale); VIGO 1878, pp. 33, 43, 75; SUPINO 1894; MORPURGO 1899; DEL GUERRA-RIALDI 1970, p. 25-29 (che attribuisce l’affresco ad Andrea Orcagna);</p>
+                <p xml:id="other">Vite, I, 597-599; BALDINUCCI 1681, II, p. 26; BELLOSI 1974; SUITNER 1983, pp. 194-195.</p>
+                <p xml:id="images">LASINIO 1812, tav. III; DEL GUERRA-RIALDI 1970, p. 39.</p>
             </div>
         </body>
     </text>

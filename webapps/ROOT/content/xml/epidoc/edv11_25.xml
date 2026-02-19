@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>San Sebastiano</title>
+                        <title>CAPPELLA DI SAN SEBASTIANO</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -60,7 +60,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -104,7 +104,7 @@
                             <title>Rime</title>, I, 110, v. 6 (BRANCA 1958, p. 131) e il <title>Fiorio e Biancifiore</title> &apos;e la vertù dell’anello gli ha scampati&apos; st. 119, 
                             v. 3 (DE ROBERTIS 1970, p. 108).</p>
                         </div>
-                    <div type="commentary" subtype="note">
+                    <div type="commentary" subtype="note"><p>L’iscrizione dedicatoria ricorda la costruzione della cappella dedicata a San Sebastiano da parte dell’intero popolo di Trevi per la liberazione dalla peste (si veda anche l’iscrizione della Cappella della Madonna del Riposo di Trevi, <ref target="edv11_24">11.24</ref>).</p>
                         <p><!-- Immagine: SI. --></p>
                     </div>
                     <div type="bibliography">

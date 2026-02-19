@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI AMBROGIO DI VANNI FORNAIO</title>
+                <title>TOMMASO PISANO E COLLABORATORI, DOSSALE D’ALTARE - MADONNA COL BAMBINO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,15 +25,15 @@
                     <msIdentifier>
                         <placeName>Pisa</placeName>
                         <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <repository>Chiesa di san Francesco</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="" />
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -46,13 +46,13 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#unknown">?</term></handNote>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1374">1374</origDate>
+                            <origDate when="1369">1369</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p />
+                <p>Il dossale con la Madonna col Bambino collocato sull’altare maggiore Chiesa di San Francesco riporta, sul basamento dell’edicola centrale, la firma dell’artefice Tommaso Pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 96, n. 175.</p>
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions">BURRESI 1993, pp. 260-261, n. 81.</p>
+                <p xml:id="other">BURRESI 1983; MOSKOWITZ 1986.</p>
+                <p xml:id="images">BURRESI 1993, p. 260, n. 81.</p>
             </div>
         </body>
     </text>

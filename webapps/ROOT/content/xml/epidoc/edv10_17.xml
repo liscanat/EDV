@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LORENZO E JACOPO SALIMBENI, STORIE DI SAN GIOVANNI BATTISTA</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.17</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>San Severino Marche</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Chiesa di San Lorenzo in Doliolo</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate when="1416">1416</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.17.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’abside è affrescato con una Crocifissione, firmata e datata; la parete di destra rappresenta scene dalla vita di San Giovanni Battista; quella di sinistra una Madonna dell'Umiltà. Le didascalie corrono lungo il bordo inferiore delle scene.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">COLASANTI 1910, p. 412, nota 3 a- i; ZAMPETTI 1956, p. 35; ZAMPETTI 1992; MINARDI 2008, pp. 187- 197, n. 19.</p>
+                <p xml:id="other">GUARDABASSI 1872, p. 119; GUERRA 1881; COLASANTI 1910, p. 411-412-417, 436-440; VENTURI 1911, pp. 178-182; CROWE-CAVALCASELLE 1914, pp. 213-214; FALOCI PULIGNANI 1915, pp. 17-18; VENTURI 1915, pp. 16-17; VAN MARLE 1923-1938, XII, p. 77; COLASANTI 1932, pp. 30-35; SERRA 1932, pp.188-194; SERRA 1934, pp. 263-267; BERENSON 1936, p. 261; ROTONDI 1936, pp. 12-13, 18-20, 28-38, 56-57, 77-84; LIGI 1938, pp. 374-376; ARONBERG LAVIN 1955, pp. 89-90 note 30, 32, fig. 12; ZAMPETTI 1956; MICHELINI TOCCI 1960; LONGHI 1962, p. 14; NESSI 1962, pp. 261-262; ROSSI 1976, pp. 94-95, 126-136, 216, n. 27; SCARPELLINI 1996, pp. 618-619; SCARPELLINI 1976, pp. 31, 64-66; BOSKOVITZ 1977, p. 41; SETTIS 1986, pp. 458-460; BATTISTINI 1987, pp. 387-390;ZAMPETTI 1988, pp. 240-243, 245, 246; TODINI 1989, p. 83; SILVESTRELLI 1990a; TOSCANO-MONTELLA 1999, pp. 37-39, n. 10; MINARDI 2007, pp. 18-20; MINARDI 2008, pp. 187-197, n. 19 (cui si rimanda per l’ampia bibliografia prcedente).</p>
+                <p xml:id="images">VENTURI 1911, figg. 94-96; COLASANTI 1932, tavv. 33-37; SERRA 1934, fig. 333-335; ROTONDI 1936, figg. 11-17, 19, 21, 24; ARONBERG LAVIN 1955, pp. 89-90 fig. 12; GHERARDINI 1958, figg. 5-18, 20-21; MICHELINI TOCCI 1960 (senza numeri di pagina); MAZZINI 1962, figg. 47-52; MICHELINI TOCCI 1965, tavv. 500- 507; ZAMPETTI [1969], tavv. XIX-XXIII, figg. 104-120 BOSKOVITS 1975b, figg. 164-165, tav. VII; ROSSI 1976b, figg. 134-139; BOSKOVITS 1977, figg. 164, 167, 169-170; SETTIS 1986, figg. 406-408; BATTISTINI 1987, figg. 543- 536; ZAMPETTI 1988, figg. 26-43; SIMI VARANELLI 1994, fig. 12; SIMI VARANELLI 1994, fig. 12; CIARDI DUPRÈ DAL POGGETTO 1998, pp. 183-187; DE MARCHI 2003b, fig. 29; SANNIPOLI 2003, figg. 3,10-11, 13; BARTOLUCCI 2006, figg. 4-5; DE MARCHI 2006, fig. 98; MINARDI 2007, tavv. 13, 15, 21, 24b, 26; SCHMIDT 2008, fig. 1; MINARDI 2008, tavv. LXVIII-LXXIV ecc. 819 MINARDI 2008, p. 194; COLASANTI 1910; VENTURI 1915; VAN MARLE 1927.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

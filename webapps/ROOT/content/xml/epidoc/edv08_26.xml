@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DI PORTA ROMANA</title>
+                <title>ISCRIZIONE DI SALVETTO DE SCOPETO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,17 +23,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
+                        <placeName>Reggello</placeName>
                         <district ref="#FI">FI</district>
-                        <repository>Porta Romana</repository>
+                        <repository>Pieve di Sant’Agata in Arfoli</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#normative">Normativa</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1327">1327</origDate>
+                            <origDate>1326?</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione indica le misure della larghezza delle mura della città e dei corsi d’acqua vicini con il probabile scopo di evitare occupazioni ed abusi da parte di privati cittadini.</p>
+                <p>La lastra tombale, conservata sulla parete destra della chiesetta medievale di Sant’Agata, è decorata con tre croci ed un giglio fiorentino e ricorda un tale Salvetto di Scopeto.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">LARSON 1999, p. 369.</p>
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions">GRAMIGNI 2012, pp. 441-442, n. 113.</p>
+                <p xml:id="other">REPETTI 1833-1846, vol. I, p. 52; MORETTI-STOPANI 1974, p. 214; SCARINI 1999, pp. 123-125, 131; CANEVA 2007, pp. 181-182.</p>
+                <p xml:id="images">MORETTI-STOPANI 1974, p. 214, fig. 275; SCARINI 1999, p. 134.</p>
             </div>
         </body>
     </text>

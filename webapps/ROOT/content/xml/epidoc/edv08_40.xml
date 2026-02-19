@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ANDREA ORCAGNA, TRIONFO DELLA MORTE</title>
+                <title>LASTRA TOMBALE DEI FIGLI DI SER LEOPARDI DEL FORNARIO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
-                        <district ref="#FI">FI</district>
-                        <repository>Museo dell'Opera di santa Croce</repository>
+                        <placeName>Pisa</placeName>
+                        <district ref="#PI">PI</district>
+                        <repository>Camposanto</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1330" notAfter="1370">XIV metà</origDate>
+                            <origDate when="1350">1350</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Del ciclo d’affreschi del Trionfo della morte, l'Inferno e il Giudizio finale di Andrea Orcagna, originariamente collocato sulla parete destra in Santa Croce, restano pochi frammenti oggi conservati al Museo dell’Opera di Santa Croce. Il frammento d’affresco che raffigura I mendichi che invocano la morte conserva una didascalia in volgare, ormai quasi completamente evanita. La fonte sembrerebbe (Bellosi 1974) la medesima del cartiglio degli storpi del Trionfo della Morte di Buffalmacco del Camposanto pisano</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 1 f.) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

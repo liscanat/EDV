@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Cecho</title>
+                        <title>CECHO</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>D’ACHILLE 1987</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -91,8 +91,7 @@
                                 D’ACHILLE-GIOVANARDI 1984, num. 35).</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>Paolo D’Achille ci ha gentilmente confermato di avere potuto vedere e studiare nel 1983 l'iscrizione, allora collocata sulla parete del terzo ambiente della 
-                            <title>domus</title>, nei sotterranei della Basilica. Oggi, purtroppo,  l'iscrizione risulta irreperibile. Per tale ragione la presente trascrizione segue 
+                        <p>L’iscrizione si trova su di un frammento di lastra proveniente dalla Basilica di Santa Cecilia in Trastevere, un tempo inserito nel pavimento presso l’altare di Santa Maria Maddalena. Paolo D’Achille ci ha gentilmente confermato di avere potuto vedere e studiare nel 1983 l'iscrizione, allora collocata sulla parete del terzo ambiente della <title>domus</title>, nei sotterranei della Basilica. Oggi, purtroppo, l'iscrizione risulta irreperibile. Per tale ragione la presente trascrizione segue 
                             l’edizione D’ACHILLE 1987. </p>
                         <p>La datazione al XIV secolo proposta da Vincenzo Forcella viene posticipata dal GRABMÄLER al XV secolo su base paleografica (D’ACHILLE 1987, p. 81; 
                             FORCELLA 1869-1884, II, p. 21 num. 68; GRABMÄLER 1981, p. 65, num. VII, 8 e D’ACHILLE-GIOVANARDI 1984, num. 34). </p>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>AMBROGIO LORENZETTI, BUONO E CATTIVO GOVERNO</title>
+                <title>EPITAFFIO DI ROSSELLINO DI GHINO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Siena</placeName>
-                        <district ref="#SI">SI</district>
-                        <repository>Palazzo Pubblico</repository>
+                        <placeName>Mulazzo</placeName>
+                        <district ref="#MS">MS</district>
+                        <repository>Via A. Malaspina 3</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1339">1339</origDate>
+                            <origDate when="1338">1338</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il ciclo di affreschi del Buono e Cattivo Governo di Ambrogio Lorenzetti conservato nella Sala della Pace (o sala dei Nove) è accompagnato da didascalie in volgare suddivise in sei gruppi che corrispondono a quattro stanze di canzone di tredici versi ciascuna con due congedi di cinque versi.</p>
+                <p>L’iscrizione funeraria, di cui si ignora la collocazione originaria, si trova oggi murata sulla parete di una casa privata</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other">ROWLEY 1958, I, pp. 99-122; BRANDI 1983, pp. 193-210; FRUGONI 1983, pp. 136-210; SUITNER 1983, pp. 193-194; CIOCIOLA 1992, p. VII; STARN 1992, pp. 11-59, 261-266; STARN 1994; CASTELNUOVO 1995; PETRUCCI 1997, p. 53; CASAPULLO 1999, p. 169.</p>
-                <p xml:id="images">ROWLEY 1958, II, figg. 153-160, 173-174, 206-209, 222-224, 233-234; CAIROLA-CARLI 1963, fig. 41-90; BRANDI 1983, fig. 242-255; FRUGONI 1983, figg. 69-74; STARN 1992, figg. 5-7, 14, 21, 24-25; STARN 1994, fig. 7, tavv. 1-6, p. 43, 49, 71, 94; CASTELNUOVO 1995, pp. 45, 47, 145, 146-147, 245, 246, 313, 314-315; BRUGNOLO 1995, pp. 382-383.</p>
+                <p xml:id="editions">PARISET 1908, pp. 430-439; ZACCAGNINI 1908, pp. 178-184; FERRARI 1940, pp. 1-3; VECCHI 1992a, p. 302.</p>
+                <p xml:id="other" />
+                <p xml:id="images">VECCHI 1992a, foto nr. 94, p. 302.</p>
             </div>
         </body>
     </text>

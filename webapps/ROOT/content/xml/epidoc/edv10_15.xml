@@ -1,94 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
-            <teiHeader>
-                <fileDesc>
-                    <titleStmt>
-                        <title>Lorenzo e Jacopo Salimbeni, Storie di san Giovanni Evangelista</title>
-                        <editor role="data_collection"><persName></persName></editor>
-                        <editor role="edition"><persName></persName></editor>
-                        <editor role="commentary"><persName></persName></editor>
-                        <editor role="encoding"><persName></persName></editor>
-                        <editor role="images"><persName></persName></editor>
-                    </titleStmt>
-                    <publicationStmt>
-                        <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">10.15</idno>
-                        <date when="2020-03-04"/>
-                        <availability>
-                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <msDesc>
-                            <msIdentifier>
-                                <placeName>San Severino Marche</placeName>
-                                <district ref="#MC">MC</district>
-                                <repository>Pinacoteca Civica Tacchi-Venturi (già Duomo)</repository>
-                                <idno type="invNo"/>
-                            </msIdentifier>
-                            <msContents>
-                                <summary>
-                                    <term type="textFunction" ref="#D">Didascalia</term>
-                                    <term type="textType" ref="#narrative #signature">Narrativa, Firma</term>
-                                </summary>
-                                <textLang mainLang="xmed">Volgare mediano</textLang>
-                            </msContents>
-                            <physDesc>
-                                <objectDesc>
-                                    <supportDesc>
-                                        <support>    
-                                            <material ref="#plaster">Intonaco</material>
-                                            <objectType ref="#fresco">Affresco</objectType>
-                                            <dimensions><width/><depth/><height/></dimensions>
-                                        </support>
-                                    </supportDesc>
-                                </objectDesc>
-                                <handDesc>
-                                    <handNote><term ref="#gothic">Gotica</term></handNote>
-                                </handDesc>
-                            </physDesc>
-                            <history>
-                                <origin>
-                                    <origPlace><region ref="#marche">Marche</region></origPlace>
-                                    <origDate notBefore="1406" notAfter="1407">XV in.</origDate>
-                                </origin>
-                                <provenance type="observed"/>
-                            </history>
-                        </msDesc>
-                    </sourceDesc>
-                </fileDesc>
-            </teiHeader>
-            <facsimile>
-                <graphic url="">
-                    <desc/>
-                </graphic>
-            </facsimile>
-            <text>
-                <body>
-                    <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>vorrei vederti
-                        </ab>
-                    </div>
-                    <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab>
-                        </ab>
-                    </div>
-                    <div type="apparatus">
-                        <p/>
-                    </div>
-                    <div type="commentary" subtype="linguistic_analysis">
-                        <p/>
-                    </div>
-                    <div type="commentary" subtype="note">
-                        <p><!-- Immagine: SI. --></p>
-                    </div>
-                    <div type="bibliography">
-                        <p xml:id="editions"/>
-                        <p xml:id="other"/>
-                        <p xml:id="images"/>
-                    </div>
-                </body>
-            </text>
-        </TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LORENZO SALIMBENI, CROCIFISSIONE E STORIE DI SAN LORENZO</title>
+                <editor role="data_collection"><persName /></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">10.15</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>San Severino Marche</placeName>
+                        <district ref="#MC">MC</district>
+                        <repository>Chiesa di San Lorenzo in Doliolo</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="xmed" otherLangs="la">Volgare mediano, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#marche">Marche</region></origPlace>
+                            <origDate when="1407">1407</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="10.15.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Si tratta di resti di iscrizioni relative alla Crocifissione di Cristo [1] e frammenti di didascalia in volgare delle Storie di San Lorenzo. [2]</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">COLASANTI 1916, p. 230; VAN MARLE 1927, p. 228, fig. 136; BERENSON 1932, p. 304; MOLAJOLI 1935, p. 344; BERENSON 1936, p. 261; ROTONDI 1936, p. 14, 17-18, 20, 25, 53-56, fig. 8; ZAMPETTI 1956, p. 11; GHERARDINI 1958, pp. 122-123; KAFTAL 1965, col. 417, fig. 461; CASTELFRANCHI VEGAS 1966, p. 42; BERENSON 1968, I, p. 371; ZAMPETTI [1969], pp. 133-144; ROSSI 1971, p. 224; BOSKOVITS 1975, p. 114; GUBINELLI 1975, p. 69; ROSSI 1976, pp. 14, 89-90, 215, n. 8; RIGHI 1987, pp. 749-750; ZAMPETTI 1988, pp. 245,246; ZAMPETTI 1992, p. 3; SCARPELLINI 1996, pp. 618-619; CIARDI DUPRÉ DAL POGGETTO 1998, pp. 19, 22; CIARDI DUPRÉ DAL POGGETTO 1999, pp. 31- 36; pp. 130-131; GIANNATIEMPO LÓPEZ 1999, pp. 132-133; MINARDI 1999, 43-50 e p.149; PACIARONI 1999, pp. 73-101, in part. 75.</p>
+                <p xml:id="images">ROSSI 1976, figg. 117-120; MINARDI 2008, tavv. XL (Crocifissione e santi); XLII (Crocifissione, part. di Sant’Eustachio e San Lorenzo) CIARDI DUPRÉ DAL POGGETTO 1999, p. 131(Crocifissione e santi); GIANNATIEMPO LÓPEZ 1999, p.133 (Storie di san Lorenzo, Storie di sant’Eustachio (?), angeli in volo).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

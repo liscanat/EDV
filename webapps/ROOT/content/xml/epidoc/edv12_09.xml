@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Rienço Iordaniello</title>
+                        <title>RIENÇO IORDANIELLO</title>
                         <editor role="data_collection"><persName>Luna Cacchioli</persName></editor>
                         <editor role="edition"><persName>Luna Cacchioli</persName></editor>
                         <editor role="commentary"><persName>Luna Cacchioli</persName></editor>
@@ -61,7 +61,7 @@
                 </fileDesc>
             </teiHeader>
             <facsimile>
-                <graphic url="">
+                <graphic url="00">
                     <desc/>
                 </graphic>
             </facsimile>
@@ -89,13 +89,9 @@
                             <ref target="edv12_08">12.08</ref>; Rienço e Iordaniello, <ref target="edv12_09">12.09</ref> e <ref target="edv12_10">12.10</ref>; Saviello <ref target="edv12_19">12.19</ref>. </p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>La lastra è collocata sul pavimento della navata centrale della chiesa di Santa Maria in Aracoeli, presso la prima colonna di sinistra; si 
-                            intravedono ancora due stemmi mentre la figura del defunto è del tutto consunta. Sulla lastra sono presenti due iscrizioni, entrambe poco leggibili: un nome in volgare che 
-                            deve esser stato aggiunto alla base successivamente e un’iscrizione in latino sui due lati del perimetro: (+ Hic iacet Ioannes / Buccabella d(e) Mercato anima cuius requiescat 
-                            in pace am(en), (v. D’ACHILLE 1987, p. 83; FORCELLA 1869-1884, I, 129 num. XXVIII, 29; GRABMÄLER 1981, p. 134; D’ACHILLE - GIOVANARDI 1984, n. 362).
-                            D’Achille data l’iscrizione al XIV secolo sulla base dell’identificazione del personaggio nominato con un membro della famiglia Boccabella 
-                            (v. anche EDV 12.05) ricordato anche in un’iscrizione latina del 1384, un tempo conservata presso l’ormai distrutta chiesa di San Biagio al 
-                            Campidoglio ed oggi andata perduta (D’ACHILLE 1987, p. 83 e FORCELLA 1869-1884, II, p. 65, num. 188).</p>
+                        <p>La lastra è collocata sul pavimento della navata centrale della chiesa di Santa Maria in Aracoeli, presso la prima colonna di sinistra; si intravedono ancora due stemmi mentre la figura del defunto è del tutto consunta. Sulla lastra sono presenti due iscrizioni, entrambe poco leggibili: un nome in volgare che deve esser stato aggiunto alla base successivamente e un’iscrizione in latino sui due lati del perimetro.  (+ Hic iacet Ioannes / Buccabella d(e) Mercato anima cuius requiescat 
+                            in pace am(en), (v. D’ACHILLE 1987, p. 83; FORCELLA 1869-1884, I, 129 num. XXVIII, 29; GRABMÄLER 1981, p. 134; D’ACHILLE - GIOVANARDI 1984, n. 362). D’ACHILLE 1987 data l’iscrizione al XIV secolo sulla base dell’identificazione del personaggio nominato con un membro della famiglia Boccabella (v. anche   <ref target="edv12_05">12.05</ref>) ricordato anche in un’iscrizione latina del 1384, un tempo conservata presso l’ormai distrutta chiesa di San Biagio al Campidoglio ed oggi andata perduta.</p>
+                        
                     </div>
                     <div type="bibliography">
                         <p xml:id="editions">CASIMIRO 1736, p. 251; FORCELLA 1869-1884, I, p. 129 n. 462; GRABMÄLER 1981, p. 135, n. XXVIII, 29; 

@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Architrave del Palazzo dei Consoli</title>
+                        <title>ARCHITRAVE DEL PALAZZO DEI CONSOLI</title>
                         <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="edition"><persName>Alessandra Tiburzi</persName></editor>
                         <editor role="commentary"><persName>Alessandra Tiburzi, Nadia Cannata</persName></editor>
@@ -15,7 +15,7 @@
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
                         <idno type="filename">09.04</idno>
-                        <date when="2020-11-20"/>
+                        <date when="2050-11-20"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
