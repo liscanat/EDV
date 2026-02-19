@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LE VIRTÙ E I SETTE PECCATI CAPITALI</title>
+                <title>EPITAFFIO DI GUILALMONA MOGLIE DI BERENGARIO</title>
                 <editor role="data_collection"><persName /></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">02.13</idno>
+                <idno type="filename">18.05</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,36 +23,36 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Giaglione</placeName>
-                        <district ref="#TO">TO</district>
-                        <repository>Cappella di Santo Stefano</repository>
+                        <placeName>Sassari</placeName>
+                        <district ref="#SS">SS</district>
+                        <repository>Santa Maria di Betlem</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#" />
                         </summary>
-                        <textLang mainLang="frm" otherLangs="xset">Francese medio, volgare settentrionale, latino</textLang>
+                        <textLang mainLang="xcat" otherLangs="">Catalano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#" />
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#" /></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><region ref="#piemonte e valle d’aosta">Piemonte e Valle d’Aosta</region></origPlace>
-                            <origDate>1483-1490.</origDate>
+                            <origPlace><region ref="#sardegna">Sardegna</region></origPlace>
+                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="02.13.jpeg">
+         <graphic url="18.05.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Gli affreschi sarebbero riconducibili alla bottega di Bartolomeo e Sebastiano Serra da Pinerolo. Le scene sono disposte su tre registri e furono dipinte forse per i pellegrini sulla via Francigena. Nel registro superiore sono raffigurate le Virtù; nella fascia mediana i Vizi impersonati da uomini e donne collegati da una catena, che si dirigono a sinistra, verso l’ingresso dell’inferno; in basso le pene per ogni vizio. Due iscrizioni in francese antico (in basso a sin. e sull’arco dell’ingresso laterale): la prima narra l’origine delle immagini nella visione avuta da Lazzaro fra la sua morte e la resurrezione (la probabile fonte è il Traité des peines de l’Enfer,); la seconda ammonisce delle conseguenze del peccato. Anche questi affreschi mostrano una importante simiglianza con le raffigurazioni dell’Inferno, o del Giudizio Universale sparse lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_06">11.06</ref>, <ref target="edv11_14">11.14</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>, <ref target="edv14_09">14.09</ref>, <ref target="edv15_01">15.01</ref>, <ref target="edv16_03">16.03</ref>).</p>
+                <p>La lapide, risalente al periodo della dominazione catalano-aragonese, è conservata nel chiostro del convento francescano annesso alla chiesa, murata sulla parete del porticato attigua alla sagrestia. L’epitaffio di Guilalmona, moglie di Berengario, rappresenta per la Sardegna un raro caso di testo epigrafico funerario in lingua catalana. Nel 1930 la lapide, insieme ad altre due, in latino, venne murata nel chiostro sulla parete del salone contiguo alla sacrestia. Le tre lapidi risalgono al periodo della dominazione catalano-aragonese e costituiscono una preziosa testimonianza della presenza catalana a Sassari tra il terzo decennio del secolo XIV e gli inizi del secolo XV. PIRAS individua come catalana la lingua dell’iscrizione che ascrive ad un periodo compreso tra la seconda metà del XIV e gli inizi del XV secolo.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions">CASINI 1905, n. 72 p. 363; SCANO 1907, p. 314; DELIPERI-GIORDO 1933, p. 22; COSTA 1992, II, p. 1220; LODDO CANEPA 1952-1954, iscr. VI, pp. 276-277; DEVILLA 1961, pp. 255-256; PORCU GAIAS 1993, pp. 14 e 34, nota 17; PORCU GAIAS 1996, p. 45, sch.21 (riporta la lettura del Loddo Canepa); PIRAS 2002, n. 3, pp. 84-89; PIRAS 2005, p. 6, n. 9, pp. 39-40.</p>
                 <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="images">LODDO CANEPA 1952-1954, tav. III, b; DEVILLA 1961, tav. LXI, p. 17; COSTA 1976, p. 160; PORCU GAIAS 1996, p. 45, sch.21; fig. 21b; PORCU GAIAS 1993, fig. 9; PIRAS 2002, fig. 5.</p>
             </div>
         </body>
     </text>
