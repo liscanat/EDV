@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>AFFRESCHI SU EX-VOTO, SCICLI</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName></persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.10</idno>
+                        <date when="2020-03-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Scicli</placeName>
+                                <district ref="#RG">RG</district>
+                                <repository>Chiesa di santa Maria della Croce</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#plaster">Intonaco</material>
+                                            <objectType ref="#fresco">Affresco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate notBefore="1480" notAfter="1499" precision="low">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="00">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                     <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="I">
+                        <ab><lb n="1"/><w>Comu</w> se&lt;n&gt;du <w>mucicat<m type="desinence" subtype="ms_sing">u</m></w> di can<m type="desinence" subtype="ms_sing">i</m> araiat<m type="desinence" subtype="ms_sing">u</m> un <w>fruster<m type="desinence" subtype="ms_sing">i</m></w>
+<lb n="2"/>fu minat<m type="desinence" subtype="ms_sing">u</m> Santa Maria di la Cru<seg type="grapheme" corresp="/tʃ/">ch</seg><m type="desinence" subtype="fem_sing">i</m> et <m type="apparire" subtype="perf3ps">aparsi</m> pir camin<m type="desinence" subtype="ms_sing">u</m> et fu san<m type="desinence" subtype="ms_sing">u</m>.
+                        </ab>
+                        </div>
+                            <div type="textpart" subtype="section" n="II">
+                        <ab><lb n="1"/><w>Comu</w> se&lt;n&gt;du lu patr<m type="desinence" subtype="ms_sing">i</m> fra’ Iuanni p&lt;ir&gt; mar<m type="desinence" subtype="ms_sing">i</m> si <w>victiru</w>
+<lb n="2"/>anigati et li marinari prigandu S. M. de la Cru<seg type="grapheme" corresp="/tʃ/">ch</seg><m type="desinence" subtype="fem_sing">i</m> <m type="essere" subtype="perf6ps">foru</m> libri. 
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="III">
+                        <ab>
+                            <lb n="1"/>&lt;Comu a Terranova fu firutu u garzuni acumadausi S. M. de la Cruchi fu libru&gt;
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="IV">
+                        <ab><lb n="1"/>&lt;Co&gt;mu sendu malata a lectu una donna
+<lb n="2"/>de una gra&lt;n&gt;dissima infirmitati p&lt;ir&gt; virtuti de Santa Maria de +
+<lb n="3"/>la Cruchi fu libra
+                        </ab>
+                            </div>
+                        <div type="textpart" subtype="section" n="V">
+                        <ab><lb n="1"/>Comu una donna avia lu mali de <seg type="grapheme" corresp="/ʃ/">ch</seg>ancu
+<lb n="2"/>et pir virtuti de Santa Maria di la Cru<seg type="grapheme" corresp="/tʃ/">ch</seg>i fu sana
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="VI">
+                        <ab><lb n="1"/>&lt;Comu? certi doni avedu li filii malati X e vinendu a S. M. de la Cruc<seg type="grapheme" corresp="/tʃ/">ch</seg> furunu sani&gt;
+                        </ab>
+                    </div>
+                        </div>
+                   <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <div type="textpart" subtype="section" n="I">
+                        <ab><lb n="1"/>+ COMV·SEDV·MVCICATV·DI ·CANI·ARAIATV·VFRVSTERI+
+·<lb n="2"/>FV·MINATV·S · Ma·DILACRVCHI·7APA(R)SI·PCAMINV7FV SANV
+                        </ab>
+                        </div>
+                            <div type="textpart" subtype="section" n="II">
+                        <ab><lb n="1"/>+ COMV·SE(N)DV·LV·PATRI·FRA·IVA(N)NI P MARI SI·VICTIRV ·
+·<lb n="2"/>ANIGATI· 7· LIMARINARI PRIGA(N)DV·S · Ṃ·DELA CRVCHI FORV LIBRI 
+                       </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="III">
+                        <ab><lb n="1"/>[manca]
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="section" n="IV">
+                        <ab>
+                            <lb n="1"/>[. .]ṂV·SENDV·MALATA·ALECTV·VNADŌNA·
+<lb n="2"/>DEUNA·GRADISSIMA INFIRMITATI P VĪTUTI·DE S · Ma·DE +
+<lb n="3"/>LACRVCHI·FVLIBRA
+ </ab>
+                            </div>
+                        <div type="textpart" subtype="section" n="V">
+                        <ab><lb n="1"/>+ COMV·VNA·DO(N)NA AVIA∙ LV ∙ MALI ∙ De ∙ CHA(N)CV 
+<lb n="2"/>ET ∙ P(IR) ∙ VIRTVTI ∙ DI ∙ S̑ MA ∙ DILA ∙ CRVCHI ∙ FV ∙ SANA
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="section" n="6">
+                        <ab><lb n="1"/>[manca]
+                        </ab>
+                    </div>
+                        </div>
+                    <div type="apparatus">
+                        <p>I, 2 minatu &lt;a&gt;; II, 1 se(n)du; IV, 2 (et) per virtuti Raffaele 2018.</p>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia:</title></p>
+                        <p>La lingua delle didascalie è coerente negli aspetti fonomorfologici e sintattici con il siciliano di fine Quattrocento.Si segnala l'uso diffusissimo in tutto il corpus delle iscrizioni siciliane di &lt;ch&gt; per l'affricata palatale e in un caso per la sibilante palatale (V, 1); il vocalismo tonico e atono che segue la fonologia siciliana con rare eccezioni, anche quando gli esiti hanno valore morefematico. Si notino le forme sincopate 'libru/a' e 'frusteri'' e la mancata indicazione della consonante intensa come in I 'mucicatu' 'araiatu' e 'aparsi'. Sciolo l'abbreviazione p(er) con p(ir).</p>
+                        <p><title>Morfologia e sintassi:</title></p>
+                        <p>Comune nelle iscrizioni centro meridionali l'introduzione della didascalia esplicativa con 'come' o 'comu', in Sicilia <ref target="edv17_12">17.12</ref> e <ref target="edv17_13">17.13</ref> anche a Roma nelle Storie di Santa Francesca Romana <ref target="edv12_27">12.27</ref>; mentre nell'Italia mediana sembra più comune nella medesima funzione sintattica 'quando' v. le Storie di santa Caterina a Roccantica (RI) <ref target="edv11_13">11.13</ref>; in Abruzzo le Storie di san Francesco <ref target="edv13_03">13.03</ref> e gli affreschi della Madonna del Crognale a Morro D’oro (TE) <ref target="edv13_10">13.10</ref>. Si noti 'di' per il complemento di agente (I, 1), a tutt'oggi comune in Sicilia e il perfetto sigmatico 'aparsi'.</p>
+                                            </div>
+                    <div type="commentary" subtype="note">
+                        <p>Gli ex-voto furono dipinti per la chiesa di Santa Maria in Sion, parte del complesso conventuale francescano di Santa Maria della Croce a Scicli al quale sono stati di recente restituiti dopo un lungo restauro. Secondo RAFFAELE 2018 i dipinti sono databili fra fine XV e XVI, per la menzione di Fra' Giovanni Morifet presente nel Convento dai primi anni del secolo (p. 28).L'affresco si compone di sei riquadri, con la didascalia posta nel margine inferiore della vignetta, come è comune in questo tipo di raffigurazioni. A causa del precario stato di conservazione le scritture non sono integralmente leggibili. L'edizione si avvale dell’ausilio delle edizioni RAFFAELE 2018 e DRAGO-NIFOSÌ 1976, il quale si è servito del manoscritto del Pacetto, «con qualche correzione imposta dalla lettura in loco» (p. 65, nota 1). Non è stato possibile consultare il manoscritto in questione, né avere notizie circa le correzioni apportate.</p>
+                    </div>
+                        <div type="bibliography">
+                        <p xml:id="editions">PACETTO 1868, pp. 494-496; DRAGO-NIFOSÌ 1976 pp.61-68, che dipende da Pacetto, «con qualche correzione imposta dalla lettura in loco»; SPARACINO 2009; RAFFAELE 2018</p>
+                        <p xml:id="other"></p>
+                        <p xml:id="images">DRAGO-NIFOSÌ 1976, figg. 34-36.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

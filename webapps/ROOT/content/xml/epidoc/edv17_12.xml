@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>LAPIDE CASTELLO BISCARI</title>
+                        <editor role="data_collection"><persName>Alessandra Tiburzi</persName></editor>
+                        <editor role="edition"><persName>Nadia Cannata</persName></editor>
+                        <editor role="commentary"><persName>Nadia Cannata</persName></editor>
+                        <editor role="encoding"><persName>Nadia Cannata</persName></editor>
+                        <editor role="images"><persName>Nadia Cannata</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.07</idno>
+                        <date when="2024-03-19"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Acate</placeName>
+                                <district ref="#AG">AG</district>
+                                <repository>Castello Biscari</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                                    <term type="textType" ref="#memorial">Iscrizione commemorativa</term>
+                                </summary>
+                                <textLang mainLang="xsic">Volgare siciliano</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#stone">Pietra</material>
+                                            <objectType ref="#slab">Lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#capital">Capitale</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate when="1494">1494</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="17.07.jpeg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab>
+                              <lb n="1"/><m type="dimostrativo" subtype="ms_sing">quistu</m> 
+                            castell<m type="desinence" subtype="ms_sing">u</m> et sit<m type="desinence" subtype="ms_sing">u</m> 
+                                    <lb n="2"/>di la terra fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fabric<m type="desinence" subtype="inf_are">ari</m> 
+                                    <lb n="3"/>l<m type="desinence" subtype="ms_sing">u</m> magnific<m type="desinence" subtype="ms_sing">u</m> signur<m type="desinence" subtype="ms_sing">i</m> <persName>Gull(elm)u                             
+                                        <lb n="4"/>Ramund<m type="desinence" subtype="ms_sing">u</m> l<m type="desinence" subtype="ms_sing">u</m> Castell<m type="desinence" subtype="ms_sing">u</m></persName> regius
+                            <lb n="5"/>miles barun<m type="desinence" subtype="ms_sing">i</m> di la dicta ter
+                            <lb n="6"/>ra et di la Favaroc&lt;ta&gt;
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab> <lb n="1"/>QVISTV CASTELLV ET SITV 
+                                    <lb n="2"/>DI LA TERRA FICHI FABRICARI 
+                                    <lb n="3"/>LU MAGNIFICV SIGNVRI GULL(ELM)V
+                              <lb n="4"/>RAMVNDV LV CASTELLV REGIVS
+                            <lb n="5"/>MILES BARVNI DI LA DICTA TER
+                            <lb n="6"/>RA ET DI LA FAVAROC&lt;TA&gt;
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p>Il testo presenta caratteristiche grafiche e fono-morfologiche del siciliano: il vocalismo tonico e atono 'di', 'signuri' 'baruni' il dimostrativo con chiusura della vocale palatale tonica 'quistu', le desinenze del maschile singolare in -u, l'infinito della prima in -ari. Anche sul piano della grafia si registra l'uso - maggioritario in Sicilia - di &lt;ch&gt; per l'affricata palatale sorda /ʧ/ v. <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>,<ref target="edv17_05">17.05</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>,<ref target="edv17_11">17.11</ref>, <ref target="edv17_12">17.12</ref>.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L’iscrizione è posta in una cornice modanata; il testo è inciso su sette righi di scrittura interrotti nella porzione centrale da uno stemma raffigurante un castello con tre torri merlate e sorretto da due grifi alati. La lastra è lacunosa dell’angolo inferiore destro, con una perdita del testo, che è tuttavia recuperabile per tradizione indiretta.</p>
+                        <p>La lapide ricorda la costruzione dell’edificio avvenuta nel 1494 per volere di Guglielmo Raimondo Castello. Era originariamente murata all’interno di una nicchia dell’androne di accesso, mentre oggi la si può osservare all’interno della Sala Consiliare del comune di Acate, annesso al Castello.</p>
+                        <p>La lastra è stata erroneamente datata al 1424 da RAFFAELE 2010, p. 78</p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">IURATO-OLIVERI 1983, p. 42</p>
+                        <p xml:id="other">RAFFAELE 2010, p. 78</p>
+                        <p xml:id="images">IURATO-OLIVERI 1983</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

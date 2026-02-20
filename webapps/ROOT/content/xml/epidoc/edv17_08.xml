@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>TOMMASO DI VIGILIA, MADONNA IN TRONO TRA I SANTI GIOVANNI BATTISTA E BENEDETTO</title>
+                        <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
+                        <editor role="edition"><persName></persName>Nadia Cannata</editor>
+                        <editor role="commentary"><persName></persName>Nadia Cannata</editor>
+                        <editor role="encoding"><persName></persName>Nadia Cannata</editor>
+                        <editor role="images"><persName>Francesco Fabbiano</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Epigraphic Database Vernacular</authority>
+                        <idno type="filename">17.11</idno>
+                        <date when="2024-04-04"/>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>Palermo</placeName>
+                                <district ref="#PA">PA</district>
+                                <repository>Galleria regionale della Sicilia - Palazzo Abatellis</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents>
+                                <summary>
+                                    <term type="textFunction" ref="#D">Didascalia</term>
+                                    <term type="textType" ref="#narrative">Narrativa</term>
+                                </summary>
+                                <textLang mainLang="xsic" otherLangs="la">Volgare siciliano, Latino</textLang>
+                            </msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>    
+                                            <material ref="#canvas">Tela</material>
+                                            <objectType ref="#painting">Dipinto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions>
+                                        </support>
+                                    </supportDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><term ref="#unknown">?</term></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                                    <origDate notBefore="1480" notAfter="1499">XV ex.</origDate>
+                                </origin>
+                                <provenance type="observed"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+            </teiHeader>
+            <facsimile>
+                <graphic url="17.11a.jpeg">
+                    <desc/>
+                </graphic>
+                <graphic url="17.11b.jpeg">
+                    <desc/>
+                </graphic>
+            </facsimile>
+            <text>
+                <body>
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
+                        <ab><m type="dimostrativo" subtype="ms_sing">Quista</m><phr type="syntagm" subtype="synt_lat">fi<seg type="grapheme" corresp="/tʃ/">ch</seg>i fari</phr> <w>soru</w> Lucre<seg type="grapheme" corresp="/ts/">ci</seg>a di Lagona a&lt;bbadiss&gt;a di sanct<m type="desinence" subtype="ms_sing">u</m> Iohani
+                        </ab>
+                    </div>
+                    <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>QVISTA OPERA FICHI FARI SORVLVCRECIA
+                            <lb n="2"/>DILAGONA A[...]A DI S(AN)CTVIOHANI
+                            <lb n="3"/>THOMAVS
+                        </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p/>
+                    </div>
+                    <div type="commentary" subtype="linguistic_analysis">
+                        <p><title>Grafia e fonologia</title>
+                            Il testo dell'iscrizione presenta pur nella sua brevità inequivocabili caratteristiche linguistiche del sicilano: la grafia &lt;ch&gt; per l’affricata palatale sorda /ʧ/, normale nelle iscrizioni siciliane <ref target="edv17_02">17.02</ref>, <ref target="edv17_03">17.03</ref>, <ref target="edv17_07">17.07</ref>, <ref target="edv17_09">17.09</ref>, <ref target="edv17_10">17.10</ref>, <ref target="edv17_12">17.12</ref>, l'uso di &lt;ci&gt; per /ts/ si v. <ref target="edv17_09">17.09</ref>, la regolare chiusura della vocale palatale in 'quista' e 'fari'.</p>
+                        <p><title>Morfologia e lessico</title>  
+                            Si noti la desinenza maschile in -u in 'sanctu' e la sopravvivenza di 'soru' da 'SORUS' con desinenza etimologica in -u al femminile, comune in siciliano.</p>
+                    </div>
+                    <div type="commentary" subtype="note">
+                        <p>L'opera di deve a <persName>Tommaso de Vigilia</persName>, pittore palermitano autore anche della tavola di Corleone <ref target="edv17_11">17.11</ref></p>
+                    </div>
+                    <div type="bibliography">
+                        <p xml:id="editions">DI NATALE 1977, p. 30</p>
+                        <p xml:id="other"/>
+                        <p xml:id="images"/>
+                    </div>
+                </body>
+            </text>
+        </TEI>

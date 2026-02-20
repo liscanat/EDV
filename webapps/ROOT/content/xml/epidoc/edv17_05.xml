@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>COPERTE GUICCIARDINI</title>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">17.05</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Londra (Sicilia)</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#" />
+                        </summary>
+                        <textLang mainLang="xsic" otherLangs="">Volgare siciliano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#" />
+                                    <objectType ref="#artifact">Artefatto</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
+                            <origDate notBefore="1370" notAfter="1390" precision="low">1380 ca.</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="17.05.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>Le “coperte”, originariamente cortine di un baldacchino, recano nella parte anteriore 22 episodi relativi alla materia di Bretagna e in particolare le vicende relative alla giovinezza di Tristano, precedenti l’incontro con Isotta. Esse conservano un’importante attestazione di volgare d’uso siciliano; e testimoniano della fortuna e diffusione della materia di Bretagna su supporti extra-letterari. Le “coperte” furono realizzate in Sicilia verso la fine del XIV e sono decorate a rilievo nella faccia anteriore e accompagnate da didascalie in caratteri gotici e in volgare siciliano. Le due trapunte presentano oggi delle lacune. Le scene superstiti, soltanto otto per la coperta del Bargello e 14 per quella di Victoria &amp; Albert Museum, raccontano la partenza di Governale e Tristano dalla corte del re Ferramonte e le vicende relative al duello.</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions">RAJNA 1913, pp. 524-526 (trascrizione diplomatica) e pp. 526-527 (trascrizione interpretativa); RAJNA 1988, pp. 1555-1556 (trascrizione diplomatica) e pp. 1556-1557 (trascrizione interpretativa); PROTO PISANI 2010, pp. 33-54; STRAGAPEDE 2010, pp. 22-24 (riprende la trascrizione diplomatica RAJNA 1913 della sola parte di Usella) Altri studi: Proto Pisani, Ciatti et alii 2010; STRAGAPEDE 2010, pp. 21-32.</p>
+                <p xml:id="other" />
+                <p xml:id="images">RAJNA 1913, p. 522 (coperta di Usella); RAJNA 1988, p. 1552, n. 4 (La coperta di Londra) e n. 5 (La coperta di Usella); PROTO PISANI 2010, p. 36, n. 30 (Il messaggero raggiunge Tristano che con Governale è partito dal re Ferramonte, bordo sinistro della “coperta” Guicciardini, Firenze, Museo del Bargello); p. 37, n. 31 (Arrivo di Tristano e Governale dal re Marco, bordo sinistro della “coperta” Guicciardini, Firenze, Museo Nazionale del Bargello), n. 32 (Il re Marco nomina Cavaliere Tristano, scena centrale in basso della “coperta” Guicciardini, Firenze, Museo Nazionale del Bargello); p. 38, n. 36 (Il re Languis manda per il tributo in Cornovaglia, bordo destro della “coperta” Guicciardini, Londra, Victoria and Albert Museum), n. 34 (Il re Languis comanda che l’esercito vada in Cornovaglia, bordo destro della “coperta” Guicciardini, Londra, Victoria and Albert Museum) e n. 35 (L’Amoroldo fa bandire l’esercito in Cornovaglia, bordo destro della “coperta” Guicciardini, Londra, Victoria and Albert Museum); p. 39, n. 36 (L’Amoroldo è venuto in Cornovaglia con quaranta galee, bordo sinistro della “coperta” Guicciardini, Londra, Victoria and Albert Museum), n. 37 (Tristano dà il guanto della sfida all’Amoroldo, bordo sinistro della “coperta” Guicciardini, Londra, Victoria and Albert Museum), n. 38 (L’Amoroldo assolda la gente, bordo sinistro della “coperta” Guicciardini, Londra, Victoria and Albert Museum) e n. 39 (L’Amoroldo va in Cornovaglia, bordo sinistro della “coperta” Guicciardini, Londra,Victoria and Albert Museum); p. 40, n. 40 (I messaggeri sono arrivati dal re marco per il tributo di sette anni, scena centrale in basso della “coperta” Guicciardini, Londra, Victoria and Albert Museum); p. 42, n. 41 (Tristano combatte con l’Amoroldo, formella centrale, secondo registro della “coperta” Guicciardini, Firenze, Museo del Bargello), n. 42 (L’Amoroldo combatte con Tristano a cavallo, formella centrale, secondo registro della “coperta” Guicciardini, Firenze, Museo del Bargello), n. 43 (L’Amoroldo va all’isoletta, formella centrale, primo registro della “coperta” Guicciardini, Firenze, Museo del Bargello) e n. 44 (Tristano va all’isola per combattere, formella centrale, primo registro della “coperta” Guicciardini, Firenze, Museo del Bargello); p. 43, n. 45 (Tristano ferisce l’Amoroldo alla testa, secondo registro della “coperta” Guicciardini, Londra, Victoria and Albert Museum), n. 47 (Tristano butta la barca a mare, primo registro della “coperta” Guicciardini, Londra, Victoria and Albert Museum) e n.48 (Tristano aspetta l’Amoroldo, primo registro della “coperta” Guicciardini, Londra, Victoria and Albert Museum); p. 44, n. 49 (L’Amoroldo ferisce Tristano a tradimento, formella centrale, terzo registro della “coperta” Guicciardini, Londra, Victoria and Albert Museum) e n. 50 (Ritorno in Irlanda, formella centrale, terzo registro della “coperta” Guicciardini, Londra, Victoria and Albert Museum). pp. 33-54. STRAGAPEDE 2010, inserisce soltanto le fotografie della coperta di Usella, nello specifico: pp. 22 n. 6 (Arrivo del messaggero) e n.7 (Arrivo di Governale e Tristano alla corte del re Marco); p. 23 n. 8 (Viaggio di Governale e Tristano); p. 24 n. 9 (Amoroldo raggiunge Tristano), n. 10 (La partenza di Tristano), n. 11 (La vittoria di Tristano) e n. 12 (La battaglia).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
