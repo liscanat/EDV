@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>FEDERICO TEDESCO, IL SALVATORE SORGENTE DAL SEPOLCRO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’immagine del Cristo in Pietà si inserisce in una tradizione consolidata in Italia settentrionale, meridionale e centrale (v. nn. 02.05, 03.01, 03.05, 05.48, 07.23, 09.21, 09.38, 17.14), ed è talvolta associata all’iconografia della Messa di san Gregorio o ad una lauda in latino o in volgare. Qui, come in 17.14 la didascalia elenca le indulgenze che si possono guadagnare dalla visita e devozione all’immagine.</p>
+                <p>L’immagine del Cristo in Pietà si inserisce in una tradizione consolidata in Italia settentrionale, meridionale e centrale (v. nn. <ref target="edv02_05">02.05</ref>, <ref target="edv03_01">03.01</ref>, <ref target="edv03_05">03.05</ref>, <ref target="edv05_049">05.049</ref>, <ref target="edv07_23">07.23</ref>, <ref target="edv09_38">09.38</ref>) talvolta associata anche all’iconografia della Messa di san Gregorio (v. <ref target="edv09_38">09.38</ref>, <ref target="edv17_14">17.14</ref>), ed è talvolta associata all’iconografia della Messa di san Gregorio o ad una lauda in latino o in volgare. Qui, come in 17.14 la didascalia elenca le indulgenze che si possono guadagnare dalla visita e devozione all’immagine.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
                 <p xml:id="other">CIOCIOLA 1989, 84-91, CANNATA 2018, 69-75</p>
-                <p xml:id="images">Si ringrazia il museo cremonese per avere fornito copia della riproduzione, visibile sul nostro sito.</p>
+                <p xml:id="images">Si ringrazia il museo cremonese per avere fornito copia della riproduzione, e il prof. Giacomo Verri che dci ha segnalato l'iscrizione.</p>
             </div>
         </body>
     </text>
