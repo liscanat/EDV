@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SOVRAPORTA</title>
-                <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
+                <title>GABRIELE DELLA CELLA, EX-VOTO</title>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">01.04</idno>
+                <idno type="filename">01.05</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Savona</placeName>
-                        <district ref="#IM">SV</district>
-                        <repository>Palazzo del Carretto Pavese Pozzobonello</repository>
+                        <placeName>Montegrazie</placeName>
+                        <district ref="#IM">IM</district>
+                        <repository>Santuario</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Monito</term>
+                            <term type="textType" ref="#narrative">Didascalia narrativa (ex-voto)</term>
                         </summary>
                         <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
                     </msContents>
@@ -39,14 +39,14 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Pietra</material>
-                                    <objectType ref="#fresco">Elemento architettonico</objectType>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Capitale</term></handNote>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="01.04.jpeg">
+         <graphic url="01.05.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -83,13 +83,13 @@
             <div type="commentary" subtype="linguistic_analysis">
                 <p />
             </div>
-            <div type="commentary" subtype="note"><p>La sopraporta figurata con didascalia in volgare proviene dal portale del Palazzo Cuneo (poi dei Sansone) di via Quadra superiore 13, poi demolito, ed è oggi conservata presso il Palazzo Pavese-Pozzonbello, situato nella stessa via.</p>
+            <div type="commentary" subtype="note"><p>Il santuario è riccamente affrescato. Ai fratelli Tommaso e Matteo Biazaci da Busca si devono una Teoria della Morte e Oltretomba e scene della Passione di Cristo nelle navate e nelle absidi Adamo ed Eva e teoria di Apostoli, e Storie di San Giovanni Battista, terminate nel 1483; nel 1498 Gabriele della Cella di Finale Ligure dipinse i due ex voto marinari e l’immagine del Beato Bernardino da Feltre.</p>
                 <p />
             </div>
-            <div type="bibliography">
-                <p xml:id="editions" >TORTEROLI 1874, p. 177; BRUNO 1890, I, p. XV; BRUNO 1898, p. 81, nota 1; BRUNO 1901, pp. 100-101; VARALDO 1978, p. 67, n. 38.</p>
-                <p xml:id="other" ></p>
-                <p xml:id="images" >VARALDO 1978, p. 67, n. 38.</p>
+            <div type="bibliography"><p>http://www.santuariomontegrazie.org/gallery.asp</p>
+                <p xml:id="editions" />
+                <p xml:id="other" />
+                <p xml:id="images" />
             </div>
         </body>
     </text>
