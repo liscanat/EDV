@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>I SETTE PECCATI CAPITALI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -86,7 +86,7 @@
             <div type="commentary" subtype="note">
                 <p>La cappella fu fatta costruire ed affrescare da Giustino di Monforte. Gli affreschi sarebbero databili intorno alla metà del XV secolo (1472) e sono una ripresa fedele del ciclo di San Fiorenzo a Bastia Mondovì, forse dipinto dallo stesso artista, nel quale – tuttavia – le iscrizioni sono in latino. Le iscrizioni si trovano sulla parete di sinistra, a corredo della rappresentazione dei sette Vizi capitali e mostrano una importante simiglianza con le raffigurazioni dell’Inferno o del Giudizo Universale sparse lungo tutta la penisola, talvolta combinate con la Danza Macabra, il Trionfo della Morte e l’Incontro fra i vivi e i morti (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_06">11.06</ref>, <ref target="edv11_14">11.14</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>, <ref target="edv14_09">14.09</ref>, <ref target="edv15_01">15.01</ref>, <ref target="edv16_03">16.03</ref>).</p>
             </div>
-            <div type="bibliography">
+            <div type="bibliography"><p>Sopralluogo, https://www.sanbernardodelleforche.it/sanmichele.html</p>
                 <p xml:id="editions" />
                 <p xml:id="other" />
                 <p xml:id="images" />
