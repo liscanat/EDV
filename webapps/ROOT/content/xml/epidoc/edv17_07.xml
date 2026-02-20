@@ -10,7 +10,7 @@
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
-                <editor role="images"><persName /></editor>
+                <editor role="images"><persName >Nadia Cannata</persName></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
@@ -61,9 +61,10 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="17.07.jpeg">
-             <desc />
-         </graphic>
+        <graphic url="17.07a.jpg"> 
+<desc/> </graphic> 
+<graphic url="17.07b.jpg">
+             <desc /></graphic>
     </facsimile>
     <text>
         <body>

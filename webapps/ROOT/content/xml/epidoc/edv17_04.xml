@@ -14,7 +14,7 @@
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">17.03</idno>
+                        <idno type="filename">17.04</idno>
                         <date when="2024-03-04"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -60,12 +60,17 @@
                     </sourceDesc>
                 </fileDesc>
             </teiHeader>
-            <facsimile>
-                <graphic url="00">
+          <facsimile>
+             <graphic url="17.04a.jpeg">
                     <desc/>
                 </graphic>
-            </facsimile>
-            <text>
+                                <graphic url="17.04b.jpg">
+<desc/>
+</graphic>
+<graphic url="17.04c">
+<desc/>
+</graphic></facsimile>
+               <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <div type="textpart" subtype="section" n="A">
