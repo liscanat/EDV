@@ -61,9 +61,15 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="17.16.jpeg">
+         <graphic url="17.16a.jpeg">
              <desc />
          </graphic>
+        <graphic url="17.16b.jpeg">
+             <desc />
+         </graphic>
+        <graphic url="17.16c.jpeg">
+             <desc />
+         </graphic>  
     </facsimile>
     <text>
         <body>
