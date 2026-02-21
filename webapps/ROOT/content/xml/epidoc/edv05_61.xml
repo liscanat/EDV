@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>EDICOLA DI SAN CRISTOFORO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.61</idno>
+                <idno type="filename">05.061</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si trova alla base del tabernacolo raffigurante San Cristoforo sopra al civico 1050. È il più recente dei tre (v. anche 05.18 e 05.59) che si conservano sulla facciata della Scuola di Santa Maria della Carità, oggi sede delle Gallerie dell’Accademia</p>
+                <p>L’iscrizione si trova alla base del tabernacolo raffigurante San Cristoforo sopra al civico 1050. È il più recente dei tre (vedi anche <ref target="edv05_019">05.019</ref>, e <ref target="edv05_060">05.060</ref>) che si conservano sulla facciata della Scuola di Santa Maria della Carità, oggi sede delle Gallerie dell’Accademia</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

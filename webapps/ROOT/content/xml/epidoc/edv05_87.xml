@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>VIVARINI, PALA DI SANTA MONICA, AMBROGIO BATTEZZA AGOSTINO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.87</idno>
+                <idno type="filename">05.087</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Originariamente parte della Pala di santa Monica (v. nr. 05.85), il dipinto è ora conservato nella sala 3 al primo piano dell’Accademia.</p>
+                <p>Originariamente parte della Pala di santa Monica (v. <ref target="edv05_86">05.86</ref>), il dipinto è ora conservato nella sala 3 al primo piano dell’Accademia.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

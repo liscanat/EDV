@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>ISCRIZIONE SU RILIEVO DEVOZIONALE</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.19</idno>
+                <idno type="filename">05.019</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è collocata all’interno del tabernacolo centrale sulla facciata della Scuola di Santa Maria della Carità, oggi sede delle Gallerie dell’Accademia, uno dei tre che lì si conservano (v. nnr. 05.59 e 05.60). Il tabernacolo affigura una Madonna col Bambino con angeli e otto devoti inginocchiati.</p>
+                <p>L’iscrizione è collocata all’interno del tabernacolo centrale sulla facciata della Scuola di Santa Maria della Carità, oggi sede delle Gallerie dell’Accademia, uno dei tre che lì si conservano (v. anche <ref target="edv05_060">05.060</ref>, e <ref target="edv05_061">05.061</ref>). Il tabernacolo affigura una Madonna col Bambino con angeli e otto devoti inginocchiati.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

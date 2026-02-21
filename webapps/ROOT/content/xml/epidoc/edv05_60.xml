@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>EDICOLA DI SAN LEONARDO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.60</idno>
+                <idno type="filename">05.060</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si trova alla base di uno dei tre tabernacoli trecenteschi – il primo a sinistra – che sono posti sulla facciata della Scuola di Santa Maria della Carità (v. anche 05.18 e 05.60)..</p>
+                <p>L’iscrizione si trova alla base di uno dei tre tabernacoli trecenteschi – il primo a sinistra – che sono posti sulla facciata della Scuola di Santa Maria della Carità (v, anche <ref target="edv05_019">05.019</ref>, e <ref target="edv05_061">05.061</ref>.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>PARADISO DEL GUARIENTO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.46</idno>
+                <idno type="filename">05.046</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è collocata su di un cartiglio ai piedi del trono e vi si leggono endecasillabi di stile dantesco, citati quasi verbatim nella Pala di Ceneda (v. nr.  05.106), che ne riproduce anche l’iconografia.</p>
+                <p>L’iscrizione è collocata su di un cartiglio ai piedi del trono e vi si leggono endecasillabi di stile dantesco, citati quasi verbatim nella Pala di Ceneda (v. n. <ref target="edv05_104">05.104</ref>) che ne riproduce anche l’iconografia.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

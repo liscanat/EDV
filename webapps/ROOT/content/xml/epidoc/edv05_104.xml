@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>INCORONAZIONE DELLA VERGINE NEL PARADISO (PALA DI CENEDA)</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il testo è contenuto all’interno di un cartiglio posto ai piedi del doppio trono in cui è raffigurato l’episodio dell’Incoronazione. L’iscrizione rappresenta una copia fedele, sia da un punto di vista iconografico sia testuale –con una minima variante sostanziale – del Paradiso del Guariento (05.45), i cui resti sono conservati nella Sala dell’Armamento al Museo Correr.</p>
+                <p>Il testo è contenuto all’interno di un cartiglio posto ai piedi del doppio trono in cui è raffigurato l’episodio dell’Incoronazione. L’iscrizione rappresenta una copia fedele, sia da un punto di vista iconografico sia testuale –con una minima variante sostanziale – del Paradiso del Guariento (v. <ref target="edv05_46">05.46</ref>), i cui resti sono conservati nella Sala dell’Armamento al Museo Correr.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

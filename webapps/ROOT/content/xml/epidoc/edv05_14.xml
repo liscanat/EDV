@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>TESTAMENTO DI ANGELO PIARINI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.14</idno>
+                <idno type="filename">05.014</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -25,7 +25,7 @@
                     <msIdentifier>
                         <placeName>Murano</placeName>
                         <district ref="#VE">VE</district>
-                        <repository>Cortile del Museo del vetro</repository>
+                        <repository>Cortile del Museo del Vetro</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#normative">Normativa</term>
                         </summary>
-                        <textLang mainLang="xvnz" otherLangs="" precision="low">Volgare veneziano?</textLang>
+                       <textLang mainLang="xvnz" otherLangs="">Volgare veneziano?</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>

@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>MADONNA DELLA MISERICORDIA (2)</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.77</idno>
+                <idno type="filename">05.077</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione ricorda la dedica e committenza dell’opera fatta realizzare da tale Giorgio di ser Agnolo per la Fraia di Santa Maria dei Servi nel 1419. Il dipinto è stato messo in relazione con la tavola di analoga iconografia conservata presso il Museo Civico padovano e datata 1408 (05.73)</p>
+                <p>L’iscrizione ricorda la dedica e committenza dell’opera fatta realizzare da tale Giorgio di ser Agnolo per la Fraia di Santa Maria dei Servi nel 1419. Il dipinto è stato messo in relazione con la tavola di analoga iconografia conservata presso il Museo Civico padovano e datata 1408 (v. <ref target="edv05_73">05.73</ref>.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
