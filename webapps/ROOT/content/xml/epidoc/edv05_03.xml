@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>GIOTTO, AVE MARIA (1) E (2)</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.03</idno>
+                <idno type="filename">05.003</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione collocata all’interno del quadrilobo della parete sud della navata che rappresenta San Girolamo allo scrittoio e si trova sulle due pagine del volume tenuto aperto sul leggio a pianta ottogonale.</p>
+                <p>L’iscrizione, collocata all’interno del quadrilobo della parete sud della navata che rappresenta San Girolamo allo scrittoio, si trova sulle due pagine del volume tenuto aperto sul leggio a pianta ottagonale.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

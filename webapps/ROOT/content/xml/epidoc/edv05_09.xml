@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>RELIQUARIO DEL DENTE DI SAN MARCO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.09</idno>
+                <idno type="filename">05.009</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -87,7 +87,7 @@
                 <p>Si tratta di un dente molare, montato in argento. La teca che lo contiene reca la scritta: QVESTO. E. EL. DENTE. D. SAN. ZUANE. BATISTA.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions" >HAHNLOSER1971, pp. 160-161, edizione a p. 161.</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

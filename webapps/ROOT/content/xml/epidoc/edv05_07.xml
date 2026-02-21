@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>ISCRIZIONE DELL'OSPIZIO DI NATICLIER CRISTIAN</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.07</idno>
+                <idno type="filename">05.007</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -87,9 +87,9 @@
                 <p>L'iscrizione segnala l’esistenza di un ospizio eretto a spese di Naticlier Cristian. Ancora oggi è collocata in Calle del Morion, nel Sestriere di Castello.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions" >TOMASIN 2012, p. 23. Altri studi: TOMASIN 2012, pp. 23-24 (con bibliografia precedente).</p>
                 <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="images" >http://venezia-emilia.blogspot.it/2010/11/street-art-in-venice.html.</p>
             </div>
         </body>
     </text>

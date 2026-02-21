@@ -6,15 +6,15 @@
         <fileDesc>
             <titleStmt>
                 <title>DURINDARDA</title>
-                <editor role="data_collection"><persName /></editor>
-                <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
-                <editor role="encoding"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="edition"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="commentary"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="encoding"><persName >Nadia Cannata</persName></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.01</idno>
+                <idno type="filename">05.001</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -69,12 +69,12 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" />DVRINDARDA
                 </ab>
             </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" />DVRINDARDA
                 </ab>
             </div>
             <div type="apparatus">
@@ -89,7 +89,7 @@
             <div type="bibliography">
                 <p xml:id="editions" />
                 <p xml:id="other">GASCA QUEIRAZZA 1954, p. 379 (nome della spada di Rolando, v. 1889 «Rollant i ancis cum Duridarda el brant»; v. 4393: «E fu proea cin Duridarda, el brant»); LEJEUNE 1950; LEJEUNE - STIENNON 1966; TOESCA 1965, P. 774 N. 14.; MENEGHETTI 1997, tav. 38</p>
-                <p xml:id="images">Immagine in LEJEUNE - STIENNON 1966, II, nn. 38 e 40; MENEGHETTI 1997, tav. 38</p>
+                <p xml:id="images">Immagine in LEJEUNE - STIENNON 1966, II, nn. 38 e 40; MENEGHETTI 1997, tav. 38.</p>
             </div>
         </body>
     </text>

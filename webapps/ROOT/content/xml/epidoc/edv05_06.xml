@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">05.06</idno>
+                <idno type="filename">05.006</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -87,9 +87,9 @@
                 <p>L’iscrizione funeraria si trova nel cosiddetto ‘Spazio Badoer’ davanti alla Scuola di San Giovanni Evangelista nel Campiello di S. Zuane in San Polo, su di un sarcofago comune. Lo spazio era anticamente adibito a cimitero confraternale.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions" /><p>PAZZI 2001, I, p. 592; FERGUSON 2013a, p. 84; FERGUSON 2015, p. 39; TOMASIN 2015, p. 175.</p>
+                <p xml:id="other" >FERGUSON 2013a, pp. 84-85; FERGUSON 2015, p. 39-40, n. 3.</p>
+                <p xml:id="images" >FERGUSON 2015, p. 93, fig. 1.</p>
             </div>
         </body>
     </text>
