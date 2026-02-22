@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>TORRE CAMPANARIA</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione documenta il completamento dell’opera nel 1331</p>
+                <p>L’iscrizione documenta il completamento dell’opera nel 1331.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">MAGLIOCCA 2007, p. 163; FILANNINO 2015, p. 65 n. 7.</p>

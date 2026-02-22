@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>ARCHITRAVE</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si sviluppa su quattro linee di scrittura all’interno dell’architrave della chiesa di San Pietro a Minervino di Lecce. Le prime tre righe formano un distico ritmato (como lu lione et lo re dell animali/ cusi menerbino et lo re de li casali) cui seguono una coppia di chiavi con al centro la torre merlata di un castello non più esistente, fatto costruire a Minervino da Ferdinando I d’Aragona.</p>
+                <p>L’iscrizione si sviluppa su quattro linee di scrittura all’interno dell’architrave della chiesa di San Pietro a Minervino di Lecce. Le prime tre righe formano un distico ritmato (<title>como lu lione et lo re dell animali/ cusi menerbino et lo re de li casali</title>) cui seguono una coppia di chiavi con al centro la torre merlata di un castello non più esistente, fatto costruire a Minervino da Ferdinando I d’Aragona.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">DE GIORGI 1882-1888, I, p. 272; RIBEZZO [1912] 1977, p. 10; ROMANELLO 1978, p. 55.</p>
