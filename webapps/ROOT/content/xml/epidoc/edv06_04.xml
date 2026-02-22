@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>FIGURE ALLEGORICHE E TERZINE DANTESCHE</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="" precision="low">Volgare toscano?</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano?</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>

@@ -6,11 +6,11 @@
         <fileDesc>
             <titleStmt>
                 <title>CASA LUCCHETTI, ARCHITRAVE</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
+                <editor role="commentary"><persName >Alessandra Tiburzi, Nadia Cannata</persName></editor>
                 <editor role="encoding"><persName /></editor>
-                <editor role="images"><persName /></editor>
+                <editor role="images"><persName >Giuliana Adamo</persName></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
@@ -61,9 +61,12 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="16.06.jpeg">
-             <desc />
-         </graphic>
+             <graphic url="16.06a.jpg">
+            <desc/>
+        </graphic>
+        <graphic url="16.06b.jpg">
+            <desc/>
+        </graphic>
     </facsimile>
     <text>
         <body>
