@@ -5,8 +5,8 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Santuario della Cona Passatora (nn. 10-13)
-                            - San Gabriele Annunciante (1484), Annunciazione (1494), Vergine fra i santi (1490).</title>
+                        <title>SANTUARIO DELLA CONA PASSATORA - MIRACOLI (nn. 10-13)
+                            - SAN GABRIELE ANNUNCIANTE (1484), ANNUNCIAZIONE (1494), VERGINE FRA I SANTI (1490).</title>
                         <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
                         <editor role="edition"><persName>Michela Sacchetti</persName></editor>
                         <editor role="commentary"><persName>Nadia Cannata</persName></editor>
@@ -15,7 +15,7 @@
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">11.27a</idno>
+                        <idno type="filename">11.27c</idno>
                         <date when="2020-04-08"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>

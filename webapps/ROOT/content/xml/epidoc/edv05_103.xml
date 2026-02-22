@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>BADESSA SCOLASTICA</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -87,7 +87,7 @@
                 <p>Il bassorilievo (55x45 cm) rappresenta la Madonna con bambino e un pellegrino inginocchiato, corredato dall’iscrizione SCOLASTICA/ ABB(atis)SA / 1499 7 LVLO</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions" >BENUCCI 2015. generale 27, inv.  344, pp. 156-157: ed. p. 157 (con bibliografia precedente).</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

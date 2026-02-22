@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>TERMINE LAVORI EDILIZI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La tavella porta semplicemente una data: 1487/ adi 7 setembre</p>
+                <p>La tavella porta semplicemente una data: <title>1487/ adi 7 setembre</title>.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions" >BENUCCI 2015. generale 41, inv.  519, pp. 203-204: ed. p. 203 (con bibliografia precedente)</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

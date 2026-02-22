@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>SCUOLA DEI MURATORI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il testo identifica la Scuola dei Mureri, istituita nel Duecento per gli artigiani specializzati nella costruzione di edifici. Lo stemma della Scuola rappresenta gli strumenti dell’arte: la squadra, la cazzuola, il filo a piombo e il martello, qui rappresentato nei tre terzi superiori della lastra rettangolare, all’interno di un quadrilobo. Nella parte sottostante, il testo si presenta incorniciato e disposto su sei linee di scrittura</p>
+                <p>Il testo identifica la Scuola dei Mureri, istituita nel Duecento per gli artigiani specializzati nella costruzione di edifici. Lo stemma della Scuola rappresenta gli strumenti dell’arte: la squadra, la cazzuola, il filo a piombo e il martello, qui rappresentato nei tre terzi superiori della lastra rettangolare, all’interno di un quadrilobo. Nella parte sottostante, il testo si presenta incorniciato e disposto su sei linee di scrittura.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

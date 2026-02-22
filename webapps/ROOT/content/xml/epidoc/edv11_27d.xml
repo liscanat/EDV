@@ -5,7 +5,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Santuario della Cona Passatora (nn. 14-15) - Cristo della Domenica e Madonna delle Misericordie (1490).</title>
+                        <title>SANTUARIO DELLA CONA PASSATORA - MIRACOLI (nn. 14-15) - CRISTO DELLA DOMENICA E MADONNA DELLA MISERICORDIA (1490).</title>
                         <editor role="data_collection"><persName>Nadia Cannata</persName></editor>
                         <editor role="edition"><persName>Michela Sacchetti</persName></editor>
                         <editor role="commentary"><persName>Nadia Cannata</persName></editor>
@@ -14,7 +14,7 @@
                     </titleStmt>
                     <publicationStmt>
                         <authority>Epigraphic Database Vernacular</authority>
-                        <idno type="filename">11.27c</idno>
+                        <idno type="filename">11.27d</idno>
                         <date when="2020-03-29"/>
                         <availability>
                             <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -25,7 +25,7 @@
                             <msIdentifier>
                                 <placeName>Loc. Ferrazza, Amatrice</placeName>
                                 <district ref="#RI">RI</district>
-                                <repository>Santuario dell’Icona Passatora(a-c)</repository>
+                                <repository>Santuario della Cona Passator a(a-c)</repository>
                                 <idno type="invNo"/>
                             </msIdentifier>
                             <msContents>
@@ -126,7 +126,7 @@
                             endènne per ‘intendere’; BRANDOZZI 1983, p. 70, s.v. endènne.</p>
                     </div>
                     <div type="commentary" subtype="note">
-                        <p>L'iconografia del <title>Cristo della Domenica</title> si ritrova anche negli affreschi della Basilica di san Miniato al Monte (FI) <ref target="edv08_83">08.83</ref>
+                        <p>L'iconografia del <title>Cristo della Domenica</title> si ritrova anche negli affreschi della Basilica di san Miniato al Monte (FI) <ref target="edv08_083">08.083</ref>
                         e nella chiesa di San Martino a Castelsantangelo (MC) <ref target="edv10_35">10.35</ref>.</p>
                         <p></p>                         
                     </div>

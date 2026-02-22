@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>FIRMA DI ADRIAEN STENIAERT</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione apposta su un campanello in bronzo, è in fiammingo – Ich ben ghegoten van Adriaen Steniaert. Si tratta di un oggetto parlante che dichiara di essere stato fuso da Adrian Steniaert</p>
+                <p>L’iscrizione apposta su un campanello in bronzo, è in fiammingo: <title>Ich ben ghegoten van Adriaen Steniaert</title>. Si tratta di un oggetto parlante che dichiara di essere stato fuso da Adrian Steniaert.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions" >BENUCCI 2015. generale 71, n. inv. Metalli 259, pp. 286-287: ed. p. 286 (con bibliografia precedente).</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MARTINO DA MODENA, CRISTO PASSO</title>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="edition"><persName /></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName /></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">05.049</idno>
+                <date when="2020-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Treviso</placeName>
+                        <district ref="#TV">TV</district>
+                        <repository>Musei Civici – Museo santa Caterina (inv. P467)</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#admonition">Monito</term>
+                        </summary>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#veneto">Veneto</region></origPlace>
+                            <origDate notBefore="1369" notAfter="1380">1369-1380</origDate>
+                        </origin>
+                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="05.49.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p />
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L’iscrizione si sviluppa su cinque righe collocate all’interno di un affresco oggi lacunoso, raffigurante la fronte del sarcofago di una Imago pietatis coi simboli della Passione. L’affresco è stato staccato da una casa bombardata di via XX settembre nn. 4-6 a Treviso nel 1946. L’iconografia si ritrova in diverse iscrizioni (in Italia settentrionale, meridionale e centrale: <ref target="edv02_05">02.05</ref>, <ref target="edv03_01">03.01</ref>, <ref target="edv03_05">03.05</ref>, <ref target="edv05_049">05.049</ref>, <ref target="edv07_23">07.23</ref>, <ref target="edv09_38">09.38</ref>) talvolta associata anche all’iconografia della Messa di san Gregorio (v. <ref target="edv09_38">09.38</ref>, <ref target="edv17_14">17.14</ref>).</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" />
+                <p xml:id="other">COLETTI 1963, p. 109; GARGAN 1978, pp. 288-289; CIOCIOLA 1989, p. 84-91; GIBBS 1992, p. 207; COZZI 2013, pp. 226-227, cat. 90 (scheda a cura di Gabriella Delfini).</p>
+                <p xml:id="images">GIBBS 1992, p. 214, fig. 258; COZZI 1997, fig. 111; COZZI 2013, p. 226, n. 90.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
