@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>EPITAFFIO DEL GIUDICE GIRATTO</title>
-                <editor role="data_collection"><persName /></editor>
+                <title>LEONE</title>
+                <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">08.02</idno>
+                <idno type="filename">08.001</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
+                        <placeName>Poggibonsi</placeName>
                         <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <repository>Chiesa canonica dei ss. Pietro e Leonardo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
                                     <material ref="#stone">Pietra</material>
-                                    <objectType ref="#artifact">Artefatto</objectType>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1174" notAfter="1176">1174-1176</origDate>
+                            <origDate notBefore="1001" notAfter="1100">XI</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.02.jpeg">
+         <graphic url="08.01.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il sarcofago venne realizzato dal celebre scultore Biduino per il giudice Giratto e riporta, oltre alla firma dell’artista, un epitaffio in onore del defunto. Proviene verosimilmente dal convento di San Paolo in Ripa d’Arno ed è oggi conservato presso la galleria Sud del Camposanto.</p>
+                <p>La didascalia identifica un leone scolpito a bassorilievo su una delle lastre murate sulla facciata della chiesa dei Santi Pietro e Leonardo (già detta di Casiglia).</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">LASINIO 1814, tav. LIII; CIAMPI 1832; GRASSI 1837, I, p. 140; CANTÙ 1855, p. 165; MORANDI 1887, p. 76, n. 3; PAPINI 1922, pp. 118-119; BIAGI 1936, p. 174; BIAGI 1938-1939, p. 7; BALDELLI 1973, p. 30, nota 3; ARIAS-CRISTIANI-GABBA 1977, p. 112; BALDELLI 1987a, p. 70, n. 7; VANNUCCI 1987, p. 30; STUSSI 1990 [ma1992], pp. 63-71, il primo a pubblicare insieme le due iscrizioni e ad identificare il personaggio sepolto nel giudice Giratto, ora STUSSI 2005a, p. 9-21; BARACCHINI-FILIERI 1992, pp. 111-119; MILONE 1993, pp. 172-174, n. 17;IDLR 1006; PETRUCCI 1994, p. 70; STUSSI 1997, pp. 150- 152; BANTI 1998, p. 265, n. 7; CASAPULLO 1999, pp.199-200; BANTI 2000, pp. 34-35, nr. 31-32; BANTI 2000a, pp. 63-70; PETRUCCI L. 2000, pp. 20-22; PETRUCCI L.2010, pp. 93-95, n. [9].</p>
-                <p xml:id="other" />
-                <p xml:id="images">LASINIO 1814, tav. LIII; ARIAS-CRISTIANI-GABBA 1977, fig. 112-113; BARACCHINI-FILIERI 1992, fig. 17; MILONE 1993, p. 172, n. 17; BANTI 1998, fig. 7a1-a2, b1-b2; BANTI 2000, fig. 31/32; PETRUCCI 2010, fig. 9, p. 191.</p>
+                <p xml:id="editions">STOPANI 1985, didascalie delle tavv. 69-71; BETTARINI 1996; PETRUCCI L. 2010, pp. 82-85, n. [4].</p>
+                <p xml:id="other">RAVENNI 1994, p. 150. Riproduzioni: STOPANI 1985, tavv. 69-71; RAVENNI 1994, p. 151, figg. 42-43; PETRUCCI L. 2010, p. 187, n. [4].</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>
