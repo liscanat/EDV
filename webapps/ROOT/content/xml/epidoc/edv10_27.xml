@@ -6,9 +6,9 @@
         <fileDesc>
             <titleStmt>
                 <title>GIOVANNI ANGELO D’ANTONIO, MADONNA COL BAMBINO ANGELI E PUTTI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
+                <editor role="commentary"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#marche">Marche</region></origPlace>
-                            <origDate>1455-60</origDate>
+                            <origDate>1455 ca.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>

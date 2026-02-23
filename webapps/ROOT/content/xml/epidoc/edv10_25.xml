@@ -6,9 +6,9 @@
         <fileDesc>
             <titleStmt>
                 <title>ANTONIO BONVICINO E JACOBELLO DA FIORE, CROCIFISSO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
+                <editor role="commentary"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
@@ -87,8 +87,9 @@
                 <p>Nel cartello alla base dei piedi del Cristo vengono indicati gli artefici veneziani del manufatto: l’intagliatore Antonio Bonvicino e il pittore Jacobello del Fiore.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other" />
+                <p xml:id="editions" >CURZI 2000, p. 64; MASIGNANI 2002, p. 124; MARKHAM SCHULZ 2004, p. 293;
+</p>
+                <p xml:id="other" > ADIMARI, 1616, pp. 131-132; CHIAPPINI DI SORIO 1968, p. 15.</p>
                 <p xml:id="images" />
             </div>
         </body>

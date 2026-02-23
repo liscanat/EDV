@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                            <origDate>1500?</origDate>
+                            <origDate>1500</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione (Se mai fo cuperto foco no(n) se spense) si trova incisa su un camino all’interno del Palazzo dei Consoli a Gubbio, e sembra rielaborare l’incipit petrarchesco (Canzoniere XLVIII) “Se mai foco per foco non si spense”.</p>
+                <p>L’iscrizione <title>Se mai fo cuperto foco no(n) se spense</title> si trova incisa su un camino all’interno del Palazzo dei Consoli a Gubbio, e sembra rielaborare l’incipit petrarchesco (<title>Canzoniere</title> XLVIII) <title>Se mai foco per foco non si spense</title>.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

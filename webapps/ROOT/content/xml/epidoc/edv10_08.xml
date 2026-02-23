@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>OLIVUCCIO DI CICCARELLO, CROCIFISSO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -88,8 +88,8 @@
             </div>
             <div type="bibliography">
                 <p xml:id="editions">LOMBARDI 1988, pp. 5-37; DE MARCHI 2002, p. 126; MAZZALUPI 2002, p. 467, n. 3.</p>
-                <p xml:id="other">LOMBARDI1988; DE MARCHI 2002, pp. 126-127, cat. 1 (con bibliografia precedente); VENTURI 2013 (con bibliografia).</p>
-                <p xml:id="images">LOMBARDI1988, pp. 26 (particolari), p. 27 (crocifisso intero) e p. 28 (cartiglio); DE MARCHI 2002, p. 126, fig. 1; DE MARCHI-MAZZALUPI 2008, p. 37, fig. 40; VENTURI 2013, p. 1, fig. 1.</p>
+                <p xml:id="other">LOMBARDI 1988; DE MARCHI 2002, pp. 126-127, cat. 1 (con bibliografia precedente); VENTURI 2013 (con bibliografia).</p>
+                <p xml:id="images">LOMBARDI 1988, pp. 26 (particolari), p. 27 (crocifisso intero) e p. 28 (cartiglio); DE MARCHI 2002, p. 126, fig. 1; DE MARCHI-MAZZALUPI 2008, p. 37, fig. 40; VENTURI 2013, p. 1, fig. 1.</p>
             </div>
         </body>
     </text>

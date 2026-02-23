@@ -6,9 +6,9 @@
         <fileDesc>
             <titleStmt>
                 <title>MAESTRO DEL TRITTICO DI SAN BARTOLOMEO, MADONNA PETRARCHESCA</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
+                <editor role="commentary"><persName ></persName></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione trascrive parte della canzone alla Vergine di Petrarca (Canzoniere CCCLXVI) in un cartiglio al di sotto della figura della Vergine.</p>
+                <p>L’iscrizione trascrive parte della canzone alla Vergine di Petrarca (<title>Canzoniere</title> CCCLXVI) in un cartiglio al di sotto della figura della Vergine.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">DE MARCHI 2007a, p. 148, nota 24.</p>
