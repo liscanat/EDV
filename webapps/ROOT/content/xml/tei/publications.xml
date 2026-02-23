@@ -17,14 +17,24 @@
     </teiHeader>
     <text>
         <body>
-            <listBibl>
-                <bibl xml:id="p1">Luna Cacchioli – Nadia Cannata – Alessandra Tiburzi (con una nota paleografica di Maddalena Signorini), <title>Il volgare esposto in Italia (secc. IX-XV). Lingue, scritture, funzioni</title>, 2 voll. (Vol. I Studi, vol II in 4 tomi Testi), Roma, Bagatto Libri (2019).</bibl>
-                <bibl xml:id="p2">Vol I. Studi Vol II in 4 Tomi  Catalogo e Commento Linguistico (II/1 Italia settentrionale (Area gallo-italica e Veneto); II/2 Toscana e Roma; II/3 Italia mediana, meridionale e Sardegna 170 schede; II/4 Riproduzioni. (in preparazione)</bibl>
-                <bibl xml:id="p3">Luna Cacchioli – Nadia Cannata – Alessandra Tiburzi, <title>EDV – Italian Medieval Epigraphy in the Vernacular (IX-XV c). A New Database</title>, Archaeopress Archaeology, 2016.</bibl>
-                <bibl xml:id="p4">Luna Cacchioli – Alessandra Tiburzi, <title>Contributi e fonti per lo studio del volgare esposto in Italia</title>, in «Critica del Testo», XVIII/2, 2015.</bibl>
-                <bibl xml:id="p5">Luna Cacchioli – Alessandra Tiburzi, <title>Lingua e forme dell’epigrafia medievale in volgare</title>, «Studj Romanzi», nuova serie, n. XI [ISSN:0391-1691].
+        <listBibl>
+            <bibl>CACCHIOLI-TIBURZI 2014 = LUNA C., ALESSANDRA T., <title>Lingua e forme dell’epigrafia in volgare (secc. IX-XV)</title>, in «Studj Romanzi. Scrivere, leggere, conservare. A colloquio con Armando Petrucci», Nuova serie, X (2014), pp. 311-352.</bibl>
+                <bibl>CACCHIOLI-TIBURZI 2015 = LUNA C., ALESSANDRA T., <title>Contributi e fonti per lo studio del volgare esposto in Italia</title>, in «Critica del Testo», XVIII/2 (2015), pp.103-138.</bibl>
+                <bibl>CACCHIOLI-CANNATA-TIBURZI 2016 = LUNA C., NADIA C., ALESSANDRA T., <title>EDV. Epigraphic Database in the Vernacular. A New Database</title>, in <title>EAGLE</title> 2016, pp. 91-129.
+                    <bibl>CANNATA 2014 = NADIA C., «Le parole sono pietre. Lingua <title>communis</title> e lingua <title>literata</title> in alcune epigrafi romane (secc. IV VI)», in <title>Scrivere, leggere, conservare. A colloquio con Armando Petrucci</title>, a cura di N. Cannata e M. Signorini, <title>Studj Romanzi</title>, n.s. XI (2014), pp. 281-310.</bibl>
+                    <bibl>CANNATA 2016 = NADIA C., «<title>Lontano da dove</title>? Tradizioni culturali e coscienza linguistica in Europa», <title>Critica del Testo</title>, 19/1, pp. 63-91.</bibl>
+                    <bibl>CANNATA 2018 = NADIA C., «Scrivere per tutti. Il volgare esposto in Italia (secc. IX-XV)», <title>Critica del Testo</title>, 21/1, pp. 43-76.</bibl>
+                    <bibl>CANNATA  2018a = NADIA C., <title>EDV – Italian Medieval Epigraphy in the Vernacular. Some Editorial Problems Discussed</title>, in <title>Crossing Experiences in Digital Epigraphy: from Practice to Discipline</title>, ed by A. De Santis and I. Rossi,  Berlin, De Gruyter, pp. 180-192.</bibl>
+                    <bibl>CANNATA-TRIFONE 2019 = NADIA C.-PIETRO T., <title>Una lettera inedita di Cesare De Lollis a Ernesto Monaci intorno all’Iscrizione di San Clemente</title>, consultabile in rete (https://mondodomani.academia.edu/PietroTrifone/).</bibl>
+                    <bibl>CANNATA  2020 <title>= NADIA C., Le scritture esposte e il latino in Italia fra XIV e XV secolo</title> in <title>Acta Conventus Neo-Latini Albasitensis, ed, by  Florian Schaffenrath and María Teresa Santamaría Hernández</title>, Leiden, Brill 2020, pp. 189-201</bibl>
+                    <bibl>CANNATA ET AL. 2020- = NADIA C., https://edv.seai.uniroma1.it/it/</bibl>
+                    <bibl>CANNATA  2022 = = NADIA C., «Il corpo della lingua: nomi, forme e limiti della rappresentazione di un'idea, <title>TranScript</title>, 1/2, pp. 215-258.</bibl> 
+                    <bibl>CANNATA 2024 = NADIA C., <title>Memory and loss, Digital Tools and the Writing of History. A few considerations</title>, «Ecdotica» 21, 2024, pp. 37-49.</bibl>
+                    <bibl>CANNATA 2025 = NADIA C., <title>New Solutions for Old Problems: Digital Publication, the Linguistic Study of Medieval Vernacular Texts, and the EDV Project</title>, in <title>New Technologies and Renaissance Studies IV, The Changing Shape of Digital Early Modern Studies</title>, ed.by Randa El Khatib and Caroline Winter, Chicago, Chicago University Press.</bibl>
+                    <bibl>NADIA CANNATA – LUNA CACCHIOLI – ALESSANDRA TIBURZI 2026 (in prep) = <title>Scrivere per tutti. Il volgare esposto in Italia (IX-XV secolo)</title>, 4 voll. Con una nota paleografica di Maddalena Signorini, Sapienza Università Editrice (l'uscita del 1 volume è prevista per giugno 2026.
+                    </bibl>
                 </bibl>
-            </listBibl>
+        </listBibl>
         </body>
     </text>
 </TEI>
