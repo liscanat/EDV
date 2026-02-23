@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                            <origDate>1470-80</origDate>
+                            <origDate> notBefore="1470" notAfter="1480">1470-1480</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
