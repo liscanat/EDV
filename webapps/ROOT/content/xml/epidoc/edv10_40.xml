@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>MONOGRAMMA BERNARDINIANO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’incisione era un tempo collocata nell’atrio del palazzo comunale ed ora si trova provvisoriamente collocata a terra, nella seconda sala del museo in attesa di una collocazione definitiva. Il testo «enigmatico» presenta errori.</p>
+                <p>L’incisione era un tempo collocata nell’atrio del palazzo comunale ed ora si trova provvisoriamente collocata a terra, nella seconda sala del museo in attesa di una collocazione definitiva. Il testo, piuttosto enigmatico, presenta errori.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />

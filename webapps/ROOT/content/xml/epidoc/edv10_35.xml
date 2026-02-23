@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>SAN BERNARDINO DA SIENA DEL MAESTRO DELLE MACCHIE (GIOVANNI DI CORRADUCCIO ?)</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#marche">Marche</region></origPlace>
-                            <origDate>1483-1487 ca.</origDate>
+                            <origDate>1485 ca.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è posta alla base di un affresco rappresentante San Bernardino da Siena e si trova nella seconda</p>
+                <p>L’iscrizione è posta alla base di un affresco rappresentante San Bernardino da Siena e si trova nella seconda chiesa del santuario di Santa Maria delle Macchie a Gagliole. Sotto al pergamo si legge il nome del committente, Onofrio di Cristoforo, che fece realizzare il dipinto per le grazie ricevute da lui e da tutta la sua famiglia.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">DE MARCHI 2002, p. 379.</p>

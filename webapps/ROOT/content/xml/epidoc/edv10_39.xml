@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>CROCIFISSIONE (1)</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione in volgare, danneggiata ma in discretamente leggibile, corre su unica riga alla base di un affresco ex-voto rappresentante una Crocifissione posta sopra l’altare maggiore della Chiesa di S. Anastasio.</p>
+                <p>L’iscrizione in volgare, danneggiata ma discretamente leggibile, corre su unica riga alla base di un affresco ex-voto rappresentante una Crocifissione posta sopra l’altare maggiore della Chiesa di S. Anastasio.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">AVARUCCI-SALVI 1986, pp. 65-67, n. 27.</p>
