@@ -30,8 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#" />
+                            <term type="textFunction" ref="#AP">Didascalia</term>
+                            <term type="textType" ref="#" >Firma</term>
                         </summary>
                         <textLang mainLang="xcat" otherLangs="">Catalano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#" >Pietra</material>
+                                    <objectType ref="#slab">Concio</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -83,8 +83,7 @@
             <div type="commentary" subtype="linguistic_analysis">
                 <p />
             </div>
-            <div type="commentary" subtype="note">
-                <p>Collocazione attuale: Sassari, Chiesa di Santa Maria di Betlem</p>
+            <div type="commentary" subtype="note"><p>L’iscrizione, pressocché illegibile potrebbe essere stata lasciata da maestranze che registravano i giorni di lavoro effettuati.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">PIRAS 2005, p. 44, n. 14.</p>

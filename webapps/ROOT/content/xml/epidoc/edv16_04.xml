@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Monito</term>
                         </summary>
                         <textLang mainLang="xmer" otherLangs="">Volgare meridionale</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
-                                    <objectType ref="#" />
+                                    <material ref="#" >Pietra</material>
+                                    <objectType ref="#" >Elemento architettonico</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>

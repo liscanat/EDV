@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>GUIDO PUCHI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Funeraria</term>
                         </summary>
                         <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Pietra</material>
                                     <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione ricorda la sepoltura di Guiduo Puchi e dei suoi eredi. Si trova addossato alla parete, nel lato opposto</p>
+                <p>L’iscrizione ricorda la sepoltura di Guiduo Puchi e dei suoi eredi. Si trova addossata alla parete, nel lato opposto all’ingresso del cortile.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">FILANNINO 2015, p. 34 n. 32.</p>

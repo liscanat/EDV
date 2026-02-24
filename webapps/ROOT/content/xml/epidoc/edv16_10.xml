@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>COLA FIGLIO DI LUIGI EPIFANI</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Committenza</term>
                         </summary>
                         <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Intonaco</material>
                                     <objectType ref="#fresco">Affresco</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>

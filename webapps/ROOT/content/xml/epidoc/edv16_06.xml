@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Firma</term>
                         </summary>
                         <textLang mainLang="xmer" otherLangs="">Volgare meridionale</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Pietra</material>
                                     <objectType ref="#architectural_element">Elemento architettonico</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>

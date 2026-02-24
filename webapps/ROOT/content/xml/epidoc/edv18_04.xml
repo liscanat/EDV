@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Commemorativa</term>
                         </summary>
                         <textLang mainLang="xsard" otherLangs="">Volgare sardo</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Pietra</material>
                                     <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>

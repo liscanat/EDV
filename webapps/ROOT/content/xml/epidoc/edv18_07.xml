@@ -30,8 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#" />
+                            <term type="textFunction" ref="#AP">Didascalia</term>
+                            <term type="textType" ref="#" >Monito</term>
                         </summary>
                         <textLang mainLang="xgall" otherLangs="">Gallurese</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Pietra</material>
                                     <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è collocata all’esterno dell’abside della chiesa campestre di Santa Vittoria del Sasso, nel lato sinistro della monofora del catino absidale. Mauro Maxia assegna il testo al gallurese antico e, in particolare «a una fase in cui non aveva ancora acquisito forme sintattiche del logudorese». L’epigrafe – che pure continua a porre diverse questioni interpretative è datataal pieno XV secolo, tra il 1445 ed il 1470.</p>
+                <p>L’iscrizione è collocata all’esterno dell’abside della chiesa campestre di Santa Vittoria del Sasso, nel lato sinistro della monofora del catino absidale. Mauro Maxia assegna il testo al gallurese antico e, in particolare «a una fase in cui non aveva ancora acquisito forme sintattiche del logudorese». L’epigrafe – che pure continua a porre diverse questioni interpretative è datata al pieno XV secolo, tra il 1445 ed il 1470.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">MARRAS 1989, p. 86; MAXIA 1999a, pp. 53-90; Vittoria del Sassu 2003.</p>
