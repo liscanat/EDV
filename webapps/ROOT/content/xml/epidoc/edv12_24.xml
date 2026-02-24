@@ -15,7 +15,7 @@
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
                 <idno type="filename">12.24</idno>
-                <date when="2020-10-10"/>
+                <date when="2023-10-10"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                         </availability>
@@ -71,10 +71,24 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1"/>Dorathea da Verzeli 
+                        <lb n="1"/>+ QVI IASE MADON
+                            <lb n="2"/>A DORATEA DA VER
+                            <lb n="3"/>ZELI HOSPITALER
+                            <lb n="4"/>A DELO ISPITALE DE
+                         <lb n="4"/>SANTA CICILIA DE SI
+                    <lb n="4"/>TENBRE DIE XXVI MCCCCLXXXX
                 </ab>
             </div>
-                <div type="apparatus">
+                 <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"/>QVI IASEMADON ∙
+                            <lb n="2"/>A DORATEADAVER
+                            <lb n="3">ZELIHOSPITALER
+                            <lb n="4">ADELOISPETALEDE
+                                <lb n="5">SANTACICILIADESI
+                                    <lb n="6">TEBREDIExxviMcccclxxxx
+                        </ab>
+                    </div>
+                   <div type="apparatus">
                 <p/>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
