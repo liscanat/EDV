@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#" />
+                            <term type="textType" ref="#" >Narrativa</term>
                         </summary>
                         <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Legno</material>
                                     <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>

@@ -39,8 +39,8 @@
                                 <objectDesc>
                                     <supportDesc>
                                         <support>    
-                                            <material ref="#unknown">?</material>
-                                            <objectType ref="#"/>
+                                            <material ref="#unknown">Legno</material>
+                                            <objectType ref="#">Dipinto</objectType>
                                             <dimensions><width/><depth/><height/></dimensions>
                                         </support>
                                     </supportDesc>
