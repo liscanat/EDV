@@ -71,25 +71,13 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                        <lb n="1"/>+ QVI IASE MADON
-                            <lb n="2"/>A DORATEA DA VER
-                            <lb n="3"/>ZELI HOSPITALER
-                            <lb n="4"/>A DELO ISPITALE DE
-                         <lb n="4"/>SANTA CICILIA DE SI
-                    <lb n="4"/>TENBRE DIE XXVI MCCCCLXXXX
+                    <lb n="1" />
                 </ab>
             </div>
-                 <div type="edition" subtype="diplomatic" xml:space="preserve">
-                        <ab><lb n="1"/>QVI IASEMADON ∙
-                            <lb n="2"/>A DORATEADAVER
-                            <lb n="3">ZELIHOSPITALER
-                            <lb n="4">ADELOISPETALEDE
-                                <lb n="5">SANTACICILIADESI
-                                    <lb n="6">TEBREDIExxviMcccclxxxx
-                        </ab>
-                    </div>
-                   <div type="apparatus">
-                <p/>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
                 <p/>
