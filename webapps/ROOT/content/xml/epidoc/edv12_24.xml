@@ -63,24 +63,33 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-             <graphic url="12.26.jpg">
+             <graphic url="12.24.jpg">
                  <desc/>
              </graphic>
      </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="interpretive" xml:space="preserve">
+                    <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                        <lb n="1"></lb>+ QVI <w><seg type="phoneme" subtype="j_initial">I</seg>ordaniello</w>ASE MADON
+                            <lb n="2"></lb>A DORATEA DA VER
+                            <lb n="3"></lb><seg type="grapheme" corresp="/ts/">Z</seg>ELI HOSPITALER
+                            <lb n="4"></lb>A DELO ISPITALE DE
+                         <lb n="5"></lb>SANTA CICILIA DE SI
+                    <lb n="6"></lb>TE&lt;N&gt;BRE DIE XXVI MCCCCLXXXX
                 </ab>
             </div>
-            <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <ab>
-                    <lb n="1" />
-                </ab>
-            </div>
-            <div type="commentary" subtype="linguistic_analysis">
-                <p/>
+                 <div type="edition" subtype="diplomatic" xml:space="preserve">
+                        <ab><lb n="1"></lb>QVI IASEMADON
+                            <lb n="2"></lb>A DORATEADAVER
+                            <lb n="3"></lb>ZELIHOSPITALER
+                            <lb n="4"></lb>ADELOISPETALEDE
+                                <lb n="5"></lb>SANTACICILIADESI
+                                    <lb n="6"></lb>TEBREDIExxviMcccclxxxx
+                        </ab>
+                    </div>
+               <div type="commentary" subtype="linguistic_analysis">
+                <p>SI notino lo /J/ in posizione iniziale in 'IASE', gli scempiamenti sistematici delle consonanti intense, l'apertura in protonia in 'DORATEA', e l'assibilazione in VERZELI, tutti fenomeni tipici del volgare di provenienza della defunta.</p>
             </div>
             <div type="commentary" subtype="note">La donna, vercellese, si trovò a morire nello spedale di Santa Cecilia, ed è possibile - vista la patina linguistica decisamente settentrionale del testo - che i suoi familiari abbiano consegnato il testo commemorativo al lapicida. Nella Basilica di santa Cecilia è sepolto anche il vescovo di Londra, Adam Easton, morto nel 1348 a Trastevere, dove si trovava una casa per pellegrini inglesi, in seguito spostata a via Monserrato.
                 <p/>

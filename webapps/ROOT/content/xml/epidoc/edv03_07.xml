@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GIUDIZIO UNIVERSALE </title>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
+                <editor role="edition"><persName >CATALOGO BENI CULTURALI</persName></editor>
+                <editor role="commentary"><persName /></editor>
+                <editor role="encoding"><persName /></editor>
+                <editor role="images"><persName ></persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphic Database Vernacular</authority>
+                <idno type="filename">03.07</idno>
+                <date when="2026-02-21" />
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>Gravedona</placeName>
+                        <district ref="#TO">CO</district>
+                        <repository>Chiesa di Santa Maria del Tiglio</repository>
+                        <idno type="invNo" />
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
+                        </summary>
+                        <textLang mainLang="frm" otherLangs="xset">Volgare settentrionale, latino</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material ref="#plaster">Intonaco</material>
+                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <dimensions><height /> <width /></dimensions>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><region ref="#lombardia">Lombardia</region></origPlace>
+                             <origDate notBefore="1326" notAfter="1350">1326-1350</origDate>
+                        </origin>
+                        <provenance type="observed" when="2026" resp="Nadia Cannata" />
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="00.jpeg">
+             <desc />
+         </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="interpretive" xml:space="preserve">
+                <ab>
+                    <lb n="1" ></lb>PACIENTIA: GRANDE PACIENTIA HIO PORTAVA PER FA CHE L'ARMA SIA SALVADA
+                    <lb n="2"></lb>AVARIXIA: PER L'AVARITIA (...)ME OR SON PERDUTA
+                </ab>
+            </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <ab>
+                    <lb n="1" />
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><app loc="1"><note /></app></p>
+            </div>
+            <div type="commentary" subtype="linguistic_analysis">
+                <p >Si rilevano la resa con il grafema &lt;CI&gt; dell'assibilata, possibilmente lenita in /s/; la sonorizzazione della dentale intervocalica, l'incertezza grafica in 'avaritia', con l'originario 'ti' latino che ha dato esito probabilmente ad una sibilante intensa /ss/; tutti tratti riconducibili al volgare locale.</p>
+            </div>
+            <div type="commentary" subtype="note">
+                <p>L'affresco, lacunoso nel registro inferiore mostra salvati e dannati e contiene cartigli esplicativi delle scene. Al momento pubblichiamo il testo del  
+                    cartiglio della quarta figura del penultimo registro inferiore e, a seguire, quello sul cartiglio della penultima figura a destra, dall'edizione fornita nel Catalogo dei Beni Culturali del MIBACT, consultabile al seguente link https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0300208640-0. Anche questi affreschi mostrano una importante simiglianza con le raffigurazioni dell’Inferno, o del Giudizio Universale sparse lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_06">11.06</ref>, <ref target="edv11_14">11.14</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>, <ref target="edv14_09">14.09</ref>, <ref target="edv15_01">15.01</ref>, <ref target="edv16_03">16.03</ref>).</p>
+            </div>
+            <div type="bibliography">
+                <p xml:id="editions" >https://catalogo.beniculturali.it.</p>
+                <p xml:id="other" />
+                <p xml:id="images" />
+            </div>
+        </body>
+    </text>
+</TEI>
