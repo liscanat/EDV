@@ -5,16 +5,16 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>TRIONFO DELLA MORTE INCONTRO DEI VIVI E DEI MORTI, DANZA MACABRA</title>
-                <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
+                <title>BATESTINUS E SIMON, AFFRESCO DELL’OMO SALVADEGO</title>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName >Luna Cacchioli</persName></editor>
+                <editor role="commentary"><persName >Nadia Cannata</persName></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">03.04</idno>
+                <idno type="filename">03.03</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Clusone</placeName>
-                        <district ref="#BG">BG</district>
-                        <repository>Chiesa dei Disciplini</repository>
+                        <placeName>Gerola</placeName>
+                        <district ref="#SO">SO</district>
+                        <repository>Contrada Pirondini</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#lombardia">Lombardia</region></origPlace>
-                            <origDate when="1485">1485</origDate>
+                            <origDate when="1464">1464</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="03.04.jpeg">
+         <graphic url="03.03.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’affresco, di cui resta ignoto l’autore, è conservato sulla facciata esterna della chiesetta dei Disciplini a Clusone e datato 1485. La rappresentazione, accompagnata da un ampio e complesso corredo di didascalie volgari entro cartigli, è divisa in due registri: quello superiore vede rappresentato il <title>Trionfo della Morte</title>, quello inferiore propone invece la <title>Danza Macabra</title>. Analoghe raffigurazioni sul tema sono sparse lungo tutta la penisola (v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_06">11.06</ref>, <ref target="edv11_14">11.14</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>, <ref target="edv14_09">14.09</ref>, <ref target="edv15_01">15.01</ref>, <ref target="edv16_03">16.03</ref>).</p>
+                <p>L’iscrizione, posta all’interno di un cartiglio, identifica il personaggio, barbuto e peloso: “Ego sonto un homo salvadego per natura, chi me ofende ge fo pagura”. L’omo selvadego è una figura archetipica della cultura alpina. Accanto altre sentenze iscritte in cartigli.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">SUITNER 1983, p. 197; FORTE 1997, pp. 393-410; OGGIONNI 1997, pp. 411-417; PREVITALI 1997, pp.315-330; SCANDELLA 1997, pp. 387-392; ZACCARIA-DANIA 1997, pp. 331-386; FRUGONI-FACCHINETTI 2016.</p>
-                <p xml:id="images">FORTE 1997, fig. 2-19; ZACCARIA-DANIA 1997, tav. 1-16; FRUGONI-FACCHINETTI 2016.</p>
+                <p xml:id="other" >https://portedivaltellina.it/museo-dellhomo-selvadego/</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>

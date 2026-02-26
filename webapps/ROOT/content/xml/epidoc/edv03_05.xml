@@ -5,17 +5,17 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>GIOVANNI DI AVERARA, PIETÀ</title>
-                <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
-                <editor role="edition"><persName /></editor>
+                <title>LIMBO, INFERNO, PUGATORIO, PARADISO E SCENE DELL’ALDILÀ E ALBERO DEL MALE, MANDELLO LARIO</title>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
+                <editor role="edition"><persName >CATALOGO BENI CULTURALI</persName></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
-                <editor role="images"><persName /></editor>
+                <editor role="images"><persName ></persName></editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">03.05</idno>
-                <date when="2020-02-21" />
+                <idno type="filename">03.07</idno>
+                <date when="2026-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
                 </availability>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>San Giovanni Bianco</placeName>
-                        <district ref="#BG">BG</district>
-                        <repository>Casa Busi-Volpi</repository>
+                        <placeName>Gravedona</placeName>
+                        <district ref="#TO">CO</district>
+                        <repository>Chiesa di Santa Maria del Tiglio</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
+                        <textLang mainLang="frm" otherLangs="xset">Volgare settentrionale, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,16 +52,16 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#lombardia">Lombardia</region></origPlace>
-                            <origDate when="1486">1486</origDate>
+                             <origDate notBefore="1326" notAfter="1350">1326-1350</origDate>
                         </origin>
-                        <provenance type="observed" when="2020" resp="Nadia Cannata" />
+                        <provenance type="observed" when="2026" resp="Nadia Cannata" />
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="03.05.jpeg">
+         <graphic url="00.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -69,7 +69,8 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" ></lb>PACIENTIA: GRANDE PACIENTIA HIO PORTAVA PER FA CHE L'ARMA SIA SALVADA
+                    <lb n="2"></lb>AVARIXIA: PER L'AVARITIA (...)ME OR SON PERDUTA
                 </ab>
             </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -81,15 +82,15 @@
                 <p><app loc="1"><note /></app></p>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
-                <p />
+                <p ></p>
             </div>
             <div type="commentary" subtype="note">
-                <p>L’orazione latina (ma riprodotta con vari gradi di volgarizzazione) <title>O domine Iesu Christe, adoro te in cruce pendentem</title>, antichissima preghiera settentrionale di epoca forse carolingia composta per la cerimonia dell’<title>Adoratio crucis</title> del venerdì santo, è posta a corredo dell’immagine del <title>Christus patiens</title>, che compare in diverse iscrizioni (in Italia settentrionale, meridionale e centrale: <ref target="edv02_05">02.05</ref>, <ref target="edv03_01">03.01</ref>, <ref target="edv03_05">03.05</ref>, <ref target="edv03_06">03.06</ref>, <ref target="edv05_049">05.049</ref>, <ref target="edv07_23">07.23</ref>, <ref target="edv09_21">09.21</ref>, <ref target="edv09_38">09.38</ref>) talvolta associata anche all’iconografia della Messa di san Gregorio (v. <ref target="edv09_38">09.38</ref>, <ref target="edv17_14">17.14</ref>).</p>
+                <p>La chiesetta contiene un ciclo di affreschi databili 1475-1485, che ne ricopre le pareti, l’arco trionfale e il presbiterio, raffiguranti Limbo, Inferno, Purgatorio e Paradiso, corredate in origine da un formidabile apparato di iscrizioni, oltre un centnaio, in latino e in volgare. Particolarmente interessanti i cartigli che identificano i peccatori raffigurati sull’albero del male, che ricordano analoghe raffigurazioni distribuite lungo tutta la penisola v. nn. <ref target="edv02_12">02.12</ref>, <ref target="edv02_13">02.13</ref>, <ref target="edv03_04">03.04</ref>, <ref target="edv07_22">07.22</ref>, <ref target="edv08_033">08.033</ref>, <ref target="edv08_041">08.041</ref>, <ref target="edv08_045">08.045</ref>, <ref target="edv08_054">08.054</ref>, <ref target="edv08_074">08.074</ref>, <ref target="edv09_32">09.32</ref>, <ref target="edv10_44">10.44</ref>, <ref target="edv11_04">11.04</ref>, <ref target="edv11_06">11.06</ref>, <ref target="edv11_14">11.14</ref>, <ref target="edv11_16">11.16</ref>, <ref target="edv11_17">11.17</ref>, <ref target="edv11_28">11.28</ref>, <ref target="edv11_29">11.29</ref>, <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>, <ref target="edv14_09">14.09</ref>, <ref target="edv15_01">15.01</ref>, <ref target="edv16_03">16.03</ref>). “Si tratta, in effetti, di un gigantesco «fumetto» o «striscia» […], concepito ed eseguito secondo un articolato piano, di straordinaria efficacia didattica e di grande suggestione emotiva: di tutta quella molteplicità di iscrizione, oggi resta leggibile solo una piccola percentuale.” (ZASTROW 1984) (</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other">PITTORI BERGAMASCHI 1986, PP. 448-449; CIOCIOLA 1989, 84-91, CANNATA 2018, 69-75</p>
-                <p xml:id="images">PITTORI BERGAMASCHI 1986, figg. pp. 478-449.</p>
+                <p xml:id="editions" >https://catalogo.beniculturali.it.</p>
+                <p xml:id="other" />
+                <p xml:id="images" />
             </div>
         </body>
     </text>

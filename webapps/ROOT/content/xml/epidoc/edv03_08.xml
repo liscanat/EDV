@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LASTRA DI NANNE E BONIFACIO GOZZADINI</title>
-                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
+                <title>FEDERICO TEDESCO, IL SALVATORE SORGENTE DAL SEPOLCRO</title>
+                <editor role="data_collection"><persName >Nadia Cannata</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">07.18</idno>
+                <idno type="filename">03.06</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Bologna</placeName>
-                        <district ref="#BO">BO</district>
-                        <repository>Santa Maria dei Servi</repository>
+                        <placeName>Cremona</placeName>
+                        <district ref="#CR">CR</district>
+                        <repository>Comune di Cremona</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang mainLang="xfr" otherLangs="">Francese</textLang>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -51,8 +51,8 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate notBefore="1406" notAfter="1426" precision="low">1416 ca.</origDate>
+                            <origPlace><region ref="#lombardia">Lombardia</region></origPlace>
+                            <origDate notBefore="1401" notAfter="1500">XV</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.18.jpeg">
+         <graphic url="03.06.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si trova all’interno della cappella dedicata a Sant’Andrea, la quarta di sinistra, di proprietà della famiglia Gozzadini e ricorda i figli di Gabione, Bonifacio e Nanne. L’iscrizione si trovava originariamente a pavimento di fronte alla cappella di Sant’Anna e successivamente è stata collocata dalla parte opposta, davanti all’altare di Santa Maria delle Spade. La collocazione attuale risale alla seconda metà del Settecento.</p><p>EDV registra 12 iscrizioni in francese, presenti in Piemonte e Valle d'Aosta, come prevedibile, v. <ref target="edv02_03">02.03</ref>, <ref target="edv02_04">02.04</ref>, <ref target="edv02_06">02.06</ref>, <ref target="edv02_07">02.07</ref>, <ref target="edv02_13">02.13</ref>, ma anche in Lombardia <ref target="edv03_03">03.03</ref>, Veneto <ref target="edv05_002">05.002</ref>, <ref target="edv05_058">05.058</ref>, e <ref target="edv05_099">05.099</ref>, a Bologna <ref target="edv07_18">07.18</ref>, a Foligno, a Palazzo Trinci <ref target="edv09_17">09.17</ref> e a Napoli <ref target="edv14_04">14.04</ref> </p>
+                <p>L’immagine del Cristo in Pietà si inserisce in una tradizione consolidata in Italia settentrionale, meridionale e centrale (v. nn. <ref target="edv02_05">02.05</ref>, <ref target="edv03_01">03.01</ref>, <ref target="edv03_05">03.05</ref>, <ref target="edv05_049">05.049</ref>, <ref target="edv07_23">07.23</ref>, <ref target="edv09_38">09.38</ref>) talvolta associata anche all’iconografia della Messa di san Gregorio (v. <ref target="edv09_38">09.38</ref>, <ref target="edv17_14">17.14</ref>), ed è talvolta associata all’iconografia della Messa di san Gregorio o ad una lauda in latino o in volgare. Qui, come in 17.14 la didascalia elenca le indulgenze che si possono guadagnare dalla visita e devozione all’immagine.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">ROVERSI 1982, pp. 364-365, nr. 1 (a cui si rimanda per la bibliografia precedente che non si è potuta reperire né consultare); BREVEGLIERI 1993, pp. 248-250, n. 52.</p>
-                <p xml:id="images" />
+                <p xml:id="other">CIOCIOLA 1989, 84-91, CANNATA 2018, 69-75</p>
+                <p xml:id="images">Si ringrazia il museo cremonese per avere fornito copia della riproduzione, e il prof. Giacomo Verri che dci ha segnalato l'iscrizione.</p>
             </div>
         </body>
     </text>
