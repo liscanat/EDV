@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CORASSO E BACCARETO</title>
+                <title>ISBRIGHATO DA PECOLI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">08.012</idno>
+                <idno type="filename">08.013</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Chiesa dei ss. Cosma e Damiano</repository>
+                        <placeName>Lucca</placeName>
+                        <district ref="#LU">LU</district>
+                        <repository>Chiesetta di san Michele in Escheto</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.12.jpeg">
+         <graphic url="08.13.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Le due iscrizioni sono incise sui fianchi di un sarcofago romano a cassa rettangolare del secolo III d. C. riutilizzato nel corso del XIII secolo da due famiglie pisane quale depositorio funebre, oggi conservato nella Galleria C (esterno, C 6 est) del Camposanto di Pisa. La scritta di sinistra è dedicata a Giovanni Baccareto ed eredi mentre quella di destra a Ricco Corasso ed eredi.</p>
+                <p>L’iscrizione, collocata sulla parete esterna meridionale della Chiesa di San Michele in Escheto, deve essere stata eseguita in tutta fretta dai cascinesi, in fuga dai nemici lucchesi durante un’incursione volta a distruggere il campanile a lato della chiesa, quale vendetta alla distruzione dei lucchesi di una torre in Cascina. A porre la firma è Isbrigato da Peccioli, popolo a sud-est di Cascina.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">ARIAS-CRISTIANI-GABBA 1977, pp. 130-132; STUSSI 1997, pp. 161-162.</p>
+                <p xml:id="editions" />
                 <p xml:id="other" />
-                <p xml:id="images">ARIAS-CRISTIANI-GABBA 1977, tavv. 149-150; STUSSI 1997, fig. 15-16.</p>
+                <p xml:id="images">STUSSI 1997, fig. 43; AMMANNATI 2011</p>
             </div>
         </body>
     </text>

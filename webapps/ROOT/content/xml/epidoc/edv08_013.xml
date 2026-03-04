@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISBRIGHATO DA PECOLI</title>
+                <title>ISCRIZIONE VIA VERRAZZANO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -14,7 +14,7 @@
             </titleStmt>
             <publicationStmt>
                 <authority>Epigraphic Database Vernacular</authority>
-                <idno type="filename">08.013</idno>
+                <idno type="filename">08.011</idno>
                 <date when="2020-02-21" />
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License.</licence>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Lucca</placeName>
-                        <district ref="#LU">LU</district>
-                        <repository>Chiesetta di san Michele in Escheto</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>via Verrazzano 6r/8r</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -46,13 +46,13 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#capital">Capitale</term></handNote>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1201" notAfter="1300">XIII</origDate>
+                            <origDate when="1300">1300</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.13.jpeg">
+         <graphic url="08.11.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione, collocata sulla parete esterna meridionale della Chiesa di San Michele in Escheto, deve essere stata eseguita in tutta fretta dai cascinesi, in fuga dai nemici lucchesi durante un’incursione volta a distruggere il campanile a lato della chiesa, quale vendetta alla distruzione dei lucchesi di una torre in Cascina. A porre la firma è Isbrigato da Peccioli, popolo a sud-est di Cascina.</p>
+                <p>La lastra, ricordata verso la metà del Seicento su una casa dei Barberini, si trova attualmente sulla parete di una casa in Via Giovanni da Verrazzano (già nota come Via della Fogna) ai numeri 6r/8r. L’epigrafe fu posta nel 1300 a ricordo del viaggio che un certo Ugolino aveva fatto a Roma con la moglie, in occasione del Giubileo, indetto per la prima volta da papa Bonifacio VIII.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
-                <p xml:id="other" />
-                <p xml:id="images">STUSSI 1997, fig. 43; AMMANNATI 2011</p>
+                <p xml:id="editions">MANNI 1750, p. 11; MANNI 1739-1786, vol. XXX, p. 97; BIGAZZI 1886, pp. 239-240; NICCOLAI 1995, p. 62 (parziale); MALQUORI 2005, pp. 44-45, n. 24 (ed. parziale); GIANNARELLI-PELLIS 2006, pp. 147-148; INVERNIZI-LUNARDI-SABBATINI 2007, vol I, pp. 212-2213, n. 187; GRAMIGNI 2012, pp. 239-342, n. 36.</p>
+                <p xml:id="other">NICCOLAI 1995, p. 62; CARDINI 2001a, pp. 70-82.</p>
+                <p xml:id="images">MALQUORI 2005, p. 45; GIANNARELLI-PELLIS 2006, p. 148; GRAMIGNI 2012, p. 239, fig. 80.</p>
             </div>
         </body>
     </text>
