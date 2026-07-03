@@ -51,7 +51,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><region ref="#abruzzi">Abruzzi</region></origPlace>
+                            <origPlace><region ref="#abruzzo">Abruzzo</region></origPlace>
                             <origDate notBefore="1405" notAfter="1425" precision="low">1415 ca.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
