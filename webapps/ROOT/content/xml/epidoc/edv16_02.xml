@@ -22,9 +22,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>?</placeName>
-                        <district ref="#unknown">unknown</district>
-                        <repository />
+                        <placeName>Barletta</placeName>
+                        <district ref="#BAT">BAT</district>
+                        <repository >Chiesa di santa Maria Maggiore</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
