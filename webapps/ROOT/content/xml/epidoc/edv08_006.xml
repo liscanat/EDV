@@ -7,9 +7,9 @@
             <titleStmt>
                 <title>RICORDO D’IMPRESE PISANE</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
-                <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
-                <editor role="encoding"><persName /></editor>
+                <editor role="edition"><persName ></persName></editor>
+                <editor role="commentary"><persName >Luna Cacchioli</persName></editor>
+                <editor role="encoding"><persName >Nadia Cannata</persName></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
             <publicationStmt>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate>post 1246</origDate>
+                            <origDate>1246 post</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
