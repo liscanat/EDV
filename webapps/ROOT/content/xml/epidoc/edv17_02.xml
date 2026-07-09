@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
+                                    <material ref="#" >Legno</material>
                                     <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Le figure nella tavola sono accompagnate da didascalie identificative. Santa Rosalia è identificata con il volgareggiante RVSALIA</p>
+                <p>Le figure nella tavola sono accompagnate da didascalie identificative. Santa Rosalia è identificata come RVSALIA, forma forse ipercorretta?</p>
             </div>
             <div type="bibliography"><p>Sopralluogo</p>
                 <p xml:id="editions" />
