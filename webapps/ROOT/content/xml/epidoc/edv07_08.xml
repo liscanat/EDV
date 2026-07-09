@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>COSTRUZIONE DI UN TRATTO DI MURA</title>
+                <title>MONUMENTO FUNEBRE DI GIOVANNI DI FRANCESCO DEGLI OREFICI</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,13 +25,13 @@
                     <msIdentifier>
                         <placeName>Bologna</placeName>
                         <district ref="#BO">BO</district>
-                        <repository>Museo Lapidario (già Cappella Di San Cataldo)</repository>
+                        <repository>Complesso di Santo Stefano</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#memorial">Commemorativa</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
                         <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
                     </msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate notBefore="1340" notAfter="1360">1340-1360</origDate>
+                            <origDate when="1372">1372</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.08.jpeg">
+         <graphic url="07.09.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lapide ricorda la costruzione di un tratto delle mura da parte della cappella di San Tommaso della Braina e probabilmente si riferisce alle cortine della terza cerchia murata.</p>
+                <p>L’iscrizione ricorda i defunti Giovanni di Francesco degli Orefici, di professione merciaio, e sua moglie Gexia. La lastra tombale proviene dalla cappella della Benda da cui venne spostata in seguito ai restauri del 1878 per essere collocata nella chiesa della Ss. Trinità, di fronte alla cappella laterale di destra.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">ROVERSI 1985 (sulle mura di Bologna); BREVEGLIERI 1989, pp. 420-422; BREVEGLIERI 1997, p. 81.</p>
-                <p xml:id="images" />
+                <p xml:id="other">ROVERSI 1982, pp. 151-152, n. 22 (a cui si rimanda per la precedente bibliografia manoscritta che non è stato possibile consultare).</p>
+                <p xml:id="images">ROVERSI 1982, p. 186.</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DI BENVENUTO (1)</title>
+                <title>ISCRIZIONE DI BENVENUTO (2)</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Vigolzone</placeName>
+                        <placeName>Piacenza</placeName>
                         <district ref="#PC">PC</district>
-                        <repository>Castello</repository>
+                        <repository>Museo Civico (già al Castello di Montechiaro)</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#admonition">Monito</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                        <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate when="1330">1330</origDate>
+                            <origDate notBefore="1301" notAfter="1350">XIV in.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.05.jpeg">
+         <graphic url="07.06.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Nell’iscrizione si ricorda, in latino, la data di costruzione del castro di Bernardo Anguissola, capitano e consigliere personale di Galeazzo Visconti. Nelle ultime due righe e in modulo minore è incisa la didascalia in volgare, una formula di benvenuto.</p>
+                <p>L’epigrafe in questione ornava la porta del castello di Montechiaro piacentino ed è conservata nel Museo Civico di Piacenza. Si tratta di un rilievo che riproduce immagini di vita cortese e vi si trovano raffigurati sulla destra i castellani Anguissola – famosi per la loro ospitalità – nell’atto di accogliere cinque personaggi in arrivo, a cui rivolgono l’invito in volgare posto nel cartiglio soprastante.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">MAGGI-ARTOCCHINI 1967, pp. 434-439; ARTOCCHINI 1983, p. 324-328 (entrambe le pubblicazioni riguardano Vigolzone e il suo castello); STUSSI 1997, p. 174.</p>
-                <p xml:id="images">STUSSI 1997, fig. 51.</p>
+                <p xml:id="other">ARISI 1960, pp. 146-147, nr. 191 (a cui si rimanda per la bibliografia precedente); PRONTI 1988, pp. 145-146 n. 117 (con bibliografia precedente); STUSSI 1997, p. 174; PRONTI 1988, pp. 145-146 n. 117.</p>
+                <p xml:id="images">ARISI 1960, p. 146, Ill. 36; PRONTI 1988, p. 146; STUSSI 1997, fig. 50.</p>
             </div>
         </body>
     </text>

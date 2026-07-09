@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LASTRA DELLA CARTA BAMBAGINA</title>
+                <title>ISCRIZIONE DEL MONUMENTO FUNEBRE DI PRENDIPARTE PICO</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,17 +23,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Bologna</placeName>
-                        <district ref="#BO">BO</district>
-                        <repository>Museo Civico Medievale (già chiesa di santa Margherita)</repository>
+                        <placeName>Mirandola</placeName>
+                        <district ref="#MO">MO</district>
+                        <repository>Chiesa di san Francesco</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#normative">Normativa</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
+                        <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate when="1389">1389</origDate>
+                            <origDate when="1394">1394</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.11.jpeg">
+         <graphic url="07.12.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lapide fornisce le misure a cui dovevano attenersi i fabbricanti locali di carta, come informa lo statuto del 1389 che li riferisce ad una lapide esposta nel muro del palazzo pubblico, insieme ad altre misure-campione utilizzate in città. Questa lapide non è quella ‘ufficiale’ ma era probabilmente murata nell’edificio di via Accuse, nella sede, oggi scomparsa, della Corporazione degli Speziali, forse prodotta ad uso interno. Si trova oggi conservata presso il Museo Civico di Bologna</p>
+                <p>La lapide si trova nella parete laterale di sinistra, tra il monumento funebre stesso e l’iscrizione funeraria in latino. In origine le lastre e il monumento si trovavano nella prima cappella entrando sulla destra da cui furono poi spostati e, prima di essere colcati nella loro attuale posizione, furono esposti nel museo di Modena</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">GALLO 1942, pp. 50-62 (per la una sintesi sulla storia della carta); GASPARINETTI 1963 (sulla storia della fabbricazione della carta in Emilia); BREVEGLIERI 1986, pp. 66-67 (dal punto di vista paleografico); BREVEGLIERI 1997, p. 86.</p>
-                <p xml:id="images">GALLO 1942, p. 53; GASPARINETTI 1963, su pagina non numerata tra le pp. 14-15); BREVEGLIERI 1997, fig. 23.</p>
+                <p xml:id="other">WOLTERS 1976, I, pp. 212-213, cat. 135.; STUSSI 1997, p. 160; GRAZIANI 2102-2013, pp. 134-137, scheda AI.</p>
+                <p xml:id="images">WOLTERS 1976, II, fig. 396; GRAZIANI 2102-2013, pp. 130.</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DEL MONUMENTO FUNEBRE DI PRENDIPARTE PICO</title>
+                <title>LIPPO DI DALMASIO, INCORONAZIONE DELLA VERGINE</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Mirandola</placeName>
-                        <district ref="#MO">MO</district>
-                        <repository>Chiesa di san Francesco</repository>
+                        <placeName>Bologna</placeName>
+                        <district ref="#BO">BO</district>
+                        <repository>Pinacoteca Nazionale</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -33,14 +33,14 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
+                        <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.12.jpeg">
+         <graphic url="07.13.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lapide si trova nella parete laterale di sinistra, tra il monumento funebre stesso e l’iscrizione funeraria in latino. In origine le lastre e il monumento si trovavano nella prima cappella entrando sulla destra da cui furono poi spostati e, prima di essere colcati nella loro attuale posizione, furono esposti nel museo di Modena</p>
+                <p>L’iscrizione è inserita nella parte bassa del dipinto raffigurante l’Incoronazione della Vergine, e ricorda che la tavola è stata dipinta da Lippo di Dalmasio il 24 aprile 1394 su commissione di Rodolfo de Lambertini. Non si conosce la provenienza originaria del pezzo, forse da collegare al periodo in cui Lippo era impegnato in San Petronio.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">WOLTERS 1976, I, pp. 212-213, cat. 135.; STUSSI 1997, p. 160; GRAZIANI 2102-2013, pp. 134-137, scheda AI.</p>
-                <p xml:id="images">WOLTERS 1976, II, fig. 396; GRAZIANI 2102-2013, pp. 130.</p>
+                <p xml:id="other" />
+                <p xml:id="images">Pinacoteca nazionale di Bologna 2004, p. 161.</p>
             </div>
         </body>
     </text>

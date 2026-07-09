@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>COSTRUZIONE DEL CAMPANILE</title>
+                <title>LASTRA SEPOLCRALE DI MATTEO DA COSTRINGANO</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,36 +23,36 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Bologna</placeName>
-                        <district ref="#BO">BO</district>
-                        <repository>Chiesa di san Donnino</repository>
+                        <placeName>Modena</placeName>
+                        <district ref="#MO">MO</district>
+                        <repository>Museo Lapidario Estense</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#memorial">Commemorativa</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
-                        <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
+                        <textLang mainLang="xvnz" otherLangs="la">Volgare veneziano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#terracotta">Terracotta</material>
-                                    <objectType ref="#artifact">Artefatto</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#gothic">Gotica</term></handNote>
+                            <handNote><term ref="#capital">Capitale</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate when="1399">1399</origDate>
+                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.15.jpeg">
+         <graphic url="07.01.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Nell’iscrizione viene ricordata l’edificazione del campanile della Chiesa di San Donnino, il 10 dicembre del 1399 mentre era rettore della chiesa Bartolomio da Mançolino, ad opera del capomastro Dino de Domenego e del manovale Tonio de Charixe.</p>
+                <p>La lastra informa circa la sepoltura di Matteo da Costrignano e dei suoi eredi. Proviene dalla chiesa modenese di San Francesco ed è oggi conservata presso il transetto nord (129), inventariata con il numero 7311.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">FANTI 1964 (sulla chiesa di san Donnino);129 BREVEGLIERI 1997, pp. 83-85. Riproduzioni: BREVEGLIERI 1997, fig. 22.</p>
-                <p xml:id="images" />
+                <p xml:id="other" />
+                <p xml:id="images">GIORDANI-PAOLOZZI STROZZI 2005, p. 390, n. 129.</p>
             </div>
         </body>
     </text>

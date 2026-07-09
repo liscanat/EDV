@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>COSTRUZIONE DI UN BATTIFREDO</title>
+                <title>COSTRUZIONE DI UN TRATTO DI MURA</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
-                        <textLang mainLang="xvnz" otherLangs="la">Volgare veneziano, latino</textLang>
+                        <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.07.jpeg">
+         <graphic url="07.08.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Si tratta di una lapide commemorativa della costruzione di un battifredo, ovvero una torre difensiva. La lastra, rinvenuta nel 1903, proviene dalle mura della terza cerchia presso Porta Castiglione. Nonostante l’inizio della costruzione a cui si riferisce l’iscrizione risalga al XIII, l’epigrafe è databile su base paleografica alla metà del Trecento.</p>
+                <p>La lapide ricorda la costruzione di un tratto delle mura da parte della cappella di San Tommaso della Braina e probabilmente si riferisce alle cortine della terza cerchia murata.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">PINCELLI 1960, p. 217, scheda 17-18a; ROVERSI 1985 (sulle mura di Bologna); BREVEGLIERI 1989, pp. 420-422; BREVEGLIERI 1997, p. 81.</p>
-                <p xml:id="images">BREVEGLIERI 1997, fig. 20.</p>
+                <p xml:id="other">ROVERSI 1985 (sulle mura di Bologna); BREVEGLIERI 1989, pp. 420-422; BREVEGLIERI 1997, p. 81.</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>

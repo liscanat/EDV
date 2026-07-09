@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DEL CAMPANILE DI SANTA MARGHERITA</title>
+                <title>LASTRA DELLA CARTA BAMBAGINA</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -31,7 +31,7 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#memorial">Commemorativa</term>
+                            <term type="textType" ref="#normative">Normativa</term>
                         </summary>
                         <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
                     </msContents>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.10.jpeg">
+         <graphic url="07.11.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Si tratta di una lapide commemorativa della costruzione del campanile di Santa Margherita, demolito nel 1828. Si trova oggi conservata presso il Museo Civico Medievale di Bologna</p>
+                <p>La lapide fornisce le misure a cui dovevano attenersi i fabbricanti locali di carta, come informa lo statuto del 1389 che li riferisce ad una lapide esposta nel muro del palazzo pubblico, insieme ad altre misure-campione utilizzate in città. Questa lapide non è quella ‘ufficiale’ ma era probabilmente murata nell’edificio di via Accuse, nella sede, oggi scomparsa, della Corporazione degli Speziali, forse prodotta ad uso interno. Si trova oggi conservata presso il Museo Civico di Bologna</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">PINCELLI 1960, pp. 216-217, n. 16; BREVEGLIERI 1986, p. 61, n. 135 (dal punto di vista paleografico); BREVEGLIERI 1997, pp. 82-83.</p>
-                <p xml:id="images">PINCELLI 1960, tav. 24, fig. 4; BREVEGLIERI 1997, fig. 21.</p>
+                <p xml:id="other">GALLO 1942, pp. 50-62 (per la una sintesi sulla storia della carta); GASPARINETTI 1963 (sulla storia della fabbricazione della carta in Emilia); BREVEGLIERI 1986, pp. 66-67 (dal punto di vista paleografico); BREVEGLIERI 1997, p. 86.</p>
+                <p xml:id="images">GALLO 1942, p. 53; GASPARINETTI 1963, su pagina non numerata tra le pp. 14-15); BREVEGLIERI 1997, fig. 23.</p>
             </div>
         </body>
     </text>

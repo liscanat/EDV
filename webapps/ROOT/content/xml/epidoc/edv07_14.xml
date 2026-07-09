@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLCRO DI FRANCESCO RONCAGLIA E EREDI</title>
+                <title>COSTRUZIONE DEL CAMPANILE</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Modena</placeName>
-                        <district ref="#MO">MO</district>
-                        <repository>Museo lapidario Estense</repository>
+                        <placeName>Bologna</placeName>
+                        <district ref="#BO">BO</district>
+                        <repository>Chiesa di san Donnino</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
                         <textLang mainLang="xset" otherLangs="la">Volgare settentrionale, latino</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#terracotta">Terracotta</material>
+                                    <objectType ref="#artifact">Artefatto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate when="1396">1396</origDate>
+                            <origDate when="1399">1399</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.14.jpeg">
+         <graphic url="07.15.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,11 +84,11 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si trovava originariamente sul sagrato del duomo di Modena ed è ora collocata nell’area nord del Chiostro del Museo Lapidario Estense. Uno stemma posto al centro divide l’iscrizione in due parti: nella parte sinistra in latino sono enucleati gli elementi circostanziali mentre nell’altra parte in volgare viene inciso un. appello al viandante.</p>
+                <p>Nell’iscrizione viene ricordata l’edificazione del campanile della Chiesa di San Donnino, il 10 dicembre del 1399 mentre era rettore della chiesa Bartolomio da Mançolino, ad opera del capomastro Dino de Domenego e del manovale Tonio de Charixe.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other" />
+                <p xml:id="other">FANTI 1964 (sulla chiesa di san Donnino);129 BREVEGLIERI 1997, pp. 83-85. Riproduzioni: BREVEGLIERI 1997, fig. 22.</p>
                 <p xml:id="images" />
             </div>
         </body>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LASTRA SEPOLCRALE DI MATTEO DA COSTRINGANO</title>
+                <title>MATTONI DI SAN GIULIANO</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,36 +23,36 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Modena</placeName>
-                        <district ref="#MO">MO</district>
-                        <repository>Museo Lapidario Estense</repository>
+                        <placeName>Rimini</placeName>
+                        <district ref="#RN">RN</district>
+                        <repository>Museo Comunale</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textType" ref="#memorial">Commemorativa</term>
                         </summary>
-                        <textLang mainLang="xvnz" otherLangs="la">Volgare veneziano, latino</textLang>
+                        <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#terracotta">Terracotta</material>
+                                    <objectType ref="#artifact">Artefatto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><term ref="#capital">Capitale</term></handNote>
+                            <handNote><term ref="#gothic">Gotica</term></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
+                            <origDate when="1281">1281</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.01.jpeg">
+         <graphic url="07.02.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lastra informa circa la sepoltura di Matteo da Costrignano e dei suoi eredi. Proviene dalla chiesa modenese di San Francesco ed è oggi conservata presso il transetto nord (129), inventariata con il numero 7311.</p>
+                <p>L’iscrizione è conservata su due mattoni provenienti da una casa di Giuliano e Giuseppe Filippi in Borgo San Giuliano di Rimini (Piazzetta Padella) con la dichiarazione rimata di «dati cronici nel giro di quattro ottonovenari, appena mimetizzato dalla restituzione grafica di vocali finali caduche nel dialetto riminese» (STUSSI 1997). I mattoni sono pervenuti nel Museo di Rimini nel giugno del 1967</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other" />
-                <p xml:id="images">GIORDANI-PAOLOZZI STROZZI 2005, p. 390, n. 129.</p>
+                <p xml:id="other">PASINI 1998, p. 102, n. 9; TURCHINI 1992, pp. 367-369.</p>
+                <p xml:id="images">TURCHINI 1992, p. 368, fig. IV.3.8.</p>
             </div>
         </body>
     </text>

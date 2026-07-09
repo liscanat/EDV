@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLCRO PARIETALE DEI LIUZZI</title>
+                <title>ISCRIZIONE DI BENVENUTO (1)</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,17 +23,17 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Bologna</placeName>
-                        <district ref="#BO">BO</district>
-                        <repository>Bologna</repository>
+                        <placeName>Vigolzone</placeName>
+                        <district ref="#PC">PC</district>
+                        <repository>Castello</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#signature">Firma</term>
+                            <term type="textType" ref="#admonition">Monito</term>
                         </summary>
-                        <textLang mainLang="xset" otherLangs="">Volgare settentrionale</textLang>
+                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate when="1318">1318</origDate>
+                            <origDate when="1330">1330</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="07.04.jpeg">
+         <graphic url="07.05.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione si trova tuttora nel luogo del primo rinvenimento, sotto il portico della chiesa bolognese dei Ss. Vitale e Agricola. Il monumento fu eseguito in onore dei medici Lucio e Mondino de’ Liuzzi, per iniziativa del nipote. La firma in volgare di Rosso da Parma è posizionata sul listello superiore del frontale.</p>
+                <p>Nell’iscrizione si ricorda, in latino, la data di costruzione del castro di Bernardo Anguissola, capitano e consigliere personale di Galeazzo Visconti. Nelle ultime due righe e in modulo minore è incisa la didascalia in volgare, una formula di benvenuto.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
-                <p xml:id="other">GRANDI 1982, pp. 138-139, n. 20 (con ampia bibliografia precedente); BREVEGLIERI 1997, in part. pp. 79-80.</p>
-                <p xml:id="images">GRANDI 1982, p. 234, tav. 52, pag. 235, tav. 53, pag. 236, tav. 55, pag. 238, tav. 56; BREVEGLIERI 1997, fig. 19.</p>
+                <p xml:id="other">MAGGI-ARTOCCHINI 1967, pp. 434-439; ARTOCCHINI 1983, p. 324-328 (entrambe le pubblicazioni riguardano Vigolzone e il suo castello); STUSSI 1997, p. 174.</p>
+                <p xml:id="images">STUSSI 1997, fig. 51.</p>
             </div>
         </body>
     </text>
