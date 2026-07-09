@@ -54,7 +54,7 @@
                             <origPlace>
                                 <region ref="#roma">Roma</region> 
                             </origPlace>
-                            <origDate notBefore="1300" notAfter="1399" precision="low">XV</origDate>
+                            <origDate notBefore="1301" notAfter="1399" precision="low">XV</origDate>
                         </origin>
                         <provenance type="observed"/>
                       </history>

@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#sardegna">Sardegna</region></origPlace>
-                            <origDate>XIII?</origDate>
+                            <origDate>notBefore="1199" notAfter="1299">XIII</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
