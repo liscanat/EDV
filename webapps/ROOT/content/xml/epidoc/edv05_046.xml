@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#veneto">Veneto</region></origPlace>
-                            <origDate>1366-67</origDate>
+                            <origDate when="1366">1366</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
