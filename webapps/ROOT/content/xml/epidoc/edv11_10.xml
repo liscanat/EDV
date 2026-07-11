@@ -51,7 +51,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#lazio">Lazio</region></origPlace>
-                                    <origDate when="1400">XV in.</origDate>
+                                   <origDate notBefore="1401" notAfter="1450" precision="low">XV in.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>

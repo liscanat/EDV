@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#campania">Campania</region></origPlace>
-                                    <origDate notBefore="1400" notAfter="1499" precision="low">XV</origDate>
+                                    <origDate notBefore="1401" notAfter="1499" precision="low">XV</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>

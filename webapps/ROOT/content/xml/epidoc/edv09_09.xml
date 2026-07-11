@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#umbria">Umbria</region></origPlace>
-                            <origDate>when="1386">1386</origDate>
+                          <origDate when="1386">1386</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>

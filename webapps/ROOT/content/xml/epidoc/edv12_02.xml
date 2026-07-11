@@ -31,7 +31,7 @@
                             <msContents>
                                 <summary>
                                     <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#memorial">Iscrizione commemorativa</term>
+                                    <term type="textType" ref="#memorial">Normativa</term>
                                 </summary>
                                 <textLang mainLang="xvolg" otherLangs="Lat">Volgare, Latino</textLang>
                             </msContents>
@@ -70,7 +70,7 @@
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <ab>
                             <lb n="1"/>+De dono Dei et Sancti Marci
-                            <lb n="2"/>Iohannes presbiter fierogabit
+                            <lb n="2"/>Ego Iohannes presbiter fierogabit
                            <lb n="3"/>omnesitiente venite bevite ad aqua et si quis d&lt;e&gt; sta
                             <lb n="4"/>aqua pretio tuleri anathema sit
                         </ab>
