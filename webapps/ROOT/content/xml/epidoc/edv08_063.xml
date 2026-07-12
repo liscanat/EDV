@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI CECCHO GIUNTA E FRANCESCO DEL BUGLIATO</title>
+                <title>SEPOLTURA DI PIERO DI PUCCIARINO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.63.jpeg">
+         <graphic url="08.62.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 4-c) del Camposanto pisano.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 11-b) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions">BANTI 1998, p. 67, n. 61.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 21.</p>
+                <p xml:id="images">BANTI 1998, fig. 61.</p>
             </div>
         </body>
     </text>

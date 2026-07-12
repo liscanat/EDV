@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI AGOSTINO DI PUCCETTO ED EREDI</title>
+                <title>MARTINO DI BARTOLOMEO, MADONNA IN TRONO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <placeName>Siena</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Pinacoteca Nazionale</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.84.jpeg">
+         <graphic url="08.85.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,11 +84,11 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p />
+                <p>Il polittico di Martino di Bartolomeo (doc. dal 1389- 1434), riporta una breve didascalia volgare in versi nel cartiglio appoggiato sul ventre del Bambino.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 103, n. 201. Riproduzioni: BANTI 1998, fig. 201.</p>
-                <p xml:id="other" />
+                <p xml:id="editions">TORRITI 1980, n. 160, p. 216-217.</p>
+                <p xml:id="other">BRANDI 1933, p. 202; BERENSON 1936, p. 296; VAVALÀ 1953, p. 216; CARLI 1955, p. 94; CARLI 1958, p. 45; COOR 1961, p. 56; BERENSON 1968, p. 247. Riproduzioni: TORRITI 1980, n. 160, fig. 250-251.</p>
                 <p xml:id="images" />
             </div>
         </body>

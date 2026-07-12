@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#piemonte e valle d’aosta">Piemonte e Valle d’Aosta</region></origPlace>
-                            <origDate>1470-1500.</origDate>
+                            <origDate notBefore="1470" notAfter="1500">1470-1500</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>

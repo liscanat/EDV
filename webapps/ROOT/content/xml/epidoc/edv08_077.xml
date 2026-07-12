@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SCUOLA DI MARIOTTO DI NARDO, MADONNA COL BAMBINO</title>
+                <title>SEPOLTURA DI DOMENICO DI BARTOLO ATTAVANTI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -25,13 +25,13 @@
                     <msIdentifier>
                         <placeName>Firenze</placeName>
                         <district ref="#FI">FI</district>
-                        <repository>Galleria dell'Accademia</repository>
+                        <repository>Museo di san Marco</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#admonition">Monito</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#wood">Legno</material>
-                                    <objectType ref="#painting">Dipinto</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
+                            <origDate notBefore="1380" notAfter="1420">1380-1420</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.77.jpeg">
+         <graphic url="08.79.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il motto corre alla base della cornice della lunetta. La tavola fu realizzata forse per il Tribunale di Giustizia.</p>
+                <p>La lapide, proveniente dal convento di San Pancrazio ed oggi conservata presso la nona stanza del Lapidarium del Museo di San Marco, riporta un’iscrizione funebre e lo scudo della famiglia degli Attavanti.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">PROCACCI 1936, p. 41; COVI 1986, n. 264 app., p. 550.</p>
-                <p xml:id="other">CRUTTWELL 1907, p. 8; BERENSON 1932, p. 331; VAN MARLE 1924-1938, IX, p. 219.</p>
-                <p xml:id="images" />
+                <p xml:id="editions">CAROCCI 1906, p. 12; TARANI 1923, p. 65; SINIBALDI 1936, p. 40; PAGNOTTA 1989, p. 536, n. 698.</p>
+                <p xml:id="other" />
+                <p xml:id="images">PAGNOTTA 1989, n. 698.</p>
             </div>
         </body>
     </text>

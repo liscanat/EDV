@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI PIERO DI SER PUPO DA PECIOLI</title>
+                <title>SEPOLTURA DI ANTONE DI MIGHELE</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.68.jpeg">
+         <graphic url="08.67.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 22 e) del Camposanto di Pisa.</p>
+                <p>L’iscrizione funeraria è conservata su una lastra terragna collocata nel corridoio Sud (fila 22 d) del Camposanto di Pisa.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 85, n. 132.</p>
+                <p xml:id="editions">BANTI 1998, p. 85, n. 131.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 132.</p>
+                <p xml:id="images">BANTI 1998, fig. 131.</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DEGLI EREDI DI BANDINO DA PONTE</title>
+                <title>RELIQUIARIO DI FRANCESCO E BARTOLO DI MINUCCIO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,24 +23,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <placeName>Montepulciano</placeName>
+                        <district ref="#SI">SI</district>
+                        <repository>Cattedrale di santa Maria Assunta</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textFunction" ref="#D">Didascalia</term>
+                            <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#metal">Metallo</material>
+                                    <objectType ref="#artifact">Artefatto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.72.jpeg">
+         <graphic url="08.71.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione funebre è incisa sulla fronte di un sarcofago proveniente dalla Cripta della chiesa pisana di San Michele in Borgo e oggi conservato nella Galleria D, parte interna (D 2 int.) del Camposanto.</p>
+                <p>La sottoscrizione corre sui sei lati del rocchetto che raccorda il piede al fusto, all’interno di due cornici dentellate.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">ARIAS-CRISTIANI-GABBA 1977, pp. 172-173.</p>
-                <p xml:id="other">PAPINI 1922, n. 86, p. 62.</p>
-                <p xml:id="images" />
+                <p xml:id="editions">DONATO 2014, scheda 25.S.2, pp. 265-269.</p>
+                <p xml:id="other" />
+                <p xml:id="images">DONATO 2014, scheda 25.S.2, figg. 1- 2 (a-f).</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ANTONIO DI VITA, STORIE DELLA VERGINE</title>
+                <title>SEPOLTURA DI PIERO DI SIMONE BRUNELLESCHI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pescia</placeName>
-                        <district ref="#PT">PT</district>
-                        <repository>Chiesa di San Francesco</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Museo di san Marco</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#signature">Firma</term>
+                            <term type="textFunction" ref="#AP">Avviso pubblico</term>
+                            <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#plaster">Intonaco</material>
-                                    <objectType ref="#fresco">Affresco</objectType>
+                                    <material ref="#stone">Pietra</material>
+                                    <objectType ref="#slab">Lastra</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1390" notAfter="1410">1390-1410</origDate>
+                            <origDate notBefore="1380" notAfter="1420">1380-1420</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.76.jpeg">
+         <graphic url="08.78.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La sottoscrizione si trova in calce agli affreschi delle Storie della Vergine, un omaggio al Paradiso dantesco.</p>
+                <p>La formella, proveniente dalle case dei Brunelleschi collocate nell’omonima piazzetta all’interno del ghetto, riporta il nome un defunto membro della famiglia. Conservata un tempo presso il loggiato nord del chiostro di San Domenico, la lastra si trova oggi nell’ottava stanza del Lapidarium del museo di San Marco.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">PISANI 1998, pp. 100-101; CIOCIOLA 2002, pp. 222-223; FERACI 2006-2007, p. 18; PISANI 2010, p. 133.</p>
-                <p xml:id="other">BOSKOVITS 1975, p. 285; PISANI 2010.</p>
-                <p xml:id="images">FERACI 2006-2007, fig. 19; PISANI 2010, 3 a-c.</p>
+                <p xml:id="editions">CAROCCI 1906, p. 116; CECCHI 1989, p. 75, n. 10.</p>
+                <p xml:id="other" />
+                <p xml:id="images">CECCHI 1989, n. 10.</p>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI PIERO DI NIERI ED EREDI</title>
+                <title>ISCRIZIONE DI VIA DELLE CASINE</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Pisa</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Camposanto</repository>
+                        <placeName>Firenze</placeName>
+                        <district ref="#FI">FI</district>
+                        <repository>Via delle Casine</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#funerary">Funeraria</term>
+                            <term type="textType" ref="#normative">Normativa</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
+                            <origDate when="1398">1398</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.60.jpeg">
+         <graphic url="08.59.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 9 b) del Camposanto pisano.</p>
+                <p>La lastra è collocata nel tratto tra via Tripoli e via San Giuseppe, vicino al tabernacolo di Sant’Onofrio e ricorda la concessione alla Compagnia religiosa di Sant’Onofrio da parte degli Officiali della Torre di costruire sopra una fossa comunale.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 64, n. 49.</p>
+                <p xml:id="editions">BIGAZZI 1886, p. 213-21; LARSON 1999, p. 371-372.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 49.</p>
+                <p xml:id="images" />
             </div>
         </body>
     </text>

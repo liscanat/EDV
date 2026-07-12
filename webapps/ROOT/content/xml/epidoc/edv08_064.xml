@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI GIOVANNI PAULO TOMAZO BARTALOMEO</title>
+                <title>SEPOLTURA DI CECCHO GIUNTA E FRANCESCO DEL BUGLIATO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.64.jpeg">
+         <graphic url="08.63.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 18-e) del Camposanto pisano.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 4-c) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 80, n. 108.</p>
+                <p xml:id="editions" />
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 108.</p>
+                <p xml:id="images">BANTI 1998, fig. 21.</p>
             </div>
         </body>
     </text>

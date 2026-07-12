@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI FRANCISCO BOCCHETTA DELLO TARTARO ED EREDI</title>
+                <title>SEPOLTURA DI AGOSTINO DI PUCCETTO ED EREDI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.83.jpeg">
+         <graphic url="08.84.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio sud (fila 33 h) del Camposanto di Pisa.</p>
+                <p />
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 103, n. 200. Riproduzioni: BANTI 1998, fig. 200.</p>
+                <p xml:id="editions">BANTI 1998, p. 103, n. 201. Riproduzioni: BANTI 1998, fig. 201.</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

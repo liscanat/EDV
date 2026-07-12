@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI CHOSCIO MASSUFARO CALZAIOLO</title>
+                <title>SEPOLTURA DI PIERO DI SER PUPO DA PECIOLI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.69.jpeg">
+         <graphic url="08.68.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 22 e) del Camposanto di Pisa.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio Sud (fila 22 e) del Camposanto di Pisa. Si noti l'uso di &lt;ci&gt; per  /ʧ/ 'Pecioli' contrariamente a quanto si legge in  <ref target="edv08_069">08.069 </ref></p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 93, n. 164.</p>
+                <p xml:id="editions">BANTI 1998, p. 85, n. 132.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 164.</p>
+                <p xml:id="images">BANTI 1998, fig. 132.</p>
             </div>
         </body>
     </text>

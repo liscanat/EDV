@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI PUCINO DI GHINUCIO</title>
+                <title>SEPOLTURA DI FRANCISCO BOCCHETTA DELLO TARTARO ED EREDI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.82.jpeg">
+         <graphic url="08.83.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,10 +84,10 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio sud (fila 33 f) del Camposanto di Pisa.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel corridoio sud (fila 33 h) del Camposanto di Pisa.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 102, n. 198. Riproduzioni: BANTI 1998, p. 102, fig. 198.</p>
+                <p xml:id="editions">BANTI 1998, p. 103, n. 200. Riproduzioni: BANTI 1998, fig. 200.</p>
                 <p xml:id="other" />
                 <p xml:id="images" />
             </div>

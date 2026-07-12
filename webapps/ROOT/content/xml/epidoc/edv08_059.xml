@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ISCRIZIONE DI VIA DELLE CASINE</title>
+                <title>LORENZO DI NICCOLÒ GERINI, MADONNA CON BAMBINO IN TRONO E QUATTRO SANTI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -23,15 +23,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Firenze</placeName>
+                        <placeName>Arcetri</placeName>
                         <district ref="#FI">FI</district>
-                        <repository>Via delle Casine</repository>
+                        <repository>Chiesa di san Leonardo</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                            <term type="textType" ref="#normative">Normativa</term>
+                            <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
                         <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#stone">Pietra</material>
-                                    <objectType ref="#slab">Lastra</objectType>
+                                    <material ref="#wood">Legno</material>
+                                    <objectType ref="#painting">Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate when="1398">1398</origDate>
+                            <origDate when="1393">1393</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.59.jpeg">
+         <graphic url="08.75.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lastra è collocata nel tratto tra via Tripoli e via San Giuseppe, vicino al tabernacolo di Sant’Onofrio e ricorda la concessione alla Compagnia religiosa di Sant’Onofrio da parte degli Officiali della Torre di costruire sopra una fossa comunale.</p>
+                <p>L’iscrizione, in pessimo stato di conservazione, corre alla base della cornice del trittico dell’altare maggiore della chiesa di San Leonardo in Arcetri e ricorda la famiglia Cintonchi, committente sia del trittico stesso sia della sepoltura sottostante.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BIGAZZI 1886, p. 213-21; LARSON 1999, p. 371-372.</p>
-                <p xml:id="other" />
-                <p xml:id="images" />
+                <p xml:id="editions">CAROCCI 1906-1907, II, p. 223 e nota 1; COVI 1986, n. 438a app., p. 685; BOTTERI LANDUCCI-DORINI 1996, pp. 20-21, scheda n. 2.</p>
+                <p xml:id="other">VAN MARLE 1924-1938, III, p. 638, fig. 360.</p>
+                <p xml:id="images">VAN MARLE 1924-1938, III, p. 638, fig. 360; CALZOLAI 1975, Illustrazioni; GEALT 1979, fig. 28; BOTTERI LANDUCCI-DORINI 1996, p. 20.</p>
             </div>
         </body>
     </text>

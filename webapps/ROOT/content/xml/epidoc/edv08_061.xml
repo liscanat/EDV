@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI GIULIANO E GIOVANNA MEGLIORATI</title>
+                <title>SEPOLTURA DI PIERO DI NIERI ED EREDI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#funerary">Funeraria</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.61.jpeg">
+         <graphic url="08.60.jpeg">
              <desc />
          </graphic>
     </facsimile>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 10-d) del Camposanto pisano.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nella galleria Sud (fila 9 b) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions">BANTI 1998, p. 66, n. 57.</p>
+                <p xml:id="editions">BANTI 1998, p. 64, n. 49.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 57.</p>
+                <p xml:id="images">BANTI 1998, fig. 49.</p>
             </div>
         </body>
     </text>

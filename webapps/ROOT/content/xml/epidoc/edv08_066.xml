@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SEPOLTURA DI GIOVANNI DI MAISTRO LENSO</title>
+                <title>SEPOLTURA DI PUCCIO VINAIUOLO</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
@@ -84,12 +84,12 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione funeraria è conservata su una lastra terragna collocata nel corridoio Sud (fila 21 e) del Camposanto di Pisa.</p>
+                <p>L’iscrizione è conservata su una lastra terragna collocata nel Corridoio Sud (fila 15 d) del Camposanto pisano.</p>
             </div>
             <div type="bibliography">
-                <p xml:id="editions" />
+                <p xml:id="editions">BANTI 1998, p. 75, n. 89, fig. 89.</p>
                 <p xml:id="other" />
-                <p xml:id="images">BANTI 1998, fig. 126.</p>
+                <p xml:id="images">BANTI 1998, fig. 89.</p>
             </div>
         </body>
     </text>
