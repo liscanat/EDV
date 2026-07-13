@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate>1426-1428.</origDate>
+                        <origDate notBefore="1426" notAfter="1428">1426-1428</origDate> 
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>

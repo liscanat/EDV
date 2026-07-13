@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#roma">Roma</region></origPlace>
-                            <origDate>1468, 1485</origDate>
+                           <origDate notBefore="1468" notAfter="1485">1468-1485</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
