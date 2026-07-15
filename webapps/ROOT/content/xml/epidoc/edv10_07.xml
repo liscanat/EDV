@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#marche">Marche</region></origPlace>
-                            <origDate notBefore="1301" notAfter="1400">XIV</origDate>
+                            <origDate notBefore="1301" notAfter="1399">XIV</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
