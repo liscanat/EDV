@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#emilia romagna">Emilia Romagna</region></origPlace>
-                            <origDate notBefore="1351" notAfter="1400">XIV ex.</origDate>
+                            <origDate notBefore="1351" notAfter="1399">XIV ex.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>

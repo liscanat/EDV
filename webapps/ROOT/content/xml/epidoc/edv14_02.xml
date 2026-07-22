@@ -41,7 +41,7 @@
                                         <support>    
                                             <material ref="#plaster">Intonaco</material>
                                             <objectType ref="#fresco">Affresco</objectType>
-                                            <dimensions><width>n.d.</width><depth>n.d.</depth><height>n.d.</height></dimensions>
+                                            <dimensions></dimensions>
                                         </support>
                                     </supportDesc>
                                 </objectDesc>
@@ -52,7 +52,7 @@
                             <history>
                                 <origin>
                                     <origPlace><region ref="#campania">Campania</region></origPlace>
-                                    <origDate notBefore="1380" notAfter="1420">XIV-XV</origDate>
+                                    <origDate notBefore="1380" notAfter="1399">XIV ex.</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>

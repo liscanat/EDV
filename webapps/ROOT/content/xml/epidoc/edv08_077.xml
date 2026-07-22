@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#toscana">Toscana</region></origPlace>
-                            <origDate notBefore="1380" notAfter="1420">1380-1420</origDate>
+                            <origDate notBefore="1380" notAfter="1399">1380-1420</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
@@ -61,7 +61,7 @@
         </fileDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="08.79.jpeg">
+         <graphic url="08.77.jpeg">
              <desc />
          </graphic>
     </facsimile>

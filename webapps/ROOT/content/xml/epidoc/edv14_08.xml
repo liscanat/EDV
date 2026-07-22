@@ -28,8 +28,8 @@
                             </msIdentifier>
                             <msContents>
                                 <summary>
-                                    <term type="textFunction" ref="#AP">Avviso pubblico</term>
-                                    <term type="textType" ref="#patronage">Committenza</term>
+                                    <term type="textFunction" ref="#AP">Didascalia</term>
+                                    <term type="textType" ref="#signature">Firma</term>
                                 </summary>
                                 <textLang mainLang="xmer">Volgare meridionale</textLang>
                             </msContents>
