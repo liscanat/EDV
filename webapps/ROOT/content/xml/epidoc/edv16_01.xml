@@ -52,7 +52,7 @@
                     <history>
                         <origin>
                             <origPlace><region ref="#puglia">Puglia</region></origPlace>
-                            <origDate>XI ex.-XII in.</origDate>
+                              <origDate notBefore="1050" notAfter="1149">XIV in.</origDate>
                         </origin>
                         <provenance type="observed" when="2020" resp="Nadia Cannata" />
                     </history>
