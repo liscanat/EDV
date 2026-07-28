@@ -33,7 +33,7 @@
                                     <term type="textFunction" ref="#D">Didascalia</term>
                                     <term type="textType" ref="#admonition">Monito</term>
                                 </summary>
-                                <textLang mainLang="xmed">Volgare mediano</textLang>
+                              <textLang mainLang="xmed" otherLangs="la">Volgare mediano</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
