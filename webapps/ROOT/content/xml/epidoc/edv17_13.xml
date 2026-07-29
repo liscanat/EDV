@@ -68,7 +68,8 @@
             <text>
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
-                        <ab>Manya y Fuer<seg type="grapheme" corresp="/ts/">cz</seg>a <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>.
+                        <lb n="1"/>
+                        <ab>MANYA Y FUER<seg type="grapheme" corresp="/ts/">CZ</seg>A, (v. nn. <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>).
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
