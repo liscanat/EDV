@@ -26,6 +26,10 @@
                     <term xml:lang="it">Francese</term>
                     <gloss xml:lang="en">French</gloss>
                 </item>
+                <item xml:id="xfra">
+                    <term xml:lang="it">Francese antico</term>
+                    <gloss xml:lang="en">Old French</gloss>
+                </item>
                 <item xml:id="xfrm">
                     <term xml:lang="it">Francese medio</term>
                     <gloss xml:lang="en">Middle French</gloss>
