@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#narrative">Narrativa</term>
                         </summary>
-                        <textLang> mainLang="frm" otherLangs="Francese medio"</textLang>
+                      <textLang mainLang="xfrm">Francese medio</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
