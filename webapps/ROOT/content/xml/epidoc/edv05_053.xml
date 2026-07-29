@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#AP">Avviso pubblico</term>
                             <term type="textType" ref="#patronage">Committenza</term>
                         </summary>
-                        <textLang mainLang="xvnz" otherLangs="">Volgare veneziano</textLang>
+                        <textLang mainLang="xvnz" otherLangs="la">Volgare veneziano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>La lastra era affissa sulla facciata orientale della torre che si ergeva al centro del Ponte Navi, e la si poteva osservare con la sua controparte, in lingua latina, posta nella parte occidentale della stessa torre. In seguito al rifacimento in marmo del Ponte Navi, Scipione Maffei la fece trasferire al lapidario, dove si trova ancora oggi, collocata accanto alla porta del Morbio. Considerata una delle più antiche testimonianze del volgare d’uso epigrafico a Verona, l’iscrizione ricorda l’edificazione del Ponte, avvenuta in soli due anni tra il 1373 e 1375. Il testo si compone di tre quartine di endecasillabi e settenari secondo lo schema rimico ABbA ABbA AbbA assimilato dal Maffei alla Prima maniera della ballata Brande secondo la teorizzazione di Gidino da Sommacampagna. Non si conosce l’autore del testo, che da molti è attribuito allo stesso Gidino sulla base di dati linguistici.</p>
+                <p>La lastra era affissa sulla facciata orientale della torre che si ergeva al centro del Ponte Navi, e la si poteva osservare con la sua controparte, in latino, posta nella parte occidentale della stessa torre. In seguito al rifacimento in marmo del Ponte Navi, Scipione Maffei la fece trasferire al lapidario, dove si trova ancora oggi, collocata accanto alla porta del Morbio. Considerata una delle più antiche testimonianze del volgare d’uso epigrafico a Verona, l’iscrizione ricorda l’edificazione del Ponte, avvenuta in soli due anni tra il 1373 e 1375. Il testo si compone di tre quartine di endecasillabi e settenari secondo lo schema rimico ABbA ABbA AbbA secondo il Maffei assimilabile alla prima maniera della ballata grande secondo la teorizzazione di Gidino da Sommacampagna. Non si conosce l’autore del testo, che da molti è attribuito allo stesso Gidino sulla base di dati linguistici.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
