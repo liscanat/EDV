@@ -33,7 +33,7 @@
                             <term type="textFunction" ref="#D">Didascalia</term>
                             <term type="textType" ref="#signature">Firma</term>
                         </summary>
-                        <textLang mainLang="xvolg" otherLangs="">Volgare</textLang>
+                        <textLang mainLang="xvolg" otherLangs="la">Volgare, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>

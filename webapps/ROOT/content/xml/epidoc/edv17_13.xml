@@ -69,7 +69,7 @@
                 <body>
                     <div type="edition" subtype="interpretive" xml:space="preserve">
                         <lb n="1"/>
-                        <ab>MANYA Y FUER<seg type="grapheme" corresp="/ts/">CZ</seg>A, (v. nn. <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>).
+                        <ab>MANYA Y FUER<seg type="grapheme" corresp="/ts/">CZ</seg>A.
                         </ab>
                     </div>
                     <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -80,7 +80,7 @@
                         <p/>
                     </div>
                     <div type="commentary" subtype="linguistic_analysis">
-                        <p>L'iscrizione, in spagnolo, mostra la resa dell'affricata /ts/ con &lt;cz&gt; un'abitudine grafica assai diffusa nel meridione, a partire dal <title>Ritmo Cassinese</title> (v. SIGNORINI 2009).</p>
+                        <p>L'iscrizione, in spagnolo, mostra la resa dell'affricata /ts/ con &lt;cz&gt; un'abitudine grafica assai diffusa nel meridione, a partire dal <title>Ritmo Cassinese</title> (v. SIGNORINI 2009), (v. nn. <ref target="edv14_01">14.01</ref>, <ref target="edv14_02">14.02</ref>) e passim.</p>
                     </div>
                     <div type="commentary" subtype="note">
                         <p><!-- Immagine: SI. --> 
