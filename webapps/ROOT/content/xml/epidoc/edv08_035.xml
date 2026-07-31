@@ -31,9 +31,9 @@
                     <msContents>
                         <summary>
                             <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#narrative">Narrativa</term>
+                            <term type="textType" ref="#narrative">Narrativa, firma</term>
                         </summary>
-                        <textLang mainLang="xvtosc" otherLangs="">Volgare toscano</textLang>
+                        <textLang mainLang="xvtosc" otherLangs="la">Volgare toscano, latino</textLang>
                     </msContents>
                     <physDesc>
                         <objectDesc>
