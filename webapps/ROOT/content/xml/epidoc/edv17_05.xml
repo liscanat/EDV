@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" >Stoffa</material>
+                                    <material ref="#cloth" >Tessuto</material>
                                     <objectType ref="#artifact">Artefatto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>

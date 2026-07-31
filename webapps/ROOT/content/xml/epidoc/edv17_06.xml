@@ -33,7 +33,7 @@
                                     <term type="textFunction" ref="#AP">Avviso pubblico</term>
                                     <term type="textType" ref="#funerary">Iscrizione funeraria</term>
                                 </summary>
-                                <textLang mainLang="" otherLangs="">?</textLang>
+                                <textLang mainLang="xmer" otherLangs="lat">Volgare meridionale, latino</textLang>
                             </msContents>
                             <physDesc>
                                 <objectDesc>
@@ -46,13 +46,13 @@
                                     </supportDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <handNote><term ref="#unknown">?</term></handNote>
+                                    <handNote><term ref="#gothic">Gotica</term></handNote>
                                 </handDesc>
                             </physDesc>
                             <history>
                                 <origin>
                                     <origPlace><region ref="#sicilia">Sicilia</region></origPlace>
-                                    <origDate when="1388">XIV ex.</origDate>
+                                    <origDate when="1388">1388</origDate>
                                 </origin>
                                 <provenance type="observed"/>
                             </history>

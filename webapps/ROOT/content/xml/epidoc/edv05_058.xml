@@ -39,7 +39,7 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#woven_wool">Lana tessuta</material>
+                                    <material ref="#Cloth">Tessuto</material>
                                     <objectType ref="#tapestry">Arazzo</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
