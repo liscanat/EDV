@@ -39,8 +39,8 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <material ref="#" />
-                                    <objectType ref="#" />
+                                    <material ref="#" >Legno</material>
+                                    <objectType ref="#" >Dipinto</objectType>
                                     <dimensions><height /> <width /></dimensions>
                                 </support>
                             </supportDesc>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione ricorda la realizzazione della tavola votiva di San Nicola ad opera di Antonello da Capua.</p>
+                <p>L’iscrizione ricorda la realizzazione della tavola votiva di San Nicola ad opera di Antonello da Capua. La chiesa non è oggi visitabile e non è stato possibile controllare la trascrizione del testo.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
