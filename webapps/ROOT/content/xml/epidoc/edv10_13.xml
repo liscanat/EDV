@@ -25,7 +25,7 @@
                     <msIdentifier>
                         <placeName>Urbino</placeName>
                         <district ref="#PU">PU</district>
-                        <repository>Galleria Nazionale delle Marche (deposito; già Duomo</repository>
+                        <repository>Galleria Nazionale delle Marche (oggi in deposito; già Duomo)</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>L’iscrizione trascrive parte della canzone alla Vergine di Petrarca (<title>Canzoniere</title> CCCLXVI) in un cartiglio al di sotto della figura della Vergine.</p>
+                <p>In un cartiglio posto al di sotto della figura della Vergine è trascritta la prima stanza della canzone alla Vergine di Petrarca (<title>Canzoniere</title> CCCLXVI). L'incipit della Canzone alla Vergine compare anche nel cosiddetto Polittico degli Zoccolanti <ref target="edv10_21">10.21</ref></p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">DE MARCHI 2007a, p. 148, nota 24.</p>
