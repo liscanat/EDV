@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>GENTILE DA FABRIANO E AIUTI, LE ETÀ DELL'UOMO</title>
-                <editor role="data_collection"><persName /></editor>
+                <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
                 <editor role="edition"><persName /></editor>
                 <editor role="commentary"><persName /></editor>
                 <editor role="encoding"><persName /></editor>
@@ -88,7 +88,7 @@
             </div>
             <div type="bibliography">
                 <p xml:id="editions">CACIORGNA 2001, p. 421.</p>
-                <p xml:id="other">BETTONI-MARINELLI 2001, pp. 55-56; CACIORGNA 2001, pp. 420-421 (con bibliografia precedente); Palazzo Trinci 2001 (per uno studio completo sui cicli affrescati del palazzo).</p>
+                <p xml:id="other">BETTONI-MARINELLI 2001, pp. 55-56; CACIORGNA 2001, pp. 420-421 (con bibliografia precedente); Palazzo Trinci 2001 (per uno studio completo sui cicli affrescati del palazzo). MENEGHETTI 2015, 187-202.</p>
                 <p xml:id="images">CACIORGNA 2001, pp. 420, p. 419, figg. 11, 12, 13.</p>
             </div>
         </body>
