@@ -30,8 +30,8 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <term type="textFunction" ref="#D">Didascalia</term>
-                            <term type="textType" ref="#admonition">Monito</term>
+                            <term type="textFunction" ref="#D">Avviso pubblico</term>
+                            <term type="textType" ref="#admonition">Committenza</term>
                         </summary>
                         <textLang mainLang="xvnz" otherLangs="">Volgare veneziano</textLang>
                     </msContents>
@@ -84,7 +84,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Si tratta di una pietra di granito nel Tesoro di San Marco già dal 1375. Alla base della reliquia l’iscrizione: MCCCLXXV QUES/ TA PIERA E PROP/ IA DELA CHOLONA/ CHE XPO FO BATUD/ O. MIS. MICHIEL/ MORESINI.MIS.PI/ ERO. CHORNER PR/ OLATORI FE FAR</p>
+                <p>L’iscrizione è incisa in otto piastrine d'argento affiancate e disposte sotto la reliquia nella parte sommitale del capitello. Nell’iscrizione viene ricordata la committenza del reliquiario da parte dei procuratori Michele Morosini e Pietro Corner. È conservata in loco, con inventario Santuario n. 59. La reliquia è in pietra di granito, e si trova nel Tesoro di San Marco già dal 1375. Alla base della reliquia l’iscrizione: MCCCLXXV QUES/ TA PIERA E PROP/ IA DELA CHOLONA/ CHE XPO FO BATUD/ O. MIS. MICHIEL/ MORESINI.MIS.PI/ ERO. CHORNER PR/ OLATORI FE FAR</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions" />
