@@ -8,7 +8,7 @@
                 <title>TADDEO DI BARTOLO, CICLO DEGLI UOMINI ILLUSTRI</title>
                 <editor role="data_collection"><persName >Luna Cacchioli</persName></editor>
                 <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
+                <editor role="commentary"><persName >Luna Cacchioli</persName></editor>
                 <editor role="encoding"><persName /></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
@@ -23,9 +23,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <placeName>Volterra</placeName>
-                        <district ref="#PI">PI</district>
-                        <repository>Chiesa di san Francesco</repository>
+                        <placeName>Siena</placeName>
+                        <district ref="#PI">SI</district>
+                        <repository>Palazzo Pubblico</repository>
                         <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
