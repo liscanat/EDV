@@ -69,7 +69,10 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" />Chi vole essare be(n) servito 
+                    <lb n="2" />venga qui
+<lb n="3" />ogi non fo credenza 
+                    <lb n="4" />domani sine                 
                 </ab>
             </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
@@ -84,7 +87,7 @@
                 <p />
             </div>
             <div type="commentary" subtype="note">
-                <p>Il manufatto è conservato nella Sala Maggiore, o Sala dei Cinquecento, del Palazzo dei Consoli a Gubbio e contiene la misura delle forme di pane, oltre all’iscrizione che avverte che non si fa credenza.</p>
+                <p>Il manufatto è conservato nella Sala Maggiore, o Sala dei Cinquecento, del Palazzo dei Consoli a Gubbio. Si tratta della lastra che stabiliva le 3 misure delle forme di pane, accompagnate da un'iscrizione ritmica che ammonisce che non si fa credito.</p>
             </div>
             <div type="bibliography">
                 <p xml:id="editions">CENCI 1914, p. 49, n. XCVI. Altri studi: CENCI 1914, p. 49, n. XCVI. Riproduzioni: http://giocosamente.weebly.com/blog-di-luisa/oggi-none-credenza-domani-sine.</p>
