@@ -7,9 +7,9 @@
             <titleStmt>
                 <title>BENOZZO GOZZOLI, SAN BERNARDINO DA SIENA</title>
                 <editor role="data_collection"><persName >Alessandra Tiburzi</persName></editor>
-                <editor role="edition"><persName /></editor>
-                <editor role="commentary"><persName /></editor>
-                <editor role="encoding"><persName /></editor>
+                <editor role="edition"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="commentary"><persName >Alessandra Tiburzi</persName></editor>
+                <editor role="encoding"><persName >Nadia Cannata</persName></editor>
                 <editor role="images"><persName /></editor>
             </titleStmt>
             <publicationStmt>
@@ -69,19 +69,22 @@
         <body>
             <div type="edition" subtype="interpretive" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" />ORA PER NOI OSANCTO BERNARDINO DAPO CHESSE NELCOSPECTO DIVINO
+(fiore) QVANDO 
                 </ab>
             </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <ab>
-                    <lb n="1" />
+                    <lb n="1" />Ora per noi o sancto Bernardino dapo’ che sse’ nel cospecto divino. Quando
                 </ab>
             </div>
             <div type="apparatus">
                 <p><app loc="1"><note /></app></p>
             </div>
             <div type="commentary" subtype="linguistic_analysis">
-                <p />
+                <p >dapo' che sse’ 1: Si noti la resa grafica del raddoppiamento fonosintattico. Per <title>Dapoi</title> si vedano il <title>Quaresimale fiorentino</title> di Giordano da Pisa «Questo fanno gli arbori e le piante insino che hanno la vita loro, ma da poi che sono tagliati, mai più non si mutano» 26, (DELCORNO 1974, pag. 131); il testo perugino del 1333 <title>Ordine della vita cristiana</title> di Simone Fidati da Cascia: «Incomincia la seconda parte della Vita Cristiana quanto allo esercizio del corpo, da poi che è detto di quello dell'anima» pt. II, incipit (LEVASTI 1935, pag. 651).  Per la preposizione <title>dapoi</title> con valore locativo e temporale v. ROHLFS 1966-1969 § 841. Il TLIO registra <title>dapoi</title> in area toscana (pisana e fiorentina) ma anche nel Veneto.
+Per <title>cospecto divino</title> in area umbra (qui con la semplificazione del nesso -NS-) si vedano la <title>Formula di confessione umbra</title> (CASTELLANI 1976, p. 101); e la <title>Regola de li frati et sore de l’ordine de penetemça per volgare</title> del s. XIV: «[…] dericta et la veragia fede semça la conpania de la quale nesciuno homo e·llo conspecto de deo ene acceptuoso et gratioso essare pò» (MANCARELLA 1966, p. 208).
+</p>
             </div>
             <div type="commentary" subtype="note">
                 <p>L’iscrizione contiene un’invocazione al santo e si trova, ridipinta, in una fascia inscritta ai piedi di san Bernardino da Siena, su di un pilastro all’interno della cappella di San Girolamo.</p>
